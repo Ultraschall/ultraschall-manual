@@ -274,3 +274,9 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+# macOS files
+.DS_Store
+
+# build targets
+ultraschall-manual.html
