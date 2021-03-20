@@ -26,6 +26,9 @@
 #
 ################################################################################
 
+ULTRASCHALL_BUILD_FAILED=0
+
+ULTRASCHALL_BUILD_DIRECTORY="./build"
 ULTRASCHALL_SCRIPTS_DIRECTORY="./scripts"
 ULTRASCHALL_DOCS_DIRECTORY="./docs"
 
@@ -64,10 +67,26 @@ done
 
 echo "**********************************************************************"
 echo "*                                                                    *"
-echo "*            BUILDING ULTRASCHALL MANUAL                             *"
+echo "*                       ULTRASCHALL MANUAL                           *"
 echo "*                                                                    *"
 echo "**********************************************************************"
+echo ""
 
-echo "Building Ultraschall manual files..."
-pandoc --from=markdown --to=html --standalone --self-contained --quiet --css=$ULTRASCHALL_SCRIPTS_DIRECTORY/ultraschall.css --output=ultraschall-manual.html $ULTRASCHALL_DOCS_DIRECTORY/outline.md
-echo "Done."
+if [ $ULTRASCHALL_BUILD_CLEAN -ne 0 ]; then
+  echo "Cleaning Ultraschall manual files..."
+  rm -rf $ULTRASCHALL_BUILD_DIRECTORY
+  echo "Done."
+fi
+
+if [ ! -d $ULTRASCHALL_BUILD_DIRECTORY ]; then
+  mkdir -p $ULTRASCHALL_BUILD_DIRECTORY
+fi
+
+if [ $ULTRASCHALL_BUILD_FAILED -eq 0 ]; then
+  echo "Building Ultraschall manual files..."
+  pandoc --from=markdown --to=html --standalone --self-contained --quiet --css=$ULTRASCHALL_SCRIPTS_DIRECTORY/ultraschall.css --output=$ULTRASCHALL_BUILD_DIRECTORY/ultraschall-manual.html $ULTRASCHALL_DOCS_DIRECTORY/outline.md
+  if [ $? -ne 0 ]; then
+    ULTRASCHALL_BUILD_FAILED=1
+  fi
+  echo "Done."
+fi

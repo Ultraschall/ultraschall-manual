@@ -279,4 +279,4 @@ TSWLatexianTemp*
 .DS_Store
 
 # build targets
-ultraschall-manual.html
+build/
