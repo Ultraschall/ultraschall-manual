@@ -32,27 +32,30 @@ ULTRASCHALL_BUILD_DIRECTORY="./build"
 ULTRASCHALL_SCRIPTS_DIRECTORY="./scripts"
 ULTRASCHALL_DOCS_DIRECTORY="./docs"
 
+ULTRASCHALL_BUILD_OUTPUT="html"
+
 ULTRASCHALL_BUILD_BOOTSTRAP=0
 ULTRASCHALL_BUILD_CLEAN=0
 
 for arg in "$@"
 do
 case $arg in
-    "-b"|"--bootstrap")
+    -b|--bootstrap)
     ULTRASCHALL_BUILD_BOOTSTRAP=1
     shift # past argument
     ;;
-    "-c"|"--clean")
+    -c|--clean)
     ULTRASCHALL_BUILD_CLEAN=1
     shift # past argument
     ;;
-    "-h"|"--help")
+    -h|--help)
     echo "Usage: build.sh [Options]"
     echo ""
     echo "Options:"
-    echo "  -b|--bootstrap  Reinitialize build tools and build targets"
+    echo "  -b|--bootstrap  Reinitialize build targets"
     echo "  -c|--clean      Delete intermediate build targets"
     echo "  -h|--help       Print this help screen"
+    echo "  -o|--output     Select output format (default = $ULTRASCHALL_BUILD_OUTPUT)"
     echo ""
     exit 0
     shift # past argument
@@ -84,7 +87,7 @@ fi
 
 if [ $ULTRASCHALL_BUILD_FAILED -eq 0 ]; then
   echo "Building Ultraschall manual files..."
-  pandoc --from=markdown --to=html --standalone --self-contained --quiet --css=$ULTRASCHALL_SCRIPTS_DIRECTORY/ultraschall.css --output=$ULTRASCHALL_BUILD_DIRECTORY/ultraschall-manual.html $ULTRASCHALL_DOCS_DIRECTORY/outline.md
+  pandoc --from=markdown --to=$ULTRASCHALL_BUILD_OUTPUT --standalone --self-contained --quiet --css=$ULTRASCHALL_SCRIPTS_DIRECTORY/ultraschall.css --output=$ULTRASCHALL_BUILD_DIRECTORY/ultraschall-manual.html $ULTRASCHALL_DOCS_DIRECTORY/outline.md
   if [ $? -ne 0 ]; then
     ULTRASCHALL_BUILD_FAILED=1
   fi
