@@ -10,7 +10,7 @@ tags:
 
 <!-- @todo: Blder auf  Git main umziehen -->
 <!-- @todo: Links auf  Git main umziehen -->
-<!-- @todo: Bildunterschrifen hinzufügen-->
+<!-- @todo: Bildunterschrifen hinzufügen -->
 
 # Erste Schritte mit Ultraschall
 
