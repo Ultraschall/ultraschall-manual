@@ -14,12 +14,12 @@ tags:
 
 # Übersicht über die Bedienelemente und Bereiche
 
-Im folgenden Bild sind die Ultraschall Bedienelemente gezeigt und die Zahlen auf dem Bild entsprechen den Erläuterungen unter dem Bild.
-
-![Übersicht der Bedienelemente](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/GUI-Gesamtuebersicht/Uebersichta.png) Übersicht Bedienelemente | [Copyright © Leonid Lezner CC-BY 2.0](https://raw.githubusercontent.com/leonidlezner/ultraschall-tutorial/main/docs/downloads/Quick-Info-Ultraschall.pdf)
+![Übersicht der Bedienelemente](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/GUI-Gesamtuebersicht/Uebersichta.png) Übersicht: Bedienelemente und Bereiche | [Copyright © Leonid Lezner CC-BY 2.0](https://raw.githubusercontent.com/leonidlezner/ultraschall-tutorial/main/docs/downloads/Quick-Info-Ultraschall.pdf)
 
 ## Funktionen der Bedienelemente:
 ### Buttons: Schnitt
+(Eine ausführliche Beschreibung der Funktionen findest du im [Kapitel Schnitt](./Schnitt.md).)
+
 1. Hält die Elemente in einer Spur zusammen, wenn ein Element verschoben wird.
 2. Hält die Elemente über alle Spuren zusammen, wenn ein Element verschoben wird.
 3. Setzt eine unbenannte Kapitelmarke an der Cursorposition. Alternativ die Taste <kbd>M</kbd> oder <kbd>shift</kbd>+<kbd>M</kbd> für sofortige Eingabe des Namens.
@@ -34,15 +34,15 @@ Im folgenden Bild sind die Ultraschall Bedienelemente gezeigt und die Zahlen auf
 10. Horizontale Scrollposition der Timeline automatisch der Zeitposition beim Abspielen oder Aufnahme nachführen (wenn aktiv).
 
 ### Buttons: Views
-11. Ansicht „Aufnahme“. Es werden die Steuerelemente eingeblendet, die für eine Aufnahme wichtig sind.
-12. Ansicht „Schnitt“. Es werden die Steuerelemente eingeblendet, die für den Schnitt wichtig sind.
-13. Ansicht „Storyboard“ für gebaute Beiträge.
+11. Ansicht "Aufnahme". Es werden die Steuerelemente eingeblendet, die für eine Aufnahme wichtig sind.
+12. Ansicht "Schnitt". Es werden die Steuerelemente eingeblendet, die für den Schnitt wichtig sind.
+13. Ansicht "Storyboard" für gebaute Beiträge.
 
 ### Buttons: Routing
 14. Automatisches Routing zwischen den Ein-/Ausgängen und Spuren (wenn aktiv). Wenn deaktiviert, werden die Buttons 15-17 ignoriert.
-15. Routing auf „Pre-Show“ setzen. Sinnvoll für Live Streaming, lokale Signale werden nicht über den Stream übertragen.
-16. Routing auf „Aufnahme" setzen. Alle Spuren gehen auf den Master.
-17. Routing auf „Schnitt“ setzen.
+15. Routing auf "Pre-Show" setzen. Sinnvoll für Live Streaming, lokale Signale werden nicht über den Stream übertragen.
+16. Routing auf "Aufnahme" setzen. Alle Spuren gehen auf den Master.
+17. Routing auf "Schnitt" setzen.
 18. Live Streaming über Studio-Link starten.
 
 ### Buttons: Export
@@ -53,7 +53,7 @@ Im folgenden Bild sind die Ultraschall Bedienelemente gezeigt und die Zahlen auf
 
 ### Bereich: Arbeitsfläche
 23. In diesem Bereich werden die verschiedenen Spuren des Projektes dargestellt.
-24. Der MixerBereich stellt für jede Spur einen eigenen Regler dar. Über den Regler kann man auch die Filter aktivieren. Zusätzlich befindet sich in dem Bereich auch der Master-Regler, der den Mixpegel steuert.
+24. Der Mixer-Bereich stellt für jede Spur einen eigenen Regler dar. Über den Regler kann man auch die Filter aktivieren. Zusätzlich befindet sich in dem Bereich auch der Master-Regler, der den Mixpegel steuert.
 25. Das Kernstück des Projekts: Die Timeline mit den einzelnen Spuren.
 26. Hier kann der Bereich mit Filter aktiviert werden.
 27. Über die Routing Matrix werden die Eingänge und Ausgänge mit einzelnen spuren verbunden.
