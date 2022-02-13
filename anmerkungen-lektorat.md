@@ -28,5 +28,5 @@
    * Abkürzungen sind zur besseren Lesbarkeit zu vermeiden
    * Der Einfachheit verwenden wir die "falschen" Anführungsstriche (`"`) anstelle der richtigen (`„“`)
 * [ ] offene Punkte - Markierungen
-   * noch offene Punkte bitte als HTML-Kommentare mit To-dos versehen: "<!-- [ ] ToDo: ergänzen -->"
+   * noch offene Punkte bitte als HTML-Kommentare mit To-dos versehen: `<!-- [ ] ToDo: ergänzen -->`
 * [ ] Nummern der GUI-Elemente an GUI Gesamtübersicht anpassen
