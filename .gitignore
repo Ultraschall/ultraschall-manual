@@ -281,3 +281,6 @@ TSWLatexianTemp*
 # build targets
 build/
 ultraschall-manual.*
+
+# config
+*.env
