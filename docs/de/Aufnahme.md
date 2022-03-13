@@ -1,5 +1,5 @@
 ---
-id: x
+id: aufnahme
 title: Aufnahme
 tags:
   - x
@@ -8,20 +8,16 @@ tags:
 
 [zurück zum Inhaltsverzeichnis...](https://pad.gwdg.de/t3uoZPBsTyigArO0yHq8jw#)
 
-<!-- @todo: Blder auf  Git main umziehen -->
 <!-- @todo: Links auf  Git main umziehen -->
-<!-- @todo: Bildunterschrifen hinzufügen -->
-<!-- @todo: Bildgrößen waren hier fehlerhaft angegeben. Nochmal Syntax checken!) -->
-<!-- @todo: "Soundcheck" ist in der GUI-Gesamtübersicht leider abgeschnitten, "Soundboard" fehlt ebenfalls – noch mit aufnehmen? -->
 <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
 <!-- @todo: Screenshotgröße anpassen -->
-<!-- @todo: Bildunterschrifen hinzufügen/ verbessern-->
+
 
 # Aufnahme
 <!-- @todo: entscheiden was damit passiert. https://www.youtube.com/watch?v=p5kYH-YheN0 -->
 
 ## Einleitung
-<!-- @todo:  kurze Kapitelzusammenfassung schreiben. -->
+Jetzt kann die eigentliche Aufnahme beginnen. In diesem Kapitel lernst du wie du Spuren anlegst, deine Audioquellen wählst und dann mit der eigentlichen Aufnahme beginnst.
 
 ## Neues Projekt anlegen
 REAPER öffnet beim Starten immer das zuletzt bearbeitete Projekt. Findet REAPER kein letztes Projekt, öffnet REAPER ein neues leeres Projekt.  Dieses Projekt kannst du über das Menü `File -> save project` oder mit `STRG+S` speichern. Nimmst du etwas auf, bevor du das Projekt gespeichert hast, werden die Audiodateien im Ordner 'Dokumente/REAPER Media' gespeichert. Ein neues Projekt kannst du über `File -> New Project` oder  `CONTROL+N` anlegen.
@@ -43,16 +39,16 @@ In Ultraschall gibt es im Wesentlichen drei Arten von Spuren:
 
 Reguläre Tracks, denen du im nächsten Schritt einzelne Sprechende beziehungsweise Spuren deines Multi-Track-Recorders (wie beispielsweise Zoom H6) zuordnest, legst du entweder mit einem Doppelklick in den [Spuren-Bereich [23]](GUI-Gesamtuebersicht)-Bereich an (siehe Screenshot) per Tastatur-Befehl `COMMAND+T` (Mac) beziehungsweise `CONTROL+T` (Windows/Mac) oder mit einem Rechtsklick in den [Spuren-Bereich [23]](GUI-Gesamtuebersicht) und dann ein Klick auf "Insert new track".
 
-![insert-new-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-new-track.jpg)
+![insert-new-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-new-track.jpg) **Neuen Track einfügen:** *Das Einfügen neuer Tracks ermöglicht die Aufnahme der einzelen Tonspruren*
 
 Mit einem Klick in den noch leeren, aber bereits eingefärbten Bereich vergibst du am besten direkt einen Namen für deine Spur – so verlierst du auch in größeren Projekten nicht den Überblick.
 
-![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-renaming.png?=650x)
-
+![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/i mages/Aufnahme/track-renaming.png?=650x)
+ **Track benennen** *Lege für deine Tracks sinnvolle Namen an, dass erleichtert dir später die Zuordnung*
 Seit Version 5 von Ultraschall werden Spuren nicht nur automatisch in ihrer Höhe an die Fenstergröße angepasst, sondern zur Übersicht auch automatisch eingefärbt. Klickst du mit der rechten Maustaste auf den Track (oder per Tastenkürzel `ALT+C` bei ausgewählter Spur) kannst du im Color Picker die Farbe auch nachträglich ändern.
 
 So sieht das in einem Projekt mit zwei Sprechenden, einer Studio-Link-Spur und einem Soundboard aus:
-![example-project](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/project-with-4-tracks.png?=650x)
+![example-project](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/project-with-4-tracks.png?=650x)  **Beispielprojekt** *So sieht ein Projekt mit zwei Sprechenden, einer Studio-Link-Spur und einem Soundboard aus*
 
 **Das Ganze nochmal als Video-Erklärung:**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p5kYH-YheN0?start=846" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -62,7 +58,7 @@ So sieht das in einem Projekt mit zwei Sprechenden, einer Studio-Link-Spur und e
 ### Audio Device auswählen
 Das Audio Device (Gerät), mit dem die Aufnahme erfolgen soll, wird über das Menü "Preferences" `CONTROL+","` ausgewählt. Dort findet sich unter "Audio" der Unterpunkt "Device". Die Auswahl erfolgt im Feld "Audio Device". In diesem Beispiel ist es ein Zoom H6.
 
-![Audio-Device-auswählen](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Audiodevice_auswaehlen.jpg?=650x)
+![Audio-Device-auswählen](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Audiodevice_auswaehlen.jpg?=650x)  **Audiogerät wählen:** *In den Einstellungen kannst du dein Audio auswählen*
 
 Ein Audio Device kann mehrere Eingänge haben, die unterschiedlichen Spuren zugeordnet werden können. Beispielsweise hat das Zoom H6 ohne Erweiterung vier Eingänge. Du kannst also mit vier Mikrofonen gleichzeitig aufnehmen. Die Zählweise der Eingänge ist gerätespezifisch.
 
@@ -73,12 +69,12 @@ Alle Spuren, die du im Hauptfenster von Ultraschall angelegt hast, findest du im
 <!-- @TODO: Noch näher auf den Mixerbereich eingehen?-->
 
 ![tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/tracks.png?=450x)
-**Screenshot:** Spuren
+**Spuren und Mixer:**  *Jede Spur hat einen Mixer*
 
 Ultraschall versucht, alle Tracks und Aufnahme-Kanäle automatisch zuzuordnen. Sobald du aber feststellst, dass die Stimmen nicht korrekt auf den in Schritt "Spuren anlegen" benannten Tracks landen, kannst du im [Mixer [24]](GUI-Gesamtuebersicht) über die entsprechenden "Input"-Dropdown-Menüs die Zuordnungen manuell vornehmen oder korrigieren. Am besten gewöhnst du dir an, vor der Aufnahme alle lokalen Mikrofon-Tracks einmal kurz zu kontrollieren – **die StudioLink- und die Soundboard-Spuren werden immer automatisch korrekt zugeordnet**, sie brauchen keinen physikalischen Eingang und bleiben auf "Input: None" stehen.
 
 ![track-assignment](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-assignment.png?=450x)
-**Screenshot:** Eingänge zuweisen
+**Eingänge zuweisen:** *Über das Dropdown-Menü kannst du den Eingang auswählen*
 
 **Das Ganze nochmal als Video-Erklärung:**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p5kYH-YheN0?start=911" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -129,14 +125,14 @@ Der Soundcheck hilft dir dabei, die häufigsten Fehler beim Podcasten zu vermeid
 * **Eingangs-Zauberer (Input Wizard):** Prüft, ob du einen Eingang mehrmals benutzt hast, oder ob du einen austauschbaren Eingang an einem Zoom benutzt.
 
 ![soundcheck](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundcheck.png)
-**Screenshot:** *Soundcheck-Beispiel für ein ungesichertes Projekt*
+**Soundcheck:** *Soundcheck-Beispiel für ein ungesichertes Projekt*
 
 Du kannst die Warnmeldungen links mit dem Button entweder auf `ignorieren` schalten, oder mit dem Button rechts das Problem beheben. In der Mitte wird dir in einem Textfeld das Problem immer noch einmal genauer erklärt. Wenn du das Soundcheck-Fenster schließt, ohne dass du die Probleme behoben hast, werden automatisch alle Warnungen auf `ignorieren` geschaltet. Zum Schließen kannst Du auch `esc` drücken.
 
 Im Dashboard siehst du jederzeit den Status des Soundchecks. Ein Klick auf die Soundcheck-Leiste im Dashboard öffnet die Soundcheck-Übersicht.
 
 ![](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Dashboard.png)
-**Screenshot:** *Dashboard mit einer Warnung in der Soundcheck-Leiste*
+**Dashboard:** *Dashboard mit einer Warnung in der Soundcheck-Leiste*
 
 <!-- @todo: was passiert mit den Videos?
 https://www.youtube.com/watch?v=vdLpynu1ixE&t=4771s (US 5)
@@ -162,16 +158,17 @@ ___
 ### Studiolinkfenster
 In folgenden Bild ist eine StudioLink-Track in Ultraschall dargestellt.
 
-![StudioLink Track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_track.jpg?=650x) **Screenshot:** Studio-Link Spur
+![StudioLink Track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_track.jpg?=650x) **StudioLink Track einfügen:** *Über das Podcast-Menü kanns du eine StudioLink Spur einfügen*
 
 Das Browserfenster öffnet sich seperat. (Bitte folge hierfür der Anleitung auf [StudioLink](https://studio-link.de)!)
 
-![Studio-Link](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_browser.jpg) **Screenshot:** *Studio-Link im Browser*
+![Studio-Link](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_browser.jpg) **StudioLink:** *Studio-Link im Browser*
 
 Das Terminalfenster bei Winwows darf nicht geschlossen werden.
 
 <!-- @todo: Link stimmt nicht-->
-![Windows Terminal Fenster](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/studiolink_konsole.png?=750x) **Screenshot:** *Das Terminalfenster nicht schließen*
+![Windows Terminal Fenster](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/studiolink_konsole.png?=750x) **Windows Terminal Fenster:** *Das Terminalfenster nicht schließen, sonst funktioniert StuidoLink nicht*
+
 
 ## Das Soundboard verwenden
 ### Soundboard-Spur einfügen
@@ -179,11 +176,11 @@ Ultraschall kommt mit einem eigenen Soundboard, über das du während der Aufnah
 <!-- @TODO: einheitliche Begriffe für Programm-Bereiche und Funktionen? -->
 
 #### Möglichkeit 1: über das Podcast-Menü
-![soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-soundboard-track.png) **Screenshot:** *Soundboard hinzufügen*
+![soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-soundboard-track.png) **Screenshot:** *Soundboard hinzufügen* **Soundboard einfügen:** *Über das Podcast-Menü kannst du eine soundboard Spur einfügen*
 
 #### Möglichkeit 2: per Rechtsklick in den Spurenbereich
 ![alternative-soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/add-soundboard-2.png)
-**Screenshot:** *Soundboard hinzufügen*
+**Soundboard einfügen:** *Mit einem Rechtsklick kannst du ebenfalls eine soundboard Spur einfügen*
 ___
 ![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png?=20x20) **Achtung**: Wir empfehlen, pro Projekt nur eine Soundboard-Spur anzulegen. Sounds für ein Projekt sollten also vor der Aufnahme aus unterschiedlichen Verzeichnissen in einem Soundboard zusammengestellt werden.
 
@@ -192,14 +189,14 @@ ___
 ### Bedienung
 Um dem Soundboard beizubringen, wo die entsprechenden Sound-Dateien liegen, wählst du die entsprechende Spur und wechselst mittels Klick auf den zugehörigen FX-Button der Spur im [Mixer-Bereich [24]](GUI-Gesamtuebersicht) in die Ansicht für die Plugin-Liste. Dort stellst du sicher, dass das Soundboard-Plugin aktiviert ist (Haken ist gesetzt). Über das Ordner-Symbol oben links im Plugin-Bereich legst du das Verzeichnis fest, in dem du die Sound-Dateien fürs Soundboard abgespeichert hast.
 
-![soundboard-activation](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/soundboard-activation_new.png) **Screenshot**: *Soundboard Aktivierung*
+![soundboard-activation](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/soundboard-activation_new.png) **Soundboard Aktivierung**: *So aktivierst du ein Soundboard*
 
 So sieht ein mit diversen Clips belegtes Soundboard aus.
 :::info
 **Tipp**: Die Dateien werden hier immer alphabetisch sortiert angezeigt. Willst du lieber eine Sortierung in der Reihenfolge, wie du sie vielleicht auch in deiner Aufnahme verwendest, stellst du am besten dem Dateinamen eine Zahl voran.
 :::
 
-![soundboard-filled](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/soundboard-filled.png) **Screenshot**: *Das Soundboard*
+![soundboard-filled](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/soundboard-filled.png) **Soundboard**: *So sieht ein gefülltes Soundboard aus*
 
 #### Die Soundboard-Bedienelemente im Einzelnen:
 1. **Dateiname des Audioclips** (ohne die Dateiendung)
