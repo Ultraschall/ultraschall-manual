@@ -97,7 +97,12 @@ Das Ripple-Verhalten bestimmt, was genau passiert, wenn du während der Bearbeit
 
 Standardmäßig ist Ripple für alle Spuren deaktiviert (Buttons sind grau).
 
-![Ripple: Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-buttons.mp4)
+
+<video width="320" height="240" controls>
+  <source src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-buttons.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 
 **Screenshot** Audioteile verschieben
 
