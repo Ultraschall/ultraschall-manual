@@ -15,8 +15,8 @@ tags:
 <!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
 
 # Anpassungen und Shortcuts
-## Übersicht
-Um deine Arbeitsweise zu beschleunigen, gibt es in Ultraschall zahlreiche Tastenkombinationen die dir das das Arbeiten vereinfachen können. Neben den bereits mitgelieferten, kannst du aber auch beliebige eigene Tastenkombinationen einrichten.
+## Einleitung
+Um deine Arbeitsweise zu beschleunigen, gibt es in Ultraschall zahlreiche Tastenkombinationen die dir das das Arbeiten vereinfachen können. In diesem Kapitel lernst du, wie du die bereits mitgelieferten Shortcuts benutzt und wie du beliebige eigene Tastenkombinationen einrichten kannst.
 
 ### Ultraschall Voreinstellungen
 **Etliche Tastaturshortcuts sind nun auf global gesetzt**
@@ -27,7 +27,7 @@ Im neuen Menüpunkt „Help and Documentation“ im Podcast-Menü ist eine autom
 
 **Aktualisierte Tastaturschablone**
 alle relevanten Shortcuts sind in einem praktischen PDF zu finden: http://url.ultraschall-podcast.de/keymap5
-<!-- @todo: es gibt unterschiedliche Keymaps für die mac und win - Wir müssten die andere noch raussuchen  Anmerkung Gero: Win & Mac Tasten sind eingezeichnet die Befhele sind für mich eindeutig. Müssen wir wirklich noch etwas machen? -->
+
 
 ![Keymap](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/keymap.jpg)
 
