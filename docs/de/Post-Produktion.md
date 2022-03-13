@@ -9,15 +9,14 @@ tags:
 
 [zurück zum Inhaltsverzeichnis...](https://pad.gwdg.de/t3uoZPBsTyigArO0yHq8jw#)
 
-<!-- @todo: Blder auf  Git main umziehen -->
-<!-- @todo: Links auf  Git main umziehen -->
+
 <!-- @todo: Bildunterschrifen hinzufügen-->
 <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
 <!-- @todo: evtl. in zwei Kapitel aufteilen -->
 
 # Post-Produktion
 ## Einleitung
-<!-- @todo: Einleitung schreiben -->
+Dein Podcast ist aufgenommen und geschnitten? Dann kannst du jetzt mit der Post-Produktion beginnen. Das Ziel in diesem Kapitel ist es den Klang von deinem Podast noch besser zu machen als er ohnehin schon ist. Dafür lernst du welche Effekte Ultraschall mitbringt und wie du diese einsetzen kannst.
 
 ## Warum Post-Produktion sinnvoll ist – und wo die Grenzen liegen
 Eines gleich vorweg: Je besser deine Aufnahme, desto weniger Arbeit hast du damit in der Post-Produktion. Es lohnt sich also, von vorneherein auf Umgebungs- und Störgeräusche zu achten, Netzbrummen zu eliminieren, Sprechabstände und Aufnahmepegel feinzujustieren und insgesamt darauf zu achten, bestmögliche Aufnahmebedingungen zu haben. Trotzdem ist für ein optimales Ergebnis Post-Produktion immer wichtig und sinnvoll.
@@ -162,18 +161,18 @@ Bei alten Projekten wird der Effekt hingegen erst einmal fehlen. So könnt ihr i
 
 Hier das Video:
 
-![Effekt aktivieren](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_002.gif)
+![Effekt aktivieren](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_002.gif) **Ultraschall Dynamics:** *Aktivierung des Effects*
 
 ##### Einstellung für die Normalisierung
 Die Einstellung für das normaliseren auf -23 LUFS aller Quellen für die Aufnahme ("*Normalize loudness of selected items to -23 LUFS*") wird im Plugin "JS: Ultraschall Dynamics (Ultraschall.fm)" mit dem Regler *Target (LUFS)* vorgenommen.
 Die voreingestellten Werte müssen sind ind der Regel gut.
 
-![Ultraschall Dynamics Target](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/ULDynamics.jpg)
+![Ultraschall Dynamics Target](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/ULDynamics.jpg) **Ultraschall Dynamics:** *Die Einstellung für die finale Normalisierung lässt sich mit dem Plugin "*JS: LUFS Loudnessmeter*" verändern.*
 
 Die Einstellung für die finale Normalisierung lässt sich mit dem Plugin "*JS: LUFS Loudnessmeter*" verändern.
 
 ![-16 LUFS](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/minus16LUFS-1.gif)
-
+**Ultraschall Dynamics:** *Auch hier ist es in den aller meisten Fällen nicht notwendig die Einstellugen zu verändern.*
 
 Auch hier ist es in den aller meisten Fällen nicht notwendig die Einstellugen zu verändern.
 
@@ -202,4 +201,4 @@ Das klappt nur, wenn man während der Aufnahme nichts am Gain der Aufnahme verä
 Hier das Video:
 <!-- @todo gif mit US 3.1 das müssen wir neu machen-->
 
-![Noisegate anpassen](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_004.gif)
+![Noisegate anpassen](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_004.gif) **Ultraschall Dynamics:** *Ändern der Schwelle für das Rauschen (Rauschunterdrückung)*" verändern.*
