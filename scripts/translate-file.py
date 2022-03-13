@@ -15,10 +15,19 @@ import sys, getopt
 # variable DEEPL_AUTH_KEY, then read the variable in your Python code:
 translator = deepl.Translator(os.environ['DEEPL_AUTH_KEY'])
 
+
 '''
 translate the given md file to en
 '''
 def translateFile(filename):
+
+    # Glossaries allow you to customize your translations
+   glossary_de_to_en = translator.create_glossary(
+       "US_glossary",
+       source_lang="DE",
+       target_lang="EN-GB",
+       entries={"Ultraschall": "Ultraschall", "ultraschall": "ultraschall"},
+   )
 
    # convert file to txt
    shutil.copy2("../docs/de/"+filename + '.md', "../docs/de/"+filename+'.txt')
@@ -29,7 +38,8 @@ def translateFile(filename):
            "../docs/de/"+filename+".txt",
            "../docs/en/"+filename+".txt",
            source_lang="DE",
-           target_lang="EN-GB"
+           target_lang="EN-GB",
+           glossary=glossary_de_to_en
        )
 
    except deepl.DocumentTranslationException as error:
@@ -52,15 +62,9 @@ def translateFile(filename):
    os.remove("../docs/en/"+ filename + ".txt")
 
 
-'''
-# Glossaries allow you to customize your translations
-glossary_en_to_de = translator.create_glossary(
-    "My glossary",
-    source_lang="EN",
-    target_lang="DE",
-    entries={"artist": "Maler", "prize": "Gewinn"},
-)
 
+
+'''
 with_glossary = translator.translate_text_with_glossary(
     "The artist was awarded a prize.", glossary_en_to_de
 )
