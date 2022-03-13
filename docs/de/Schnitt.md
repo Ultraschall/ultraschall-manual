@@ -97,7 +97,7 @@ Das Ripple-Verhalten bestimmt, was genau passiert, wenn du während der Bearbeit
 
 Standardmäßig ist Ripple für alle Spuren deaktiviert (Buttons sind grau).
 
-![Ripple Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-buttons.gif)
+![Ripple Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-buttons.mp4)
 **Screenshot** Audioteile verschieben
 
 
@@ -144,12 +144,12 @@ ___
 Das Verhalten der einzelnen Items beim Verschieben wird durch die [Ripple-Einstellung](#Ripple-Editing) festgelegt. Du kannst jedoch das Ripple-Verhalten temporär nur für die aktuelle Aktion beeinflussen, indem du dabei `ALT`, `CTRL`oder `CMD` gedrückt hältst:
 - **`ALT` (Mac/Windows/Linux) gedrückt halten und Item verschieben**: Du verschiebst nur das oder die selektierten Items.
 -
-![Ripple: Alt](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-alt.gif)
+![Ripple: Alt](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-alt.mp4)
 
 - **`CMD` (Mac) beziehungsweise `CTRL` (Windows/Linux) gedrückt halten und Item verschieben**: Du verschiebst das oder die selektierten Items und ALLE Items dahinter.
 
 
-![Ripple: Cmd](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-cmd.gif)
+![Ripple: Cmd](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-cmd.mp4)
 
 
 ### Audio-Inhalte nachträglich in das Projekt einfügen
