@@ -8,9 +8,7 @@ tags:
 
 [zurück zum Inhaltsverzeichnis...](https://pad.gwdg.de/t3uoZPBsTyigArO0yHq8jw#)
 
-<!-- @todo: Blder auf  Git main umziehen -->
 <!-- @todo: Links auf  Git main umziehen -->
-<!-- @todo: Bildunterschrifen hinzufügen -->
 
 # Erste Schritte mit Ultraschall
 
@@ -25,6 +23,7 @@ In der Ultraschall-Philosophie gliedert sich Podcasting in drei Phasen:
 Diese Gliederung findest du so auch im `Podcast`-Menü von Ultraschall und an einigen weiteren Stellen innerhalb der Software. Um die Software und ihre Möglichkeiten etwas besser kennenzulernen, ist es ohnehin eine ganz gute Idee, die (chrono-)logisch aufgebauten Menüpunkte der Reihe nach durchzugehen.
 
 ![Podcast-Menü](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Erste-Schritte-mit-Ultraschall/podcast-menu.png =400x)
+**Das Podcast Menü:** *Der Workflow ist in die drei Teile: 1.Setup, 2. Recording und 3. Production aufgeteilt*
 
 ## 1. Vorbereitung
 ### Spuren anlegen
@@ -80,7 +79,7 @@ Diese bestehen aus:
 * Finalize MP3 (Fertigsstellung des Exports )
 
 
-![Export Assistent Gruen](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/Export_Assistent_alles_gruen.jpg)
+![Export Assistent Gruen](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/Export_Assistent_alles_gruen.jpg) **Export Assistent:** *Wenn alles bereit zum Finalisieren ist, steht bei jedem Punkt: `ok`.*
 
 Wenn die einzelen Schritte durchlaufen werden, ändert die Farbe von gelb oder rot auf grün (OK). Ziel ist es, dass alle Schritte OK sind (grün). Die fertige Audiodatei und evtl. deine Kapitelmarken liegen jetzt in deinem Projektordner. Diese kann du jetzt weiterverarbeiten und veröffentlichen. Damit hast du erfolgreich deinen ersten Podcast aufgenommen, geschnitten und exportiert.
 [Erfahre mehr...](https://pad.gwdg.de/S8CYlinKR0iKuDRUplXFXQ#Export)
