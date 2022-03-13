@@ -8,14 +8,15 @@ tags:
 <!-- Tags für Docusaurus -->
 
 [zurück zum Inhaltsverzeichnis...](https://pad.gwdg.de/t3uoZPBsTyigArO0yHq8jw#)
-<!-- @todo: Blder auf  Git main umziehen -->
 <!-- @todo: Links auf  Git main umziehen -->
-<!-- @todo: Bildunterschrifen hinzufügen-->
 <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
 
 # Export
 ## Einleitung
-Wenn dein Projekt jetzt fertig geschnitten und abgemischt ist, kannst du jetzt deine fertig Audiodatei exportieren. Der eigentliche Export wird in Ultraschall noch mit für Podcast ebenso wichtigen Punkten wie bspw. dem Episodenbild und Kapitelmarken ergänzt. Der Export-Workflow in Ultraschall ist durch die links am Rand pazierten vier Icons begleitet [[19-22]](GUI-Gesamtuebersicht). Diese führen dich durch alle wichtigen Schritte, sodass du am Ende eine fertige Audiodatei hast. Arbeite die Icons von oben herab ab.
+Wenn dein Projekt jetzt fertig geschnitten und abgemischt ist, kannst du jetzt deine fertig Audiodatei exportieren. In diesem Kapitel lernst du wie du deinen fertigen Podacst exportierst und welche wichtigen Punkte von Kapitelmarken bis Eposiodenbilder du dabei beachten solltest.
+
+## Der Workflow
+Der Export-Workflow in Ultraschall ist durch die links am Rand pazierten vier Icons begleitet [[19-22]](GUI-Gesamtuebersicht). Diese führen dich durch alle wichtigen Schritte, sodass du am Ende eine fertige Audiodatei hast. Arbeite die Icons von oben herab ab.
 
 ![export-icons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/0-export-dialogues.png)
 
@@ -32,7 +33,7 @@ Auch hierzu gibt es eine Video-Erklärung von Ralf Stockmann:
 
 ## 1. Marker Dashboard
 
-![Marker Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-dashboard.png)
+![Marker Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-dashboard.png) **Marker Dashboard:** *So kann das Markerdashbaord bei einem fertigen Projekt aussehen.*
 
 Das Marker-Dashboard gibt dir eine gute Übersicht über alle bereits gesetzten Kapitelmarken[[28]](GUI-Gesamtuebersicht) – und es hilft dir, sie mit weiteren Informationen wie einer URL oder einem Kapitelmarken-Bild (das dann von den meisten Podcatchern angezeigt wird, wenn die Hörenden die Stelle beim Abspielen erreichen) anzureichern.
 
@@ -42,7 +43,7 @@ Das Marker-Dashboard gibt dir eine gute Übersicht über alle bereits gesetzten 
 
 Wenn die Status-Anzeige bei allen gesetzten Markern grün ist, ist alles in Ordnung und du kannst mit dem nächsten Schritt fortfahren. Bei roter Anzeige hilft dir ein Klick auf das Fragezeichen rechts neben dem Status mit einer Erklärung zu den fehlenden oder falschen Informationen. Rote markierte Einträge werden in der Regel einfach nicht mit exportiert, sie führen aber dazu, dass der Check im [3. Export-Assistenten fehlschlägt](#3-Export-Assistent).
 
-![Marker missing](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-missing.png)
+![Marker missing](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-missing.png) **Fehlende Markerbezeichnung:** *Marker brauchen immer einen Namen*
 
 ___
 ![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png?=20x20) **Achtung**: Nicht alle Podcatcher gehen gleich (gut) mit Kapitelmarken um. Für maximal kompatibilität empfehlen wir, immer einen Marker am Anfang deiner Aufnahme – also an der Position 00:00:00 – zu setzen.
@@ -54,14 +55,14 @@ Einmal kurz durchatmen, bevor du den Render-Assistenten[[20]](GUI-Gesamtuebersic
 
 Drückst du links unten in Ultraschall auf das Render-Icon[[20]](GUI-Gesamtuebersicht) (oder wählst den Punkt `Start Export Assistant` über das Menü `Podcast`->`Export`), checkt Ultraschall, ob alle vorhandenen Spuren auch hörbar sein werden. Hast du einzelne Spuren absichtlich oder unabsichtlich gemuted, erhältst du auf dem Weg zum Render-Assistenten folgende Warnung:
 
-![Warning-muted-tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-warning.png)
+![Warning-muted-tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-warning.png) **Warning muted tracks:** *Ultraschall warnt dich, wenn du dein Projekt exportieren willst, aber eine oder mehrere Spuren stummgeschaltet sind.*
 
 Klickst du hier `No`, landest du wieder im Arbeitsbereich, wo du nochmal checken kannst, welche Spuren mit in den Export einbezogen werden sollen.
 
 Klickst du hier auf `Yes` öffnet sich der Assistent – in diesem Fall werden die gemuteten Spuren nicht in den Export mit eingeschlossen, später also NICHT zu hören sein.
 
 **Die wichtigsten Elemente des Render-Assistenten:**
-![export-render-to-file](https://raw.githubusercontent.com/Ultraschall/ultraschall-manualmain/assets/images/Export/2-render-assistant.png)
+![export-render-to-file](https://raw.githubusercontent.com/Ultraschall/ultraschall-manualmain/assets/images/Export/2-render-assistant.png) **Der Render Assistent:** *Der Render Assistent gibt die viel Freiheit wie du dein Projekt rendern kannst.*
 <!--@TODO: Screenshot um Zahlen/Legende erweitern -->
 
 - **Source:** Hier legst du fest, welche Spuren der Export beinhalten soll. Der Standard-Wert `Master mix` führt alle hörbaren Spuren in eine Datei zusammen. `Stems (selected tracks)` sorgt dafür, dass jede Spur als eigene Datei exportiert wird. **Vorsicht:** Es werden nur die Tracks exportiert, die auch ausgewählt sind – du erkennst ausgewählte Spuren im Spurenbereich an dem etwas helleren Grau. Du kannst bei geöffnetem Render-Assistenten Spuren im [Spuren-Bereich [23]](GUI-Gesamtuebersicht) an- und abwählen, indem du mit gehaltener `CTRL`- beziehungsweise `CMD`-Taste draufklickst. Mit `Master mix + Stems` erhältst du nach dem Export sowohl die zusammengeführte Datei als auch die einzelnen (ausgewählten) Spuren.
@@ -86,7 +87,7 @@ Auch hier sollte die Ampel auf grün stehen, wenn du oben bereits den Schritt du
 Metadaten sind zwar optional, aber trotzdem wichtig für die Weiterverarbeitung und Veröffentlichung deines Podcasts. Wenn die Metadaten richtig gesetzt sind, können die MP3s auch unabhängig von dem RSS-Feed richtig ausgelesen werden. Somit ist es in Punkto Langzeitarchivierung sehr sinnvoll diese Metadaten direkt in die Datei mit rein zu schreien. Die Metadaten werden im [ID3](https://de.wikipedia.org/wiki/ID3-Tag) Format bearbeitet. Der Ultraschall-MP3-Metadaten-Dialog[[21]](GUI-Gesamtuebersicht) ist reduziert auf die für Podcasts relevanten Tags. Für die Podcast Kategorie kannst du dich bspw. an dieser [Liste](https://github.com/Ultraschall/ultraschall-manual/blob/Export/assets/Apple-Podcast-Kategorien-Ids.csv) orientieren ansonsten hast du freie Hand. Einzig und allein die Zeichen `(`,`)` , `'` , oder `"` darfst du nicht verwenden.
 
 <!-- @todo: Tippfehler im Screenshot noch verbessern?-->
-![Edit MP3 Metadaten](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/3-edit-mp3-metadata.png) **Screenshot:** *MP3 Metadaten*
+![Edit MP3 Metadaten](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/3-edit-mp3-metadata.png) **Edit MP3 Metadaten:** *Fülle die Metadaten für deinen Postcast aus.*
 
 #### 4. Podcast Episoden Bild
 Das hier hinterlegte Bild wird später beim Abspielen angezeigt. Ziehe per Drag and Drop dein Episodenbild einfach in den Export Dialog. Das Bild wird dann in den Projektordner kopiert. Untersützte Formate sind `.JPG`, `.PNG` und `.JPEG`. Ultraschall merkt sich immer die vier zuletzt benutzen Episodenbilder und bietet diese zur schnellen Auswahl an. Das groß angezeigte Bild ist das dann Ausgewählte.
@@ -116,7 +117,7 @@ Ultraschall (Reaper) importiert sehr viele Audioformate. Es werden jedoch eine r
 An häufingsten wird für Ultraschall Projekte das **mp3** Format verwendet, da der Workflow von Ultraschall under anderm auch Kapitelmarken und Kapitelbilder für **mp3** Dateien ermöglicht. Andere Formate unterstützen diese Fonktionen nicht. Wie im Bild gezeigt ist die Verwendung von mp3 bei einer Bitrate von z.B. 128 kBps sinnvoll.
 
 
-![Exportformate](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-formats.png) **Screenshot:** *Exportformate*
+![Exportformate](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-formats.png) **Exportformate:** *Mit Ultraschall kannst du deinen Podcast in verschiedenen Formaten exportieren. Standartmäßig ist MP3 aufgewählt.*
 
 <!--
  @todo: Was passiert mit dem Video?
