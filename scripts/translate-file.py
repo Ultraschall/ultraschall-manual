@@ -21,6 +21,7 @@ translate the given md file to en
 '''
 def translateFile(filename):
 
+
     # Glossaries allow you to customize your translations
    glossary_de_to_en = translator.create_glossary(
        "US_glossary",
@@ -28,6 +29,10 @@ def translateFile(filename):
        target_lang="EN-GB",
        entries={"Ultraschall": "Ultraschall", "ultraschall": "ultraschall"},
    )
+   translatedFilename = str(translator.translate_text(filename,
+                                                      source_lang="DE",
+                                                      target_lang="EN-GB",
+                                                      glossary=glossary_de_to_en))
 
    # convert file to txt
    shutil.copy2("../docs/de/"+filename + '.md', "../docs/de/"+filename+'.txt')
@@ -36,7 +41,7 @@ def translateFile(filename):
    try:
        translator.translate_document_from_filepath(
            "../docs/de/"+filename+".txt",
-           "../docs/en/"+filename+".txt",
+           "../docs/en/"+translatedFilename+".txt",
            source_lang="DE",
            target_lang="EN-GB",
            glossary=glossary_de_to_en
@@ -56,10 +61,10 @@ def translateFile(filename):
         print(error)
 
 
-   shutil.copy2("../docs/en/"+filename+".txt", "../docs/en/"+filename+".md")
+   shutil.copy2("../docs/en/"+translatedFilename+".txt", "../docs/en/"+translatedFilename+".md")
    # delte txt file
    os.remove("../docs/de/"+ filename + ".txt")
-   os.remove("../docs/en/"+ filename + ".txt")
+   os.remove("../docs/en/"+ translatedFilename + ".txt")
 
 
 
