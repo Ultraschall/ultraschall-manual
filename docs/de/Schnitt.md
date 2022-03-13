@@ -97,10 +97,7 @@ Das Ripple-Verhalten bestimmt, was genau passiert, wenn du während der Bearbeit
 
 Standardmäßig ist Ripple für alle Spuren deaktiviert (Buttons sind grau).
 
-<video controls="controls">
-  <source type="video/mp4" src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-buttons.mp4"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
+![Ripple: Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-buttons.mp4)
 
 **Screenshot** Audioteile verschieben
 
@@ -147,18 +144,15 @@ ___
 
 Das Verhalten der einzelnen Items beim Verschieben wird durch die [Ripple-Einstellung](#Ripple-Editing) festgelegt. Du kannst jedoch das Ripple-Verhalten temporär nur für die aktuelle Aktion beeinflussen, indem du dabei `ALT`, `CTRL`oder `CMD` gedrückt hältst:
 - **`ALT` (Mac/Windows/Linux) gedrückt halten und Item verschieben**: Du verschiebst nur das oder die selektierten Items.
--
+
 ![Ripple: Alt](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-alt.mp4)
 
 - **`CMD` (Mac) beziehungsweise `CTRL` (Windows/Linux) gedrückt halten und Item verschieben**: Du verschiebst das oder die selektierten Items und ALLE Items dahinter.
 
-
 ![Ripple: Cmd](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-cmd.mp4)
-
 
 ### Audio-Inhalte nachträglich in das Projekt einfügen
 Um weitere Sounds oder Aufnahmen in dein Projekt einzufügen, kannst du einfach die gewünschten Dateien per Drag & Drop in dein Projekt ziehen. Wenn du die Datei in den [Timeline-Bereich [25]](GUI-Gesamtuebersicht) an eine Stelle im Projekt ziehst, an der keine Spur ist, erstellt Reaper eine neue Spur mit dem Inhalt der Datei und benennt diese dann nach dem Dateinamen.
-
 
 ![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png?=20x20) **Achtung**:  Unter dem Menüpunkt `Edit -> Project Settings` kannst du einstellen wie Reaper mit diesen Mediendateien umgehen soll. Hier empfehlen wir auf jeden Fall die Einstllung `Copy media to project`. Am besten in den globalen Reaper Einstellungen unter `Options -> preferences` unter dem Punkt `Media`  das Kreuz bei `Copy imported media to project media directory` setzten. Sonst kann es passieren, dass du ungewollt Abhängigkeiten erschaffst, die dir später Probleme bereiten können.
 
