@@ -20,6 +20,7 @@
 * [ ] Anreden: 
 	* Singular, klein (du, dein, ...)
 	* Lieber direkte Ansprache im Imperativ ("Lad dir die Software herunter.") als unpersönlich und unspezifisch ("Jetzt die Software herunterladen.") – Ausnahme sind Überschriften ("1. REAPER installieren"). Beim Imperativ wählen wir im Zwiefelsfall die Schreibweise ohne "e" am Ende ("Lad dir ..." statt "Lade dir ...", "Lass ..." statt "Lasse ..." und so weiter – die andere Schreibweise ist nicht falsch, wir sollten hier aber möglichst konsistent sein)
+	* Wir schreiben inklusiv – also nicht mit Gendersternchen, Binnenmajuskeln oder Doppelpunkt-Konstrukten, sondern mit expliziter Benennung beider Geschlechter, Verwendung neutraler Formen und so weiter. Mehr Anregungen dazu findest du hier: https://www.brandad-systems.de/blog/gendern-finde-ich-doof-aber
 * [ ] Schreibweisen
    * macOS (einheitliche Schreibweise von Apple)  
    * REAPER (einheitliche Schreibweise von Cockos)
