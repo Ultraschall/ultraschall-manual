@@ -1,5 +1,5 @@
 ---
-id: x
+id: export
 title: Export
 tags:
   - x
@@ -7,11 +7,10 @@ tags:
 ---
 <!-- Tags für Docusaurus -->
 
-[zurück zum Inhaltsverzeichnis...](https://pad.gwdg.de/t3uoZPBsTyigArO0yHq8jw#)
+
 <!-- @todo: Links auf  Git main umziehen -->
 <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
 
-# Export
 ## Einleitung
 Wenn dein Projekt jetzt fertig geschnitten und abgemischt ist, kannst du jetzt deine fertig Audiodatei exportieren. In diesem Kapitel lernst du wie du deinen fertigen Podacst exportierst und welche wichtigen Punkte von Kapitelmarken bis Eposiodenbilder du dabei beachten solltest.
 
