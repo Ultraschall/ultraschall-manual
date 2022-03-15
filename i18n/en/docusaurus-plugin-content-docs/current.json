@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Einführung": {
+    "message": "Einführung",
+    "description": "The label for category Einführung in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Übersicht": {
+    "message": "Übersicht",
+    "description": "The label for category Übersicht in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Einsteiger": {
+    "message": "Einsteiger",
+    "description": "The label for category Einsteiger in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Fortgeschrittene": {
+    "message": "Fortgeschrittene",
+    "description": "The label for category Fortgeschrittene in sidebar tutorialSidebar"
+  }
+}
