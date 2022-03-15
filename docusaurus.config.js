@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Das Ultraschall-Handbuch',
   tagline: 'High-End Podcasting für alle',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://nucleus-ffm.github.io',
+  baseUrl: '/ultraschall-manual/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'nucleus-ffm', // Usually your GitHub org/user name.
+  projectName: 'ultraschall-manual', // Usually your repo name.
 
   presets: [
     [
@@ -87,7 +87,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ultraschall, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ultraschall, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
