@@ -1,16 +1,13 @@
 ---
-id: x
+id: ersteSchritteMitUltraschall
 title: Erste Schritte mit Ultraschall
 tags:
   - x
   - x
 ---
 
-[zurück zum Inhaltsverzeichnis...](https://pad.gwdg.de/t3uoZPBsTyigArO0yHq8jw#)
-
 <!-- @todo: Links und Bildeinbettungen für docusaurus anpassen; aktuell sind Bilder mit expliziter Größenangabe so eingebunden: <img title="" alt="" src="" width="" style="display: block" /> -->
 
-# Erste Schritte mit Ultraschall
 
 ## Übersicht
 Jetzt kann es mit dem Podcasten richtig losgehen!
