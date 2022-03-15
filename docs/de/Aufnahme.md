@@ -6,14 +6,12 @@ tags:
   - x
 ---
 
-[zurück zum Inhaltsverzeichnis...](https://pad.gwdg.de/t3uoZPBsTyigArO0yHq8jw#)
 
 <!-- @todo: Links auf  Git main umziehen -->
 <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
 <!-- @todo: Screenshotgröße anpassen -->
 
 
-# Aufnahme
 <!-- @todo: entscheiden was damit passiert. https://www.youtube.com/watch?v=p5kYH-YheN0 -->
 
 ## Einleitung
