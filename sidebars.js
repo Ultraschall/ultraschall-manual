@@ -24,7 +24,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Übersicht',
-      items: ['GUI', 'anpassung'],
+      items: ['GUI-Gesamtuebersicht', 'anpassung'],
     },
 
     {
