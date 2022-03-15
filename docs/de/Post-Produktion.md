@@ -1,5 +1,5 @@
 ---
-id: x
+id: postProduktion
 title: Post-Produktion
 tags:
   - x
@@ -7,14 +7,11 @@ tags:
 ---
 <!-- Tags für Docusaurus -->
 
-[zurück zum Inhaltsverzeichnis...](https://pad.gwdg.de/t3uoZPBsTyigArO0yHq8jw#)
-
 
 <!-- @todo: Bildunterschrifen hinzufügen-->
 <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
 <!-- @todo: evtl. in zwei Kapitel aufteilen -->
 
-# Post-Produktion
 ## Einleitung
 Dein Podcast ist aufgenommen und geschnitten? Dann kannst du jetzt mit der Post-Produktion beginnen. Das Ziel in diesem Kapitel ist es den Klang von deinem Podast noch besser zu machen als er ohnehin schon ist. Dafür lernst du welche Effekte Ultraschall mitbringt und wie du diese einsetzen kannst.
 
