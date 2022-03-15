@@ -1,19 +1,17 @@
 ---
-id: x
+id: schnitt
 title: Schnitt
 tags:
   - x
   - x
 ---
 
-[zurück zum Inhaltsverzeichnis...](https://pad.gwdg.de/t3uoZPBsTyigArO0yHq8jw#)
 <!-- @todo: Blder auf  Git main umziehen -->
 <!-- @todo: Links auf  Git main umziehen -->
 <!-- @todo: Bildunterschrifen hinzufügen-->
 <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
 <!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
 
-# Schnitt
 
 ## Einleitung
 <!-- @todo: kurze Zusammenfassung schreiben-->
