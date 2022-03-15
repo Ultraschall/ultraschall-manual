@@ -1,12 +1,11 @@
 ---
-id: x
+id: anpassung
 title: Anpassungen, Shortcuts und co.
 tags:
   - x
   - x
 ---
 
-[zurück zum Inhaltsverzeichnis...](https://pad.gwdg.de/t3uoZPBsTyigArO0yHq8jw#)
 <!-- @todo: Blder auf  Git main umziehen -->
 <!-- @todo: Links auf  Git main umziehen -->
 <!-- @todo: Link auf Kapitel "Sonstiges" korrigieren -->
@@ -14,7 +13,7 @@ tags:
 <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
 <!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
 
-# Anpassungen und Shortcuts
+
 ## Einleitung
 Um deine Arbeitsweise zu beschleunigen, gibt es in Ultraschall zahlreiche Tastenkombinationen die dir das das Arbeiten vereinfachen können. In diesem Kapitel lernst du, wie du die bereits mitgelieferten Shortcuts benutzt und wie du beliebige eigene Tastenkombinationen einrichten kannst.
 
