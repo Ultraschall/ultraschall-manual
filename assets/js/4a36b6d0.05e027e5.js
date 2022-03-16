@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkultraschall_manuel=self.webpackChunkultraschall_manuel||[]).push([[604],{7965:function(l){l.exports={blogPosts:[]}}}]);
