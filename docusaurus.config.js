@@ -35,7 +35,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Ultraschall Hanndbuch',
+        title: 'Ultraschall Handbuch',
         logo: {
           alt: 'Ultraschall Logo',
           src: 'img/Ultraschall_5-Logo.png',
@@ -48,7 +48,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Handbuch',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Ultraschall/ultraschall-manual',
             label: 'GitHub',
             position: 'right',
           },
@@ -86,7 +86,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
             ],
           },
+          {
+            title: 'Rechtliches',
+            items: [
+              {
+                label: 'Datenschutzerklärung',
+                href: 'https://ultraschall.fm/datenschutzerklaerung/',
+              },
+            ],
+          },
         ],
+
         copyright: `Copyright © ${new Date().getFullYear()} Ultraschall, Built with Docusaurus.`,
       },
       prism: {
