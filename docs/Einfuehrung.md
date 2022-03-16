@@ -7,10 +7,6 @@ tags:
   - Getting started
 ---
 
-[zurück zum Inhaltsverzeichnis...](https://pad.gwdg.de/t3uoZPBsTyigArO0yHq8jw#)
-
-
-## Einleitung
 Schön, dass du zu Ultraschall gefunden hast. Ab jetzt wird deine Podcast-Produktion einfacher und besser. Das Handbuch, welches du gerade liest, wurde zusammen mit der Community erstellt und wird fortlaufend verbessert und erweitert. Das Handbuch ist dafür gedacht, einzelne Funktionen nachzuschlagen oder neue Features zu lernen. Jedes Kapitel ist dabei weitgehend unabhängig von den vorherigen. Wir wünschen viel Erfolg bei deiner Podcast-Produktion und jederzeit tollen Klang!
 
 ## Was ist Ultraschall?

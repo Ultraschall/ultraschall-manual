@@ -1,5 +1,5 @@
 ---
-id: GUI
+id: GUI-Gesamtuebersicht
 title: Übersicht über die Bedienelemente und Bereiche
 tags:
   - x
