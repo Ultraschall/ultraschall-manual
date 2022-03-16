@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'Das Ultraschall-Handbuch',
   tagline: 'High-End Podcasting für alle',
-  url: 'https://nucleus-ffm.github.io',
+  url: 'https://Ultraschall.github.io',
   baseUrl: '/ultraschall-manual/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'nucleus-ffm', // Usually your GitHub org/user name.
+  organizationName: 'Ultraschall', // Usually your GitHub org/user name.
   projectName: 'ultraschall-manual', // Usually your repo name.
 
   presets: [
