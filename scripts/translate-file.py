@@ -105,7 +105,7 @@ def main(argv):
          inputfile = arg
    print ('Input file is "', inputfile)
 
-   translateFile(inputfile)
+   #translateFile(inputfile)
    printUsage()
 
 

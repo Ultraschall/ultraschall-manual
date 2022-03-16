@@ -106,5 +106,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     }),
     i18n: {
       defaultLocale: 'de',
-      locales: ['de', 'en'],  },
+      locales: ['de', 'en'],
+    },
+    plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+
 });
