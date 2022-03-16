@@ -29,13 +29,23 @@ module.exports = {
 
     {
       type: 'category',
-      label: 'Einsteiger',
+      label: 'Grundfunktionen',
       items: ['aufnahme', 'schnitt', 'postProduktion', 'export'],
     },
     {
       type: 'category',
       label: 'Fortgeschrittene',
       items: ['Aufnahme-fuer-Fortgeschrittene'],
+    },
+    {
+      type: 'doc',
+      id: 'glossar', // document ID
+      label: 'Glossar', // sidebar label
+    },
+    {
+      type: 'doc',
+      id: 'ueber', // document ID
+      label: 'Über', // sidebar label
     },
   ],
 

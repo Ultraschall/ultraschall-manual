@@ -78,12 +78,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
           {
-            title: 'More',
+            title: 'Mehr',
             items: [
               {
                 label: 'GitHub',
                 href: 'https://github.com/Ultraschall',
               },
+              {
+                label: 'Mitwirkende',
+                to: '/docs/mitwirkende',
+              }
             ],
           },
           {

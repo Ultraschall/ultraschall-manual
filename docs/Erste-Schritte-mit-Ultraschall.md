@@ -1,9 +1,6 @@
 ---
 id: ersteSchritteMitUltraschall
 title: Erste Schritte mit Ultraschall
-tags:
-  - x
-  - x
 ---
 
 <!-- @todo: Links und Bildeinbettungen für docusaurus anpassen; aktuell sind Bilder mit expliziter Größenangabe so eingebunden: <img title="" alt="" src="" width="" style="display: block" /> -->
@@ -20,6 +17,7 @@ Nach der Ultraschall-Philosophie gliedert sich Podcasting in drei Phasen:
 Diese Gliederung findest du so auch im `Podcast`-Menü von Ultraschall und an einigen weiteren Stellen innerhalb der Software. Um die Software und ihre Möglichkeiten etwas besser kennenzulernen, ist es ohnehin eine ganz gute Idee, die (chrono-)logisch aufgebauten Menüpunkte der Reihe nach durchzugehen.
 
 ![Podcast-Menü](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Erste-Schritte-mit-Ultraschall/podcast-menu.png)
+
 **Das Podcast Menü:** *Der Workflow ist in die drei Teile: 1.Setup, 2. Recording und 3. Production aufgeteilt*
 
 ## 1. Vorbereitung

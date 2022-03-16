@@ -1,9 +1,6 @@
 ---
 id: GUI-Gesamtuebersicht
 title: Übersicht über die Bedienelemente und Bereiche
-tags:
-  - x
-  - x
 ---
 
 <!-- @todo: Links auf  Git main umziehen -->
@@ -11,7 +8,7 @@ tags:
 <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiche" verwedet werden sollten sich duch alle Dokumente ziehen -->
 
 
-![Übersicht der Bedienelemente](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/GUI-Gesamtuebersicht/Uebersichta.png) Übersicht: Bedienelemente und Bereiche | [Copyright © Leonid Lezner CC-BY 2.0](https://raw.githubusercontent.com/leonidlezner/ultraschall-tutorial/main/docs/downloads/Quick-Info-Ultraschall.pdf)
+![Übersicht der Bedienelemente](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/GUI-Gesamtuebersicht/Uebersichta.png) **Übersicht**: Bedienelemente und Bereiche | [Copyright © Leonid Lezner CC-BY 2.0](https://raw.githubusercontent.com/leonidlezner/ultraschall-tutorial/main/docs/downloads/Quick-Info-Ultraschall.pdf)
 
 ## Funktionen der Bedienelemente:
 ### Buttons: Schnitt
