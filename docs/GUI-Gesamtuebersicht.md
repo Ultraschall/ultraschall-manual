@@ -73,6 +73,6 @@ tags:
 40. Die Wellenform einer Aufnahme sieht man für jede einzelne Spur. Die Wellenform lässt sich z.B. mit der Taste 5) schneiden.
 41. Um während eine Aufnahme tatsächlich ein Audiosignal in einer Spur zuspeichern, muss diese für die Aufnahme aktiviert sein. Ob die Spur für die Aufnahme aktiviert ist, erkennt man am kleinen roten Indikator neben dem Spurnamen. Ist das Projekt fertig aufgenommen, sollten alle Spuren wieder für die Aufnahme deaktiviert sein, um keine Aufnahme unabsichtlich zu überschreiben. Dies lässt sich schnell mit dem Menüpunkt `Podcast`>`Prepare all tracks for editing erledigen.`
 
-___
-![](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png =20x20) **Achtung**: Die meisten der hier aufgelisteten Punkte werden im Rahmen dieser Dokumentation in den jeweiligen Kapiteln nochmals genauer erläuter.
-___
+:::info
+Die meisten der hier aufgelisteten Punkte werden im Rahmen dieser Dokumentation in den jeweiligen Kapiteln nochmals genauer erläuter.
+:::

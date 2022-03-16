@@ -148,10 +148,11 @@ Eine StudioLink-Spur lässt sich über das Menü `Podcast -> Insert StudioLink a
 
 ![isert-new-studiolink-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_insert_track.png)
 **Screenshot:** *Einfügen einer StudioLink-Spur über das Menü*
-___
-![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/Aufnahme/assets/images/allgemein/Achtung.png?=20x20) **Achtung**: Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-Gesamtuebersicht) beziehungsweise im [Mixer-Bereich [24]](GUI-Gesamtuebersicht). Es öffnet sich aber ein Browserfenster im Standardbrowser, in dem die eigentliche Verbindung aufgebaut wird. Wenn du Windows verwendest, darfst du das Terminalfenster nicht schließen, sonst kannst du keine Verbindung aufbauen.
+
+:::caution
+Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-Gesamtuebersicht) beziehungsweise im [Mixer-Bereich [24]](GUI-Gesamtuebersicht). Es öffnet sich aber ein Browserfenster im Standardbrowser, in dem die eigentliche Verbindung aufgebaut wird. Wenn du Windows verwendest, darfst du das Terminalfenster nicht schließen, sonst kannst du keine Verbindung aufbauen.
 <!-- @TODO: Mit Sebastian abklären wie die Anleitung von StudioLink aktuell gehalten werden soll. ! -->
-___
+:::
 
 ### Studiolinkfenster
 In folgenden Bild ist eine StudioLink-Track in Ultraschall dargestellt.
@@ -179,10 +180,10 @@ Ultraschall kommt mit einem eigenen Soundboard, über das du während der Aufnah
 #### Möglichkeit 2: per Rechtsklick in den Spurenbereich
 ![alternative-soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/add-soundboard-2.png)
 **Soundboard einfügen:** *Mit einem Rechtsklick kannst du ebenfalls eine soundboard Spur einfügen*
-___
-![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png?=20x20) **Achtung**: Wir empfehlen, pro Projekt nur eine Soundboard-Spur anzulegen. Sounds für ein Projekt sollten also vor der Aufnahme aus unterschiedlichen Verzeichnissen in einem Soundboard zusammengestellt werden.
 
-___
+:::caution
+ Wir empfehlen, pro Projekt nur eine Soundboard-Spur anzulegen. Sounds für ein Projekt sollten also vor der Aufnahme aus unterschiedlichen Verzeichnissen in einem Soundboard zusammengestellt werden.
+:::
 
 ### Bedienung
 Um dem Soundboard beizubringen, wo die entsprechenden Sound-Dateien liegen, wählst du die entsprechende Spur und wechselst mittels Klick auf den zugehörigen FX-Button der Spur im [Mixer-Bereich [24]](GUI-Gesamtuebersicht) in die Ansicht für die Plugin-Liste. Dort stellst du sicher, dass das Soundboard-Plugin aktiviert ist (Haken ist gesetzt). Über das Ordner-Symbol oben links im Plugin-Bereich legst du das Verzeichnis fest, in dem du die Sound-Dateien fürs Soundboard abgespeichert hast.

@@ -43,11 +43,11 @@ Die Einbindung von weiteren Sprechenden über das Internet ist im Kapitel [Aufna
 ## 3. Nachbereitung
 In vielen Fällen besteht die Podcast-Produktion lediglich aus Schnitt, Audioproduktion und Export. Das heißt aber nicht, dass mit Ultraschall nicht auch komplexere Szenarien wie zum Beispiel aufwändige Hörspielproduktionen möglich wären – die Details hierzu findest du in den entsprechenden [späteren Kapiteln](Aufnahme-fuer-Fortgeschrittene.md).
 
-___
-![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png)
-**Achtung**: Nach Ende deiner Aufnahme und vor dem Schnitt solltest unbedingt aus dem `Podcast`-Menü `Prepare all tracks for editing` aufrufen. Danach sind Spuren und Studio-Link-Verbindungen deaktiviert, das Routing angepasst – und die Oberfläche insgesamt so voreingestellt, dass du kaum Fehlerrisiko, dafür aber maximalen Bedienkomfort hast.
 
----
+:::danger
+ Nach Ende deiner Aufnahme und vor dem Schnitt solltest unbedingt aus dem `Podcast`-Menü `Prepare all tracks for editing` aufrufen. Danach sind Spuren und Studio-Link-Verbindungen deaktiviert, das Routing angepasst – und die Oberfläche insgesamt so voreingestellt, dass du kaum Fehlerrisiko, dafür aber maximalen Bedienkomfort hast.
+:::
+
 
 ### Schnitt
 Eines vorweg: Schnitt ist in Ultraschall nicht-destruktiv und jederzeit reversibel. Hab also keine Angst, dass du an irgendeiner Stelle mal zu viel entfernst – deine Aufnahmen bleiben immer im Original erhalten (du findest sie in deinem Projektverzeichnis [[22]](GUI-Gesamtuebersicht.md#buttons-export) im Ordner `Recordings`).

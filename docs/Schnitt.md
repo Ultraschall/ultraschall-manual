@@ -133,12 +133,9 @@ Button [[8]](GUI-Gesamtuebersicht) zeigt beziehungsweise versteckt die Mute-Enve
 
 
 ### Verschieben von Items (Spurinhalten)
-___
-![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/Aufnahme/assets/images/allgemein/Achtung.png =20x20)
-
-
-**Achtung**: Willst du in der [Timeline [25]](GUI-Gesamtuebersicht) einzelne Elemente ("Items") auf deinen Spuren verschieben, solltest du extrem vorsichtig vorgehen – es passiert dabei sehr schnell, dass snychron aufgenommene Spuren dadurch "verrutschen". Beim Anhören wirst du feststellen, dass das Timing nicht mehr passt: Die Sprechenden fallen sich ins Wort, es entstehen Pausen, die in der Aufnahme nicht da waren, und so weiter.
-___
+:::caution
+ Willst du in der [Timeline [25]](GUI-Gesamtuebersicht) einzelne Elemente ("Items") auf deinen Spuren verschieben, solltest du extrem vorsichtig vorgehen – es passiert dabei sehr schnell, dass snychron aufgenommene Spuren dadurch "verrutschen". Beim Anhören wirst du feststellen, dass das Timing nicht mehr passt: Die Sprechenden fallen sich ins Wort, es entstehen Pausen, die in der Aufnahme nicht da waren, und so weiter.
+:::
 
 Das Verhalten der einzelnen Items beim Verschieben wird durch die [Ripple-Einstellung](#Ripple-Editing) festgelegt. Du kannst jedoch das Ripple-Verhalten temporär nur für die aktuelle Aktion beeinflussen, indem du dabei `ALT`, `CTRL`oder `CMD` gedrückt hältst:
 - **`ALT` (Mac/Windows/Linux) gedrückt halten und Item verschieben**: Du verschiebst nur das oder die selektierten Items.
@@ -152,7 +149,9 @@ Das Verhalten der einzelnen Items beim Verschieben wird durch die [Ripple-Einste
 ### Audio-Inhalte nachträglich in das Projekt einfügen
 Um weitere Sounds oder Aufnahmen in dein Projekt einzufügen, kannst du einfach die gewünschten Dateien per Drag & Drop in dein Projekt ziehen. Wenn du die Datei in den [Timeline-Bereich [25]](GUI-Gesamtuebersicht) an eine Stelle im Projekt ziehst, an der keine Spur ist, erstellt Reaper eine neue Spur mit dem Inhalt der Datei und benennt diese dann nach dem Dateinamen.
 
-![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png?=20x20) **Achtung**:  Unter dem Menüpunkt `Edit -> Project Settings` kannst du einstellen wie Reaper mit diesen Mediendateien umgehen soll. Hier empfehlen wir auf jeden Fall die Einstllung `Copy media to project`. Am besten in den globalen Reaper Einstellungen unter `Options -> preferences` unter dem Punkt `Media`  das Kreuz bei `Copy imported media to project media directory` setzten. Sonst kann es passieren, dass du ungewollt Abhängigkeiten erschaffst, die dir später Probleme bereiten können.
+:::caution
+Unter dem Menüpunkt `Edit -> Project Settings` kannst du einstellen wie Reaper mit diesen Mediendateien umgehen soll. Hier empfehlen wir auf jeden Fall die Einstllung `Copy media to project`. Am besten in den globalen Reaper Einstellungen unter `Options -> preferences` unter dem Punkt `Media`  das Kreuz bei `Copy imported media to project media directory` setzten. Sonst kann es passieren, dass du ungewollt Abhängigkeiten erschaffst, die dir später Probleme bereiten können.
+:::
 
 ### Ausschneiden, kopieren und einfügen
 Um Audio innerhalb deines Projekts auszuschneiden oder zu kopieren, wählst du das zu kopierende Item oder setzt eine Zeit-Markierung. Klickst du dann mit der rechten Maustaste auf den gewählten Bereich (oder öffnest das `Edit`-Menü), kannst du entweder das Item kopieren (Standardverhalten; auch per `CTRL+C`oder `CMD+C`) oder den ausgewählten Bereich innerhalb eines Items. Ausschneiden funktioniert analog.

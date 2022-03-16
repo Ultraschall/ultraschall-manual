@@ -44,10 +44,10 @@ Wenn die Status-Anzeige bei allen gesetzten Markern grün ist, ist alles in Ordn
 
 ![Marker missing](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-missing.png) **Fehlende Markerbezeichnung:** *Marker brauchen immer einen Namen*
 
-___
-![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png?=20x20) **Achtung**: Nicht alle Podcatcher gehen gleich (gut) mit Kapitelmarken um. Für maximal kompatibilität empfehlen wir, immer einen Marker am Anfang deiner Aufnahme – also an der Position 00:00:00 – zu setzen.
+:::caution
+Nicht alle Podcatcher gehen gleich (gut) mit Kapitelmarken um. Für maximal kompatibilität empfehlen wir, immer einen Marker am Anfang deiner Aufnahme – also an der Position 00:00:00 – zu setzen.
 <!-- @TODO: Klären, ob das wirklich noch so in der Form notwendig ist. ! -->
-___
+:::
 
 ## 2. Render-Assistent
 Einmal kurz durchatmen, bevor du den Render-Assistenten[[20]](GUI-Gesamtuebersicht) öffnest, denn der gibt dir SEHR(!) viele Einstellmöglichkeiten, von denen wir dir hier nur die wichtigsten erklären werden. Die meisten anderen sind entweder für die Musikproduktion mit REAPER gedacht und/oder haben einen sinnvollen Default-Wert, den du nur ändern solltest, wenn du ganz genau weißt, was du tust.
