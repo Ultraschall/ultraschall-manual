@@ -17,13 +17,12 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/Einfuehrung">
+            to="/docs/introduction">
             <Translate
               id="index.actionButton"
                 description="action button to start reading">
                 Los geht's
           </Translate>
-
           </Link>
         </div>
       </div>

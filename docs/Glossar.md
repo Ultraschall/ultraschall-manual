@@ -1,19 +1,24 @@
 ---
-id: glossar
+id: glossary
 title: Glossar/Definitionen
 ---
 
 :::info
+
 Dieses Kapitel wird erst mit der V2 bearbeitet
+
 :::
 
 # Glossar/Definitionen
 
-### **Track:**
+## **Track:**
+
 Eine Spur für eine/n Sprecher/in
 
-### **Envelope:**
+## **Envelope:**
+
 Bei Audio beschreibt ein Envelope wie sich der Sound mit der Zeit verändert.
 
-### DAW
+## DAW
+
 Digital Audio Workstations
