@@ -25,7 +25,7 @@ Die Ziele der Post-Produktion sind (in absteigender Relevanz-Reihenfolge):
 
 Ultraschall lässt dir freie Hand und gibt dir alle Möglichkeiten für die manuelle Post-Produktion – nimmt dich bei Bedarf über die _Automated Mixing Pipeline (AMP)_ aber auch an die Hand und führt dich durch die wichtigsten Schritte (siehe auch Abschnitt [Automated Mixing Pipeline (AMP)](#Ultraschall-AMP-Automated-Mixing-Pipeline)).
 
-Außerdem bietet dir Ultraschall auf jeder Spur eine sinnvolle [Vorauswahl an Effekten](#Vorausgew%C3%A4hlte-Effekte-und-Plug-ins), du findest sie rechts unten im [Filter-Bereich [26]](GUI-Gesamtuebersicht), nachdem du im [Mixer-Bereich [24]](GUI-Gesamtuebersicht) auf der gewünschten Spur auf `FX` drückst:
+Außerdem bietet dir Ultraschall auf jeder Spur eine sinnvolle [Vorauswahl an Effekten](#Vorausgew%C3%A4hlte-Effekte-und-Plug-ins), du findest sie rechts unten im [Filter-Bereich [26]](GUI-overview), nachdem du im [Mixer-Bereich [24]](GUI-overview) auf der gewünschten Spur auf `FX` drückst:
 
 - **[DeNoise](#DeNoise)** (der ReaFir Rauschfilter zur Reduzierung von Rauschen oder Brummen mittels Anlernen von Störungsprofilen)
 - **[DeEsser](#DeEsser)** (ein Multiband-Kompressor zum Reduzieren von Zischlauten in der Stimme)
@@ -53,7 +53,7 @@ Im `Podcast`-Menü unter `Workflows`->`Ultraschall AMP - Automated Mixing Pipeli
 
 Die einzelnen Schritte der AMP sind der Reihe nach:
 
-**Step 1: Select all items for mixing** Wähle alle Items auf allen Spuren im [Timeline-Bereich [25]](GUI-Gesamtuebersicht) aus, die du durch die Mixing Pipeline verbessern lassen willst. In den meisten Fällen sind das alle Items (zur Erinnerung: Items sind die einzelnen Blöcke auf deinen Spuren) in deinem Projekt – dazu klickst du irgendwo in den [Spuren-Bereich [23]](GUI-Gesamtuebersicht) und wählst `CTRL + A` beziehungsweise `CMD + A`, um alle zu selektieren. Alternativ wählst du im Menü `Item`->`Select all`.
+**Step 1: Select all items for mixing** Wähle alle Items auf allen Spuren im [Timeline-Bereich [25]](GUI-overview) aus, die du durch die Mixing Pipeline verbessern lassen willst. In den meisten Fällen sind das alle Items (zur Erinnerung: Items sind die einzelnen Blöcke auf deinen Spuren) in deinem Projekt – dazu klickst du irgendwo in den [Spuren-Bereich [23]](GUI-overview) und wählst `CTRL + A` beziehungsweise `CMD + A`, um alle zu selektieren. Alternativ wählst du im Menü `Item`->`Select all`.
 
 Achtung: Der AMP ist für **Sprachspuren** konzipiert. Spuren mit Einspielern, vor allem Musik, sollten **nicht** durch den AMP laufen sondern am Ende nach Gehör dazugemischt werden.
 
@@ -61,7 +61,7 @@ Um schnell alle Items einer Spur auszuwählen, mache einen `Doppelklick` links a
 
 **Step 2: Normalize loudness of selected items to -23 LUFS** Diesen Schritt kannst du im Menü `Podcast`->`Workflows`->`Ultraschall AMP - Automated Mixing Pipeline` direkt anwählen. Ultraschall [normalisiert](#Normalisieren) dir dann automatisch alle in Schritt 1 ausgewählten Items auf -23 LUFS. Das ist zwar zu leise für die eigentliche Publikation, aber die perfekte Grundlage für die folgenden Schritte.
 
-**Step 3: Select tracks for the AMP** Wähle jetzt alle Spuren im [Spuren-Bereich [23]](GUI-Gesamtuebersicht) aus, die in der Mixing Pipeline berücksichtig werden sollen. Einzelne Spuren wählst du einfach mit einem Klick in den grauen Bereich oberhalb oder unterhalb der Spur-Namensfeldes. Um mehrere Spuren auszuwählen, hältst du beim Klicken die `CTRL`- beziehungsweise die `CMD`-Taste gedrückt.
+**Step 3: Select tracks for the AMP** Wähle jetzt alle Spuren im [Spuren-Bereich [23]](GUI-overview) aus, die in der Mixing Pipeline berücksichtig werden sollen. Einzelne Spuren wählst du einfach mit einem Klick in den grauen Bereich oberhalb oder unterhalb der Spur-Namensfeldes. Um mehrere Spuren auszuwählen, hältst du beim Klicken die `CTRL`- beziehungsweise die `CMD`-Taste gedrückt.
 
 **Step 4: Set AMP (Automated Mixing Pipeline) FX on selected tracks (Ultraschall)** Diesen Schritt kannst du im Menü `Podcast`->`Workflows`->`Ultraschall AMP - Automated Mixing Pipeline` direkt anwählen. Danach solltest du auf jeder der vorab ausgewählten Spuren einen aktivierten "JS: Ultraschall Dynamics (Ultraschall)-Effekt" vorfinden. Der gleicht die Lautheit der Tracks auf -20 LUFS an.
 

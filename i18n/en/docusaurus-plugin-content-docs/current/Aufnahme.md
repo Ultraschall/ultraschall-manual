@@ -24,7 +24,7 @@ Um nicht immer wieder von Neuem dein Aufnahme-Projekt anlegen zu müssen, kannst
 
 # Spuren anlegen
 
-Um später alle Sprechenden, die Musik und beispielsweise Soundeffekte bequem zu bearbeiten, legst du für jede Audioquelle eine eigene Spur im Bereich [Spuren [23]](GUI-Gesamtuebersicht) an.
+Um später alle Sprechenden, die Musik und beispielsweise Soundeffekte bequem zu bearbeiten, legst du für jede Audioquelle eine eigene Spur im Bereich [Spuren [23]](GUI-overview) an.
 
 In Ultraschall gibt es im Wesentlichen drei Arten von Spuren:
 
@@ -32,7 +32,7 @@ In Ultraschall gibt es im Wesentlichen drei Arten von Spuren:
 - **StudioLink Track** – etwa für einen Interview-Gast, den du übers Internet per StudioLink zuschaltest (siehe auch unten "Aufnehmen mit StudioLink")
 - **Ultraschall-Soundboard Track** – für Einspieler, die du während der Aufnahme über das Soundboard abspielst (siehe auch unten "[Das Soundboard verwenden](#das-soundboard-verwenden)")
 
-Reguläre Tracks, denen du im nächsten Schritt einzelne Sprechende beziehungsweise Spuren deines Multi-Track-Recorders (wie beispielsweise Zoom H6) zuordnest, legst du entweder mit einem Doppelklick in den [Spuren-Bereich [23]](GUI-Gesamtuebersicht)-Bereich an (siehe Screenshot) per Tastatur-Befehl `COMMAND+T` (Mac) beziehungsweise `CONTROL+T` (Windows/Mac) oder mit einem Rechtsklick in den [Spuren-Bereich [23]](GUI-Gesamtuebersicht) und dann ein Klick auf "Insert new track".
+Reguläre Tracks, denen du im nächsten Schritt einzelne Sprechende beziehungsweise Spuren deines Multi-Track-Recorders (wie beispielsweise Zoom H6) zuordnest, legst du entweder mit einem Doppelklick in den [Spuren-Bereich [23]](GUI-overview)-Bereich an (siehe Screenshot) per Tastatur-Befehl `COMMAND+T` (Mac) beziehungsweise `CONTROL+T` (Windows/Mac) oder mit einem Rechtsklick in den [Spuren-Bereich [23]](GUI-overview) und dann ein Klick auf "Insert new track".
 
 ![insert-new-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-new-track.jpg) **Neuen Track einfügen:** _Das Einfügen neuer Tracks ermöglicht die Aufnahme der einzelen Tonspruren_
 
@@ -61,11 +61,11 @@ Ein Audio Device kann mehrere Eingänge haben, die unterschiedlichen Spuren zuge
 
 Wenn du für alle Sprechenden, alle über StudioLink Zugeschalteten und für die Soundeffekte (im Soundboard) jeweils eigene Spuren angelegt hast, ist der nächste Schritt die Zuordnung von Spuren zu den Aufnahmekanälen – also zu den verschiedenen Mikrofonen, die an deinem Aufnahmegerät hängen. <!-- @TODO: Der Satz ist ein bisschen lang - kürzen? -->
 
-Alle Spuren, die du im Hauptfenster von Ultraschall angelegt hast, findest du im [Mixer-Bereich [24]](GUI-Gesamtuebersicht) wieder. Die Zuordnung erfolgt über die Track-Namen, die angezeigten Track-Nummern oder die Sortierung (im [Spuren-Bereich [23]](GUI-Gesamtuebersicht) von oben nach unten, was im [Mixer-Bereich [24]](GUI-Gesamtuebersicht) von links nach rechts entspricht): <!-- @TODO: Noch näher auf den Mixerbereich eingehen? -->
+Alle Spuren, die du im Hauptfenster von Ultraschall angelegt hast, findest du im [Mixer-Bereich [24]](GUI-overview) wieder. Die Zuordnung erfolgt über die Track-Namen, die angezeigten Track-Nummern oder die Sortierung (im [Spuren-Bereich [23]](GUI-overview) von oben nach unten, was im [Mixer-Bereich [24]](GUI-overview) von links nach rechts entspricht): <!-- @TODO: Noch näher auf den Mixerbereich eingehen? -->
 
 ![tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/tracks.png?=450x) **Spuren und Mixer:** _Jede Spur hat einen Mixer_
 
-Ultraschall versucht, alle Tracks und Aufnahme-Kanäle automatisch zuzuordnen. Sobald du aber feststellst, dass die Stimmen nicht korrekt auf den in Schritt "Spuren anlegen" benannten Tracks landen, kannst du im [Mixer [24]](GUI-Gesamtuebersicht) über die entsprechenden "Input"-Dropdown-Menüs die Zuordnungen manuell vornehmen oder korrigieren. Am besten gewöhnst du dir an, vor der Aufnahme alle lokalen Mikrofon-Tracks einmal kurz zu kontrollieren – **die StudioLink- und die Soundboard-Spuren werden immer automatisch korrekt zugeordnet**, sie brauchen keinen physikalischen Eingang und bleiben auf "Input: None" stehen.
+Ultraschall versucht, alle Tracks und Aufnahme-Kanäle automatisch zuzuordnen. Sobald du aber feststellst, dass die Stimmen nicht korrekt auf den in Schritt "Spuren anlegen" benannten Tracks landen, kannst du im [Mixer [24]](GUI-overview) über die entsprechenden "Input"-Dropdown-Menüs die Zuordnungen manuell vornehmen oder korrigieren. Am besten gewöhnst du dir an, vor der Aufnahme alle lokalen Mikrofon-Tracks einmal kurz zu kontrollieren – **die StudioLink- und die Soundboard-Spuren werden immer automatisch korrekt zugeordnet**, sie brauchen keinen physikalischen Eingang und bleiben auf "Input: None" stehen.
 
 ![track-assignment](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-assignment.png?=450x) **Eingänge zuweisen:** _Über das Dropdown-Menü kannst du den Eingang auswählen_
 
@@ -85,15 +85,15 @@ Das Routing dient dazu, dass die jeweiligen Teilnehmer:innen sich gegenseitig h�
 
 ## Magic Routing
 
-Mit der Version 5 haben wir das Magic Routing eingeführt. Dadurch wird dir das Routing komplett abgenommen. Ultraschall erkennt automatisch, ob du gerade schneidest oder aufnimmst, und schaltet dementsprechend das Routing um. Links am Rand des Bildschirms findest du die [Routing-Buttons [14-18]](GUI-Gesamtuebersicht) für folgenden Routing-Einstellungen:
+Mit der Version 5 haben wir das Magic Routing eingeführt. Dadurch wird dir das Routing komplett abgenommen. Ultraschall erkennt automatisch, ob du gerade schneidest oder aufnimmst, und schaltet dementsprechend das Routing um. Links am Rand des Bildschirms findest du die [Routing-Buttons [14-18]](GUI-overview) für folgenden Routing-Einstellungen:
 
 ![Magic Routing](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/magic-routing.png)
 
-- **MagicRouting (ein/aus)** [[14]](GUI-Gesamtuebersicht): Wenn eingeschaltet, kümmert sich Ultraschall automatisch um das richtig Routing. Du musst dabei nichts mehr machen.
-- **Preshow Routing** [[15]](GUI-Gesamtuebersicht): Wenn du über StudioLink-on-Air deinen Podcast live streamst, kannst du hiermit einstellen, dass im Stream zwar schon dein Soundboard zu hören ist, aber noch keine Sprecherinnen oder Sprecher. <!-- @todo: richtig so? -->
-- **Aufnahme Routing** [[16]](GUI-Gesamtuebersicht): Zum eigentlichen Aufnehmen deines Podcasts.
-- **Schnitt Routing** [[17]](GUI-Gesamtuebersicht): Zum Schneiden der Aufnahme (siehe "Prepare all tracks for editing" (XX)).
-- **StudioLink-on-Air (ein/aus)** [[18]](GUI-Gesamtuebersicht): Passt das Routing für deinen "StudioLink-on-Air"-Stream (XX) an.
+- **MagicRouting (ein/aus)** [[14]](GUI-overview): Wenn eingeschaltet, kümmert sich Ultraschall automatisch um das richtig Routing. Du musst dabei nichts mehr machen.
+- **Preshow Routing** [[15]](GUI-overview): Wenn du über StudioLink-on-Air deinen Podcast live streamst, kannst du hiermit einstellen, dass im Stream zwar schon dein Soundboard zu hören ist, aber noch keine Sprecherinnen oder Sprecher. <!-- @todo: richtig so? -->
+- **Aufnahme Routing** [[16]](GUI-overview): Zum eigentlichen Aufnehmen deines Podcasts.
+- **Schnitt Routing** [[17]](GUI-overview): Zum Schneiden der Aufnahme (siehe "Prepare all tracks for editing" (XX)).
+- **StudioLink-on-Air (ein/aus)** [[18]](GUI-overview): Passt das Routing für deinen "StudioLink-on-Air"-Stream (XX) an.
 
 <!-- @todo: entscheiden was mit den Links passiert https://youtu.be/ND4AG43wSPQ (US 4 irgendwo) https://www.youtube.com/watch?v=vdLpynu1ixE&t=91m https://www.youtube.com/watch?v=vdLpynu1ixE&t=5437s -->
 
@@ -101,7 +101,7 @@ Mit der Version 5 haben wir das Magic Routing eingeführt. Dadurch wird dir das 
 
 Wenn du lieber manuell das Routing einstellen willst, kannst du das über die Einstellungen unter Menü "View -> Routing Matrix" oder mit `OPTION+R` machen.
 
-In der [Routing-Matrix [27]](GUI-Gesamtuebersicht) wird grafisch angezeigt, welche Personen sich gegenseitig hören. Dies lässt sich auch manuell verändern, ist aber seit der Einführung von Magic Routing nur noch selten notwendig (und wird nicht empfohlen).
+In der [Routing-Matrix [27]](GUI-overview) wird grafisch angezeigt, welche Personen sich gegenseitig hören. Dies lässt sich auch manuell verändern, ist aber seit der Einführung von Magic Routing nur noch selten notwendig (und wird nicht empfohlen).
 
 **Video:** _Ab Minute 49 wird in dem Video unten erklärt, wie das Routing in älteren Versionen angepasst wurde._
 
@@ -145,7 +145,7 @@ Eine StudioLink-Spur lässt sich über das Menü `Podcast -> Insert StudioLink a
 
 --------------------------------------------------------------------------------
 
-![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/Aufnahme/assets/images/allgemein/Achtung.png?=20x20) **Achtung**: Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-Gesamtuebersicht) beziehungsweise im [Mixer-Bereich [24]](GUI-Gesamtuebersicht). Es öffnet sich aber ein Browserfenster im Standardbrowser, in dem die eigentliche Verbindung aufgebaut wird. Wenn du Windows verwendest, darfst du das Terminalfenster nicht schließen, sonst kannst du keine Verbindung aufbauen. <!-- @TODO: Mit Sebastian abklären wie die Anleitung von StudioLink aktuell gehalten werden soll. ! -->
+![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/Aufnahme/assets/images/allgemein/Achtung.png?=20x20) **Achtung**: Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-overview) beziehungsweise im [Mixer-Bereich [24]](GUI-overview). Es öffnet sich aber ein Browserfenster im Standardbrowser, in dem die eigentliche Verbindung aufgebaut wird. Wenn du Windows verwendest, darfst du das Terminalfenster nicht schließen, sonst kannst du keine Verbindung aufbauen. <!-- @TODO: Mit Sebastian abklären wie die Anleitung von StudioLink aktuell gehalten werden soll. ! -->
 
 --------------------------------------------------------------------------------
 
@@ -161,7 +161,7 @@ Das Browserfenster öffnet sich seperat. (Bitte folge hierfür der Anleitung auf
 
 Das Terminalfenster bei Winwows darf nicht geschlossen werden.
 
-<!-- @todo: Link stimmt nicht --> ![Windows Terminal Fenster](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/studiolink_konsole.png?=750x) **Windows Terminal Fenster:** _Das Terminalfenster nicht schließen, sonst funktioniert StuidoLink nicht_ ## Das Soundboard verwenden ### Soundboard-Spur einfügen Ultraschall kommt mit einem eigenen Soundboard, über das du während der Aufnahme Musik und Klangeffekte einspielen kannst, z. B. dein Intro, Trenner oder andere Audioschnipsel. Eine Soundboard-Spur fügst du über das Menü "Podcast -> Insert StudioLink and Soundboard tracks -> Insert Ultraschall-Soundboard track" ein. Alternativ kannst du auch mit der rechten Maustaste in den [Spuren-Bereich [23]](GUI-Gesamtuebersicht) klicken und dort die entsprechende Option auswählen. <!-- @TODO: einheitliche Begriffe für Programm-Bereiche und Funktionen? -->
+<!-- @todo: Link stimmt nicht --> ![Windows Terminal Fenster](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/studiolink_konsole.png?=750x) **Windows Terminal Fenster:** _Das Terminalfenster nicht schließen, sonst funktioniert StuidoLink nicht_ ## Das Soundboard verwenden ### Soundboard-Spur einfügen Ultraschall kommt mit einem eigenen Soundboard, über das du während der Aufnahme Musik und Klangeffekte einspielen kannst, z. B. dein Intro, Trenner oder andere Audioschnipsel. Eine Soundboard-Spur fügst du über das Menü "Podcast -> Insert StudioLink and Soundboard tracks -> Insert Ultraschall-Soundboard track" ein. Alternativ kannst du auch mit der rechten Maustaste in den [Spuren-Bereich [23]](GUI-overview) klicken und dort die entsprechende Option auswählen. <!-- @TODO: einheitliche Begriffe für Programm-Bereiche und Funktionen? -->
 
  ### Möglichkeit 1: über das Podcast-Menü
 
@@ -179,7 +179,7 @@ Das Terminalfenster bei Winwows darf nicht geschlossen werden.
 
 ## Bedienung
 
-Um dem Soundboard beizubringen, wo die entsprechenden Sound-Dateien liegen, wählst du die entsprechende Spur und wechselst mittels Klick auf den zugehörigen FX-Button der Spur im [Mixer-Bereich [24]](GUI-Gesamtuebersicht) in die Ansicht für die Plugin-Liste. Dort stellst du sicher, dass das Soundboard-Plugin aktiviert ist (Haken ist gesetzt). Über das Ordner-Symbol oben links im Plugin-Bereich legst du das Verzeichnis fest, in dem du die Sound-Dateien fürs Soundboard abgespeichert hast.
+Um dem Soundboard beizubringen, wo die entsprechenden Sound-Dateien liegen, wählst du die entsprechende Spur und wechselst mittels Klick auf den zugehörigen FX-Button der Spur im [Mixer-Bereich [24]](GUI-overview) in die Ansicht für die Plugin-Liste. Dort stellst du sicher, dass das Soundboard-Plugin aktiviert ist (Haken ist gesetzt). Über das Ordner-Symbol oben links im Plugin-Bereich legst du das Verzeichnis fest, in dem du die Sound-Dateien fürs Soundboard abgespeichert hast.
 
 ![soundboard-activation](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/soundboard-activation_new.png) **Soundboard Aktivierung**: _So aktivierst du ein Soundboard_
 

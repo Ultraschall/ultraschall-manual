@@ -35,13 +35,13 @@ def translateFile(filename):
                                                       glossary=glossary_de_to_en))
 
    # convert file to txt
-   shutil.copy2("../docs/de/"+filename + '.md', "../docs/de/"+filename+'.txt')
+   shutil.copy2("../docs/"+filename + '.md', "../docs/"+filename+'.txt')
 
     # Translate a formal document from English to German
    try:
        translator.translate_document_from_filepath(
-           "../docs/de/"+filename+".txt",
-           "../i18n/en/docusaurus-plugin-content-docs/current"+translatedFilename+".txt",
+           "../docs/"+filename+".txt",
+           "../i18n/en/docusaurus-plugin-content-docs/current/"+translatedFilename+".txt",
            source_lang="DE",
            target_lang="EN-GB",
            glossary=glossary_de_to_en
@@ -61,10 +61,10 @@ def translateFile(filename):
         print(error)
 
 
-   shutil.copy2("../docs/en/"+translatedFilename+".txt", "..../i18n/en/docusaurus-plugin-content-docs/current"+translatedFilename+".md")
+   shutil.copy2("../i18n/en/docusaurus-plugin-content-docs/current/"+translatedFilename+".txt", "../i18n/en/docusaurus-plugin-content-docs/current/"+translatedFilename+".md")
    # delte txt file
-   os.remove("../docs/de/"+ filename + ".txt")
-   os.remove("../i18n/en/docusaurus-plugin-content-docs/current"+ translatedFilename + ".txt")
+   os.remove("../docs/"+ filename + ".txt")
+   os.remove("../i18n/en/docusaurus-plugin-content-docs/current/"+ translatedFilename + ".txt")
 
 '''
 with_glossary = translator.translate_text_with_glossary(

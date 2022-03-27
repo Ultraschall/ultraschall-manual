@@ -32,7 +32,7 @@ Um deine Arbeitsweise zu beschleunigen, gibt es in Ultraschall zahlreiche Tasten
 
 **Trackpad-/Mausradfunktionen** Trackpads und Mausrad kommen sich leider in den Belegungen in die Quere. Das Mausrad hat nun folgende Belegungen, die so auch in nahezu allen anderen Schnittprogrammen zu finden sind:
 
-`Scroll` – Verikales Scrollen des [Timeline-Arbeitsbereichs [25]](GUI-Gesamtuebersicht) `Scroll` + `Shift` – Horizontales Scrollen des [Timeline-Arbeitsbereichs [25]](GUI-Gesamtuebersicht) `Scroll` + `Alt` – Horizontaler Zoom `Scroll` + `cmd/strg` – Vertikaler Zoom `Klick` + `Drag` – Freies Verschieben des [Timeline-Arbeitsbereichs [25]](GUI-Gesamtuebersicht) `Klick` – Setzt den Edit-Cursor ohne Auswahl von Spuren/items
+`Scroll` – Verikales Scrollen des [Timeline-Arbeitsbereichs [25]](GUI-overview) `Scroll` + `Shift` – Horizontales Scrollen des [Timeline-Arbeitsbereichs [25]](GUI-overview) `Scroll` + `Alt` – Horizontaler Zoom `Scroll` + `cmd/strg` – Vertikaler Zoom `Klick` + `Drag` – Freies Verschieben des [Timeline-Arbeitsbereichs [25]](GUI-overview) `Klick` – Setzt den Edit-Cursor ohne Auswahl von Spuren/items
 
 **Schnitte Prüfen** Die Shortcuts `alt`+ `cmd`+ `left` und `alt` + `cmd` + `right` springen zur nächsten Itemkante (bei ausgewählten Tracks nur auf ebendiesen), springen dann noch um den in den Ultraschall-Settings angegebenen Wert des Previews zurück und spielen den Schnitt dann ab. Perfekt zum schnellen Kontrollieren aller Schnitte in einem Projekt.
 
@@ -62,7 +62,7 @@ Wichtig ist hierbei darauf zu achten, dass Ihr in der Scope-Auswahlliste NICHT G
 
 ### Eigene Shortcuts anlegen und benutzen
 
-In diesem Beispiel ist zu sehen wie der eben gesetzte Shortcut(`Alt`+ `Eingabe`) so geändet wird, dass er auf nicht-global gesetzt ist, also nur dann funktioniert, wenn der Tastaturfokus auf den [Spuren [23]](GUI-Gesamtuebersicht) oder dem [Mixer [24]](GUI-Gesamtuebersicht) liegt.
+In diesem Beispiel ist zu sehen wie der eben gesetzte Shortcut(`Alt`+ `Eingabe`) so geändet wird, dass er auf nicht-global gesetzt ist, also nur dann funktioniert, wenn der Tastaturfokus auf den [Spuren [23]](GUI-overview) oder dem [Mixer [24]](GUI-overview) liegt.
 
 Im Actions-Dialog gibts oben einen praktischen Button `Find shortcut`. Wenn Du diesen anklickst, kannst Du dort den Shortcut eingeben und Du wirst zu der Action weitergeleitet, die mit dem Shortcut verknüpft ist.
 
