@@ -1,33 +1,57 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: 'Einfach zum loslegen',
+    title:  <Translate
+        id="Feature.simpleGuideHeadline"
+          description="Guide headline">
+            Einfach zum loslegen </Translate>,
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-       Einfache Anleitung - von Ultraschall-Nutzer für Ultraschall-Nutzer
+      <Translate
+        id="Feature.simpleGuide"
+          description="Guide">
+            Einfache Anleitung - von Ultraschall-Nutzer für Ultraschall-Nutzer
+       </Translate>
       </>
     ),
   },
   {
-    title: 'Reduziert auf das Wichtigste',
+    title:  <Translate
+        id="Feature.reducedToTheEssentialsHeadline"
+          description="reducedToTheEssentials headline">
+            Reduziert auf das Wichtigste
+          </Translate>          ,
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-      Du musst keine 100 Seiten Bedienungsanleitung lesen, um mit Ultraschall loszulegen.
-      Das Ultraschall-Handbuch ist kompakt und auf den Punkt.
+      <Translate
+          id="Feature.reducedToTheEssentials"
+          description="reduced to the essentials">
+            Du musst keine 100 Seiten Bedienungsanleitung lesen, um mit Ultraschall loszulegen.
+            Das Ultraschall-Handbuch ist kompakt und auf den Punkt.
+      </Translate>
       </>
-    ),
+        )
   },
   {
-    title: 'Weiterentwickelt von euch',
+    title: <Translate
+          id="Feature.furtherDevelopedByYouHeadline"
+          description="further developed by yo">
+          Weiterentwickelt von euch
+          </Translate>,
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Hilf auch Du mit, dieses Handbuch noch ein kleines bisschen besser zu machen.
+      <Translate
+        id="Feature.furtherDevelopedByYou"
+          description="further developed by you">
+            Hilf auch Du mit, dieses Handbuch noch ein kleines bisschen besser zu machen.
+        </Translate>
       </>
     ),
   },

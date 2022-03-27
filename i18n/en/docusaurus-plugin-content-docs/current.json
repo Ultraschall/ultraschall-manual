@@ -18,5 +18,9 @@
   "sidebar.tutorialSidebar.category.Fortgeschrittene": {
     "message": "Fortgeschrittene",
     "description": "The label for category Fortgeschrittene in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Grundfunktionen": {
+    "message": "Grundfunktionen",
+    "description": "The label for category Grundfunktionen in sidebar tutorialSidebar"
   }
 }
