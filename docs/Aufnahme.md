@@ -16,7 +16,11 @@ Jetzt kann die eigentliche Aufnahme beginnen. In diesem Kapitel lernst du wie du
 
 REAPER öffnet beim Starten immer das zuletzt bearbeitete Projekt. Findet REAPER kein letztes Projekt, öffnet REAPER ein neues leeres Projekt. Dieses Projekt kannst du über das Menü `File -> save project` oder mit `STRG+S` speichern. Nimmst du etwas auf, bevor du das Projekt gespeichert hast, werden die Audiodateien im Ordner 'Dokumente/REAPER Media' gespeichert. Ein neues Projekt kannst du über `File -> New Project` oder `CONTROL+N` anlegen.
 
-:::info **Tipp:** Du solltest immer vor der Aufnahme dein Projekt abspeichern, das erspart dir hinterher Datenchaos. Der [Soundcheck](https://pad.gwdg.de/AfIRFYAlQ5mM1PvSHIZCvg?both#Soundcheck) hilft dir dabei, das nicht zu vergessen. :::
+:::info
+
+**Tipp:** Du solltest immer vor der Aufnahme dein Projekt abspeichern, das erspart dir hinterher Datenchaos. Der [Soundcheck](https://pad.gwdg.de/AfIRFYAlQ5mM1PvSHIZCvg?both#Soundcheck) hilft dir dabei, das nicht zu vergessen.
+
+:::
 
 # Project Templates
 
@@ -143,7 +147,11 @@ Eine StudioLink-Spur lässt sich über das Menü `Podcast -> Insert StudioLink a
 
  ![isert-new-studiolink-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_insert_track.png) **Screenshot:** _Einfügen einer StudioLink-Spur über das Menü_
 
-:::caution Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-Gesamtuebersicht) beziehungsweise im [Mixer-Bereich [24]](GUI-Gesamtuebersicht). Es öffnet sich aber ein Browserfenster im Standardbrowser, in dem die eigentliche Verbindung aufgebaut wird. Wenn du Windows verwendest, darfst du das Terminalfenster nicht schließen, sonst kannst du keine Verbindung aufbauen. <!-- @TODO: Mit Sebastian abklären wie die Anleitung von StudioLink aktuell gehalten werden soll. ! --> :::
+:::caution
+
+Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-Gesamtuebersicht) beziehungsweise im [Mixer-Bereich [24]](GUI-Gesamtuebersicht). Es öffnet sich aber ein Browserfenster im Standardbrowser, in dem die eigentliche Verbindung aufgebaut wird. Wenn du Windows verwendest, darfst du das Terminalfenster nicht schließen, sonst kannst du keine Verbindung aufbauen. <!-- @TODO: Mit Sebastian abklären wie die Anleitung von StudioLink aktuell gehalten werden soll. ! -->
+
+:::
 
 ## Studiolinkfenster
 
@@ -167,7 +175,11 @@ Das Terminalfenster bei Winwows darf nicht geschlossen werden.
 
 ![alternative-soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/add-soundboard-2.png) **Soundboard einfügen:** _Mit einem Rechtsklick kannst du ebenfalls eine soundboard Spur einfügen_
 
-:::caution Wir empfehlen, pro Projekt nur eine Soundboard-Spur anzulegen. Sounds für ein Projekt sollten also vor der Aufnahme aus unterschiedlichen Verzeichnissen in einem Soundboard zusammengestellt werden. :::
+:::caution
+
+Wir empfehlen, pro Projekt nur eine Soundboard-Spur anzulegen. Sounds für ein Projekt sollten also vor der Aufnahme aus unterschiedlichen Verzeichnissen in einem Soundboard zusammengestellt werden.
+
+:::
 
 ## Bedienung
 
@@ -175,7 +187,13 @@ Um dem Soundboard beizubringen, wo die entsprechenden Sound-Dateien liegen, wäh
 
 ![soundboard-activation](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/soundboard-activation_new.png) **Soundboard Aktivierung**: _So aktivierst du ein Soundboard_
 
-So sieht ein mit diversen Clips belegtes Soundboard aus. :::info **Tipp**: Die Dateien werden hier immer alphabetisch sortiert angezeigt. Willst du lieber eine Sortierung in der Reihenfolge, wie du sie vielleicht auch in deiner Aufnahme verwendest, stellst du am besten dem Dateinamen eine Zahl voran. :::
+So sieht ein mit diversen Clips belegtes Soundboard aus.
+
+:::info
+
+**Tipp**: Die Dateien werden hier immer alphabetisch sortiert angezeigt. Willst du lieber eine Sortierung in der Reihenfolge, wie du sie vielleicht auch in deiner Aufnahme verwendest, stellst du am besten dem Dateinamen eine Zahl voran.
+
+:::
 
 ![soundboard-filled](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/soundboard-filled.png) **Soundboard**: _So sieht ein gefülltes Soundboard aus_
 

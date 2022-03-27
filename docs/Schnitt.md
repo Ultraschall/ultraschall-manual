@@ -12,7 +12,7 @@ tags:
 
 <!-- @todo: kurze Zusammenfassung schreiben -->
 
-# Wichtig zu wissen
+ # Wichtig zu wissen
 
 Reaper schneidet [nicht-destruktiv](https://de.wikipedia.org/wiki/Nicht-destruktive_Bearbeitung). Das heißt, deine Audiodateien werden nicht direkt bearbeitet, sondern bleiben unverändert erhalten. Du kannst beim Schnitt also gar nichts falsch oder kaputt machen. Im Notfall einfach ein Backup einspielen oder wenn es ganz schlimm kommt, noch mal von vorne anfangen. Ultraschall macht seit der Version 5 alle 10 Minuten ein Backup deiner Projektdatei (nicht der Audiodateien) und speichert diese im Projektordner. Um diese wieder herzustellen, siehe: ([Backup wieder herstellen](https://pad.gwdg.de/sLRAFF9eS0OwYFuobe_wZw?both#Ein-Backup-wieder-einspielen)).
 
@@ -61,7 +61,11 @@ Button [[8]](GUI-Gesamtuebersicht) zeigt beziehungsweise versteckt die Mute-Enve
 
 ## Verschieben von Items (Spurinhalten)
 
-:::caution Willst du in der [Timeline [25]](GUI-Gesamtuebersicht) einzelne Elemente ("Items") auf deinen Spuren verschieben, solltest du extrem vorsichtig vorgehen – es passiert dabei sehr schnell, dass snychron aufgenommene Spuren dadurch "verrutschen". Beim Anhören wirst du feststellen, dass das Timing nicht mehr passt: Die Sprechenden fallen sich ins Wort, es entstehen Pausen, die in der Aufnahme nicht da waren, und so weiter. :::
+:::caution
+
+Willst du in der [Timeline [25]](GUI-Gesamtuebersicht) einzelne Elemente ("Items") auf deinen Spuren verschieben, solltest du extrem vorsichtig vorgehen – es passiert dabei sehr schnell, dass snychron aufgenommene Spuren dadurch "verrutschen". Beim Anhören wirst du feststellen, dass das Timing nicht mehr passt: Die Sprechenden fallen sich ins Wort, es entstehen Pausen, die in der Aufnahme nicht da waren, und so weiter.
+
+:::
 
 Das Verhalten der einzelnen Items beim Verschieben wird durch die [Ripple-Einstellung](#Ripple-Editing) festgelegt. Du kannst jedoch das Ripple-Verhalten temporär nur für die aktuelle Aktion beeinflussen, indem du dabei `ALT`, `CTRL`oder `CMD` gedrückt hältst:
 
@@ -77,7 +81,11 @@ Das Verhalten der einzelnen Items beim Verschieben wird durch die [Ripple-Einste
 
 Um weitere Sounds oder Aufnahmen in dein Projekt einzufügen, kannst du einfach die gewünschten Dateien per Drag & Drop in dein Projekt ziehen. Wenn du die Datei in den [Timeline-Bereich [25]](GUI-Gesamtuebersicht) an eine Stelle im Projekt ziehst, an der keine Spur ist, erstellt Reaper eine neue Spur mit dem Inhalt der Datei und benennt diese dann nach dem Dateinamen.
 
-:::caution Unter dem Menüpunkt `Edit -> Project Settings` kannst du einstellen wie Reaper mit diesen Mediendateien umgehen soll. Hier empfehlen wir auf jeden Fall die Einstllung `Copy media to project`. Am besten in den globalen Reaper Einstellungen unter `Options -> preferences` unter dem Punkt `Media` das Kreuz bei `Copy imported media to project media directory` setzten. Sonst kann es passieren, dass du ungewollt Abhängigkeiten erschaffst, die dir später Probleme bereiten können. :::
+:::caution
+
+Unter dem Menüpunkt `Edit -> Project Settings` kannst du einstellen wie Reaper mit diesen Mediendateien umgehen soll. Hier empfehlen wir auf jeden Fall die Einstllung `Copy media to project`. Am besten in den globalen Reaper Einstellungen unter `Options -> preferences` unter dem Punkt `Media` das Kreuz bei `Copy imported media to project media directory` setzten. Sonst kann es passieren, dass du ungewollt Abhängigkeiten erschaffst, die dir später Probleme bereiten können.
+
+:::
 
 ## Ausschneiden, kopieren und einfügen
 
