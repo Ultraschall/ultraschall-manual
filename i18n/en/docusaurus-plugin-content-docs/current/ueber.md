@@ -1,5 +1,5 @@
 ---
-id: ueber
+id: about
 title: Über
 ---
 

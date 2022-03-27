@@ -1,16 +1,17 @@
 ---
-id: mitwirkende
+id: partcipants
 title: Mitwirkende
 ---
 
-## Kernteam:
+# Kernteam:
 
-* Nucleus
-* rstockm
-* Gero
-* Jürgen
-* Heiko
+- Nucleus
+- rstockm
+- Gero
+- Jürgen
+- Heiko
 
-## Danksagung:
-* [mespotine](https://mespotine.de)
-* Leonid Lezner
+# Danksagung:
+
+- [mespotine](https://mespotine.de)
+- Leonid Lezner

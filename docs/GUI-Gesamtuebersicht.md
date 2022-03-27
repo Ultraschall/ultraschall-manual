@@ -1,5 +1,5 @@
 ---
-id: GUI-Gesamtuebersicht
+id: GUI-overview
 title: Übersicht über die Bedienelemente und Bereiche
 lektorat:
     - Lektorat: 27.3.2022 @MirUnauffaellig
@@ -10,6 +10,7 @@ lektorat:
 <!-- @todo: Links auf die entsprechenden Kapitel hinzufügen Git main umziehen -->
 
 ![Übersicht der Bedienelemente](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/GUI-Gesamtuebersicht/Uebersichta.png) **Übersicht**: *Bedienelemente und Bereiche | [Copyright © Leonid Lezner CC-BY 2.0](https://raw.githubusercontent.com/leonidlezner/ultraschall-tutorial/main/docs/downloads/Quick-Info-Ultraschall.pdf)*
+
 
 ## Funktionen der Bedienelemente
 
