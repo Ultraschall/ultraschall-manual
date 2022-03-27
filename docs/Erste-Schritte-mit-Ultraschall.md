@@ -67,19 +67,11 @@ Um Inhalte über alle Spuren hinweg zu entfernen (zum Beispiel am Anfang und End
 
 -Taste einen In- und einen Out-Point für die aktuelle Auswahl setzt. Den selektierten Bereich entfernst du mit dem Tastenkürzel
 
-<kbd>Cmd</kbd>
-
-+
-
-<kbd>X</kbd>
+<kbd>Cmd</kbd> + <kbd>X</kbd>
 
 (Mac) beziehungsweise
 
-<kbd>Ctrl</kbd>
-
-+
-
-<kbd>X</kbd>
+<kbd>Ctrl</kbd> + <kbd>X</kbd>
 
 (Windows, Linux) oder per Klick auf den Schnitt-Button [[12]](GUI-overview#buttons-views).
 
