@@ -65,19 +65,19 @@ Um Inhalte über alle Spuren hinweg zu entfernen (zum Beispiel am Anfang und End
 
 <kbd>Cmd</kbd>
 
- +
++
 
 <kbd>X</kbd>
 
- (Mac) beziehungsweise
+(Mac) beziehungsweise
 
 <kbd>Ctrl</kbd>
 
- +
++
 
 <kbd>X</kbd>
 
- (Windows, Linux) oder per Klick auf den Schnitt-Button [[12]](GUI-Gesamtuebersicht.md#buttons-views).
+(Windows, Linux) oder per Klick auf den Schnitt-Button [[12]](GUI-Gesamtuebersicht.md#buttons-views).
 
 <!-- ![Schnitt](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-ripple-cut.png) -->
 
@@ -107,8 +107,8 @@ Der Exportassistent vereinfacht das Exportieren deines Projekts, indem er dich d
 4. Podcast Episode Image (Podcast-Episodencover)
 5. Finalize MP3 (Fertigstellung des Exports)
 
-<!-- ![Exportassistent grün](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/Export_Assistent_alles_gruen.jpg) --> **Exportassistent:** _Wenn alles bereit zum Finalisieren ist, steht bei jedem Punkt: `OK`._
+<!-- ![Exportassistent grün](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/Export_Assistent_alles_gruen.jpg) **Exportassistent:** _Wenn alles bereit zum Finalisieren ist, steht bei jedem Punkt: `OK`._ -->
 
-Während du die einzelnen Schritte durchläufst, wechselt die Farbe von Gelb oder Rot auf Grün (OK). Ziel sollte es sein, alle Aspekte mit einem `OK` (grün) zu versehen – wie relevant die einzelnen Schritte aber für dich und dein Podcast-Projekt sind, ist individuell mitunter sehr unterschiedlich. Die fertige Audiodatei und eventuell auch deine Kapitelmarken liegen im Anschluss in deinem Projektordner. Diese kann du jetzt weiterverarbeiten und veröffentlichen. Glückwunsch, du hast erfolgreich deine erste Podcast-Episode aufgenommen, geschnitten und exportiert!
+ Während du die einzelnen Schritte durchläufst, wechselt die Farbe von Gelb oder Rot auf Grün (OK). Ziel sollte es sein, alle Aspekte mit einem `OK` (grün) zu versehen – wie relevant die einzelnen Schritte aber für dich und dein Podcast-Projekt sind, ist individuell mitunter sehr unterschiedlich. Die fertige Audiodatei und eventuell auch deine Kapitelmarken liegen im Anschluss in deinem Projektordner. Diese kann du jetzt weiterverarbeiten und veröffentlichen. Glückwunsch, du hast erfolgreich deine erste Podcast-Episode aufgenommen, geschnitten und exportiert!
 
 [Erfahre mehr...](Export.md)
