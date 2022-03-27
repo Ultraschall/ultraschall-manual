@@ -47,7 +47,11 @@ Die Einbindung von weiteren Sprechenden über das Internet ist im Kapitel [Aufna
 
 In vielen Fällen besteht die Podcast-Produktion lediglich aus Schnitt, Audioproduktion und Export. Das heißt aber nicht, dass mit Ultraschall nicht auch komplexere Szenarien wie zum Beispiel aufwändige Hörspielproduktionen möglich wären – die Details hierzu findest du in den entsprechenden [späteren Kapiteln](Aufnahme-fuer-Fortgeschrittene.md).
 
-:::danger Nach Ende deiner Aufnahme und vor dem Schnitt solltest unbedingt aus dem `Podcast`-Menü `Prepare all tracks for editing` aufrufen. Danach sind Spuren und Studio-Link-Verbindungen deaktiviert, das Routing angepasst – und die Oberfläche insgesamt so voreingestellt, dass du kaum Fehlerrisiko, dafür aber maximalen Bedienkomfort hast. :::
+:::danger
+
+Nach Ende deiner Aufnahme und vor dem Schnitt solltest unbedingt aus dem `Podcast`-Menü `Prepare all tracks for editing` aufrufen. Danach sind Spuren und Studio-Link-Verbindungen deaktiviert, das Routing angepasst – und die Oberfläche insgesamt so voreingestellt, dass du kaum Fehlerrisiko, dafür aber maximalen Bedienkomfort hast.
+
+:::
 
 ## Schnitt
 
