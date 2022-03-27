@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "Ultraschall Hanndbuch",
+    "message": "Ultraschall Manual",
     "description": "The title in the navbar"
   },
   "item.label.Handbuch": {
-    "message": "Handbuch",
+    "message": "Manual",
     "description": "Navbar item with label Handbuch"
   },
   "item.label.GitHub": {

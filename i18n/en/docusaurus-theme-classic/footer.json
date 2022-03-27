@@ -8,7 +8,7 @@
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.item.label.Webseite": {
-    "message": "Webseite",
+    "message": "Website",
     "description": "The label of footer link with label=Webseite linking to https://ultraschall.fm"
   },
   "link.item.label.Sendegate": {
@@ -26,5 +26,25 @@
   "copyright": {
     "message": "Copyright © 2022 Ultraschall, Inc. Built with Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.title.Community>": {
+    "message": "Community>",
+    "description": "The title of the footer links column with title=Community> in the footer"
+  },
+  "link.title.Mehr": {
+    "message": "More",
+    "description": "The title of the footer links column with title=Mehr in the footer"
+  },
+  "link.title.Rechtliches": {
+    "message": "Legal",
+    "description": "The title of the footer links column with title=Rechtliches in the footer"
+  },
+  "link.item.label.Mitwirkende": {
+    "message": "Contributors",
+    "description": "The label of footer link with label=Mitwirkende linking to /docs/mitwirkende"
+  },
+  "link.item.label.Datenschutzerklärung": {
+    "message": "Privacy policy",
+    "description": "The label of footer link with label=Datenschutzerklärung linking to https://ultraschall.fm/datenschutzerklaerung/"
   }
 }
