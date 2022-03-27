@@ -1,4 +1,8 @@
 ## Core latex/pdflatex auxiliary files:
+.vscode/
+.vscode/*
+.vscode/*.*
+.vscode
 *.aux
 *.lof
 *.log
