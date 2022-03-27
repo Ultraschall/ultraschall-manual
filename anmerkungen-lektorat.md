@@ -14,8 +14,17 @@
 		* 	`Podcast`
 		*  `Podcast`>`Prepare all tracks for editing`
 	*  Infoboxen gibt es in folgenden "Geschmacksrichtungen":
-		* :::info
-		* :::warning
+		* `:::note`
+		* `:::tip`
+		* `:::info`
+		* `:::danger`
+		* `:::caution`
+		* Die Titel lassen sich beeinflussen `:::danger Title here!`, zur Einheitlichkeit verwenden wir folgende Boxen und Kombinationen:
+			* `:::note Hinweis`
+			* `:::tip Tipp`
+			* `:::info Info`
+			* `:::danger Achtung!`
+		* Mehr Info dazu: https://docusaurus.io/docs/markdown-features/admonitions
 	 
 * [ ] Anreden: 
 	* Singular, klein (du, dein, ...)
