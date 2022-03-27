@@ -112,7 +112,7 @@ Der Exportassistent vereinfacht das Exportieren deines Projekts, indem er dich d
 4. Podcast Episode Image (Podcast-Episodencover)
 5. Finalize MP3 (Fertigstellung des Exports)
 
-<!-- ![Exportassistent grün](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/Export_Assistent_alles_gruen.jpg) --> **Exportassistent:** _Wenn alles bereit zum Finalisieren ist, steht bei jedem Punkt: `OK`._
+![Exportassistent grün](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/Export_Assistent_alles_gruen.jpg) --> **Exportassistent:** _Wenn alles bereit zum Finalisieren ist, steht bei jedem Punkt: `OK`.
 
 Während du die einzelnen Schritte durchläufst, wechselt die Farbe von Gelb oder Rot auf Grün (OK). Ziel sollte es sein, alle Aspekte mit einem `OK` (grün) zu versehen – wie relevant die einzelnen Schritte aber für dich und dein Podcast-Projekt sind, ist individuell mitunter sehr unterschiedlich. Die fertige Audiodatei und eventuell auch deine Kapitelmarken liegen im Anschluss in deinem Projektordner. Diese kann du jetzt weiterverarbeiten und veröffentlichen. Glückwunsch, du hast erfolgreich deine erste Podcast-Episode aufgenommen, geschnitten und exportiert!
 
