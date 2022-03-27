@@ -11,14 +11,46 @@ Dieses Kapitel wird erst mit der V2 bearbeitet
 
 # Glossar/Definitionen
 
-## **Track:**
+## Allgemeine Audio-Begriffe
 
-Eine Spur für eine/n Sprecher/in
+### Clipping
 
-## **Envelope:**
+xxx
+
+### DAW: Digital Audio Workstation
+
+xxx
+
+### Mute
+
+xxx
+
+## Spezifisches für REAPER/Ultraschall
+
+### Edit-Cursor
+
+xxxx; siehe auch #play-cursor
+
+### Envelope
 
 Bei Audio beschreibt ein Envelope wie sich der Sound mit der Zeit verändert.
 
-## DAW
+### FX
 
-Digital Audio Workstations
+xxx
+
+### Play-Cursor
+
+xxxx; siehe auch #edit-cursor
+
+### Routing Matrix
+
+xxx
+
+### Spur
+
+xxx
+
+### Track
+
+Eine Spur für eine/n Sprecher/in siehe #spur 
