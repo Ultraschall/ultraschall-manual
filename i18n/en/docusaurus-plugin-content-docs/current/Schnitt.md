@@ -1,5 +1,5 @@
 ---
-id: schnitt
+id: cut
 title: Schnitt
 tags:
   - x

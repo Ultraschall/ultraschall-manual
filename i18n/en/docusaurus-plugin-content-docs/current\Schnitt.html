@@ -22,123 +22,133 @@
 </style>
 </head>
 <body><div id="readme" class="container"><article class="markdown-body entry-content"><hr>
-<p>id: postproduction
-title: Post-Produktion
+<p>id: cut
+title: Schnitt
 tags:</p>
 <ul>
 <li>x</li>
 <li>x</li>
 </ul>
 <hr>
-<!-- Tags für Docusaurus --> <!-- @todo: Bildunterschrifen hinzufügen --> <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen --> <!-- @todo: evtl. in zwei Kapitel aufteilen -->
+<!-- @todo: Blder auf  Git main umziehen -->
+<!-- @todo: Links auf  Git main umziehen -->
+<!-- @todo: Bildunterschrifen hinzufügen-->
+<!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
+<!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
 
-<h1 id="einleitung">Einleitung</h1>
-<p>Dein Podcast ist aufgenommen und geschnitten? Dann kannst du jetzt mit der Post-Produktion beginnen. Das Ziel in diesem Kapitel ist es den Klang von deinem Podast noch besser zu machen als er ohnehin schon ist. Dafür lernst du welche Effekte Ultraschall mitbringt und wie du diese einsetzen kannst.</p>
-<h1 id="warum-post-produktion-sinnvoll-ist-und-wo-die-grenzen-liegen">Warum Post-Produktion sinnvoll ist – und wo die Grenzen liegen</h1>
-<p>Eines gleich vorweg: Je besser deine Aufnahme, desto weniger Arbeit hast du damit in der Post-Produktion. Es lohnt sich also, von vorneherein auf Umgebungs- und Störgeräusche zu achten, Netzbrummen zu eliminieren, Sprechabstände und Aufnahmepegel feinzujustieren und insgesamt darauf zu achten, bestmögliche Aufnahmebedingungen zu haben. Trotzdem ist für ein optimales Ergebnis Post-Produktion immer wichtig und sinnvoll.</p>
-<p>Die Ziele der Post-Produktion sind (in absteigender Relevanz-Reihenfolge):</p>
-<ol>
-<li><strong>Mischung der einzelnen Spuren</strong> Verschiedene Stimmen und Einspieler klingen in der Aufnahme verschieden laut. Im Mix werden diese Unterschiede zu einem harmonischen Ganzen angepasst.</li>
-<li><strong>Anheben der Lautheit des Podcasts auf -16 LUFS (oder eines anderen Wunschwertes)</strong> Podcasts werden in sehr unterschiedlichen Umgebungen gehört - nicht nur zu Hause, sondern etwa auch in der U-Bahn. Damit alles gut verstanden wird, muss der gesamte Mix eine gewisse Lautstärke aufweisen. -16 LUFS hat sich hier in Podcast-Kreisen entabliert.</li>
-<li><strong>Reduzierung von Störungen</strong> Je nach Aufnahmesituation enthalten die Spuren mehr oder weniger Sröranteile wie Rauschen, Raumklang, Echo, Übersprechen von anderen Mikrofonen oder Netzbrummen. Diese Störungen können zumindest teilweise reduziert werden.</li>
-<li><strong>Optimierung des Klangbildes</strong> Nach Geschmack können weitere Klangformungen vorgenommen werden, etwa mit Hilfe eines EQ.</li>
-</ol>
-<p>Ultraschall lässt dir freie Hand und gibt dir alle Möglichkeiten für die manuelle Post-Produktion – nimmt dich bei Bedarf über die <em>Automated Mixing Pipeline (AMP)</em> aber auch an die Hand und führt dich durch die wichtigsten Schritte (siehe auch Abschnitt <a href="#Ultraschall-AMP-Automated-Mixing-Pipeline">Automated Mixing Pipeline (AMP)</a>).</p>
-<p>Außerdem bietet dir Ultraschall auf jeder Spur eine sinnvolle <a href="#Vorausgew%C3%A4hlte-Effekte-und-Plug-ins">Vorauswahl an Effekten</a>, du findest sie rechts unten im <a href="GUI-Gesamtuebersicht">Filter-Bereich [26]</a>, nachdem du im <a href="GUI-Gesamtuebersicht">Mixer-Bereich [24]</a> auf der gewünschten Spur auf <code>FX</code> drückst:</p>
+
+<h2 id="einleitung">Einleitung</h2>
+<!-- @todo: kurze Zusammenfassung schreiben-->
+
+<h2 id="wichtig-zu-wissen">Wichtig zu wissen</h2>
+<p>Reaper schneidet <a href="https://de.wikipedia.org/wiki/Nicht-destruktive_Bearbeitung">nicht-destruktiv</a>. Das heißt, deine Audiodateien werden nicht direkt bearbeitet, sondern bleiben unverändert erhalten. Du kannst beim Schnitt also gar nichts falsch oder kaputt machen. Im Notfall einfach ein Backup einspielen oder wenn es ganz schlimm kommt, noch mal von vorne anfangen. Ultraschall macht seit der Version 5 alle 10 Minuten ein Backup deiner Projektdatei (nicht der Audiodateien) und speichert diese im Projektordner. Um diese wieder herzustellen, siehe: (<a href="https://pad.gwdg.de/sLRAFF9eS0OwYFuobe_wZw?both#Ein-Backup-wieder-einspielen">Backup wieder herstellen</a>).</p>
+<!--[Backup](https://github.com/Ultraschall/ultraschall-portable/wiki/Ultraschall-5-Release-Notes#user-interface)-->
+
+<h2 id="vorbereitung-zum-schneiden-prepare-all-tracks-for-editing-">Vorbereitung zum Schneiden. ("Prepare all tracks for editing")</h2>
+<p>Bevor du mit dem Schneiden richtig loslegen kannst, musst du zunächst ein paar Vorbereitungen treffen. Um dir diese Arbeit weitestgehend abzunehmen, bietet Ultraschall die Funktion <code>Prepare all tracks for editing</code> an. Diese Funktion kann entweder über das Menü <code>Podcast -&gt; Prepare all tracks for editing</code> aufgerufen werden, oder der Soundcheck errinnert dich daran, falls du es vergessen haben solltest. <code>Prepare all tracks for editing</code> macht dabei die folgenden Dinge:</p>
 <ul>
-<li><strong><a href="#DeNoise">DeNoise</a></strong> (der ReaFir Rauschfilter zur Reduzierung von Rauschen oder Brummen mittels Anlernen von Störungsprofilen)</li>
-<li><strong><a href="#DeEsser">DeEsser</a></strong> (ein Multiband-Kompressor zum Reduzieren von Zischlauten in der Stimme)</li>
-<li><strong><a href="#ReaEQ">ReaEQ</a></strong> (Multiband EQ mit verschiedenen Presets, etwa auch „Telefon-Sound"</li>
-<li><strong><a href="#Ambience">Ambience</a></strong> (Ein Raumsimulator mit verschiedenen Presets, etwa Studio oder Kirche)</li>
-<li><strong><a href="#Ultraschall-Dynamics-2">Ultraschall Dynamics 2</a></strong> (Anpassung der Lautheit eines Tracks, Redzierung von Hintergrundgeräuschen und Expander)</li>
+<li>Der Automatisierungsmodus <!--@Todo: schauen was das eigentlich ist --> für alle Spuren ist auf "Trimmen/Lesen" eingestellt.</li>
+<li>Alle Spuren und <a href="https://pad.gwdg.de/XYgv66gbQwSYvFCMQm0WPA#Envelope">Envelopes</a> sind für die Aufnahme deaktiviert.</li>
+<li>Alle Verbindungen zu StudioLink (falls vorhanden) werden entfernt.</li>
+<li>Alle StudioLink FX (fall vorhanden) werden entfernt.</li>
+<li>Alle Soundboards (falls vorhanden) werden entfernt.</li>
+<li>StudioLink on Air (falls vorhanden) Streaming werden beendet.</li>
+<li>Alle Verbindungen zum Master Track werden eingeschaltet.</li>
+<li>das Routing wird auf den Schnitt-Modus geschaltet.</li>
 </ul>
-<p>Im Plug-in-Verzeichnis "Best of Breed" findest du außerdem <a href="#Weitere-empfehlenswerte-Efekte-und-Plug-Ins">einige weitere freie, aber sehr leistungsstarke Effekte</a>:</p>
+<p>Beende vor dem Ausführen deine Aufnahme per <a href="GUI-Gesamtuebersicht">Stopp-Taste [30]</a> und denk daran, dass durch Prepare for editing alle StudioLink Verbindungen beendet werden! Wenn du später doch noch etwas aufnehmen möchtest, kannst du die Spur wieder auf Aufnahme schalten und so etwas neu aufnehmen. Danach kannst du erneut <code>Prepare all tracks for editing</code> ausführen.</p>
+<p>Zuätzlich kannst du jetzt noch in die Schnittansicht zu wechseln. Dafür kannst du Links am Rand unter <code>Views</code> auf die Schere <a href="GUI-Gesamtuebersicht">[17]</a> drücken, im Menü <code>Podcast -&gt; screenset editing</code> aufrufen oder <code>F9</code> drücken. Diese Ansicht bietet dir eine zusätzliche Übersicht über dein Projekt.</p>
+<h2 id="einfacher-schnitt">Einfacher Schnitt</h2>
+<p>Wenn alles soweit vorbereitet ist, kannst du jetzt deine Aufnahmen schneiden. Dazu bietet dir Ultraschall zwei extrem effiziente Werkzeuge, mit denen du 90 % der Arbeit erledigen kannst. Lerne erst diese beiden Methoden, bevor zu die Reste mit den erweiterten Werkzeugen optimierst:</p>
+<h3 id="1-schnitt-ber-alle-spuren-ripple-cut-">1. Schnitt über alle Spuren (Ripple cut)</h3>
+<!-- @todo: (siehe XX) benennen -->
+<p>Mit dem Ripple Cut schneidest du über alle Spuren gleichzeitig. So verhinderst du, dass durch einen Schnitt die Spuren nicht mehr richtig übereinander liegen und sich verschoben haben. Um die Funktion zu nutzen, ziehst du im <a href="GUI-Gesamtuebersicht">Timeline-Bereich [23]</a> eine Auswahl(siehe XX) über den Bereich auf den du schneiden möchtest, und klickst dann auf den Ripple-Cut-Button<a href="GUI-Gesamtuebersicht">[7]</a> oder <code>STRG + X</code> beziehungsweise <code>CMD + X</code>.</p>
+<h3 id="2-stummschalten-st-render-passagen-mute-">2. Stummschalten störender Passagen (Mute)</h3>
+<!--@TODO Screenshots einfügen -->
+<p>Wenn du Sequenzen aus deinen Spuren nicht herausschneiden willst, aber sie trotzdem nicht hörbar sein sollen, kannst du auch die Mute-Funktion nutzen. Dafür selektierst du die Spur(en) die du bearbeiten willst und klickst auf den Button Nummer XX. Damit öffnet sich unter der Spur die <code>Mute envelopes</code>. Die orangefarbene Verlaufsspur kannst du mit der Maus hoch oder runter ziehen. Mit einem Doppelklick erzeugst du weitere Editierpunkte. Alternativ kannst du eine Selektion über einen odere mehrere Tracks hinweg treffen und mit der Tastenkombination <code>STRG + Y</code> beziehungsweise <code>CMD + Y</code>, den ausgewählten Bereich muten.</p>
+<p>Hältst du <code>STRG</code> gedrückt, kannst du statt mit einem Doppelklick, entweder mit einem einfachen Klick Editierpunkte erzeugen oder mit <em>drücken und halten</em> deine Verlaufsspur malen. Allerdings entstehen so sehr viele Verlaufspunkte die später nur schwer zu bearbeiten sind.</p>
+<h2 id="schnitt-f-r-fortgeschrittene">Schnitt für Fortgeschrittene</h2>
+<h3 id="split-items">Split Items</h3>
+<p>Wie der Name schon sagt, kannst du hiermit ein Item in zwei Items aufteilen. Dafür setzt du den Edit-Curser<!-- @Todo name prüfen--> an die Stelle, an der du eine Trennung vornehmen willst und klickst dann auf den Split-Button<a href="GUI-Gesamtuebersicht">[5]</a>. Alernativ kannst du die Taste <code>S</code> drücken.
+<a href="https://sendegate.de/t/faq-einfacher-schnitt-aller-spuren/6911">https://sendegate.de/t/faq-einfacher-schnitt-aller-spuren/6911</a></p>
+<h3 id="softer-fade-in-und-fade-out">Softer Fade-in und Fade-out</h3>
+<p>Wenn du gern am Anfang und oder Ende eine Sanfte Ein/abblenden der Lautstärken haben möchtest, kannst du mit der Maus über den Linken-oberen Rand des Items im <a href="GUI-Gesamtuebersicht">Timeline-Bereich [23]</a> gehen. Dann siehst du schon, dass sich dein Mauszeiger in eine Kurve verändert hat. Jetzt kannst du mit der Maus klicken und halten und so eine Einblende ziehen. Diese kann beliebig lang sein. Das gleiche kannst du auch an jedem Item-Ende machen. Rechts oben mit der Maus und dann klicken und ziehen.</p>
+<!--@TODO Gif einfügen -->
+
+<h3 id="kapitelmarken">Kapitelmarken</h3>
+<!-- @todo: Was passiert mit dem video?
+https://www.youtube.com/watch?v=vdLpynu1ixE&t=5080s -->
+<p>In Ultraschall kannst du ganz einfach Kapitelmarken setzen, die dann später auch in den meisten Podcatchern auftauchen. In Ultraschall wird zwischen zwei Markenarten unterschieden: Kapitelmarker und Editmarker. Die Kapitelmarker können mit dem entsprechenden Button <a href="GUI-Gesamtuebersicht">[3]</a> oder der Taste <code>m</code> gesetzt werden, diese sind die Marken die später im Podcatcher auftauchen. Zusätzlich gibt es noch die Editmarker, diese können mit dem Button <a href="GUI-Gesamtuebersicht">[4]</a> oder <code>e</code> gesetzt werden. Diese sind nur für den Schnitt gedacht, um sich Stellen im Projekt zu markieren und werden nicht mit exportiert.</p>
+<h4 id="markerdashbord">Markerdashbord</h4>
+<!--@TODO: Fotos einfügen -->
+<p>Das Markerdashbord kannst du mit <code>alt+shift+m</code> oder einem Druck auf den entsprechenden Button <a href="GUI-Gesamtuebersicht">[19]</a> links öffnen. Dort kannst du deine gesetzten Kapitelmarker verwalten und exportieren.</p>
+<h4 id="region-markermanager">Region/Markermanager</h4>
+<p>Den Region- und Markermanager findest du im <a href="GUI-Gesamtuebersicht">Kapitelmarken-Bereich [28]</a> unten rechts. Dort kannst du zwischen der <a href="GUI-Gesamtuebersicht">Routing Matrix [27]</a>, den <a href="GUI-Gesamtuebersicht">Filtern [26]</a> und dem <a href="GUI-Gesamtuebersicht">Kapitelmarken-Manager [28]</a> wechseln. Dort werden dir alle Marker - auch die Editmarker angezeigt. Mit einem Doppelklick auf den Namen, kannst du diese bearbeiten. In der lezten Spalte kannst du mit einem Doppelklick die Farbe des Markers auswählen.</p>
+<h4 id="fotos">Fotos</h4>
+<p>Du kannst zu Kapitelmarken zusätzlich Fotos hinzufügen die dann, wenn der Potcatcher das unterstützt, zum Kapitel angezeigt werden. Unterstütze Formate sind <code>.png</code> und <code>.jpg</code>. Die Fotos kannst du einfach per Drag &amp; Drop in dein Projekt reinziehen und an der gewünschten Stelle ablegen. Zu jedem Bild musst du dann einen Kapitelmarker hinzufügen. Im Markerdashoard wirst du auch darauf hingewiesen, dass du noch einen Marker hinzufügen musst.</p>
+<h4 id="urls">URLs</h4>
+<p>Analog zu Fotos kannst du auch URL hinzufügen. Dafür kannst du im Markerdashboard über das <code>+</code> unter <code>URL</code> eine Internetadresse einfügen.</p>
+<h3 id="button-bersicht">Button-Übersicht</h3>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons.png" alt="buttons"></p>
+<p>Die Buttons <a href="GUI-Gesamtuebersicht">[1-8]</a> links oben beeinflussen, was passiert, wenn du mit der Maus in den Spurenbereich klickst und bei gedrückter Maustaste ziehst: Wie auch in einem Textverarbeitungs- oder in einem anderen Schnittprogramm ist die Standardeinstellung, dass du dadurch einen Bereich selektierst. Du kannst dieses Verhalten jedoch ganz einfach ändern und an deine Arbeitsweise anpassen – oder auch mit gedrückter <code>ALT</code>- oder <code>CTRL</code>/<code>CMD</code>-Taste das Verhalten nur für die aktuelle Aktion ändern.</p>
+<h4 id="-1-und-2-ripple-editing">[1] und [2]: Ripple Editing</h4>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-ripple-per-track.png" alt="buttons"></p>
+<p>Das Ripple-Verhalten bestimmt, was genau passiert, wenn du während der Bearbeitung ein Item auf einer Spur verschiebst (oder entfernst) – und ob und wie sich das auf andere Items auf demselben und den Tracks auswirkt:</p>
 <ul>
-<li><strong><a href="#ReEQ">ReEQ</a></strong> (Equalizer, der an den bekannten <em>Fabfilter</em> angelehnt ist)</li>
-<li><strong><a href="#Smooth-Limiter">Smooth Limiter</a></strong> (Limiter der Extraklasse, der sehr anschaulich den Grad des Eingreifens visualisiert und auch im neuen LUFS Loudness Metering Effekt verbaut ist - pures Audio-Gold)</li>
-<li><strong><a href="#Spectrum-Matcher">Spectrum Matcher</a></strong> (EQ mit Lernfunktion, um den Klang von Mikros aneinander anzupassen)</li>
-<li><strong><a href="#TriLeveler2">TriLeveler2</a></strong> (Gute Alternative zu unserem Dynamics 2 Effekt)</li>
-<li><strong><a href="#ReaXcomp">ReaXcomp</a></strong> (Grafischer Multiband-Kompressor der Spitzenklasse)</li>
+<li><strong>Kein Ripple</strong>: Die Buttons [1] und [2] sind nicht aktiv (grau); verschiebst du ein Item auf einer Spur, so hat das keine Auswirkungen auf andere Items oder Spuren.</li>
+<li><strong>Ripple per Track</strong>: Der Button [1] ist aktiv (orange); verschiebst du ein Item, so verschieben sich auch alle nachfolgenden Items auf derselben Spur – hast du mehr als ein Item auf unterschiedlichen Spuren selektiert, so verschieben sich alle nachfolgenden Items auf allen betroffenen Spuren.</li>
+<li><strong>Ripple all Tracks</strong>: Der Button [2] ist aktiv (orange – Button 1 wird an dieser Stelle ignoriert); verschiebst du ein Item auf einer Spur, so verschieben sich auch alle nachfolgenden Items auf allen Spuren.</li>
 </ul>
-<p>Trotz der vielfältigen Möglichkeiten, Aufnahmen nachträglich aufzupeppen, gilt die alte Audio-Weisheit: <strong>Garbage in, Garbage out.</strong> Haben Aufnahmen zu viel Echo, Störgeräusche, Aussetzer, Brummen, Crosstalk oder von einem der anderen unzähligen möglichen störenden Einflüsse, dann ist auch von der Post-Produktion nur begrenzt Verbesserung zu erwarten. Bei jedem Effekt-Plug-in führt ein "zu viel" schnell zu unnatürlichem Klang. Das A und O für eine erfolgreiche Post-Produktion sind daher sorgfältige und gute Aufnahmen.</p>
-<h1 id="ultraschall-amp-automated-mixing-pipeline-">Ultraschall AMP (Automated Mixing Pipeline)</h1>
-<p>Die automated Mixing Pipeline ist eine unkomplizierte und kostenlose Alternative zu Online-Audioverbesserungsdiensten wie Auphonic. Mit den sinnvollen <em>Voreinstellungen</em> erreichst du in den meisten Fällen ein direkt veröffentlichbares, toll klingendes Ergebnis - ganz ohne Audioerfahrung oder "Goldohren". Ultraschall gibt dir allerdings auch ausreichend Möglichkeiten, passend zu deiner individuellen Situation feinzujustieren.</p>
-<p>Im <code>Podcast</code>-Menü unter <code>Workflows</code>-&gt;<code>Ultraschall AMP - Automated Mixing Pipeline</code> findest du die einzelnen Schritte. Die ausgegrauten Menüeinträge sind nur für dich als Gedankenstütze gedacht, die dort erwähnten Schritte musst du aber "manuell" abarbeiten. Ein Auslassen von Schritten oder ein Ändern der Reihenfolge führt zu schlechten Ergebnissen, gehe daher den Workflow strikt der Reihe nach durch.</p>
-<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/amp-menu-entry.png" alt="Ultraschall AMP – Automated Mixing Pipeline" title="Ultraschall AMP – Automated Mixing Pipeline"> <strong>Screenshot:</strong> <em>Ultraschall AMP – Automated Mixing Pipeline</em></p>
-<p>Die einzelnen Schritte der AMP sind der Reihe nach:</p>
-<p><strong>Step 1: Select all items for mixing</strong> Wähle alle Items auf allen Spuren im <a href="GUI-Gesamtuebersicht">Timeline-Bereich [25]</a> aus, die du durch die Mixing Pipeline verbessern lassen willst. In den meisten Fällen sind das alle Items (zur Erinnerung: Items sind die einzelnen Blöcke auf deinen Spuren) in deinem Projekt – dazu klickst du irgendwo in den <a href="GUI-Gesamtuebersicht">Spuren-Bereich [23]</a> und wählst <code>CTRL + A</code> beziehungsweise <code>CMD + A</code>, um alle zu selektieren. Alternativ wählst du im Menü <code>Item</code>-&gt;<code>Select all</code>.</p>
-<p>Achtung: Der AMP ist für <strong>Sprachspuren</strong> konzipiert. Spuren mit Einspielern, vor allem Musik, sollten <strong>nicht</strong> durch den AMP laufen sondern am Ende nach Gehör dazugemischt werden.</p>
-<p>Um schnell alle Items einer Spur auszuwählen, mache einen <code>Doppelklick</code> links auf den grauen Bereich über oder unter dem Spurnamen.</p>
-<p><strong>Step 2: Normalize loudness of selected items to -23 LUFS</strong> Diesen Schritt kannst du im Menü <code>Podcast</code>-&gt;<code>Workflows</code>-&gt;<code>Ultraschall AMP - Automated Mixing Pipeline</code> direkt anwählen. Ultraschall <a href="#Normalisieren">normalisiert</a> dir dann automatisch alle in Schritt 1 ausgewählten Items auf -23 LUFS. Das ist zwar zu leise für die eigentliche Publikation, aber die perfekte Grundlage für die folgenden Schritte.</p>
-<p><strong>Step 3: Select tracks for the AMP</strong> Wähle jetzt alle Spuren im <a href="GUI-Gesamtuebersicht">Spuren-Bereich [23]</a> aus, die in der Mixing Pipeline berücksichtig werden sollen. Einzelne Spuren wählst du einfach mit einem Klick in den grauen Bereich oberhalb oder unterhalb der Spur-Namensfeldes. Um mehrere Spuren auszuwählen, hältst du beim Klicken die <code>CTRL</code>- beziehungsweise die <code>CMD</code>-Taste gedrückt.</p>
-<p><strong>Step 4: Set AMP (Automated Mixing Pipeline) FX on selected tracks (Ultraschall)</strong> Diesen Schritt kannst du im Menü <code>Podcast</code>-&gt;<code>Workflows</code>-&gt;<code>Ultraschall AMP - Automated Mixing Pipeline</code> direkt anwählen. Danach solltest du auf jeder der vorab ausgewählten Spuren einen aktivierten "JS: Ultraschall Dynamics (Ultraschall)-Effekt" vorfinden. Der gleicht die Lautheit der Tracks auf -20 LUFS an.</p>
-<p><strong>Step 5: Choose LUFS Target on Master FX (16 LUFS for Podcasting)</strong> Der Master-Track wird im vorigen Schritt per Spur-Effekt auf die im Podcast-Bereich üblichen -16 LUFS angehoben. Du kannst diesen Zielwert auch ändern, die entsprechende Einstellung findest du im FX-Bereich des Master-Tracks.</p>
-<h2 id="korrekturm-glichkeiten">Korrekturmöglichkeiten</h2>
-<p>Sollte das Endergebnis nicht überzeugend klingen, ist vermutlich der Signal-Rauschabstand einzelner Spuren problematisch - sprich es wird Rauschen oder Hall verstärkt anstatt abgesenkt. Dies kann pro Spur optimiert werden, indem der <code>Noisefloor</code> Regler verschoben wird - solange, bis die Stimme laut bleibt, Störgeräusche aber abgesenkt werden:</p>
-<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/Ultrasschall_Dynamics.png" alt="Ultraschall Dynamics Noisefloor"> <strong>Screenshot:</strong> <em>Ultraschall Dynamics - Noisefloor</em> <!-- @todo: Bild auf Github verschieben --></p>
-<p>Den genauen Ablauf des AMP zeigt dieses Video:</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vdLpynu1ixE?start=2877" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<p>Standardmäßig ist Ripple für alle Spuren deaktiviert (Buttons sind grau).</p>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-buttons.mp4" alt="Ripple: Buttons"></p>
+<p><strong>Screenshot</strong> Audioteile verschieben</p>
+<h4 id="-3-und-4-marker">[3] und [4]: Marker</h4>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-markers.png" alt="Buttons"></p>
+<p>Button <a href="GUI-Gesamtuebersicht">[3]</a> setzt eine (unbenannte) Kapitelmarke an die aktuelle Position des Play-Cursors – Button <a href="GUI-Gesamtuebersicht">[4]</a> setzt eine Edit-Marke. Mehr zum Thema Marken findest du im Abschnitt <a href="#Kapitelmarken">Kapitelmarken</a>.</p>
+<h4 id="-5-split">[5]: Split</h4>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-split.png" alt="Buttons"></p>
+<p>Button <a href="GUI-Gesamtuebersicht">[5]</a> teilt ein Item an der aktuellen Cursor-Position. Mehr dazu findest du im Abschnitt <a href="#Split-Items">Split Items</a>.</p>
+<h4 id="-6-mouse-selection">[6]: Mouse Selection</h4>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-selection.png" alt="Buttons"></p>
+<p>Der Umschalter <a href="GUI-Gesamtuebersicht">[6]</a> aktiviert beziehungsweise deaktiviert den Maus-Selektionsmodus und beeinfluss so das Mausverhalten:</p>
+<ul>
+<li><strong>aktiviert</strong>: Klickst du auf ein Item, hältst die Maustaste gedrückt und ziehst dann die Maus, selektierst du den betroffenen Bereich.</li>
+<li><strong>deaktiviert</strong>: Klickst du auf ein Item, hältst die Maustaste gedrückt und ziehst dann die Maus, verschiebst du das ausgewählte Item.<!-- @todo: Hier noch GIFs fürs bessere Verständnis einfügen -->
 
-<h1 id="post-produktion-f-r-fortgeschrittene">Post-Produktion für Fortgeschrittene</h1>
-<h2 id="vorausgew-hlte-effekte-und-plug-ins">Vorausgewählte Effekte und Plug-ins</h2>
-<h3 id="denoise">DeNoise</h3>
-<p>(der ReaFir Rauschfilter zum Anlernen von Rauschprofilen)</p>
-<h3 id="deesser">DeEsser</h3>
-<p>(ein Multiband-Kompressor zum Reduzieren von Zischlauten)</p>
-<h3 id="reaeq">ReaEQ</h3>
-<p>(Multiband EQ mit verschiedenen Presets, etwa auch „Telefon-Sound"</p>
-<h3 id="ambience">Ambience</h3>
-<p>(Ein Raumsimulator mit verschiedenen Presets, etwa Studio oder Kirche)</p>
-<h3 id="ultraschall-dynamics-2">Ultraschall Dynamics 2</h3>
-<p>(Anpassung der Lautheit eines Tracks und Expander)</p>
-<h2 id="weitere-empfehlenswerte-efekte-und-plug-ins">Weitere empfehlenswerte Efekte und Plug-Ins</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vdLpynu1ixE?start=3678" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-
-<h3 id="reeq">ReEQ</h3>
-<p>(Equalizer, der an Fabfilter angelehnt ist)</p>
-<h3 id="smooth-limiter">Smooth Limiter</h3>
-<p>(Limiter der Extraklasse, der sehr anschaulich den Grad des Eingreifens visualisiert und auch im neuen LUFS Loudness Metering Effekt verbaut ist - pures Audio-Gold)</p>
-<h3 id="spectrum-matcher">Spectrum Matcher</h3>
-<p>(EQ mit Lernfunktion, um den Klang von Mikros aneinander anzupassen)</p>
-<h3 id="trileveler2">TriLeveler2</h3>
-<p>(Gute Alternative zu unserem Dynamics 2 Effekt)</p>
-<h3 id="reaxcomp">ReaXcomp</h3>
-<p>(Grafischer Multiband-Kompressor der Spitzenklasse)</p>
-<h2 id="normalisieren">Normalisieren</h2>
-<h3 id="technik-exkurs">Technik-Exkurs</h3>
-<p>Als <a href="https://de.wikipedia.org/wiki/Normalisierung_(Audio)">Normalisierung</a> wird in der Audiotechnik der Vorgang bezeichnet, die Amplitude analogen oder digitalen Audiomaterials so zu vergrößern oder zu verkleinern, dass sie innerhalb eines vorgegebenen Bereichs liegt. .</p>
-<p>Die Lautstärke ist objektiv messbar. Dafür wird Maßeinheit "Dezibel" dB verwendet. Das Problem ist, dass selbst bei gleich gemessener Lautstärke verschiedene Sounds unterschiedlich laut empfunden werden, daher wird das Signal gewichtet und die Einheit dbA verwedet. Hierbei wird der Schalldruckpegel entsprechend des Höhrempfinden gewichtet <a href="https://de.wikipedia.org/wiki/Bel_(Einheit)#Verwendung_mit_anderen_Ma%C3%9Feinheiten,_Anh%C3%A4ngsel">siehe auch Wikipedia</a>.</p>
-<p>Diese (gewichtete) subjektive Größe gibt aber nicht immer genügend Informationen. Daher hat man sich auf <a href="https://de.wikipedia.org/wiki/EBU-Empfehlung_R_128">LUFS</a>. (Loudness Units relative to Full Scale oder in deutsch Lautstärke-Einheiten in Relation zur Vollskala) als Maßeinheit geeinigt. Es handelt sich um eine normierte Messung der Lautstärke</p>
-<p>Das Ziel der Einheit LUFS ist es die menschliche Wahrnehmung und elektrische Signalintensität zusammenrechnen. Der Unterschied vom LUFS- zum bisher üblichen RMS-Verfahren besteht nur darin, dass bei der Lautheit nach <a href="https://de.wikipedia.org/wiki/Quadratisches_Mittel">MRS</a> der gesamte Frequenzbereich gleichwertig berücksichtigt werden, bei LUFS allerdings die einzelnen Frequenzen speziell gewichtet werden.</p>
-<p>Je nach Verwendungszweck haben sich unterschiedliche LUFS Werte durchgesetzt. Bei Podcasts wird meist -16 LUFS verwendet. Beim Rundfunk werden -23 LUFS empfohlen. Diese Einstellung ist aber bei Podcasts meist zu leise.</p>
-<p>Die Standard-Einstellung bei Ultraschall (für die entgültige Audiodatei) ist daher auf <!-- @todo: Link stimmt nicht --> <a href="https://pad.gwdg.de/#Ultraschall-AMP-Automated-Mixing-Pipeline">-16 LUFS</a> eingestellt. Die in der Aufnahmekette vorher verwendeten LUF-Werte sollten darunter liegen.</p>
-<h4 id="die-normalisierung-mit-dem-ultraschall-dynamics-2-effekt">Die Normalisierung mit dem <em>Ultraschall Dynamics 2 Effekt</em></h4>
-<p>Der <em>Ultraschall Dynamics 2 Effek</em> ermöglicht eine Anhebung der durchschnittlichen Lautstärke auf die für Podcasts empfohlenen -16 LUFS (oder einen anderen Wert) für alle Audiospuren.</p>
-<h5 id="wie-aktiviert-man-den-effekt-wenn-er-im-effektbereich-nicht-auftaucht-">Wie aktiviert man den Effekt, wenn er im Effektbereich nicht auftaucht?</h5>
-<p>Bei allen neu angelegten Spuren wird der Effekt wie oben beschrieben bereits eingerichtet, aber noch noch nicht aktiviert.</p>
-<p>Bei alten Projekten wird der Effekt hingegen erst einmal fehlen. So könnt ihr ihn manuell hinzufügen: wählt unten im Effekt-Fenster den Add Button aus. Es öffnet sich ein Fenster mit allen in REAPER/Ultraschall verfügbaren Effekten. Voreingestellt sollte hier bereits im linken Bereich <code>Favorites</code> sein. Rechts findet man dann schnell den <code>JS: Ultraschall Dynamics</code> Effekt und kann kann ihn mit OK hinzufügen. Er ist dann auch direkt aktiviert.</p>
-<p>Hier das Video:</p>
-<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_002.gif" alt="Effekt aktivieren"> <strong>Ultraschall Dynamics:</strong> <em>Aktivierung des Effects</em></p>
-<h4 id="einstellung-f-r-die-normalisierung">Einstellung für die Normalisierung</h4>
-<p>Die Einstellung für das normaliseren auf -23 LUFS aller Quellen für die Aufnahme ("<em>Normalize loudness of selected items to -23 LUFS</em>") wird im Plugin "JS: Ultraschall Dynamics (Ultraschall.fm)" mit dem Regler <em>Target (LUFS)</em> vorgenommen. Die voreingestellten Werte müssen sind ind der Regel gut.</p>
-<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/ULDynamics.jpg" alt="Ultraschall Dynamics Target"> <strong>Ultraschall Dynamics:</strong> <em>Die Einstellung für die finale Normalisierung lässt sich mit dem Plugin "</em>JS: LUFS Loudnessmeter_" verändern._</p>
-<p>Die Einstellung für die finale Normalisierung lässt sich mit dem Plugin "<em>JS: LUFS Loudnessmeter</em>" verändern.</p>
-<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/minus16LUFS-1.gif" alt="-16 LUFS"> <strong>Ultraschall Dynamics:</strong> <em>Auch hier ist es in den aller meisten Fällen nicht notwendig die Einstellugen zu verändern.</em></p>
-<p>Auch hier ist es in den aller meisten Fällen nicht notwendig die Einstellugen zu verändern.</p>
-<h2 id="hall-reduktion">Hall-Reduktion</h2>
-<!-- @todo: Entscheidung: Noch nicht bearbeitet. Vielleicht sollten wir das in die FAQ Sektion übernehmen und hier nicht bearbeiten. -->
-
-<h2 id="rauschen-entfernen">Rauschen entfernen</h2>
-<h3 id="der-ultraschall-dynamics-2-effek-f-r-rauschreduktion">Der <em>Ultraschall Dynamics 2 Effek für Rauschreduktion</em></h3>
-<p>Der <em>Ultraschall Dynamics 2 Effek</em> beinhaltet ìn einstellbares, weiches Noisegate - so dass man pro Mikrophon bzw. SprecherIn einstellen kann, was noch verstärkenswertes Signal ist (etwa leise gesprochene Worte) und was hingegen unerwünschte Störgeräusche (etwa Atmen)</p>
-<h3 id="den-einsatz-des-noisegates-noisefloor-anpassen">Den Einsatz des Noisegates (Noisefloor) anpassen</h3>
-<p>Dieser Regler hat den größten Einfluss auf die Lautstärke: er legt fest, ab welcher Grenze ein Signal als zu verstärkender Inhalt oder aber als abzusenkendes Rauschen oder sonstiges Störsignal behandelt wird. Die Kunst besteht nun darin, für jede Spur den Wert zu finden, dass leise Sprache verstärkt wird, jedoch Atmen (Vadern) nicht verstärkt wird sondern bestenfalls sogar abgesenkt wird. Der voreingestellte Wert orientiert sich an einem guten Headset (DT297 / HMC660) das konservativ ausgesteuert wurde bei der Aufnahme (in einem Bereich von -6 bis -12 dB). Das ist aber nur ein erster Startpunkt, es lohnt fast immer hier nachzubessern.</p>
-<p>Dabei geht man wie folgt vor: man sucht sich in der Spur eine Passage raus, in der sowohl Stille (eventuell mit Rauschen), als auch Atmen, als auch leise Sprache, als auch normale Sprache vorkommt. Ist vielleicht nicht immer so zu finden, aber so eine Passage von vielleicht 30 Sekunden ist perfekt. Über diese Passage setzt man mit dem Auswahlwerkzeug eine Zeitauswahl, schaltet in den Repeat Modus, schaltet den Track auf Solo so dass alle anderen Spuren verstummen, und spielt ihn in der Schleife endlos ab. Nun hört man sich das Audio genau an, und beginnt den Regler hin und her zu schieben - gern auch erst mal in die Extreme, damit man ein Gespür für die Wirkungsweise bekommt. Dann optimiert man solange, bis man den besten Punkt gefunden hat.</p>
-<p>Das klappt nur, wenn man während der Aufnahme nichts am Gain der Aufnahme verändert hat - sollte das passiert sein, also etwa die erste Stunde sehr leise und die zweite sehr laut aufgezeichnet worden sein, wird es komplizierter und man sollte vielleicht besser Auphonic nehmen (der Ansatz wäre hier: den Clip teilen an der Stelle, an der die Lautstärke verändert wurde, und dann entweder den zweiten Bereich in eine neue Spur schieben die man mit anders eingestelltem Effekt versieht, oder aber die Effekte gar nicht auf die Spur anzuwenden sondern auf die einzelnen Items).</p>
-<p>Hier das Video: <!-- @todo gif mit US 3.1 das müssen wir neu machen --></p>
-<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_004.gif" alt="Noisegate anpassen"> <strong>Ultraschall Dynamics:</strong> <em>Ändern der Schwelle für das Rauschen (Rauschunterdrückung)</em>" verändern.*</p>
+</li>
+</ul>
+<h4 id="-7-ripple-cut">[7]: Ripple Cut</h4>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-ripple-cut.png" alt="Buttons"></p>
+<p>Button <a href="GUI-Gesamtuebersicht">[7]</a> entspricht der Tastenkombination <code>CMD</code>/<code>CTRL</code> + <code>X</code> – damit schneidest du den selektierten Bereich über alle Spuren hinweg aus deiner Aufnahme heraus. Alle nachfolgenden Items verschieben sich nach links, um die entstandene Lücke zu schließen.</p>
+<h4 id="-8-show-mute-envelopes">[8]: Show Mute Envelopes</h4>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-show-mute-envelopes.png" alt="Buttons"></p>
+<p>Button <a href="GUI-Gesamtuebersicht">[8]</a> zeigt beziehungsweise versteckt die Mute-Envelopes aller Spuren. Im Abschnitt <a href="#Mute">Mute</a> findest du mehr dazu.</p>
+<h3 id="verschieben-von-items-spurinhalten-">Verschieben von Items (Spurinhalten)</h3>
+<hr>
+<p>![Achtung](<a href="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/Aufnahme/assets/images/allgemein/Achtung.png">https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/Aufnahme/assets/images/allgemein/Achtung.png</a> =20x20)</p>
+<p><strong>Achtung</strong>: Willst du in der <a href="GUI-Gesamtuebersicht">Timeline [25]</a> einzelne Elemente ("Items") auf deinen Spuren verschieben, solltest du extrem vorsichtig vorgehen – es passiert dabei sehr schnell, dass snychron aufgenommene Spuren dadurch "verrutschen". Beim Anhören wirst du feststellen, dass das Timing nicht mehr passt: Die Sprechenden fallen sich ins Wort, es entstehen Pausen, die in der Aufnahme nicht da waren, und so weiter.</p>
+<hr>
+<p>Das Verhalten der einzelnen Items beim Verschieben wird durch die <a href="#Ripple-Editing">Ripple-Einstellung</a> festgelegt. Du kannst jedoch das Ripple-Verhalten temporär nur für die aktuelle Aktion beeinflussen, indem du dabei <code>ALT</code>, <code>CTRL</code>oder <code>CMD</code> gedrückt hältst:</p>
+<ul>
+<li><strong><code>ALT</code> (Mac/Windows/Linux) gedrückt halten und Item verschieben</strong>: Du verschiebst nur das oder die selektierten Items.</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-alt.mp4" alt="Ripple: Alt"></p>
+<ul>
+<li><strong><code>CMD</code> (Mac) beziehungsweise <code>CTRL</code> (Windows/Linux) gedrückt halten und Item verschieben</strong>: Du verschiebst das oder die selektierten Items und ALLE Items dahinter.</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-cmd.mp4" alt="Ripple: Cmd"></p>
+<h3 id="audio-inhalte-nachtr-glich-in-das-projekt-einf-gen">Audio-Inhalte nachträglich in das Projekt einfügen</h3>
+<p>Um weitere Sounds oder Aufnahmen in dein Projekt einzufügen, kannst du einfach die gewünschten Dateien per Drag &amp; Drop in dein Projekt ziehen. Wenn du die Datei in den <a href="GUI-Gesamtuebersicht">Timeline-Bereich [25]</a> an eine Stelle im Projekt ziehst, an der keine Spur ist, erstellt Reaper eine neue Spur mit dem Inhalt der Datei und benennt diese dann nach dem Dateinamen.</p>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png?=20x20" alt="Achtung"> <strong>Achtung</strong>:  Unter dem Menüpunkt <code>Edit -&gt; Project Settings</code> kannst du einstellen wie Reaper mit diesen Mediendateien umgehen soll. Hier empfehlen wir auf jeden Fall die Einstllung <code>Copy media to project</code>. Am besten in den globalen Reaper Einstellungen unter <code>Options -&gt; preferences</code> unter dem Punkt <code>Media</code>  das Kreuz bei <code>Copy imported media to project media directory</code> setzten. Sonst kann es passieren, dass du ungewollt Abhängigkeiten erschaffst, die dir später Probleme bereiten können.</p>
+<h3 id="ausschneiden-kopieren-und-einf-gen">Ausschneiden, kopieren und einfügen</h3>
+<p>Um Audio innerhalb deines Projekts auszuschneiden oder zu kopieren, wählst du das zu kopierende Item oder setzt eine Zeit-Markierung. Klickst du dann mit der rechten Maustaste auf den gewählten Bereich (oder öffnest das <code>Edit</code>-Menü), kannst du entweder das Item kopieren (Standardverhalten; auch per <code>CTRL+C</code>oder <code>CMD+C</code>) oder den ausgewählten Bereich innerhalb eines Items. Ausschneiden funktioniert analog.</p>
+<p>Um kopierte oder ausgeschnittene Inhalte wieder einzufügen, wählst du mit einem Klick in den linken <a href="GUI-Gesamtuebersicht">Spuren-Bereich [23]</a> die Spur, auf der die Inhalte landen sollen. Anschließend setzt du den Cursor an die gewünschte Stelle und wählst <code>Paste</code> entweder über das <code>Edit</code> oder das Kontext-Menü oder via Tastenkombination <code>CTRL+V</code> beziehungsweise <code>CMD+V</code>.</p>
+<p><img src="https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/copy-and-cut.png" alt="Copy and Paste"></p>
+<h3 id="double-ender-aufnahmen">Double-Ender-Aufnahmen</h3>
+<p>Wenn deine Mitpodcastenden eine schlechte oder instabile Internetverbindung haben, ist es sinnvoll, in StudioLink sicherheitshalber eine lokale Spur mitlaufen zu lassen. Dafür klickst du in StudioLink auf den <code>Record</code> Button klicken. Die Spur die die Person für den Schnitt braucht ist heißt dann <code>local.flac</code>.</p>
+<h3 id="austauschen-und-ausrichten-von-spuren-zum-beispiel-nach-double-ender-aufnahmen-">Austauschen und Ausrichten von Spuren (zum Beispiel nach Double-Ender-Aufnahmen)</h3>
+<p><a href="https://www.youtube.com/watch?v=vdLpynu1ixE&amp;t=1853s">https://www.youtube.com/watch?v=vdLpynu1ixE&amp;t=1853s</a></p>
+<!--## Tipps für erfolgreichen Schnitt -->
 </article></div><div style="background-color: #b4b2b2;width: 50px;height:50px;line-height: 50px;text-align: center;position: fixed;bottom: 10px;right: 10px;padding-top:5px;" onclick="document.documentElement.scrollTop = document.body.scrollTop =0;">
   <svg t="1533629773982" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1035" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40"><defs><style type="text/css">@font-face { font-family: uc-nexus-iconfont; src: url("chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff") format("woff"), url("chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf") format("truetype"); }
   </style></defs><path d="M536.255427 195.182354c-7.804756-7.804756-17.966187-11.615549-28.311813-11.615549-9.43693 0-18.874883 3.449565-26.496467 10.163477-2.360767 1.452071-4.356214 3.267417-6.352685 5.262864L218.47792 455.611735c-15.607466 15.60542-15.607466 40.834011 0 56.43943 15.607466 15.607466 41.558511 15.607466 57.167001 0l193.46013-192.733583 0 600.526219c0 22.1423 17.787108 39.927361 39.927361 39.927361 22.140253 0 39.927361-17.785062 39.927361-39.927361L548.959773 319.317583 737.15704 508.422522c15.607466 15.607466 40.469714 15.607466 56.078203 0 15.607466-15.607466 15.425318-40.834011-0.182149-56.441477L536.255427 195.182354 536.255427 195.182354z" p-id="1036" fill="#333"></path><path d="M101.784174 143.097092l816.674071 0c22.140253 0 39.925315-17.785062 39.925315-39.927361 0-22.140253-17.784038-39.925315-39.925315-39.925315L101.784174 63.244416c-22.140253 0-39.927361 17.785062-39.927361 39.925315C61.856813 125.31203 79.643921 143.097092 101.784174 143.097092L101.784174 143.097092z" p-id="1037" fill="#333"></path></svg>

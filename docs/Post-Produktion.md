@@ -1,5 +1,5 @@
 ---
-id: postproduktion
+id: postproduction
 title: Post-Produktion
 tags:
   - x

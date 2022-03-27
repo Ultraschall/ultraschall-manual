@@ -86,7 +86,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'Mitwirkende',
-                to: '/docs/mitwirkende',
+                to: '/docs/partcipants',
               }
             ],
           },
