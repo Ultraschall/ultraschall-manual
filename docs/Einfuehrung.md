@@ -13,7 +13,7 @@ Schön, dass du zu Ultraschall gefunden hast. Ab jetzt wird deine Podcast-Produk
 
 Ultraschall ist das Schweizer Offiziersmesser unter den _Digital Audio Workstations_ ([DAW](https://pad.gwdg.de/XYgv66gbQwSYvFCMQm0WPA?both#DAW)), wenn es ums Podcasten geht. Eine DAW von Podcaster:innen - für Podcaster:innen. Ultraschall nimmt dabei die für Musikproduktionen gedachte DAW [REAPER](https://www.reaper.fm/) als Grundlage und optimiert sie soweit wie nur möglich fürs High-End-Podcasting. Dabei wurden von uns unter anderem die Funktionen erweitert und das Design modernisiert. Mit jedem neuen Release kommen weitere nützliche Funktionen dazu, um das Podcasten noch einfacher und die Ergebnisse professioneller zu machen.
 
-![DAWs Ultraschall 5.001.png](../assets/images/406911902ad72820bbdd2df1179d6d99e9358aa7.png)
+![DAWs Ultraschall 5.001.png](../assets/images/DAWs-Ultraschall-5.001.png)
 
 ## Warum Ultraschall?
 
