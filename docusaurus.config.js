@@ -34,6 +34,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+      defaultMode: 'dark',
+    },
       navbar: {
         title: 'Ultraschall Handbuch',
         logo: {
