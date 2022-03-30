@@ -28,21 +28,21 @@ Diese Gliederung findest du so auch im `Podcast`-Menü von Ultraschall und an ei
 
 ### Spuren anlegen
 
-Nachdem du Ultraschall gestartet hast, kannst du nun die benötigten Spuren anlegen. Leg für jede Sprecherin und jeden Sprecher jeweils eine eigene Spur (auch "Track") an – wahlweise per Doppelklick in den [Spuren-Bereich [23]](GUI-Gesamtuebersicht.md) oder mit einem Rechtsklick und der Option `Insert new track` aus dem Kontextmenü.
+Nachdem du Ultraschall gestartet hast, kannst du nun die benötigten Spuren anlegen. Leg für jede Sprecherin und jeden Sprecher jeweils eine eigene Spur (auch "Track") an – wahlweise per Doppelklick in den [Spuren-Bereich [23]](GUI-overview#bereich-arbeitsfläche) oder mit einem Rechtsklick und der Option `Insert new track` aus dem Kontextmenü.
 
 
 [Erfahre mehr ...](recording#Spuren-anlegen)
 
 ### Geräte auswählen
 
-Wähl dein Aufnahmegerät in den Einstellungen (im Menü unter `Preferences`>`Device`) im Punkt `Audio Devices`. Mit einem Linksklick auf jede Spur und dann `Input: Mono` im [Mixer [24]](GUI-overview) weist du jeder Spur die entsprechende Quelle zu.
+Wähl dein Aufnahmegerät in den Einstellungen (im Menü unter `Preferences`>`Device`) im Punkt `Audio Devices`. Mit einem Linksklick auf jede Spur und dann `Input: Mono` im [Mixer [24]](GUI-overview#bereich-arbeitsfläche) weist du jeder Spur die entsprechende Quelle zu.
 
 ## 2. Aufzeichnung
 
-Sofern du alles korrekt eingerichtet hast, ist die Aufnahme selbst keine allzu große Sache mehr. Trotzdem gibt es ein paar Dinge, die du nach Druck auf `Record`[[35]](GUI-Gesamtuebersicht.md) noch beachten kannst und solltest, damit es später für dich keine bösen Überraschungen oder vermeidbare Mehrarbeit gibt. Der erste und wichtigste Tipp: Wirf ab und an einen Blick in deine Aufnahmesoftware (am besten deaktivierst du für die Aufnahme den Bildschirmschoner). Dann siehst du direkt etwaige Fehler- oder Hinweismeldungen – zum Beispiel warnt dich Ultraschall, wenn du die Spuren nicht aktiviert oder das Projekt noch nicht gespeichert hast. Und du bekommst auch mit, falls mit den Spureinstellungen etwas nicht passt oder eine Person übersteuert.
+Sofern du alles korrekt eingerichtet hast, ist die Aufnahme selbst keine allzu große Sache mehr. Trotzdem gibt es ein paar Dinge, die du nach Druck auf `Record`[[35]](GUI-overview#buttons-wiedergabe) noch beachten kannst und solltest, damit es später für dich keine bösen Überraschungen oder vermeidbare Mehrarbeit gibt. Der erste und wichtigste Tipp: Wirf ab und an einen Blick in deine Aufnahmesoftware (am besten deaktivierst du für die Aufnahme den Bildschirmschoner). Dann siehst du direkt etwaige Fehler- oder Hinweismeldungen – zum Beispiel warnt dich Ultraschall, wenn du die Spuren nicht aktiviert oder das Projekt noch nicht gespeichert hast. Und du bekommst auch mit, falls mit den Spureinstellungen etwas nicht passt oder eine Person übersteuert.
 
 
-Die Einbindung von weiteren Sprechenden über das Internet ist im Kapitel [Aufnahme](Aufnahme.md#aufnehmen-mit-studiolink) näher erklärt. Wie du ein Soundboard verwendest, um während der Sendung Soundeffekte, Musik und andere Einspieler zu integrieren, erklären wir dir [hier](Aufnahme.md#das-soundboard-verwenden). Es ist außerdem sinnvoll, während der Aufnahme die [Pegel im Auge zu behalten](Aufnahme-fuer-Fortgeschrittene.md) sowie bei Bedarf direkt [Kapitel- und Editiermarken](Aufnahme-fuer-Fortgeschrittene.md) zu setzen.
+Die Einbindung von weiteren Sprechenden über das Internet ist im Kapitel [Aufnahme](recording#aufnehmen-mit-studiolink) näher erklärt. Wie du ein Soundboard verwendest, um während der Sendung Soundeffekte, Musik und andere Einspieler zu integrieren, erklären wir dir [hier](recording#das-soundboard-verwenden). Es ist außerdem sinnvoll, während der Aufnahme die [Pegel im Auge zu behalten](Aufnahme-fuer-Fortgeschrittene.md) sowie bei Bedarf direkt [Kapitel- und Editiermarken](Aufnahme-fuer-Fortgeschrittene.md) zu setzen.
 
 [Erfahre mehr...](recording)
 
@@ -59,11 +59,10 @@ In vielen Fällen besteht die Podcast-Produktion lediglich aus Schnitt, Audiopro
 Eines vorweg: Schnitt ist in Ultraschall nicht-destruktiv und jederzeit reversibel. Hab also keine Angst, dass du an irgendeiner Stelle mal zu viel entfernst – deine Aufnahmen bleiben immer im Original erhalten (du findest sie in deinem Projektverzeichnis [[22]](GUI-overview#buttons-export) im Ordner `Recordings`).
 
 
-Um Inhalte über alle Spuren hinweg zu entfernen (zum Beispiel am Anfang und Ende der Aufnahme), selektierst du den gewünschten Abschnitt im [Timeline-Arbeitsbereich [25]](GUI-overview), indem du mit gedrückter Maustaste ziehst und auswählst oder indem mit
+Um Inhalte über alle Spuren hinweg zu entfernen (zum Beispiel am Anfang und Ende der Aufnahme), selektierst du den gewünschten Abschnitt im [Timeline-Arbeitsbereich [25]](GUI-overview#bereich-arbeitsfläche), indem du mit gedrückter Maustaste ziehst und auswählst oder indem mit
 
 <kbd>I</kbd>
 - beziehungsweise
-
 
 <kbd>O</kbd>
 

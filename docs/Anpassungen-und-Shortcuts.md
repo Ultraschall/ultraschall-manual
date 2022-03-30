@@ -6,13 +6,13 @@ tags:
   - x
 ---
 
-<!-- @todo: Blder auf Git main umziehen --> <!-- @todo: Links auf Git main umziehen --> <!-- @todo: Link auf Kapitel "Sonstiges" korrigieren --> <!-- @todo: Bildunterschrifen hinzufügen --> <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen --> <!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
+<!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
 
- # Einleitung
+## Einleitung
 
 Um deine Arbeitsweise zu beschleunigen, gibt es in Ultraschall zahlreiche Tastenkombinationen die dir das das Arbeiten vereinfachen können. In diesem Kapitel lernst du, wie du die bereits mitgelieferten Shortcuts benutzt und wie du beliebige eigene Tastenkombinationen einrichten kannst.
 
-## Ultraschall Voreinstellungen
+### Ultraschall Voreinstellungen
 
 **Etliche Tastaturshortcuts sind nun auf global gesetzt** Je nach Tastaturfokus konnte es sein, dass Tastaturshortcuts nicht reagiert haben oder anders reagiert haben, als man es gewohnt war. Jetzt sind viele Shortcuts so eingestellt, dass sie auch dann funktionieren, wenn man z.B. etwas im Soundboard angeklickt hat. Dies sollte typische Probleme lösen, wie das nicht reagieren von Shortcuts fürs Marker setzen.
 
@@ -32,7 +32,12 @@ Um deine Arbeitsweise zu beschleunigen, gibt es in Ultraschall zahlreiche Tasten
 
 **Trackpad-/Mausradfunktionen** Trackpads und Mausrad kommen sich leider in den Belegungen in die Quere. Das Mausrad hat nun folgende Belegungen, die so auch in nahezu allen anderen Schnittprogrammen zu finden sind:
 
-`Scroll` – Verikales Scrollen des [Timeline-Arbeitsbereichs [25]](GUI-overview) `Scroll` + `Shift` – Horizontales Scrollen des [Timeline-Arbeitsbereichs [25]](GUI-overview) `Scroll` + `Alt` – Horizontaler Zoom `Scroll` + `cmd/strg` – Vertikaler Zoom `Klick` + `Drag` – Freies Verschieben des [Timeline-Arbeitsbereichs [25]](GUI-overview) `Klick` – Setzt den Edit-Cursor ohne Auswahl von Spuren/items
+- `Scroll` – Verikales Scrollen des [Timeline-Arbeitsbereichs [25]](GUI-overview#bereich-arbeitsfläche)
+- `Scroll` + `Shift`  Horizontales Scrollen des [Timeline-Arbeitsbereichs [25]](GUI-overview#bereich-arbeitsfläche)
+- `Scroll` + `Alt` – Horizontaler Zoom 
+- `Scroll` + `cmd/strg` – Vertikaler Zoom
+- `Klick` + `Drag` – Freies Verschieben des [Timeline-Arbeitsbereichs [25]](GUI-overview#bereich-arbeitsfläche)
+- `Klick` – Setzt den Edit-Cursor ohne Auswahl von Spuren/items
 
 **Schnitte Prüfen** Die Shortcuts `alt`+ `cmd`+ `left` und `alt` + `cmd` + `right` springen zur nächsten Itemkante (bei ausgewählten Tracks nur auf ebendiesen), springen dann noch um den in den Ultraschall-Settings angegebenen Wert des Previews zurück und spielen den Schnitt dann ab. Perfekt zum schnellen Kontrollieren aller Schnitte in einem Projekt.
 
@@ -40,7 +45,7 @@ Um deine Arbeitsweise zu beschleunigen, gibt es in Ultraschall zahlreiche Tasten
 
 **Zoom auf Edit-Cursor** Mit `cmd/strg` + `Pinch` auf dem Trackpad wird nicht an die Position des Mauszeigers gezoomt, sondern an die des Edit-Cursors.
 
-## Eigene Shortcuts verwenden
+#### Eigene Shortcuts verwenden
 
 (Dank an Mespotine mespotine.de für den Text und die Bilder) <!-- @todo: Bei Mesopotine bob dieser Hweis entfallen kann -->
 
@@ -48,7 +53,7 @@ Um an das Menü für die Shortcuts zu gelangen, musst Du den Actions-Dialog öff
 
 Damit kannst Du die Shortcuts noch etwas individualisieren, wenn die Ultraschall-Standardeinstellungen für Shortcuts für Dich nicht ganz passen.
 
-### Global Shortcuts:
+#### Global Shortcuts:
 
 In diesem Beispiel wird ein neuer Shortcut( `Alt`+ `Eingabe`) erstellt, um die Project-Settings zu öffnen. Suche hierfür die Action die Du anpassen möchtes in diesem Beispiel die „Project Settings", klicke den `Add…-Button` an und ein Dialog erscheint.
 
@@ -60,7 +65,7 @@ Du erkennst, dass dieser global ist, wenn unten in der Liste (global) neben dem 
 
 Wichtig ist hierbei darauf zu achten, dass Ihr in der Scope-Auswahlliste NICHT Global + text fields auswählt, sonst werden Eure Shortcuts auch dann ausgelöst, wenn Ihr irgendwo Texte eintippt. Und das wollt Ihr nicht.
 
-### Eigene Shortcuts anlegen und benutzen
+#### Eigene Shortcuts anlegen und benutzen
 
 In diesem Beispiel ist zu sehen wie der eben gesetzte Shortcut(`Alt`+ `Eingabe`) so geändet wird, dass er auf nicht-global gesetzt ist, also nur dann funktioniert, wenn der Tastaturfokus auf den [Spuren [23]](GUI-overview) oder dem [Mixer [24]](GUI-overview) liegt.
 
@@ -76,6 +81,8 @@ Und dann achte darauf, dass in der Scope-Dropdownliste „Normal" ausgewählt is
 
 Du erkennst ob der Shortcut richtig gesetzt ist, wenn in der Shortcut-Liste unten KEIN (global) mehr steht.
 
-# Kontrollgeräte verwenden (Midi, OSC, etc.)
+## Kontrollgeräte verwenden (Midi, OSC, etc.)
 
-:::info **Hinweis:** Alle Shortcuts können auch per Midi und OSC angesteuert werden. Hinweise dazu sind im Kapitel [Sonstiges](https://pad.gwdg.de/sLRAFF9eS0OwYFuobe_wZw#) zu finden: :::
+:::info **Hinweis:**
+Alle Shortcuts können auch per Midi und OSC angesteuert werden. Hinweise dazu sind im Kapitel [Sonstiges](https://pad.gwdg.de/sLRAFF9eS0OwYFuobe_wZw#) zu finden: 
+:::
