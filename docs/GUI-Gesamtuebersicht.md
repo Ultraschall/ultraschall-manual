@@ -55,7 +55,7 @@ lektorat:
 
 ### Bereich: Arbeitsfläche
 
-23. **Spuren-Bereich**: zeigt stellt die verschiedenen Spuren des Projektes dar
+23. **Spuren-Bereich**: zeigt die verschiedenen Spuren des Projektes an
 24. **Mixer-Bereich**: stellt für jede Spur einen eigenen Regler dar (über den Regler gelangst du schnell auch zu den Filtern für den jeweiligen Track) – zusätzlich findet sich hier auch der Master-Regler, der den Mixpegel steuert
 25. **Timeline-Bereich**: das Kernstück des Projekts; hier siehst du die Wellenformen deiner Spuren, aber auch Schnitte, Marken, Envelope-Bearbeitungen und einiges mehr
 26. **Filter-Bereich**: taucht auf, sobald du den FX-Knopf einer Spur drückst
