@@ -31,7 +31,7 @@ Diese Gliederung findest du so auch im `Podcast`-Menü von Ultraschall und an ei
 Nachdem du Ultraschall gestartet hast, kannst du nun die benötigten Spuren anlegen. Leg für jede Sprecherin und jeden Sprecher jeweils eine eigene Spur (auch "Track") an – wahlweise per Doppelklick in den [Spuren-Bereich [23]](GUI-overview#bereich-arbeitsfläche) oder mit einem Rechtsklick und der Option `Insert new track` aus dem Kontextmenü.
 
 
-[Erfahre mehr ...](recording#Spuren-anlegen)
+[Erfahre mehr ...](recording#spuren-anlegen)
 
 ### Geräte auswählen
 
