@@ -145,7 +145,7 @@ Eine StudioLink-Spur lässt sich über das Menü `Podcast -> Insert StudioLink a
  ![isert-new-studiolink-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_insert_track.png) **Screenshot:** *Einfügen einer StudioLink-Spur über das Menü*
 
 :::caution **Achtung!**
-Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-overvie#bereich-arbeitsflächew) beziehungsweise im [Mixer-Bereich [24]](GUI-overview#bereich-arbeitsfläche). Es öffnet sich aber ein Browserfenster im Standardbrowser, in dem die eigentliche Verbindung aufgebaut wird. Wenn du Windows verwendest, darfst du das Terminalfenster nicht schließen, sonst kannst du keine Verbindung aufbauen. <!-- @TODO: Mit Sebastian abklären wie die Anleitung von StudioLink aktuell gehalten werden soll. ! -->
+Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-overview#bereich-arbeitsflächew) beziehungsweise im [Mixer-Bereich [24]](GUI-overview#bereich-arbeitsfläche). Es öffnet sich aber ein Browserfenster im Standardbrowser, in dem die eigentliche Verbindung aufgebaut wird. Wenn du Windows verwendest, darfst du das Terminalfenster nicht schließen, sonst kannst du keine Verbindung aufbauen. <!-- @TODO: Mit Sebastian abklären wie die Anleitung von StudioLink aktuell gehalten werden soll. ! -->
 :::
 
 ### Studiolinkfenster
