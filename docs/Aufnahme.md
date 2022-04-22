@@ -2,8 +2,7 @@
 id: recording
 title: Aufnahme
 tags:
-  - x
-  - x
+  - recording
 ---
 
 <!-- @todo: Links auf Git main umziehen --> <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen --> <!-- @todo: Screenshotgröße anpassen --> <!-- @todo: entscheiden was damit passiert. https://www.youtube.com/watch?v=p5kYH-YheN0 -->
@@ -40,7 +39,9 @@ Reguläre Tracks, denen du im nächsten Schritt einzelne Sprechende beziehungswe
 
 Mit einem Klick in den noch leeren, aber bereits eingefärbten Bereich vergibst du am besten direkt einen Namen für deine Spur – so verlierst du auch in größeren Projekten nicht den Überblick.
 
-![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/i mages/Aufnahme/track-renaming.png?=650x) **Track benennen** _Lege für deine Tracks sinnvolle Namen an, dass erleichtert dir später die Zuordnung_ Seit Version 5 von Ultraschall werden Spuren nicht nur automatisch in ihrer Höhe an die Fenstergröße angepasst, sondern zur Übersicht auch automatisch eingefärbt. Klickst du mit der rechten Maustaste auf den Track (oder per Tastenkürzel `ALT+C` bei ausgewählter Spur) kannst du im Color Picker die Farbe auch nachträglich ändern.
+![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-renaming.png?=650x)
+
+**Track benennen** _Lege für deine Tracks sinnvolle Namen an, dass erleichtert dir später die Zuordnung_ Seit Version 5 von Ultraschall werden Spuren nicht nur automatisch in ihrer Höhe an die Fenstergröße angepasst, sondern zur Übersicht auch automatisch eingefärbt. Klickst du mit der rechten Maustaste auf den Track (oder per Tastenkürzel `ALT+C` bei ausgewählter Spur) kannst du im Color Picker die Farbe auch nachträglich ändern.
 
 So sieht das in einem Projekt mit zwei Sprechenden, einer Studio-Link-Spur und einem Soundboard aus: ![example-project](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/project-with-4-tracks.png?=650x) **Beispielprojekt** _So sieht ein Projekt mit zwei Sprechenden, einer Studio-Link-Spur und einem Soundboard aus_
 
