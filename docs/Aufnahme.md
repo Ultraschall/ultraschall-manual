@@ -16,7 +16,7 @@ Jetzt kann die eigentliche Aufnahme beginnen. In diesem Kapitel lernst du wie du
 REAPER öffnet beim Starten immer das zuletzt bearbeitete Projekt. Findet REAPER kein letztes Projekt, öffnet REAPER ein neues leeres Projekt. Dieses Projekt kannst du über das Menü `File -> save project` oder mit `STRG+S` speichern. Nimmst du etwas auf, bevor du das Projekt gespeichert hast, werden die Audiodateien im Ordner 'Dokumente/REAPER Media' gespeichert. Ein neues Projekt kannst du über `File -> New Project` oder `CONTROL+N` anlegen.
 
 :::info **Tipp:** 
-Du solltest immer vor der Aufnahme dein Projekt abspeichern, das erspart dir hinterher Datenchaos. Der [Soundcheck](https://pad.gwdg.de/AfIRFYAlQ5mM1PvSHIZCvg?both#Soundcheck) hilft dir dabei, das nicht zu vergessen.
+Du solltest immer vor der Aufnahme dein Projekt abspeichern, das erspart dir hinterher Datenchaos. Der [Soundcheck](#Soundcheck) hilft dir dabei, das nicht zu vergessen.
 :::
 
 ## Project Templates
@@ -172,7 +172,7 @@ Das Terminalfenster bei Winwows darf nicht geschlossen werden. Anderfalls funkti
 ## Das Soundboard verwenden 
 
 ### Soundboard-Spur einfügen
-Ultraschall kommt mit einem eigenen Soundboard, über das du während der Aufnahme Musik und Klangeffekte einspielen kannst, z. B. dein Intro, Trenner oder andere Audioschnipsel. Eine Soundboard-Spur fügst du über das Menü "Podcast -> Insert StudioLink and Soundboard tracks -> Insert Ultraschall-Soundboard track" ein. Alternativ kannst du auch mit der rechten Maustaste in den [Spuren-Bereich [23]](GUI-overview#bereich-arbeitsfläche) klicken und dort die entsprechende Option auswählen.
+Ultraschall kommt mit einem eigenen Soundboard, über das du während der Aufnahme Musik und Klangeffekte einspielen kannst, z. B. dein Intro, Trenner oder andere Audioschnipsel. Eine Soundboard-Spur fügst du über das Menü "Podcast -> Insert StudioLink and Soundboard tracks -> Insert Ultraschall-Soundboard track" ein. Alternativ kannst du auch mit der rechten Maustaste in den [Spuren-Bereich [23]](GUI-overview) klicken und dort die entsprechende Option auswählen.
 
 <!-- @TODO: einheitliche Begriffe für Programm-Bereiche und Funktionen? -->
 
@@ -190,7 +190,7 @@ Wir empfehlen, pro Projekt nur eine Soundboard-Spur anzulegen. Sounds für ein P
 
 ### Bedienung
 
-Um dem Soundboard beizubringen, wo die entsprechenden Sound-Dateien liegen, wählst du die entsprechende Spur und wechselst mittels Klick auf den zugehörigen FX-Button der Spur im [Mixer-Bereich [24]](GUI-overview#bereich-arbeitsfläche) in die Ansicht für die Plugin-Liste. Dort stellst du sicher, dass das Soundboard-Plugin aktiviert ist (Haken ist gesetzt). Über das Ordner-Symbol oben links im Plugin-Bereich legst du das Verzeichnis fest, in dem du die Sound-Dateien fürs Soundboard abgespeichert hast.
+Um dem Soundboard beizubringen, wo die entsprechenden Sound-Dateien liegen, wählst du die entsprechende Spur und wechselst mittels Klick auf den zugehörigen FX-Button der Spur im [Mixer-Bereich [24]](GUI-overview) in die Ansicht für die Plugin-Liste. Dort stellst du sicher, dass das Soundboard-Plugin aktiviert ist (Haken ist gesetzt). Über das Ordner-Symbol oben links im Plugin-Bereich legst du das Verzeichnis fest, in dem du die Sound-Dateien fürs Soundboard abgespeichert hast.
 
 ![soundboard-activation](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundboard-activation_new.png)
 **Soundboard Aktivierung**: *So aktivierst du ein Soundboard*
