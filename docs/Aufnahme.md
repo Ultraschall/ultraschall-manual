@@ -136,7 +136,7 @@ Im Dashboard siehst du jederzeit den Status des Soundchecks. Ein Klick auf die S
 
 [StudioLink](https://studio-link.de) ist eine eigenständige Software, die dir die Möglichkeit bietet dich remote zu einer Ultraschall-Aufnahme zuzuschalten oder andere Personen zuzuschalten.
 
-StudioLink gibt es in zwei Fassungen. Einmal die *Standalone-Version* (für deine Gäste) und einmal als *Plugin* (für dich zum Aufnehmen in Ultraschall). Das StudioLink-Plugin wird direkt zusammen mit Ultraschall installiert. <!-- @TODO: ausgeliefert? Wie ist das mit Updates? --> Eine ausführliche Dokumentation über StudioLink selbst findest du hier: [StudioLink-Doku](https://doku.studio-link.de/). 
+StudioLink gibt es in zwei Fassungen. Einmal die *Standalone-Version* (für deine Gäste) und einmal als *Plugin* (für dich zum Aufnehmen in Ultraschall). Das StudioLink-Plugin wird direkt zusammen mit Ultraschall installiert. Updates von StudioLink kommen immer zusammen mit Ultraschall-Updates. <!-- @TODO: ausgeliefert? --> Eine ausführliche Dokumentation über StudioLink selbst findest du hier: [StudioLink-Doku](https://doku.studio-link.de/). 
 
 Eine StudioLink-Spur lässt sich über das Menü `Podcast -> Insert StudioLink and Soundboard Tracks -> Insert StudioLink track` einfügen.
 
@@ -145,7 +145,7 @@ Eine StudioLink-Spur lässt sich über das Menü `Podcast -> Insert StudioLink a
  ![isert-new-studiolink-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_insert_track.png) **Screenshot:** *Einfügen einer StudioLink-Spur über das Menü*
 
 :::caution **Achtung!**
-Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-overview) beziehungsweise im [Mixer-Bereich [24]](GUI-overview). Es öffnet sich aber ein Browserfenster im Standardbrowser, in dem die eigentliche Verbindung aufgebaut wird. Wenn du Windows verwendest, darfst du das Terminalfenster nicht schließen, sonst kannst du keine Verbindung aufbauen. <!-- @TODO: Mit Sebastian abklären wie die Anleitung von StudioLink aktuell gehalten werden soll. ! -->
+Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-overvie#bereich-arbeitsflächew) beziehungsweise im [Mixer-Bereich [24]](GUI-overview#bereich-arbeitsfläche). Es öffnet sich aber ein Browserfenster im Standardbrowser, in dem die eigentliche Verbindung aufgebaut wird. Wenn du Windows verwendest, darfst du das Terminalfenster nicht schließen, sonst kannst du keine Verbindung aufbauen. <!-- @TODO: Mit Sebastian abklären wie die Anleitung von StudioLink aktuell gehalten werden soll. ! -->
 :::
 
 ### Studiolinkfenster
@@ -172,7 +172,7 @@ Das Terminalfenster bei Winwows darf nicht geschlossen werden. Anderfalls funkti
 ## Das Soundboard verwenden 
 
 ### Soundboard-Spur einfügen
-Ultraschall kommt mit einem eigenen Soundboard, über das du während der Aufnahme Musik und Klangeffekte einspielen kannst, z. B. dein Intro, Trenner oder andere Audioschnipsel. Eine Soundboard-Spur fügst du über das Menü "Podcast -> Insert StudioLink and Soundboard tracks -> Insert Ultraschall-Soundboard track" ein. Alternativ kannst du auch mit der rechten Maustaste in den [Spuren-Bereich [23]](GUI-overview) klicken und dort die entsprechende Option auswählen.
+Ultraschall kommt mit einem eigenen Soundboard, über das du während der Aufnahme Musik und Klangeffekte einspielen kannst, z. B. dein Intro, Trenner oder andere Audioschnipsel. Eine Soundboard-Spur fügst du über das Menü "Podcast -> Insert StudioLink and Soundboard tracks -> Insert Ultraschall-Soundboard track" ein. Alternativ kannst du auch mit der rechten Maustaste in den [Spuren-Bereich [23]](GUI-overview#bereich-arbeitsfläche) klicken und dort die entsprechende Option auswählen.
 
 <!-- @TODO: einheitliche Begriffe für Programm-Bereiche und Funktionen? -->
 
@@ -190,7 +190,7 @@ Wir empfehlen, pro Projekt nur eine Soundboard-Spur anzulegen. Sounds für ein P
 
 ### Bedienung
 
-Um dem Soundboard beizubringen, wo die entsprechenden Sound-Dateien liegen, wählst du die entsprechende Spur und wechselst mittels Klick auf den zugehörigen FX-Button der Spur im [Mixer-Bereich [24]](GUI-overview) in die Ansicht für die Plugin-Liste. Dort stellst du sicher, dass das Soundboard-Plugin aktiviert ist (Haken ist gesetzt). Über das Ordner-Symbol oben links im Plugin-Bereich legst du das Verzeichnis fest, in dem du die Sound-Dateien fürs Soundboard abgespeichert hast.
+Um dem Soundboard beizubringen, wo die entsprechenden Sound-Dateien liegen, wählst du die entsprechende Spur und wechselst mittels Klick auf den zugehörigen FX-Button der Spur im [Mixer-Bereich [24]](GUI-overview#bereich-arbeitsfläche) in die Ansicht für die Plugin-Liste. Dort stellst du sicher, dass das Soundboard-Plugin aktiviert ist (Haken ist gesetzt). Über das Ordner-Symbol oben links im Plugin-Bereich legst du das Verzeichnis fest, in dem du die Sound-Dateien fürs Soundboard abgespeichert hast.
 
 ![soundboard-activation](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundboard-activation_new.png)
 **Soundboard Aktivierung**: *So aktivierst du ein Soundboard*
