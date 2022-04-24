@@ -51,7 +51,7 @@ Um deine Aufnahme- und Schnittarbeit zu beschleunigen, gibt es in Ultraschall za
 
 ## Eigene Shortcuts verwenden
 
-(Danke an [Mespotine](https://mespotine.de) für den Text und die Bilder.) <!-- @todo: Bei Mesopotine bob dieser Hweis entfallen kann -->
+(Danke an [Mespotine](https://mespotine.de) für den Text und die Bilder.) <!-- @todo: Bei Mespotine fragen, ob dieser Hinweis entfallen kann -->
 
 Um an das Menü für die Shortcuts zu gelangen, öffnest du den `Actions`-Dialog öffnen aus dem Menü `Actions`>`Show action list`. Hier kannst du die Shortcuts individualisieren, falls die Ultraschall-Standardeinstellungen für dich aus irgendeinem Grund nicht passen.
 
