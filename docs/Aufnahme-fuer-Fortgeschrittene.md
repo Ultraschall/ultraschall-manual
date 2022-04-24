@@ -1,6 +1,6 @@
 ---
 id: advancedrecording
-title: 'Aaufnahme-für-Fortgeschrittene'
+title: 'Aufnahme-für-Fortgeschrittene'
 tags:
   - x
   - x
