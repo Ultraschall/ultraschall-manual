@@ -173,5 +173,5 @@ Wenn deine Mitpodcastenden eine schlechte oder instabile Internetverbindung habe
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/watch?v=RnkHsQp2Mbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
 
-<iframe width="560" height="315" src="ultraschall-manual/youtube?url=RnkHsQp2Mbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe> 
+<!--<iframe width="560" height="315" src="ultraschall-manual/youtube?url=RnkHsQp2Mbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe> -->
