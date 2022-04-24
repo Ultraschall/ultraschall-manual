@@ -12,6 +12,10 @@ tags:
 
 Dein Podcast ist aufgenommen und geschnitten? Dann kannst du jetzt mit der Post-Produktion beginnen. Das Ziel in diesem Kapitel ist es den Klang von deinem Podast noch besser zu machen als er ohnehin schon ist. Dafür lernst du welche Effekte Ultraschall mitbringt und wie du diese einsetzen kannst.
 
+:::info Video
+Zu diesem Thema gibt es ein Video von Joram: [Zum video springen](#video)
+:::
+
 # Warum Post-Produktion sinnvoll ist – und wo die Grenzen liegen
 
 Eines gleich vorweg: Je besser deine Aufnahme, desto weniger Arbeit hast du damit in der Post-Produktion. Es lohnt sich also, von vorneherein auf Umgebungs- und Störgeräusche zu achten, Netzbrummen zu eliminieren, Sprechabstände und Aufnahmepegel feinzujustieren und insgesamt darauf zu achten, bestmögliche Aufnahmebedingungen zu haben. Trotzdem ist für ein optimales Ergebnis Post-Produktion immer wichtig und sinnvoll.
@@ -190,3 +194,7 @@ Das klappt nur, wenn man während der Aufnahme nichts am Gain der Aufnahme verä
 Hier das Video: <!-- @todo gif mit US 3.1 das müssen wir neu machen -->
 
 ![Noisegate anpassen](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_004.gif) **Ultraschall Dynamics:** _Ändern der Schwelle für das Rauschen (Rauschunterdrückung)_" verändern.*
+
+## Video
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/watch?v=KMpCO7w9kyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
