@@ -11,6 +11,10 @@ tags:
 
 Jetzt kann die eigentliche Aufnahme beginnen. In diesem Kapitel lernst du wie du Spuren anlegst, deine Audioquellen wählst und dann mit der eigentlichen Aufnahme beginnst.
 
+:::info Video
+Zu diesem Thema gibt es ein Video von Joram: [Zum video springen](#video)
+:::
+
 ## Neues Projekt anlegen
 
 REAPER öffnet beim Starten immer das zuletzt bearbeitete Projekt. Findet REAPER kein letztes Projekt, öffnet REAPER ein neues leeres Projekt. Dieses Projekt kannst du über das Menü `File -> save project` oder mit `STRG+S` speichern. Nimmst du etwas auf, bevor du das Projekt gespeichert hast, werden die Audiodateien im Ordner 'Dokumente/REAPER Media' gespeichert. Ein neues Projekt kannst du über `File -> New Project` oder `CONTROL+N` anlegen.
@@ -215,7 +219,12 @@ Die Dateien werden hier immer alphabetisch sortiert angezeigt. Willst du lieber 
 6. **Softer Fade-in**: Startet wie auch [4] die Wiedergabe – beginnt stumm, die Lautstärke nimmt über circa fünf Sekunden hinweg zu; der restliche Clip wird in der eingestellten Lautstärke wiedergegeben
 7. **Lautstärke**: Individuelle Lautstärkeeinstellung für den jeweiligen Clip
 
-**Und auch das Soundboard nochmal als Video:**
-
+<!-- **Und auch das Soundboard nochmal als Video:**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vdLpynu1ixE?start=3008" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe> -->
+
+
+## Video
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/watch?v=P4d_EWsfHmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
+
