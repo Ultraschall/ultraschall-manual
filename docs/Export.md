@@ -9,7 +9,22 @@ tags:
 
 
 <!-- @todo: Links auf  Git main umziehen -->
-<!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
+<!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen 
+
+@todo: Was passiert mit dem Video?
+https://www.youtube.com/watch?v=vdLpynu1ixE&t=4104s
+
+@todo: entscheiden ob wir das noch schreiben oder nicht?
+
+## Export Kapitelmarkten, Weiterverarbeitung
+
+## Meta-Daten (id3tags)
+welche gibts?
+warum?
+
+## Kapitel als einzelene Dateien rendern
+https://sendegate.de/t/faq-kapitel-als-einzelne-dateien-rendern/4824
+-->
 
 ## Einleitung
 Wenn dein Projekt jetzt fertig geschnitten und abgemischt ist, kannst du jetzt deine fertig Audiodatei exportieren. In diesem Kapitel lernst du wie du deinen fertigen Podacst exportierst und welche wichtigen Punkte von Kapitelmarken bis Eposiodenbilder du dabei beachten solltest.
@@ -118,19 +133,8 @@ An häufingsten wird für Ultraschall Projekte das **mp3** Format verwendet, da 
 
 ![Exportformate](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-formats.png) **Exportformate:** *Mit Ultraschall kannst du deinen Podcast in verschiedenen Formaten exportieren. Standartmäßig ist MP3 aufgewählt.*
 
-<!--
- @todo: Was passiert mit dem Video?
-https://www.youtube.com/watch?v=vdLpynu1ixE&t=4104s
 
-@todo: entscheiden ob wir das noch schreiben oder nicht?
 
-## Export Kapitelmarkten, Weiterverarbeitung
-
-## Meta-Daten (id3tags)
-welche gibts?
-warum?
-
-## Kapitel als einzelene Dateien rendern
-https://sendegate.de/t/faq-kapitel-als-einzelne-dateien-rendern/4824
-
--->
+## Video
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/watch?v=KMpCO7w9kyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
