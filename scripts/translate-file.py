@@ -29,10 +29,13 @@ def translateFile(filename):
        target_lang="EN-GB",
        entries={"Ultraschall": "Ultraschall", "ultraschall": "ultraschall"},
    )
+   
+   """
    translatedFilename = str(translator.translate_text(filename,
                                                       source_lang="DE",
                                                       target_lang="EN-GB",
                                                       glossary=glossary_de_to_en))
+                                                      """
 
    # convert file to txt
    shutil.copy2("../docs/"+filename + '.md', "../docs/"+filename+'.txt')
@@ -41,7 +44,7 @@ def translateFile(filename):
    try:
        translator.translate_document_from_filepath(
            "../docs/"+filename+".txt",
-           "../i18n/en/docusaurus-plugin-content-docs/current/"+translatedFilename+".txt",
+           "../i18n/en/docusaurus-plugin-content-docs/current/"+filename+".txt",
            source_lang="DE",
            target_lang="EN-GB",
            glossary=glossary_de_to_en
