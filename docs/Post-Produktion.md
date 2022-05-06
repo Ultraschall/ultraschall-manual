@@ -17,7 +17,7 @@ lektorat:
 Dein Podcast ist aufgenommen und geschnitten? Dann ist jetzt Zeit für die Post-Produktion. Das Ziel in diesem Kapitel ist es, den Klang deines Podcasts zu verbessern – selbst wenn er vielleicht ohnehin schon gut klingt. Hier lernst du, welche Effekte Ultraschall mitbringt und wie du diese einsetzt.
 
 :::info Info
-Zu diesem Thema gibt es ein sehr gutes Tutorial-Video: [Zum Video springen](#video)
+Zu diesem Thema gibt es ein sehr gutes [Tutorial-Video](#video).
 :::
 
 ## Warum Post-Produktion sinnvoll ist – und wo die Grenzen liegen
