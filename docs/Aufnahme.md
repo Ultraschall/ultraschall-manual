@@ -18,7 +18,7 @@ lektorat:
 Jetzt kann die eigentliche Aufnahme beginnen. In diesem Kapitel lernst du, wie du Spuren anlegst, deine Audioquellen wählst und dann mit der eigentlichen Aufnahme beginnst.
 
 :::info Video
-Zu diesem Thema gibt es ein Video von Joram: [Zum video springen](#video)
+Zu diesem Thema gibt es ein sehr gutes [Tutorial-Video](#video).
 :::
 
 ## Neues Projekt anlegen
@@ -55,8 +55,10 @@ Seit Version 5 von Ultraschall werden Spuren nicht nur automatisch in ihrer Höh
 
 **Das Ganze nochmal als Video-Erklärung:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p5kYH-YheN0?start=846" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=846" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe> 
+
+
 
 ## Eingänge wählen
 
@@ -86,11 +88,12 @@ Ultraschall versucht, alle Tracks und Aufnahme-Kanäle automatisch zuzuordnen. S
 
 **Das Ganze nochmal als Video-Erklärung:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p5kYH-YheN0?start=911" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe> 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vdLpynu1ixE?start=4970" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=4970" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe> 
+
 
 ## Routing
 
@@ -114,7 +117,7 @@ Seit Version 5 gibt es in Ultraschall ein sogenannte Magic Routing, das dir das 
 
 Falls du das Routing lieber manuell festlegst, kannst du das über die Einstellungen `View`>`Routing Matrix` oder mit <kbd>Alt</kbd> + <kbd>R</kbd> machen. Die [Routing-Matrix [27]](GUI-overview) zeigt dir eine Übersicht an, welche Personen sich gegenseitig hören. Die Zuordnung kannst du zwar hier manuell verändern, seit der Einführung des Magic Routing raten wir davon allerdings ab.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p5kYH-YheN0?start=2917" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=2917" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe>
 
 **Video:** _Ab Minute 49 wird in dem Video unten erklärt, wie das Routing in älteren Versionen angepasst wurde._
@@ -206,6 +209,5 @@ Die Dateien werden hier immer alphabetisch sortiert angezeigt. Willst du lieber 
 
 
 ## Video
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/watch?v=P4d_EWsfHmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<iframe width="560" height="315" src="../youtube/?url=P4d_EWsfHmk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe>
-
