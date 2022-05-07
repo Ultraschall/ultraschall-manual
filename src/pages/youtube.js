@@ -27,14 +27,14 @@ export default function youtube() {
                 backgroundImage: "url(../img/video-placeholder.png)"
               }}
               >
-              <body style={{padding: '10px'}}>
+              <div style={{padding: '10px'}}>
                 <p>Beim Starten des Videos wird eine Verbindung mit YouTube hergestellt.
                   Die bei YouTube geltenden Datenschutzbestimmungen können
                     Sie <a href="https://policies.google.com/privacy?hl=de" target="_blank">HIER</a> einsehen.</p>
                 <form action={videoURL} target="_self">
                 <button style={{padding: '10px', border: "none", marginLeft: '37%'}} type="submit" name="start">Starte Video</button>
                 </form>
-              </body>
+              </div>
            </div>  
         )
       } else {
