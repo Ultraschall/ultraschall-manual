@@ -48,7 +48,8 @@ Du kannst auch direkt zum dritten Schritt springen, weil dort nochmal eine Über
 :::
 
 Auch hierzu gibt es eine Video-Erklärung von Ralf Stockmann:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vdLpynu1ixE?start=3911" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=3911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe> 
 
 ### 1. Marker Dashboard
 
@@ -160,5 +161,5 @@ An häufigsten wird für Ultraschall-Projekte das **MP3**-Format verwendet. Der 
 ![Exportformate](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-formats.png) **Exportformate:** *Mit Ultraschall kannst du deine Podcast-Episoden in verschiedene Formaten exportieren. Der Standard ist MP3.*
 
 ## Video
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/watch?v=KMpCO7w9kyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<iframe width="560" height="315" src="../youtube/?url=KMpCO7w9kyI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe> 

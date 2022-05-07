@@ -8,9 +8,6 @@ lektorat:
     - Schlusskorrektur: 
 ---
 
-<!-- @todo: Bilder auf Git main umziehen -->
-<!-- @todo: Links auf Git main umziehen -->
-<!-- @todo: Bildunterschrifen hinzufügen -->
 <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
 <!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
 
@@ -209,9 +206,5 @@ Falls deine Mitpodcastenden über eine schlechte oder instabile Internetverbindu
 <!-- ## Tipps für erfolgreichen Schnitt -->
 
 ## Video
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/watch?v=RnkHsQp2Mbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
-
-<!--<iframe width="560" height="315" src="ultraschall-manual/youtube?url=RnkHsQp2Mbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe> -->
+<iframe width="560" height="315" src="../youtube/?url=RnkHsQp2Mbw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe> 
