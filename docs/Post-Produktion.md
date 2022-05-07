@@ -92,8 +92,8 @@ Sollte das Endergebnis nicht überzeugend klingen, ist vermutlich der Signal-Rau
 ![Ultraschall Dynamics Noisefloor](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/Ultrasschall_Dynamics.png) **Ultraschall Dynamics - Noisefloor**: _Der Noisefloor bestimmt den Signal-Rauschabstand der zugehörigen Spur._
 
 **Den genauen Ablauf des AMP zeigt dieses Video:**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vdLpynu1ixE?start=2877" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=2877" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe> 
 
 ## Post-Produktion für Fortgeschrittene
 
@@ -202,6 +202,5 @@ Das klappt aber nur, wenn du während der Aufnahme nicht am Gain-Regler gedreht 
 ![Noisegate anpassen](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_004.gif) **Ultraschall Dynamics:** _So veränderst du die Schwelle für die Rauschunterdrückung)._
 
 ## Video
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/watch?v=KMpCO7w9kyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<iframe width="560" height="315" src="../youtube/?url=KMpCO7w9kyI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe> 
