@@ -1,8 +1,10 @@
 ---
 id: about
-title: Über
+title: About
 ---
 
 :::info
-bearbeite mich
+
+edit me
+
 :::

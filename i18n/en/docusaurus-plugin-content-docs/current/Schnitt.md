@@ -1,173 +1,210 @@
 ---
 id: cut
-title: Schnitt
+title: Cut
 tags:
-  - x
-  - x
+  - cut
+EDIT:
+    - Proofreading: 5/4/2022 @MirUnauffaellig
+    - Final edit:
 ---
 
-<!-- @todo: Blder auf  Git main umziehen -->
-<!-- @todo: Links auf  Git main umziehen -->
-<!-- @todo: Bildunterschrifen hinzufügen-->
-<!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
-<!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
+<!-- @todo: The numbers used in the chapter "Overview of controls and areas" should be used in all documents -->
+<!-- @todo: Start gif loops only when needed (change gif) -->
 
+## Introduction
 
-## Einleitung
-<!-- @todo: kurze Zusammenfassung schreiben-->
+Once you have finished recording, the next step is usually to edit your podcast episode. In this chapter you will learn how to remove unwanted parts from your recording and how to add chapter marks to your podcast.
 
-## Wichtig zu wissen
-Reaper schneidet [nicht-destruktiv](https://de.wikipedia.org/wiki/Nicht-destruktive_Bearbeitung). Das heißt, deine Audiodateien werden nicht direkt bearbeitet, sondern bleiben unverändert erhalten. Du kannst beim Schnitt also gar nichts falsch oder kaputt machen. Im Notfall einfach ein Backup einspielen oder wenn es ganz schlimm kommt, noch mal von vorne anfangen. Ultraschall macht seit der Version 5 alle 10 Minuten ein Backup deiner Projektdatei (nicht der Audiodateien) und speichert diese im Projektordner. Um diese wieder herzustellen, siehe: ([Backup wieder herstellen](https://pad.gwdg.de/sLRAFF9eS0OwYFuobe_wZw?both#Ein-Backup-wieder-einspielen)).
+:::info Info
+There is a very good [tutorial video](#video) on this topic.
+:::
+
+## Important to know
+
+Reaper cuts [non-destructive](https://de.wikipedia.org/wiki/Nicht-destruktive_Bearbeitung). This means that your audio files are not directly edited, but remain unchanged. So you can't do anything wrong or break anything when editing. In an emergency, you simply make a backup - or if things get really bad, you start all over again. Since version 5, Ultraschall makes a backup of your project file (not the audio files) every 10 minutes and saves it in the project folder.
+
+:::tip Tip
+**Restore backup:** If you need this function right now, don't panic. Ultraschall makes regular and fully automatic backups of your project. These are located in your project folder under 'Backup' and are named according to the following scheme: '$Project name-$Date_$Hours$Minutes'. To restore such a backup, first close Ultraschall. Then open your project in the Finder or Explorer and copy the backup file with the appropriate timestamp from the folder 'Backup' into the project directory (i.e. one level up). It is best to rename this file directly and open it with Ultraschall. Done!
+:::
 
 <!--[Backup](https://github.com/Ultraschall/ultraschall-portable/wiki/Ultraschall-5-Release-Notes#user-interface)-->
 
-## Vorbereitung zum Schneiden. ("Prepare all tracks for editing")
-Bevor du mit dem Schneiden richtig loslegen kannst, musst du zunächst ein paar Vorbereitungen treffen. Um dir diese Arbeit weitestgehend abzunehmen, bietet Ultraschall die Funktion `Prepare all tracks for editing` an. Diese Funktion kann entweder über das Menü `Podcast -> Prepare all tracks for editing` aufgerufen werden, oder der Soundcheck errinnert dich daran, falls du es vergessen haben solltest. `Prepare all tracks for editing` macht dabei die folgenden Dinge:
-* Der Automatisierungsmodus <!--@Todo: schauen was das eigentlich ist --> für alle Spuren ist auf "Trimmen/Lesen" eingestellt.
-* Alle Spuren und [Envelopes](https://pad.gwdg.de/XYgv66gbQwSYvFCMQm0WPA#Envelope) sind für die Aufnahme deaktiviert.
-* Alle Verbindungen zu StudioLink (falls vorhanden) werden entfernt.
-* Alle StudioLink FX (fall vorhanden) werden entfernt.
-* Alle Soundboards (falls vorhanden) werden entfernt.
-* StudioLink on Air (falls vorhanden) Streaming werden beendet.
-* Alle Verbindungen zum Master Track werden eingeschaltet.
-* das Routing wird auf den Schnitt-Modus geschaltet.
+## Prepare for editing. ("Prepare all tracks for editing")
 
-Beende vor dem Ausführen deine Aufnahme per [Stopp-Taste [30]](GUI-overview) und denk daran, dass durch Prepare for editing alle StudioLink Verbindungen beendet werden! Wenn du später doch noch etwas aufnehmen möchtest, kannst du die Spur wieder auf Aufnahme schalten und so etwas neu aufnehmen. Danach kannst du erneut `Prepare all tracks for editing` ausführen.
+Before you can start editing, you need to make a few preparations. Make sure that the recording is finished and not just paused. In order to relieve you of the following steps as far as possible, Ultraschall offers the function 'Prepare all tracks for editing'. You will find it in the menu under 'Podcast' > 'Prepare all tracks for editing' - at the latest, the sound check will remind you of this if you forget to prepare the tracks before editing. Prepare all tracks for editing' performs the following steps:
 
-Zuätzlich kannst du jetzt noch in die Schnittansicht zu wechseln. Dafür kannst du Links am Rand unter `Views` auf die Schere [[17]](GUI-overview) drücken, im Menü `Podcast -> screenset editing` aufrufen oder `F9` drücken. Diese Ansicht bietet dir eine zusätzliche Übersicht über dein Projekt.
+- The automation mode <!-- @Todo: see what that actually is --> changes to 'Trim/Read' for all tracks or envelopes.
+- All tracks and envelopes are deactivated for recording.
+- All connections to StudioLink (if any) are removed.
+- All StudioLink FX effects (if any) are removed.
+- All soundboards (if present) are removed.
+- StudioLink on-air streaming (if present) is stopped.
+- All connections are routed to the master track.
+- Routing is switched to edit mode.
 
-## Einfacher Schnitt
-Wenn alles soweit vorbereitet ist, kannst du jetzt deine Aufnahmen schneiden. Dazu bietet dir Ultraschall zwei extrem effiziente Werkzeuge, mit denen du 90 % der Arbeit erledigen kannst. Lerne erst diese beiden Methoden, bevor zu die Reste mit den erweiterten Werkzeugen optimierst:
+:::info Info
+Remember that 'Prepare all tracks for editing' terminates all StudioLink connections to your interlocutors! If you want to record something later, you can switch the track back to record and re-record something. Then you can run 'Prepare all tracks for editing' again.
+:::
 
-### 1. Schnitt über alle Spuren (Ripple cut)
-<!-- @todo: (siehe XX) benennen -->
-Mit dem Ripple Cut schneidest du über alle Spuren gleichzeitig. So verhinderst du, dass durch einen Schnitt die Spuren nicht mehr richtig übereinander liegen und sich verschoben haben. Um die Funktion zu nutzen, ziehst du im [Timeline-Bereich [23]](GUI-overview) eine Auswahl(siehe XX) über den Bereich auf den du schneiden möchtest, und klickst dann auf den Ripple-Cut-Button[[7]](GUI-overview) oder `STRG + X` beziehungsweise `CMD + X`.
+As the last step in preparing the edit, you can now switch to the edit view. To do this, you will find the button with the scissors [[17]](GUI-overview) in the left margin under `Views` - or you select `Podcast`>`Screenset editing` in the menu or press <kbd>F9</kbd>. This view improves the overview in your project - for example, through quick navigation at the top of the screen.
 
+## Single cut
 
+Ultrasound offers you two extremely efficient tools for cutting, with which you can do 90 percent of the work. Learn these two methods first before moving on to fine-tuning with the advanced tools:
 
-### 2. Stummschalten störender Passagen (Mute)
-<!--@TODO Screenshots einfügen -->
-Wenn du Sequenzen aus deinen Spuren nicht herausschneiden willst, aber sie trotzdem nicht hörbar sein sollen, kannst du auch die Mute-Funktion nutzen. Dafür selektierst du die Spur(en) die du bearbeiten willst und klickst auf den Button Nummer XX. Damit öffnet sich unter der Spur die `Mute envelopes`. Die orangefarbene Verlaufsspur kannst du mit der Maus hoch oder runter ziehen. Mit einem Doppelklick erzeugst du weitere Editierpunkte. Alternativ kannst du eine Selektion über einen odere mehrere Tracks hinweg treffen und mit der Tastenkombination `STRG + Y` beziehungsweise `CMD + Y`, den ausgewählten Bereich muten.
+### Cut across all tracks (ripple cut)
 
+With the so-called ripple cut, you cut all tracks at the same time. This prevents content from shifting and the tracks from no longer lying correctly on top of each other. To use the function, drag a selection in the [Timeline [23]](GUI-overview) over the area you want to cut. Then click on the [Ripple Cut Button [7]](GUI-overview) or <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>X</kbd>.
 
-Hältst du `STRG` gedrückt, kannst du statt mit einem Doppelklick, entweder mit einem einfachen Klick Editierpunkte erzeugen oder mit *drücken und halten* deine Verlaufsspur malen. Allerdings entstehen so sehr viele Verlaufspunkte die später nur schwer zu bearbeiten sind.
+### Mute disturbing passages (Mute)
 
-## Schnitt für Fortgeschrittene
+<!-- @TODO Insert screenshots -->
+If you don't want to cut sequences from your tracks, but you still don't want them to be audible, the best way to do this is to use the mute function: To do this, select the track(s) you want to edit and press <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>Y</kbd>. If not already present, a mute envelope will appear under the selected track. The orange line of the mute envelope shows a valley in the progression form at the point you selected before. This envelope works according to the binary principle: If the line is up, the corresponding track can be heard; if the mute line is down, nothing can be heard on the assigned track.
+
+You can also add further points to the line in the envelope and mute - or unmute - them with the mouse at the desired points. A double-click creates further editing points, which you then only have to drag up or down.
+
+:::tip Tip
+The fastest way to edit the mute envelope is with the mouse: If you want to change from "audible" to "inaudible" at a certain point, you only have to click in the mute envelope in the lower half of the envelope. This is only possible if the line is at the top at this point (and it makes sense that there is no editing point there yet). For the change from "not audible" to "audible" the procedure is analogous, but of course you have to click into the upper part of the envelope.
+:::
+
+## Advanced cut
 
 ### Split Items
-Wie der Name schon sagt, kannst du hiermit ein Item in zwei Items aufteilen. Dafür setzt du den Edit-Curser<!-- @Todo name prüfen--> an die Stelle, an der du eine Trennung vornehmen willst und klickst dann auf den Split-Button[[5]](GUI-overview). Alernativ kannst du die Taste `S` drücken.
-https://sendegate.de/t/faq-einfacher-schnitt-aller-spuren/6911
 
-### Softer Fade-in und Fade-out
-Wenn du gern am Anfang und oder Ende eine Sanfte Ein/abblenden der Lautstärken haben möchtest, kannst du mit der Maus über den Linken-oberen Rand des Items im [Timeline-Bereich [23]](GUI-overview) gehen. Dann siehst du schon, dass sich dein Mauszeiger in eine Kurve verändert hat. Jetzt kannst du mit der Maus klicken und halten und so eine Einblende ziehen. Diese kann beliebig lang sein. Das gleiche kannst du auch an jedem Item-Ende machen. Rechts oben mit der Maus und dann klicken und ziehen.
-<!--@TODO Gif einfügen -->
+With this function you split an item into two items. To do this, place the edit cursor where you want to split the item and click on the split button[[5]](GUI-overview) - or press the <kbd>S</kbd> key.
 
-### Kapitelmarken
-<!-- @todo: Was passiert mit dem video?
-https://www.youtube.com/watch?v=vdLpynu1ixE&t=5080s -->
-In Ultraschall kannst du ganz einfach Kapitelmarken setzen, die dann später auch in den meisten Podcatchern auftauchen. In Ultraschall wird zwischen zwei Markenarten unterschieden: Kapitelmarker und Editmarker. Die Kapitelmarker können mit dem entsprechenden Button [[3]](GUI-overview) oder der Taste `m` gesetzt werden, diese sind die Marken die später im Podcatcher auftauchen. Zusätzlich gibt es noch die Editmarker, diese können mit dem Button [[4]](GUI-overview) oder `e` gesetzt werden. Diese sind nur für den Schnitt gedacht, um sich Stellen im Projekt zu markieren und werden nicht mit exportiert.
+<!-- Sendegate contribution by Ralf https://sendegate.de/t/faq-einfacher-schnitt-aller-spuren/6911 -->
 
-#### Markerdashbord
-<!--@TODO: Fotos einfügen -->
-Das Markerdashbord kannst du mit `alt+shift+m` oder einem Druck auf den entsprechenden Button [[19]](GUI-overview) links öffnen. Dort kannst du deine gesetzten Kapitelmarker verwalten und exportieren.
+### Soft fade-in and fade-out
 
-#### Region/Markermanager
-Den Region- und Markermanager findest du im [Kapitelmarken-Bereich [28]](GUI-overview) unten rechts. Dort kannst du zwischen der [Routing Matrix [27]](GUI-overview), den [Filtern [26]](GUI-overview) und dem [Kapitelmarken-Manager [28]](GUI-overview) wechseln. Dort werden dir alle Marker - auch die Editmarker angezeigt. Mit einem Doppelklick auf den Namen, kannst du diese bearbeiten. In der lezten Spalte kannst du mit einem Doppelklick die Farbe des Markers auswählen.
+If you would like to gently fade in or out the volume at the beginning or end of an item, go with the mouse over the upper left edge of the item in the [timeline area [23]](GUI-overview). Then you will see that your mouse pointer changes into a curve. Now you can click and drag - and thus determine the fade or its duration. You can also do the same at the top right of each item.
+<!-- Insert @TODO Gif -->
 
-#### Fotos
-Du kannst zu Kapitelmarken zusätzlich Fotos hinzufügen die dann, wenn der Potcatcher das unterstützt, zum Kapitel angezeigt werden. Unterstütze Formate sind `.png` und `.jpg`. Die Fotos kannst du einfach per Drag & Drop in dein Projekt reinziehen und an der gewünschten Stelle ablegen. Zu jedem Bild musst du dann einen Kapitelmarker hinzufügen. Im Markerdashoard wirst du auch darauf hingewiesen, dass du noch einen Marker hinzufügen musst.
+### Chapter marks
+
+<!-- @todo: What happens to the video? https://www.youtube.com/watch?v=vdLpynu1ixE&t=5080s -->
+In Ultraschall, you simply set chapter markers, which later (in most podcatchers) make it easier for your listeners to navigate within your episodes. For production, Ultraschall distinguishes between two types of markers: chapter markers and edit markers. You set the chapter markers via the <kbd>M</kbd> key or the corresponding button [[3]](GUI-overview) - these are the markers that will also appear later in the podcatcher. But you should also name the markers. Either later in the [marker dashboard](#marker-dashboard) or by directly setting a named marker with <kbd>Shift</kbd> + <kbd>M</kbd> and assigning a title.
+
+You set the edit marks with the [[4]](GUI-overview) button or the <kbd>E</kbd> key. They are only relevant and visible to you during the edit so that you can mark places in the project and easily find them again later. They are not exported.
+
+:::info Info
+Regions are also ignored in the podcast export. However, you can use them to divide your audio material into different sections (for example, if you are cutting several episodes from a long recording) and then export these sections or regions as individual files using the export assistant.
+:::
+
+#### Marker Dashboard
+
+<!-- @TODO: Insert photos -->
+Open the marker dashboard with <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> or by pressing the corresponding button [[19]](GUI-overview). There you manage, name and export your chapter markers.
+
+#### Region/Marker Manager
+
+You will find the 'Region/Marker Manager' in the [Chapter Marker Area [28]](GUI-overview) at the bottom right. This area is shared by the [Routing Matrix [27]](GUI-overview), the [Filter [26]](GUI-overview) and the [Chapter Marker Manager [28]](GUI-overview). In the marker management you see all markers - both chapter and edit markers. You can edit them by double-clicking on the name field - you can set the colour of the marker by double-clicking on the field in the last column.
+
+#### Photos
+
+Optionally, you can also add photos to chapter markers, which are then displayed to match the currently playing chapter, provided the podcatcher supports this. Supported formats are .png and .jpg. You simply drag and drop the photos into your project onto a separate track and place them there at the desired location. A chapter marker is automatically added to each picture, but you still have to name it afterwards.
 
 #### URLs
-Analog zu Fotos kannst du auch URL hinzufügen. Dafür kannst du im Markerdashboard über das `+` unter `URL` eine Internetadresse einfügen.
 
-### Button-Übersicht
-![buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons.png)
+In addition (and also optional), you can also provide each chapter marker with a URL. You can also use the marker dashboard for this. Note: The '+' to add a URL in the corresponding field only appears if the chapter marker also has a name. Unnamed and therefore incomplete markers cannot have a URL added.
 
-Die Buttons [[1-8]](GUI-overview) links oben beeinflussen, was passiert, wenn du mit der Maus in den Spurenbereich klickst und bei gedrückter Maustaste ziehst: Wie auch in einem Textverarbeitungs- oder in einem anderen Schnittprogramm ist die Standardeinstellung, dass du dadurch einen Bereich selektierst. Du kannst dieses Verhalten jedoch ganz einfach ändern und an deine Arbeitsweise anpassen – oder auch mit gedrückter `ALT`- oder `CTRL`/`CMD`-Taste das Verhalten nur für die aktuelle Aktion ändern.
+### Button overview
 
-#### [1] und [2]: Ripple Editing
+<!-- [ ]todo: is this really in the right place? -->
+![buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons.png) The buttons [[1-8]](GUI-overview) in the top left-hand corner influence what happens when you click the mouse in the track area and drag it while holding down the mouse button: As in a word processing or other editing programme, the default setting is that you select a range. However, you can change this behaviour at the touch of a button and adapt it to your way of working - or by holding down the <kbd>Alt</kbd> or <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> key you can change the behaviour for the current action only.
+
+#### [1] and [2]: Ripple Editing
+
 ![buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-ripple-per-track.png)
 
-Das Ripple-Verhalten bestimmt, was genau passiert, wenn du während der Bearbeitung ein Item auf einer Spur verschiebst (oder entfernst) – und ob und wie sich das auf andere Items auf demselben und den Tracks auswirkt:
-- **Kein Ripple**: Die Buttons [1] und [2] sind nicht aktiv (grau); verschiebst du ein Item auf einer Spur, so hat das keine Auswirkungen auf andere Items oder Spuren.
-- **Ripple per Track**: Der Button [1] ist aktiv (orange); verschiebst du ein Item, so verschieben sich auch alle nachfolgenden Items auf derselben Spur – hast du mehr als ein Item auf unterschiedlichen Spuren selektiert, so verschieben sich alle nachfolgenden Items auf allen betroffenen Spuren.
-- **Ripple all Tracks**: Der Button [2] ist aktiv (orange – Button 1 wird an dieser Stelle ignoriert); verschiebst du ein Item auf einer Spur, so verschieben sich auch alle nachfolgenden Items auf allen Spuren.
+The ripple behaviour determines what exactly happens when you move (or remove) an item on a track during editing - and whether and how this affects other items on the same and the other tracks:
 
-Standardmäßig ist Ripple für alle Spuren deaktiviert (Buttons sind grau).
+- No ripple**: The buttons [1] and [2] are not active (grey); if you move an item on a track, this has no effect on other items or tracks.
+- Ripple per Track**: Button [1] is active (orange); if you move an item, all subsequent items on the same track will also move - if you have selected more than one item on different tracks, all subsequent items on all affected tracks will move.
+- Ripple all Tracks**: Button [2] is active (orange - button [1] is ignored at this point); if you move an item on a track, all subsequent items on all tracks will also move. By default, ripple is deactivated for all tracks (buttons are grey).
 
-![Ripple: Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-buttons.mp4)
+![Ripple: Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-buttons.gif) **Ripple Editing:** _The buttons [1] and [2] influence the ripple behaviour when moving audio parts.
 
-**Screenshot** Audioteile verschieben
-
-
-#### [3] und [4]: Marker
+#### [3] and [4]: Marks
 
 ![Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-markers.png)
 
-
-Button [[3]](GUI-overview) setzt eine (unbenannte) Kapitelmarke an die aktuelle Position des Play-Cursors – Button [[4]](GUI-overview) setzt eine Edit-Marke. Mehr zum Thema Marken findest du im Abschnitt [Kapitelmarken](#Kapitelmarken).
+Button [[3]](GUI-overview) sets an (unnamed) chapter marker at the current position of the play cursor - Button [[4]](GUI-overview) sets an edit marker. You can find more on the topic of markers in the section [Chapter markers](#Chapter markers).
 
 #### [5]: Split
+
 ![Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-split.png)
 
-Button [[5]](GUI-overview) teilt ein Item an der aktuellen Cursor-Position. Mehr dazu findest du im Abschnitt [Split Items](#Split-Items).
+Button [[5]](GUI-overview) splits an item at the current cursor position. For more information, see the section [Split Items](#Split-Items).
 
 #### [6]: Mouse Selection
+
 ![Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-selection.png)
 
-Der Umschalter [[6]](GUI-overview) aktiviert beziehungsweise deaktiviert den Maus-Selektionsmodus und beeinfluss so das Mausverhalten:
-- **aktiviert**: Klickst du auf ein Item, hältst die Maustaste gedrückt und ziehst dann die Maus, selektierst du den betroffenen Bereich.
-- **deaktiviert**: Klickst du auf ein Item, hältst die Maustaste gedrückt und ziehst dann die Maus, verschiebst du das ausgewählte Item.
-<!-- @todo: Hier noch GIFs fürs bessere Verständnis einfügen -->
+The button [[6]](GUI-overview) activates or deactivates the mouse selection mode and thus influences the mouse behaviour:
 
-#### [7]: Ripple Cut
+- **activated**: If you click on an item, hold down the mouse button and then drag the mouse, you select the affected area.
+- **deactivated**: If you click on an item, keep the mouse button pressed and then drag the mouse, you move the selected item.
+
+<!-- @todo: Insert GIFs here for better understanding -->
+
+##### [7]: Ripple Cut
+
 ![Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-ripple-cut.png)
 
-Button [[7]](GUI-overview) entspricht der Tastenkombination `CMD`/`CTRL` + `X` – damit schneidest du den selektierten Bereich über alle Spuren hinweg aus deiner Aufnahme heraus. Alle nachfolgenden Items verschieben sich nach links, um die entstandene Lücke zu schließen.
+Button [[7]](GUI-overview) corresponds to the key combination <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>X</kbd> - with this you cut the selected area out of your recording across all tracks. All subsequent items move to the left to close the resulting gap.
 
 #### [8]: Show Mute Envelopes
+
 ![Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-show-mute-envelopes.png)
 
-Button [[8]](GUI-overview) zeigt beziehungsweise versteckt die Mute-Envelopes aller Spuren. Im Abschnitt [Mute](#Mute) findest du mehr dazu.
+Button [[8]](GUI-overview) shows or hides the mute envelopes of all tracks. See the section [Mute](#Mute) for more information.
 
+### Moving items (track contents)
 
+:::caution Caution
+If you want to move individual elements ("items") on your tracks in the [Timeline [25]](GUI-overview), you should proceed extremely carefully - it happens very quickly that synchronously recorded tracks "slip" as a result. When listening, you will notice that the timing no longer fits: The speakers interrupt each other, pauses occur that were not there in the recording, and so on.
+:::
 
-### Verschieben von Items (Spurinhalten)
-___
-![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/Aufnahme/assets/images/allgemein/Achtung.png =20x20)
+The behaviour of the individual items when they are moved is determined by the [Ripple Setting](#Ripple Editing). However, you can temporarily influence the ripple behaviour only for the current action by performing the action with the <kbd>Alt</kbd> or <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> key pressed:
 
-
-**Achtung**: Willst du in der [Timeline [25]](GUI-overview) einzelne Elemente ("Items") auf deinen Spuren verschieben, solltest du extrem vorsichtig vorgehen – es passiert dabei sehr schnell, dass snychron aufgenommene Spuren dadurch "verrutschen". Beim Anhören wirst du feststellen, dass das Timing nicht mehr passt: Die Sprechenden fallen sich ins Wort, es entstehen Pausen, die in der Aufnahme nicht da waren, und so weiter.
-___
-
-Das Verhalten der einzelnen Items beim Verschieben wird durch die [Ripple-Einstellung](#Ripple-Editing) festgelegt. Du kannst jedoch das Ripple-Verhalten temporär nur für die aktuelle Aktion beeinflussen, indem du dabei `ALT`, `CTRL`oder `CMD` gedrückt hältst:
-- **`ALT` (Mac/Windows/Linux) gedrückt halten und Item verschieben**: Du verschiebst nur das oder die selektierten Items.
+- **<kbd>Alt</kbd> (Mac/Windows/Linux) Hold down and move the item**: You move only the selected item(s).
 
 ![Ripple: Alt](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-alt.mp4)
+<!-- todo: videos missing -->
 
-- **`CMD` (Mac) beziehungsweise `CTRL` (Windows/Linux) gedrückt halten und Item verschieben**: Du verschiebst das oder die selektierten Items und ALLE Items dahinter.
+- Press and hold **<kbd>Cmd</kbd> (Mac) or <kbd>Ctrl</kbd> (Windows/Linux) and move the item**: You move the selected item(s) and ALL items behind it.
 
 ![Ripple: Cmd](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-cmd.mp4)
+<!-- todo: videos missing -->
 
-### Audio-Inhalte nachträglich in das Projekt einfügen
-Um weitere Sounds oder Aufnahmen in dein Projekt einzufügen, kannst du einfach die gewünschten Dateien per Drag & Drop in dein Projekt ziehen. Wenn du die Datei in den [Timeline-Bereich [25]](GUI-overview) an eine Stelle im Projekt ziehst, an der keine Spur ist, erstellt Reaper eine neue Spur mit dem Inhalt der Datei und benennt diese dann nach dem Dateinamen.
+## Insert audio content into the project afterwards
 
-![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png?=20x20) **Achtung**:  Unter dem Menüpunkt `Edit -> Project Settings` kannst du einstellen wie Reaper mit diesen Mediendateien umgehen soll. Hier empfehlen wir auf jeden Fall die Einstllung `Copy media to project`. Am besten in den globalen Reaper Einstellungen unter `Options -> preferences` unter dem Punkt `Media`  das Kreuz bei `Copy imported media to project media directory` setzten. Sonst kann es passieren, dass du ungewollt Abhängigkeiten erschaffst, die dir später Probleme bereiten können.
+To add more sounds or recordings to your project after a recording, simply drag and drop the desired files into your project. If you drag the file into the [timeline area [25]](GUI-overview) to a place in the project where there is no track, Ultraschall automatically creates a new track with the contents of the file (and names it after the file name). This way you can also embed whole Ultraschall projects (`.rpp`) into other projects.
 
-### Ausschneiden, kopieren und einfügen
-Um Audio innerhalb deines Projekts auszuschneiden oder zu kopieren, wählst du das zu kopierende Item oder setzt eine Zeit-Markierung. Klickst du dann mit der rechten Maustaste auf den gewählten Bereich (oder öffnest das `Edit`-Menü), kannst du entweder das Item kopieren (Standardverhalten; auch per `CTRL+C`oder `CMD+C`) oder den ausgewählten Bereich innerhalb eines Items. Ausschneiden funktioniert analog.
+:::caution Attention
+Under the menu item `Edit`>`Project Settings` you set how Ultraschall should handle added media files. Here we recommend the setting 'Copy media to project' in any case. It is best to check the box `Copy imported media to project media directory` directly in the global REAPER settings under `Options`> `Preferences` under the item `Media`. Otherwise it can happen that you unintentionally have references to files in your project that are not in the project folder - and then cause problems at the latest when moving or copying the project.
+:::
 
-Um kopierte oder ausgeschnittene Inhalte wieder einzufügen, wählst du mit einem Klick in den linken [Spuren-Bereich [23]](GUI-overview) die Spur, auf der die Inhalte landen sollen. Anschließend setzt du den Cursor an die gewünschte Stelle und wählst `Paste` entweder über das `Edit` oder das Kontext-Menü oder via Tastenkombination `CTRL+V` beziehungsweise `CMD+V`.
+### Cut, copy and paste
 
+To cut or copy audio within your project, select the item to be copied or set a time marker. If you then right-click on the selected area (or open the 'Edit' menu), you can either copy the whole item (standard behaviour; also via <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>C</kbd>) or the selected area within an item. Cutting works in the same way.
 
-![Copy and Paste](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/copy-and-cut.png)
+To paste copied or cut content, click in the left [track area [23]](GUI-overview) and select the track where you want the content to end up. Then place the cursor at the desired position and select 'Paste' either via the 'Edit' or the context menu - or via the key combination <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>V</kbd>.
 
-### Double-Ender-Aufnahmen
-Wenn deine Mitpodcastenden eine schlechte oder instabile Internetverbindung haben, ist es sinnvoll, in StudioLink sicherheitshalber eine lokale Spur mitlaufen zu lassen. Dafür klickst du in StudioLink auf den `Record` Button klicken. Die Spur die die Person für den Schnitt braucht ist heißt dann `local.flac`.
+![Copy and Paste](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/copy-and-cut.png) _The context menu has various copy and cut modes._
 
-### Austauschen und Ausrichten von Spuren (zum Beispiel nach Double-Ender-Aufnahmen)
+### Double-ender recordings
 
+If your fellow cast members are connected to you via StudioLink via a poor or unstable internet connection, it makes sense for them to run a local recording in their StudioLink standalone clients as a precaution. To do this, they click on the 'Record' button in the StudioLink browser window. The file that must later be sent to the editor can be found in your own files in a `studiolink` folder and there in a subdirectory with a recording time stamp under the file name `local.flac`.
 
-https://www.youtube.com/watch?v=vdLpynu1ixE&t=1853s
+<!-- ### Swapping and aligning tracks (for example after double-ender recordings) -->
+<!--@todo: What about this section? -->
 
-<!--## Tipps für erfolgreichen Schnitt -->
+<!-- https://www.youtube.com/watch?v=vdLpynu1ixE&t=1853s -->
+
+<!-- ## Tips for successful pruning -->
+
+## Video
+<iframe width="560" height="315" src="../youtube/?url=RnkHsQp2Mbw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe>

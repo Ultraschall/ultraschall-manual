@@ -4,23 +4,23 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Einführung": {
-    "message": "Einführung",
+    "message": "Intro",
     "description": "The label for category Einführung in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Übersicht": {
-    "message": "Übersicht",
+    "message": "Overview",
     "description": "The label for category Übersicht in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Einsteiger": {
-    "message": "Einsteiger",
+    "message": "Beginner",
     "description": "The label for category Einsteiger in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Fortgeschrittene": {
-    "message": "Fortgeschrittene",
+    "message": "Advanced",
     "description": "The label for category Fortgeschrittene in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Grundfunktionen": {
-    "message": "Grundfunktionen",
+    "message": "Basic functions",
     "description": "The label for category Grundfunktionen in sidebar tutorialSidebar"
   }
 }

@@ -1,201 +1,206 @@
 ---
 id: postproduction
-title: Post-Produktion
+title: Post-Production
 tags:
   - x
   - x
+proofreading:
+    - Proofreading: 27.4.2022 or 4.5.2022 @MirUnauffaellig.
+    - Final proofreading:
 ---
-<!-- Tags für Docusaurus -->
 
+<!-- Tags for Docusaurus -->
+<!-- @todo: maybe split into two chapters -->
 
-<!-- @todo: Bildunterschrifen hinzufügen-->
-<!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
-<!-- @todo: evtl. in zwei Kapitel aufteilen -->
+## Introduction
 
-## Einleitung
-Dein Podcast ist aufgenommen und geschnitten? Dann kannst du jetzt mit der Post-Produktion beginnen. Das Ziel in diesem Kapitel ist es den Klang von deinem Podast noch besser zu machen als er ohnehin schon ist. Dafür lernst du welche Effekte Ultraschall mitbringt und wie du diese einsetzen kannst.
+Your podcast is recorded and edited? Then it's time for post-production. The aim of this chapter is to improve the sound of your podcast - even if it already sounds good. Here you will learn about the effects of ultraschall and how to use them.
 
-## Warum Post-Produktion sinnvoll ist – und wo die Grenzen liegen
-Eines gleich vorweg: Je besser deine Aufnahme, desto weniger Arbeit hast du damit in der Post-Produktion. Es lohnt sich also, von vorneherein auf Umgebungs- und Störgeräusche zu achten, Netzbrummen zu eliminieren, Sprechabstände und Aufnahmepegel feinzujustieren und insgesamt darauf zu achten, bestmögliche Aufnahmebedingungen zu haben. Trotzdem ist für ein optimales Ergebnis Post-Produktion immer wichtig und sinnvoll.
+:::info Info
+There is a very good [tutorial video](#video) on this topic.
+:::
 
-Die Ziele der Post-Produktion sind (in absteigender Relevanz-Reihenfolge):
-1. **Mischung der einzelnen Spuren**
-Verschiedene Stimmen und Einspieler klingen in der Aufnahme verschieden laut. Im Mix werden diese Unterschiede zu einem harmonischen Ganzen angepasst.
-2. **Anheben der Lautheit des Podcasts auf -16 LUFS (oder eines anderen Wunschwertes)**
-Podcasts werden in sehr unterschiedlichen Umgebungen gehört - nicht nur zu Hause, sondern etwa auch in der U-Bahn. Damit alles gut verstanden wird, muss der gesamte Mix eine gewisse Lautstärke aufweisen. -16 LUFS hat sich hier in Podcast-Kreisen entabliert.
-4. **Reduzierung von Störungen**
-Je nach Aufnahmesituation enthalten die Spuren mehr oder weniger Sröranteile wie Rauschen, Raumklang, Echo, Übersprechen von anderen Mikrofonen oder Netzbrummen. Diese Störungen können zumindest teilweise reduziert werden.
-5. **Optimierung des Klangbildes**
-Nach Geschmack können weitere Klangformungen vorgenommen werden, etwa mit Hilfe eines EQ.
+## Why post-production makes sense - and where the limits lie
 
-Ultraschall lässt dir freie Hand und gibt dir alle Möglichkeiten für die manuelle Post-Produktion – nimmt dich bei Bedarf über die _Automated Mixing Pipeline (AMP)_ aber auch an die Hand und führt dich durch die wichtigsten Schritte (siehe auch Abschnitt [Automated Mixing Pipeline (AMP)](#Ultraschall-AMP-Automated-Mixing-Pipeline)).
+One thing right from the start: the better your recording, the less work you have to do with it in post-production. It is therefore worthwhile to pay attention to ambient noise and interference from the outset, to eliminate mains hum, to fine-tune speaking distances and recording levels, and to ensure the best possible recording conditions overall. Nevertheless, post-production is always important and useful for an optimal result.
 
-Außerdem bietet dir Ultraschall auf jeder Spur eine sinnvolle [Vorauswahl an Effekten](#Vorausgew%C3%A4hlte-Effekte-und-Plug-ins), du findest sie rechts unten im [Filter-Bereich [26]](GUI-overview), nachdem du im [Mixer-Bereich [24]](GUI-overview) auf der gewünschten Spur auf `FX` drückst:
+The goals of post-production are (in descending relevance):
 
-* **[DeNoise](#DeNoise)** (der ReaFir Rauschfilter zur Reduzierung von Rauschen oder Brummen mittels Anlernen von Störungsprofilen)
-* **[DeEsser](#DeEsser)** (ein Multiband-Kompressor zum Reduzieren von Zischlauten in der Stimme)
-* **[ReaEQ](#ReaEQ)** (Multiband EQ mit verschiedenen Presets, etwa auch „Telefon-Sound“
-* **[Ambience](#Ambience)** (Ein Raumsimulator mit verschiedenen Presets, etwa Studio oder Kirche)
-* **[Ultraschall Dynamics 2](#Ultraschall-Dynamics-2)** (Anpassung der Lautheit eines Tracks, Redzierung von Hintergrundgeräuschen und Expander)
+1. **Mixing the individual tracks**: Different voices and players sound differently loud in the recording. In the mix, these differences are reduced in favour of a harmonious whole. 2.
+2. **Raise the loudness of the podcast to -16 LUFS (or other desired value)**: Podcasts are listened to in very different environments - not only at home, but also in the underground, for example. In order for everything to be understood well, the entire mix must have a certain volume. -16 LUFS has established itself in podcast circles.
+3 **Reducing noise**: Depending on the recording situation, the tracks contain more or less interference - such as noise, room sound, echo, crosstalk from other microphones or mains hum. These noises can be reduced, at least in part, with a reasonable amount of effort.
+4. **Optimising the sound image**: Depending on taste, further sound shaping, for example with the help of an equaliser (EQ), ensures the desired sound result.
 
-Im Plug-in-Verzeichnis "Best of Breed" findest du außerdem [einige weitere freie, aber sehr leistungsstarke Effekte](#Weitere-empfehlenswerte-Efekte-und-Plug-Ins):
+Ultrasound gives you a free hand and all the options for manual post-production - but if necessary, it also takes you by the hand via the _Automated Mixing Pipeline (AMP)_ and guides you through the most important steps (see also section [Automated Mixing Pipeline (AMP)](#Ultrasound-AMP-Automated-Mixing-Pipeline)).
 
-* **[ReEQ](#ReEQ)** (Equalizer, der an den bekannten _Fabfilter_ angelehnt ist)
-* **[Smooth Limiter](#Smooth-Limiter)** (Limiter der Extraklasse, der sehr anschaulich den Grad des Eingreifens visualisiert und auch im neuen LUFS Loudness Metering Effekt verbaut ist - pures Audio-Gold)
-* **[Spectrum Matcher](#Spectrum-Matcher)** (EQ mit Lernfunktion, um den Klang von Mikros aneinander anzupassen)
-* **[TriLeveler2](#TriLeveler2)** (Gute Alternative zu unserem Dynamics 2 Effekt)
-* **[ReaXcomp](#ReaXcomp)** (Grafischer Multiband-Kompressor der Spitzenklasse)
+In addition, Ultraschall offers you a useful [Pre-selection of effects](#Pre-selected%C3%A4effects-and-plug-ins) for each track; you will find them in the bottom right corner of the [Filter section [26]](GUI-overview) after you press the `FX` button in the [Mixer section [24]](GUI-overview) on the desired track:
 
-Trotz der vielfältigen Möglichkeiten, Aufnahmen nachträglich aufzupeppen, gilt die alte Audio-Weisheit: **Garbage in, Garbage out.** Haben Aufnahmen zu viel Echo, Störgeräusche, Aussetzer, Brummen, Crosstalk oder von einem der anderen unzähligen möglichen störenden Einflüsse, dann ist auch von der Post-Produktion nur begrenzt Verbesserung zu erwarten. Bei jedem Effekt-Plug-in führt ein "zu viel" schnell zu unnatürlichem Klang. Das A und O für eine erfolgreiche Post-Produktion sind daher sorgfältige und gute Aufnahmen.
+* **DeNoise** (ReaFir noise filter for reducing noise or hum by teaching interference profiles).
+  
+**DeEsser** (multiband compressor to reduce sibilants in the voice).
 
-## Ultraschall AMP (Automated Mixing Pipeline)
-Die automated Mixing Pipeline ist eine unkomplizierte und kostenlose Alternative zu Online-Audioverbesserungsdiensten wie Auphonic. Mit den sinnvollen _Voreinstellungen_ erreichst du in den meisten Fällen ein direkt veröffentlichbares, toll klingendes Ergebnis - ganz ohne Audioerfahrung oder "Goldohren". Ultraschall gibt dir allerdings auch ausreichend Möglichkeiten, passend zu deiner individuellen Situation feinzujustieren.
+* **ReaEQ** (multi-band equaliser with various presets - for example, also "telephone sound")
 
-Im `Podcast`-Menü unter `Workflows`->`Ultraschall AMP - Automated Mixing Pipeline` findest du die einzelnen Schritte. Die ausgegrauten Menüeinträge sind nur für dich als Gedankenstütze gedacht, die dort erwähnten Schritte musst du aber "manuell" abarbeiten. Ein Auslassen von Schritten oder ein Ändern der Reihenfolge führt zu schlechten Ergebnissen, gehe daher den Workflow strikt der Reihe nach durch.
+* **Ambience** (room simulator with different presets - such as studio or church)
 
+**Ultrasound Dynamics 2** (adjustment of the loudness of a track, reduction of background noise and expander).
 
-![Ultraschall AMP – Automated Mixing Pipeline](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/amp-menu-entry.png "Ultraschall AMP – Automated Mixing Pipeline") **Screenshot:** *Ultraschall AMP – Automated Mixing Pipeline*
+In the plug-in directory "Best of Breed" you will also find some other free but very powerful effects:
 
-Die einzelnen Schritte der AMP sind der Reihe nach:
+**ReEQ** (equaliser based on the well-known _Fabfilter_)
 
-**Step 1: Select all items for mixing**
-Wähle alle Items auf allen Spuren im [Timeline-Bereich [25]](GUI-overview) aus, die du durch die Mixing Pipeline verbessern lassen willst. In den meisten Fällen sind das alle Items (zur Erinnerung: Items sind die einzelnen Blöcke auf deinen Spuren) in deinem Projekt – dazu klickst du irgendwo in den [Spuren-Bereich [23]](GUI-overview) und wählst `CTRL + A` beziehungsweise `CMD + A`, um alle zu selektieren. Alternativ wählst du im Menü `Item`->`Select all`.
+* **Smooth Limiter** (top-class limiter that very clearly visualises the degree of intervention and is also built into the new LUFS Loudness Metering effect - pure audio gold).
 
-Achtung: Der AMP ist für **Sprachspuren** konzipiert. Spuren mit Einspielern, vor allem Musik, sollten **nicht** durch den AMP laufen sondern am Ende nach Gehör dazugemischt werden.
+* Spectrum Matcher** (EQ with learning function to match the sound of microphones).
 
-Um schnell alle Items einer Spur auszuwählen, mache einen `Doppelklick` links auf den grauen Bereich über oder unter dem Spurnamen.
+**TriLeveler2** (good alternative to our Dynamics 2 effect)
 
-**Step 2: Normalize loudness of selected items to -23 LUFS**
-Diesen Schritt kannst du im Menü `Podcast`->`Workflows`->`Ultraschall AMP - Automated Mixing Pipeline` direkt anwählen. Ultraschall [normalisiert](#Normalisieren) dir dann automatisch alle in Schritt 1 ausgewählten Items auf -23 LUFS. Das ist zwar zu leise für die eigentliche Publikation, aber die perfekte Grundlage für die folgenden Schritte.
+* **ReaXcomp** (top-class graphic multiband compressor)
 
-**Step 3: Select tracks for the AMP**
-Wähle jetzt alle Spuren im [Spuren-Bereich [23]](GUI-overview) aus, die in der Mixing Pipeline berücksichtig werden sollen. Einzelne Spuren wählst du einfach mit einem Klick in den grauen Bereich oberhalb oder unterhalb der Spur-Namensfeldes. Um mehrere Spuren auszuwählen, hältst du beim Klicken die `CTRL`- beziehungsweise die `CMD`-Taste gedrückt.
+Despite the many possibilities to enhance recordings afterwards, the old audio wisdom holds true: _Garbage in, Garbage out._ If recordings have too much echo, noise, dropouts, hum, crosstalk or one of the other countless possible disturbing influences, then only limited improvement can be expected from post-production. With any effects plug-in, "too much" quickly leads to unnatural sound. The be-all and end-all for successful post-production is therefore careful and good recordings.
 
-**Step 4: Set AMP (Automated Mixing Pipeline) FX on selected tracks (Ultraschall)**
-Diesen Schritt kannst du im Menü `Podcast`->`Workflows`->`Ultraschall AMP - Automated Mixing Pipeline` direkt anwählen. Danach solltest du auf jeder der vorab ausgewählten Spuren einen aktivierten "JS: Ultraschall Dynamics (Ultraschall)-Effekt" vorfinden. Der gleicht die Lautheit der Tracks auf -20 LUFS an.
+## Ultrasound AMP (Automated Mixing Pipeline)
 
-**Step 5: Choose LUFS Target on Master FX (16 LUFS for Podcasting)**
-Der Master-Track wird im vorigen Schritt per Spur-Effekt auf die im Podcast-Bereich üblichen -16 LUFS angehoben. Du kannst diesen Zielwert auch ändern, die entsprechende Einstellung findest du im FX-Bereich des Master-Tracks.
+The Automated Mixing Pipeline is an uncomplicated and free alternative to online audio enhancement services like [Auphonic](https://auphonic.com/). With the sensible _presets_ you will achieve a great sounding result in most cases - without any audio experience or "golden ears". However, ultraschall also gives you enough possibilities to fine-tune according to your individual situation.
 
-### Korrekturmöglichkeiten
-Sollte das Endergebnis nicht überzeugend klingen, ist vermutlich der Signal-Rauschabstand einzelner Spuren problematisch - sprich es wird Rauschen oder Hall verstärkt anstatt abgesenkt. Dies kann pro Spur optimiert werden, indem der `Noisefloor` Regler verschoben wird - solange, bis die Stimme laut bleibt, Störgeräusche aber abgesenkt werden:
+In the 'Podcast' menu under 'Workflows' -> 'Ultrasound AMP - Automated Mixing Pipeline' you will find the individual steps. The greyed out menu entries are only intended to help you think; you must work through the steps mentioned there "manually". Omitting steps or changing the order will lead to bad results, so go through the workflow strictly in order.
 
+Ultrasound AMP - Automated Mixing Pipeline](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/amp-menu-entry.png "Ultrasound AMP - Automated Mixing Pipeline") **Ultrasound AMP:** _The Automated Mixing Pipeline simplifies many complex post-production steps for you.
 
-![Ultraschall Dynamics Noisefloor](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/Ultrasschall_Dynamics.png)
-**Screenshot:** *Ultraschall Dynamics - Noisefloor*
-<!-- @todo: Bild auf Github verschieben -->
+The individual steps of the AMP are in order:
 
-Den genauen Ablauf des AMP zeigt dieses Video:
+**Step 1: Select all items for mixing**: Select all items on all tracks in the [timeline area [25]](GUI-overview) that you want to enhance through the mixing pipeline. In most cases, this will be all the items (remember: items are the individual blocks on your tracks) in your project - to do this, click anywhere in the [track area [23]](GUI-overview) and select <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>A</kbd> to select them all. Alternatively, select `Item`> `Select all` from the menu.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vdLpynu1ixE?start=2877" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::danger Attention!
+The AMP is designed for **voice tracks**. Tracks with recordings (especially music) should _not_ run through the AMP, but be mixed in at the end by ear.
+:::
 
-## Post-Produktion für Fortgeschrittene
+To quickly select all items in a track, double-click on the grey area above or below the track name.
 
-### Vorausgewählte Effekte und Plug-ins
+**Step 2: Normalize loudness of selected items to -23 LUFS**: Select this step directly in the menu `Podcast`>`Workflows`>`Ultrasound AMP - Automated Mixing Pipeline`. Ultr Ultraschall [normalises](#Normalise) all items selected in step 1 to -23 LUFS automatically. This is too quiet for actual publication, but the perfect basis for the following steps. The keyboard shortcut for this is <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd>.
+
+**Step 3: Select tracks for the AMP**: Now select all tracks in the [track area [23]](GUI-overview) that are to be considered in the mixing pipeline. To select individual tracks, simply click in the grey area above or below the track name field. To select multiple tracks, hold down the <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> key while clicking.
+
+**Step 4: Set AMP (Automated Mixing Pipeline) FX on selected tracks (Ultraschall): You also select this step directly in the menu 'Podcast' -> 'Workflows' -> 'Ultrasound AMP - Automated Mixing Pipeline'. Then you should find an activated "JS: Ultraschall Dynamics (Ultraschall)" effect on each of the pre-selected tracks. This will equalise the loudness of your tracks to -20 LUFS.
+
+**Step 5: Choose LUFS Target on Master FX (16 LUFS for Podcasting): In the previous step, the master track is raised to the usual -16 LUFS for podcasting by means of a track effect. You can also change this target value; you will find the corresponding setting in the FX area of the master track.
+
+## Correction possibilities
+
+If the final result does not sound convincing, the signal-to-noise ratio of individual tracks is probably problematic - i.e. noise or reverb is amplified instead of reduced. You can fix this for each track individually by moving the respective 'noise floor' slider - until the voice remains loud, but noise disappears:
+
+Ultrasound Dynamics Noisefloor](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/Ultrasschall_Dynamics.png) **Ultrasound Dynamics - Noisefloor**: The noise floor determines the signal-to-noise ratio of the associated track.
+
+**The exact procedure of the AMP is shown in this video.
+<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=2877" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe>
+
+## Post-Production for Advanced
+
+<!-- todo: there is still a lack of content here - in its current form it is 1 to 1 what is already written above.
+
+### Pre-selected effects and plug-ins
+
 #### DeNoise
-(der ReaFir Rauschfilter zum Anlernen von Rauschprofilen)
+
+(ReaFir noise filter for teaching noise profiles)
 
 #### DeEsser
-(ein Multiband-Kompressor zum Reduzieren von Zischlauten)
+
+(Multiband compressor to reduce sibilants)
 
 #### ReaEQ
-(Multiband EQ mit verschiedenen Presets, etwa auch „Telefon-Sound“
+
+(Multiband EQ with different presets, e.g. also "telephone sound")
 
 #### Ambience
-(Ein Raumsimulator mit verschiedenen Presets, etwa Studio oder Kirche)
 
-#### Ultraschall Dynamics 2
-(Anpassung der Lautheit eines Tracks und Expander)
+(A room simulator with different presets, such as studio or church).
 
+#### Ultrasound Dynamics 2
 
-### Weitere empfehlenswerte Efekte und Plug-Ins
+(Adjusting the loudness of a track and expander)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vdLpynu1ixE?start=3678" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Further recommended defects and plug-ins
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vdLpynu1ixE?start=3678" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
 
 #### ReEQ
-(Equalizer, der an Fabfilter angelehnt ist)
+
+(Equalizer based on Fabfilter)
 
 #### Smooth Limiter
-(Limiter der Extraklasse, der sehr anschaulich den Grad des Eingreifens visualisiert und auch im neuen LUFS Loudness Metering Effekt verbaut ist - pures Audio-Gold)
+
+(Limiter of the extra class, which visualises the degree of intervention very clearly and is also built into the new LUFS Loudness Metering effect - pure audio gold).
 
 #### Spectrum Matcher
-(EQ mit Lernfunktion, um den Klang von Mikros aneinander anzupassen)
+
+(EQ with learning function to match the sound of mics to each other).
 
 #### TriLeveler2
-(Gute Alternative zu unserem Dynamics 2 Effekt)
+
+(Good alternative to our Dynamics 2 effect)
 
 #### ReaXcomp
-(Grafischer Multiband-Kompressor der Spitzenklasse)
 
-### Normalisieren
-#### Technik-Exkurs
+(Top class graphic multiband compressor)
+-->
 
-Als [Normalisierung](https://de.wikipedia.org/wiki/Normalisierung_(Audio)) wird in der Audiotechnik der Vorgang bezeichnet, die Amplitude analogen oder digitalen Audiomaterials so zu vergrößern oder zu verkleinern, dass sie innerhalb eines vorgegebenen Bereichs liegt. .
+### Normalise
 
-Die Lautstärke ist objektiv messbar. Dafür wird Maßeinheit "Dezibel" dB verwendet. Das Problem ist, dass selbst bei gleich gemessener Lautstärke verschiedene Sounds unterschiedlich laut empfunden werden, daher wird das Signal gewichtet und die Einheit dbA verwedet. Hierbei wird der Schalldruckpegel entsprechend des Höhrempfinden gewichtet [siehe auch Wikipedia](https://de.wikipedia.org/wiki/Bel_(Einheit)#Verwendung_mit_anderen_Maßeinheiten,_Anhängsel).
+#### Technology excursion
 
-Diese (gewichtete) subjektive Größe gibt aber nicht immer genügend Informationen. Daher hat man sich auf [LUFS](https://de.wikipedia.org/wiki/EBU-Empfehlung_R_128). (Loudness Units relative to Full Scale oder in deutsch Lautstärke-Einheiten in Relation zur Vollskala) als Maßeinheit geeinigt. Es handelt sich um eine normierte Messung der Lautstärke
+Normalisation](https://de.wikipedia.org/wiki/Normalisierung_(Audio)) is the term used in audio engineering to describe the process of increasing or decreasing the amplitude of analogue or digital audio material at a constant gain so that the result is within a specified range.
 
-Das Ziel der Einheit LUFS ist es die menschliche Wahrnehmung und elektrische Signalintensität zusammenrechnen.
-Der Unterschied vom LUFS- zum bisher üblichen RMS-Verfahren besteht nur darin, dass bei der Lautheit nach [MRS](https://de.wikipedia.org/wiki/Quadratisches_Mittel) der gesamte Frequenzbereich gleichwertig berücksichtigt werden, bei LUFS allerdings die einzelnen Frequenzen speziell gewichtet werden.
+Loudness can be measured objectively. The unit of measurement for this is "decibel", the unit symbol "dB". The problem is that even if the volume is measured the same, different sounds are perceived differently; therefore, the signal is weighted and the unit "dbA" is used. For this purpose, the sound pressure level is weighted according to the perception of hearing - [see also Wikipedia](https://de.wikipedia.org/wiki/Bel_(unit)#Use_with_other_Ma%C3%9Funits,_additions%C3%A4tze).
 
-Je nach Verwendungszweck haben sich unterschiedliche LUFS Werte durchgesetzt. Bei Podcasts wird meist -16 LUFS verwendet. Beim Rundfunk werden -23 LUFS empfohlen. Diese Einstellung ist aber bei Podcasts meist zu leise.
+However, this (weighted) subjective quantity does not always provide sufficient information; therefore, [LUFS](https://de.wikipedia.org/wiki/EBU-Empfehlung_R_128). ("Loudness Units relative to Full Scale") has become the accepted unit of measurement. It quantifies a standardised measurement of loudness.
 
-Die Standard-Einstellung bei Ultraschall (für die entgültige Audiodatei) ist daher auf
-<!-- @todo: Link stimmt nicht -->
-[-16 LUFS](https://pad.gwdg.de/#Ultraschall-AMP-Automated-Mixing-Pipeline) eingestellt. Die in der Aufnahmekette vorher verwendeten LUF-Werte sollten darunter liegen.
+To determine the loudness in LUFS, the human perception and the electrical signal intensity are added together. The only difference between the LUFS and the previously used RMS method is that in loudness according to [RMS](https://de.wikipedia.org/wiki/Quadratisches_Mittel) the entire frequency range is considered equally, but in LUFS the individual frequencies are weighted individually.
 
+Depending on the intended use, different LUFS values are useful. In broadcasting, for example, -23 LUFS has become the standard. However, because this often seems too quiet for podcasts, many podcasters produce at a target value of -16 LUFS. Ultrasound is also set to [-16 LUFS](#ultraschall-amp-automated-mixing-pipeline) as the target value for the final rendered audio file. The LUFS values previously used in the recording chain should always be lower than this.
 
+#### Normalisation with the _Ultrasonic Dynamics 2_ effect
 
-##### Die Normalisierung mit dem *Ultraschall Dynamics 2 Effekt*
+The `Ultrasound Dynamics 2` effect allows the average volume of all audio tracks to be raised to the -16 LUFS (or other value) recommended for podcasts.
 
-Der *Ultraschall Dynamics 2 Effek* ermöglicht eine Anhebung der durchschnittlichen Lautstärke auf die für Podcasts empfohlenen -16 LUFS (oder einen anderen Wert) für alle Audiospuren.
+#### How do you activate the effect if it does not appear in the effect area of the desired track?
 
-###### Wie aktiviert man den Effekt, wenn er im Effektbereich nicht auftaucht?
-Bei allen neu angelegten Spuren wird der Effekt wie oben beschrieben bereits eingerichtet, aber noch noch nicht aktiviert.
+For all newly created tracks, the effect should already be set up as described above, but not yet activated. In this case, you simply add it manually: Select the 'Add' button at the bottom of the effect window. The window that appears lists all the effects available in REAPER/Ultraschall. On the left, we have marked some effects that are useful for podcasts as 'favourites'. Click on this menu item, select the `JS: Ultraschall Dynamics` effect on the right and confirm with `OK` - the effect (already activated) lands on the selected track.
 
-Bei alten Projekten wird der Effekt hingegen erst einmal fehlen. So könnt ihr ihn manuell hinzufügen: wählt unten im Effekt-Fenster den Add Button aus. Es öffnet sich ein Fenster mit allen in REAPER/Ultraschall verfügbaren Effekten. Voreingestellt sollte hier bereits im linken Bereich `Favorites` sein. Rechts findet man dann schnell den `JS: Ultraschall Dynamics` Effekt und kann kann ihn mit OK hinzufügen. Er ist dann auch direkt aktiviert.
+**Here is a video explanation
+Activate Effect](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_002.gif) Ultrasound Dynamics:** _This is how you activate an effect on an audio track.
 
-Hier das Video:
+#### Settings for normalisation
 
-![Effekt aktivieren](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_002.gif) **Ultraschall Dynamics:** *Aktivierung des Effects*
+To normalise all sources in your recording to -23 LUFS, simply select all items and choose 'Workflows' > 'Ultrasound AMP - Automated Mixing Pipeline' > 'Step 2: Normalise loudness of selected items to -23 LUFS' from the 'Podcast' menu.
 
-##### Einstellung für die Normalisierung
-Die Einstellung für das normaliseren auf -23 LUFS aller Quellen für die Aufnahme ("*Normalize loudness of selected items to -23 LUFS*") wird im Plugin "JS: Ultraschall Dynamics (Ultraschall.fm)" mit dem Regler *Target (LUFS)* vorgenommen.
-Die voreingestellten Werte müssen sind ind der Regel gut.
+Alternatively, or to use a target value other than -23 LUFS, change the corresponding slider `Target (LUFS)` in the effect plug-in `JS: Ultraschall Dynamics (Ultraschall.fm)`. For most cases, however, the preset value is ideal.
 
-![Ultraschall Dynamics Target](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/ULDynamics.jpg) **Ultraschall Dynamics:** *Die Einstellung für die finale Normalisierung lässt sich mit dem Plugin "*JS: LUFS Loudnessmeter*" verändern.*
+Ultr Ultraschall Dynamics Target](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/ULDynamics.jpg) **Ultrasound Dynamics:** _Here you can set an individual value for the LUFS of your selected audio track.
 
-Die Einstellung für die finale Normalisierung lässt sich mit dem Plugin "*JS: LUFS Loudnessmeter*" verändern.
+You make the setting for the normalisation of the final audio mix via the effect plug-in 'JS: LUFS_Loudness_Meter' on the master track.
 
-![-16 LUFS](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/minus16LUFS-1.gif)
-**Ultraschall Dynamics:** *Auch hier ist es in den aller meisten Fällen nicht notwendig die Einstellugen zu verändern.*
+![-16 LUFS](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/minus16LUFS-1.gif) **Ultrasound Dynamics:** _Also in most cases it is not necessary to change the settings.
 
-Auch hier ist es in den aller meisten Fällen nicht notwendig die Einstellugen zu verändern.
+<!-- ### Hall reduction -->
 
+<!-- @todo: Decision: Not edited yet. Maybe we should move this to the FAQ section and not edit here. -->
 
+### Remove noise with the _Ultrasonic Dynamics 2_ effect
 
-### Hall-Reduktion
+The `Ultrasound Dynamics 2` effect includes, among other things, an adjustable soft noise gate - which helps you to separate noise and speech on your tracks.
 
+The 'Noise floor' control has the greatest influence on the volume: Here you determine the limit above which a signal is treated as content to be amplified or as noise or interference signal to be attenuated. The trick is to find the exact setting for each track at which even soft speech is still amplified, but noise and breathing (vadding) are lowered. The suggested value usually fits a good headset such as the DT297 or the HMC660, which were conservatively modulated during recording (in a range of -6 to -12 dB). However, this is only a starting point; it is almost always worthwhile to fine-tune here.
 
+To do this, proceed as follows: You look for a passage in the track in question that contains silence (possibly with hissing and breathing) as well as quiet and normal loud speech. This may not always be easy to find, but you don't need more than a passage of perhaps 30 seconds for a good result. Over this section you set a time selection with the selection tool, switch to 'repeat' mode and the track to 'solo' so that the passage is only played on the desired track and in an endless loop. Now listen very carefully and start to move the slider back and forth a little - even a little more at first, so that you get a feeling for the change and the effect. Then tweak until you are satisfied with the result.
 
-<!-- @todo: Entscheidung: Noch nicht bearbeitet. Vielleicht sollten wir das in die FAQ Sektion übernehmen und hier nicht bearbeiten.-->
+However, this only works if you did not turn the gain control during the recording. If you changed the input level during the recording - and recorded very softly at the beginning, for example, and then rather loudly later - the mixing becomes a little more complicated. Either split the track at the appropriate point into two tracks, each with individual effect settings, or use an automatic sound enhancement service such as [Auphonic](https://auphonic.com/).
 
+**Here is also a video on this:** <!-- @todo gif with US 3.1 we have to redo this -->
+![Adjust Noisegate](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_004.gif) **Ultrasound Dynamics:** _This is how you change the threshold for noise reduction)._
 
-### Rauschen entfernen
-
-#### Der *Ultraschall Dynamics 2 Effek für Rauschreduktion*
-Der  *Ultraschall Dynamics 2 Effek* beinhaltet ìn einstellbares, weiches Noisegate - so dass man pro Mikrophon bzw. SprecherIn einstellen kann, was noch verstärkenswertes Signal ist (etwa leise gesprochene Worte) und was hingegen unerwünschte Störgeräusche (etwa Atmen)
-
-
-#### Den Einsatz des Noisegates (Noisefloor) anpassen
-Dieser Regler hat den größten Einfluss auf die Lautstärke: er legt fest, ab welcher Grenze ein Signal als zu verstärkender Inhalt oder aber als abzusenkendes Rauschen oder sonstiges Störsignal behandelt wird. Die Kunst besteht nun darin, für jede Spur den Wert zu finden, dass leise Sprache verstärkt wird, jedoch Atmen (Vadern) nicht verstärkt wird sondern bestenfalls sogar abgesenkt wird. Der voreingestellte Wert orientiert sich an einem guten Headset (DT297 / HMC660) das konservativ ausgesteuert wurde bei der Aufnahme (in einem Bereich von -6 bis -12 dB). Das ist aber nur ein erster Startpunkt, es lohnt fast immer hier nachzubessern.
-
-Dabei geht man wie folgt vor: man sucht sich in der Spur eine Passage raus, in der sowohl Stille (eventuell mit Rauschen), als auch Atmen, als auch leise Sprache, als auch normale Sprache vorkommt. Ist vielleicht nicht immer so zu finden, aber so eine Passage von vielleicht 30 Sekunden ist perfekt. Über diese Passage setzt man mit dem Auswahlwerkzeug eine Zeitauswahl, schaltet in den Repeat Modus, schaltet den Track auf Solo so dass alle anderen Spuren verstummen, und spielt ihn in der Schleife endlos ab. Nun hört man sich das Audio genau an, und beginnt den Regler hin und her zu schieben - gern auch erst mal in die Extreme, damit man ein Gespür für die Wirkungsweise bekommt. Dann optimiert man solange, bis man den besten Punkt gefunden hat.
-
-Das klappt nur, wenn man während der Aufnahme nichts am Gain der Aufnahme verändert hat - sollte das passiert sein, also etwa die erste Stunde sehr leise und die zweite sehr laut aufgezeichnet worden sein, wird es komplizierter und man sollte vielleicht besser Auphonic nehmen (der Ansatz wäre hier: den Clip teilen an der Stelle, an der die Lautstärke verändert wurde, und dann entweder den zweiten Bereich in eine neue Spur schieben die man mit anders eingestelltem Effekt versieht, oder aber die Effekte gar nicht auf die Spur anzuwenden sondern auf die einzelnen Items).
-
-Hier das Video:
-<!-- @todo gif mit US 3.1 das müssen wir neu machen-->
-
-![Noisegate anpassen](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_004.gif) **Ultraschall Dynamics:** *Ändern der Schwelle für das Rauschen (Rauschunterdrückung)*" verändern.*
+## Video
+<iframe width="560" height="315" src="../youtube/?url=KMpCO7w9kyI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe>

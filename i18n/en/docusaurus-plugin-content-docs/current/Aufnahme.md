@@ -1,203 +1,212 @@
 ---
 id: recording
-title: Aufnahme
+title: recording
 tags:
-  - x
-  - x
+  - recording
+editing:
+    - Proofreading: 24.4.2022 @MirUnauffaellig
+    - Final correction:
+    - translated: 8.5.22
 ---
 
-<!-- @todo: Links auf Git main umziehen --> <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen --> <!-- @todo: Screenshotgröße anpassen --> <!-- @todo: entscheiden was damit passiert. https://www.youtube.com/watch?v=p5kYH-YheN0 -->
+<!-- @todo: Adjust screenshot size -->
+<!-- @todo: decide what to do with it. https://www.youtube.com/watch?v=p5kYH-YheN0 -->
 
- # Einleitung
+## Introduction
 
-Jetzt kann die eigentliche Aufnahme beginnen. In diesem Kapitel lernst du wie du Spuren anlegst, deine Audioquellen wählst und dann mit der eigentlichen Aufnahme beginnst.
+Now the actual recording can begin. In this chapter you will learn how to create tracks, select your audio sources and then start recording.
 
-# Neues Projekt anlegen
+:::info Video
+There is a very good [tutorial video](#video) on this topic.
+:::
 
-REAPER öffnet beim Starten immer das zuletzt bearbeitete Projekt. Findet REAPER kein letztes Projekt, öffnet REAPER ein neues leeres Projekt. Dieses Projekt kannst du über das Menü `File -> save project` oder mit `STRG+S` speichern. Nimmst du etwas auf, bevor du das Projekt gespeichert hast, werden die Audiodateien im Ordner 'Dokumente/REAPER Media' gespeichert. Ein neues Projekt kannst du über `File -> New Project` oder `CONTROL+N` anlegen.
+## Create new project
 
-:::info **Tipp:** Du solltest immer vor der Aufnahme dein Projekt abspeichern, das erspart dir hinterher Datenchaos. Der [Soundcheck](https://pad.gwdg.de/AfIRFYAlQ5mM1PvSHIZCvg?both#Soundcheck) hilft dir dabei, das nicht zu vergessen. :::
+REAPER always opens the last edited project when it is started. If REAPER does not find a last project, REAPER opens a new, empty project. You can save this project via the menu `File`>`Save project` or with <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>S</kbd>. If you record something before you have saved the project, the audio files are stored in the folder 'Documents/REAPER Media' on your hard disk. You can create a new project via `File`>`New Project` or <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>N</kbd>.
 
-# Project Templates
+:::info
+You should always save your project before recording; this saves you data chaos afterwards. The [Soundcheck](#Soundcheck) helps you not to forget this.
+:::
 
-Um nicht immer wieder von Neuem dein Aufnahme-Projekt anlegen zu müssen, kannst du dir einmal ein Projekt einrichten und dann über `File -> Project Templates -> save project as template` als Vorlage speichern. Diese Vorlage kannst du vor jeder neuen Aufnahme über `File -> Project templates -> $Name-der-Vorlage` öffnen.
+## Project templates
 
-# Spuren anlegen
+To avoid having to create and configure a project every time you record, you can set up a project once and then save it as a template via `File`>`Project Templates`>`Save project as template`. You can open this template before each new recording via `File`>`Project Templates`>`$NAME_of_the_template`.
 
-Um später alle Sprechenden, die Musik und beispielsweise Soundeffekte bequem zu bearbeiten, legst du für jede Audioquelle eine eigene Spur im Bereich [Spuren [23]](GUI-overview) an.
+## Create tracks
 
-In Ultraschall gibt es im Wesentlichen drei Arten von Spuren:
+In order to conveniently edit all speakers, music and, for example, sound effects later, you create a separate track for each audio source in the [Tracks [23]](GUI-overview) area. In Ultraschall there are essentially three types of tracks:
 
-- **Track** – zum Beispiel für einen lokalen Sprecher
-- **StudioLink Track** – etwa für einen Interview-Gast, den du übers Internet per StudioLink zuschaltest (siehe auch unten "Aufnehmen mit StudioLink")
-- **Ultraschall-Soundboard Track** – für Einspieler, die du während der Aufnahme über das Soundboard abspielst (siehe auch unten "[Das Soundboard verwenden](#das-soundboard-verwenden)")
+- Track** - for example for a local speaker
+- **StudioLink Track** - for example, for an interview guest that you connect via the Internet using StudioLink (see also below "[Recording with StudioLink](#record-with-studiolink)")
+- Ultrasound Soundboard Track** - for recordings that you play back via the soundboard during the recording (see also below "[Use the soundboard](#use-the-soundboard)").
 
-Reguläre Tracks, denen du im nächsten Schritt einzelne Sprechende beziehungsweise Spuren deines Multi-Track-Recorders (wie beispielsweise Zoom H6) zuordnest, legst du entweder mit einem Doppelklick in den [Spuren-Bereich [23]](GUI-overview)-Bereich an (siehe Screenshot) per Tastatur-Befehl `COMMAND+T` (Mac) beziehungsweise `CONTROL+T` (Windows/Mac) oder mit einem Rechtsklick in den [Spuren-Bereich [23]](GUI-overview) und dann ein Klick auf "Insert new track".
+Regular tracks, to which you assign individual speakers or tracks of your multi-track recorder (such as Zoom H6) in the next step, are created either by double-clicking in the [track area [23]](GUI-overview) area, with the keyboard command <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>T</kbd> or with a right-click in the [track area [23]](GUI-overview) and then a click on `Insert new track'.
 
-![insert-new-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-new-track.jpg) **Neuen Track einfügen:** _Das Einfügen neuer Tracks ermöglicht die Aufnahme der einzelen Tonspruren_
+![insert-new-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-new-track.jpg) **Insert new track:** _Inserting new tracks enables the recording of the individual audio tracks._
 
-Mit einem Klick in den noch leeren, aber bereits eingefärbten Bereich vergibst du am besten direkt einen Namen für deine Spur – so verlierst du auch in größeren Projekten nicht den Überblick.
+With a click in the still empty, but already coloured area, it is best to directly assign a name to your track - this way you will not lose the overview even in larger projects.
 
-![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/i mages/Aufnahme/track-renaming.png?=650x) **Track benennen** _Lege für deine Tracks sinnvolle Namen an, dass erleichtert dir später die Zuordnung_ Seit Version 5 von Ultraschall werden Spuren nicht nur automatisch in ihrer Höhe an die Fenstergröße angepasst, sondern zur Übersicht auch automatisch eingefärbt. Klickst du mit der rechten Maustaste auf den Track (oder per Tastenkürzel `ALT+C` bei ausgewählter Spur) kannst du im Color Picker die Farbe auch nachträglich ändern.
+![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-renaming.png?=650x) **Name track:** _Set meaningful names for your tracks, this will make it easier for you to assign them later.
 
-So sieht das in einem Projekt mit zwei Sprechenden, einer Studio-Link-Spur und einem Soundboard aus: ![example-project](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/project-with-4-tracks.png?=650x) **Beispielprojekt** _So sieht ein Projekt mit zwei Sprechenden, einer Studio-Link-Spur und einem Soundboard aus_
+Since version 5 of Ultraschall, tracks are not only automatically adjusted in height to the size of the window, but also automatically coloured for clarity. If you right-click on the track (or use the keyboard shortcut <kbd>Alt</kbd> + <kbd>C</kbd> with the track selected), you can change the colour in the colour picker afterwards.
 
-**Das Ganze nochmal als Video-Erklärung:**
+![example-project](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/project-with-4-tracks.png?=650x) **Example project:** _This is what a project with two speakers, a StudioLink track and a soundboard looks like._
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p5kYH-YheN0?start=846" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+**The whole thing again as a video explanation.
 
-# Eingänge wählen
-
-## Audio Device auswählen
-
-Das Audio Device (Gerät), mit dem die Aufnahme erfolgen soll, wird über das Menü "Preferences" `CONTROL+","` ausgewählt. Dort findet sich unter "Audio" der Unterpunkt "Device". Die Auswahl erfolgt im Feld "Audio Device". In diesem Beispiel ist es ein Zoom H6.
-
-![Audio-Device-auswählen](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Audiodevice_auswaehlen.jpg?=650x) **Audiogerät wählen:** _In den Einstellungen kannst du dein Audio auswählen_
-
-Ein Audio Device kann mehrere Eingänge haben, die unterschiedlichen Spuren zugeordnet werden können. Beispielsweise hat das Zoom H6 ohne Erweiterung vier Eingänge. Du kannst also mit vier Mikrofonen gleichzeitig aufnehmen. Die Zählweise der Eingänge ist gerätespezifisch.
-
-## Spuren auswählen und zuordnen
-
-Wenn du für alle Sprechenden, alle über StudioLink Zugeschalteten und für die Soundeffekte (im Soundboard) jeweils eigene Spuren angelegt hast, ist der nächste Schritt die Zuordnung von Spuren zu den Aufnahmekanälen – also zu den verschiedenen Mikrofonen, die an deinem Aufnahmegerät hängen. <!-- @TODO: Der Satz ist ein bisschen lang - kürzen? -->
-
-Alle Spuren, die du im Hauptfenster von Ultraschall angelegt hast, findest du im [Mixer-Bereich [24]](GUI-overview) wieder. Die Zuordnung erfolgt über die Track-Namen, die angezeigten Track-Nummern oder die Sortierung (im [Spuren-Bereich [23]](GUI-overview) von oben nach unten, was im [Mixer-Bereich [24]](GUI-overview) von links nach rechts entspricht): <!-- @TODO: Noch näher auf den Mixerbereich eingehen? -->
-
-![tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/tracks.png?=450x) **Spuren und Mixer:** _Jede Spur hat einen Mixer_
-
-Ultraschall versucht, alle Tracks und Aufnahme-Kanäle automatisch zuzuordnen. Sobald du aber feststellst, dass die Stimmen nicht korrekt auf den in Schritt "Spuren anlegen" benannten Tracks landen, kannst du im [Mixer [24]](GUI-overview) über die entsprechenden "Input"-Dropdown-Menüs die Zuordnungen manuell vornehmen oder korrigieren. Am besten gewöhnst du dir an, vor der Aufnahme alle lokalen Mikrofon-Tracks einmal kurz zu kontrollieren – **die StudioLink- und die Soundboard-Spuren werden immer automatisch korrekt zugeordnet**, sie brauchen keinen physikalischen Eingang und bleiben auf "Input: None" stehen.
-
-![track-assignment](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-assignment.png?=450x) **Eingänge zuweisen:** _Über das Dropdown-Menü kannst du den Eingang auswählen_
-
-**Das Ganze nochmal als Video-Erklärung:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p5kYH-YheN0?start=911" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=846" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe>
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vdLpynu1ixE?start=4970" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+## Select inputs
+
+### Select Audio Device
+
+The audio device (typically a microphone or an audio interface) with which the recording is to be made is selected via the menu `REAPER`>`Preferences` (or <kbd>Cmd</kbd> + <kbd>,</kbd>). There you will find `Audio`>`Device` the field `Audio Device`. In this example it is a Zoom H6.
+
+Select audio device](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Audiodevice_auswaehlen.jpg?=650x) **Select audio device:** _In the settings you can select your audio device._
+
+An audio device can have several inputs (but it does not have to), which can be assigned to different tracks. If we stick to our example with a Zoom H6, we have four (plus two) inputs available here. You can record with four - or with a corresponding extension with six - microphones at the same time.
+
+:::note Note
+The way the inputs are counted is device-specific, so in ultrasound the channel designation may be different from the one given on your device (for example, channel 1 on the Zoom H6 is listed as channel 3 in ultrasound).
+:::
+
+### Select and assign tracks
+
+All speakers, all those connected via StudioLink and the sound effects (in the soundboard) now each have their own track. The next step is to assign these tracks to the recording channels - that is, to the various microphones attached to your recording device.
+
+All tracks that you have created in the main window of Ultraschall can also be found in the [Mixer area [24]](GUI-overview). The assignment is made via the track names, the displayed track numbers or the sorting (in the [track area [23]](GUI-overview) from top to bottom, which corresponds to a sorting from left to right in the [mixer area [24]](GUI-overview)):
+
+![tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/tracks.png?=450x) **Tracks and mixers:** _Each track has its own mixer._
+
+Ultraschall tries to assign all tracks and recording channels automatically. However, if you notice that the voices do not land correctly on the tracks named in step "[Create tracks](#track-create), you can make the assignments manually in the [Mixer [24]](GUI-overview) via the corresponding 'Input' drop-down menus. It is best to get into the habit of briefly checking all local microphone tracks before recording - **the StudioLink and Soundboard tracks are always automatically assigned correctly**, they do not need a physical input and remain set to `Input: None`.
+
+![track-assignment](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-assignment.png?=450x) **Assign inputs:** _Use the drop-down menu to select the input.
+
+**The whole thing again as a video explanation.
+
+<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe>
 
-# Routing
+<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=4970" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+</iframe>
 
-Das Routing dient dazu, dass die jeweiligen Teilnehmer:innen sich gegenseitig hören und auch ein Soundboard von allen gehört werden kann (auch über eine Internetverbindung mittels StudioLink!).
 
-## Magic Routing
+## Routing
 
-Mit der Version 5 haben wir das Magic Routing eingeführt. Dadurch wird dir das Routing komplett abgenommen. Ultraschall erkennt automatisch, ob du gerade schneidest oder aufnimmst, und schaltet dementsprechend das Routing um. Links am Rand des Bildschirms findest du die [Routing-Buttons [14-18]](GUI-overview) für folgenden Routing-Einstellungen:
+The routing serves to ensure that the respective participants can hear each other - and also that any soundboard that may be present can be heard by all (also via an internet connection using StudioLink).
+
+### Magic Routing
+
+Since version 5, Ultraschall has a so-called magic routing that completely relieves you of manual routing. Ultraschall automatically recognises whether you are cutting or recording and switches the routing accordingly. On the left side of the screen you will find the [routing buttons [14-18]](GUI-overview) for the following routing settings:
 
 ![Magic Routing](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/magic-routing.png)
 
-- **MagicRouting (ein/aus)** [[14]](GUI-overview): Wenn eingeschaltet, kümmert sich Ultraschall automatisch um das richtig Routing. Du musst dabei nichts mehr machen.
-- **Preshow Routing** [[15]](GUI-overview): Wenn du über StudioLink-on-Air deinen Podcast live streamst, kannst du hiermit einstellen, dass im Stream zwar schon dein Soundboard zu hören ist, aber noch keine Sprecherinnen oder Sprecher. <!-- @todo: richtig so? -->
-- **Aufnahme Routing** [[16]](GUI-overview): Zum eigentlichen Aufnehmen deines Podcasts.
-- **Schnitt Routing** [[17]](GUI-overview): Zum Schneiden der Aufnahme (siehe "Prepare all tracks for editing" (XX)).
-- **StudioLink-on-Air (ein/aus)** [[18]](GUI-overview): Passt das Routing für deinen "StudioLink-on-Air"-Stream (XX) an.
+- Magic Routing (on/off)** [[14]](GUI-overview): If this is switched on, Ultraschall automatically takes care of the correct routing. You don't have to do anything else.
+- Preshow Routing** [[15]](GUI-overview): If you stream your podcast recording live via StudioLink-on-Air, you can set this so that your soundboard can already be heard in the stream, but no speakers can be heard yet. <!-- [ ] @todo: right? -->
+- **Recording-Routing** [[16]](GUI-overview): This is the setting for the actual recording of your podcast.
+- **Editing routing** [[17]](GUI-overview): This setting is for editing your recording.
+- StudioLink-on-Air (on/off)** [[18]](GUI-overview): This button adjusts the routing for your StudioLink-on-Air stream.
 
-<!-- @todo: entscheiden was mit den Links passiert https://youtu.be/ND4AG43wSPQ (US 4 irgendwo) https://www.youtube.com/watch?v=vdLpynu1ixE&t=91m https://www.youtube.com/watch?v=vdLpynu1ixE&t=5437s -->
+<!-- @todo: decide what happens to the links https://youtu.be/ND4AG43wSPQ (US 4 somewhere) https://www.youtube.com/watch?v=vdLpynu1ixE&t=91m https://www.youtube.com/watch?v=vdLpynu1ixE&t=5437s -->
 
- ### Manuelles Routing
+### Manual routing
 
-Wenn du lieber manuell das Routing einstellen willst, kannst du das über die Einstellungen unter Menü "View -> Routing Matrix" oder mit `OPTION+R` machen.
+If you prefer to set the routing manually, you can do this via the settings `View`>`Routing Matrix` or with <kbd>Alt</kbd> + <kbd>R</kbd>. The [Routing Matrix [27]](GUI-overview) shows you an overview of which people can hear each other. You can change the assignment manually here, but since the introduction of Magic Routing we do not recommend it.
 
-In der [Routing-Matrix [27]](GUI-overview) wird grafisch angezeigt, welche Personen sich gegenseitig hören. Dies lässt sich auch manuell verändern, ist aber seit der Einführung von Magic Routing nur noch selten notwendig (und wird nicht empfohlen).
-
-**Video:** _Ab Minute 49 wird in dem Video unten erklärt, wie das Routing in älteren Versionen angepasst wurde._
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p5kYH-YheN0?start=2917" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=2917" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe>
 
-# Soundcheck
+**Video:** _From minute 49 onwards, the video below explains how routing was adjusted in older versions._
 
-Der Soundcheck hilft dir dabei, die häufigsten Fehler beim Podcasten zu vermeiden. Der Soundcheck öffnet sich mit einer Warnung, wenn Ultraschall einen potenziellen Fehler erkannt hat. Die einzelnen Soundchecks können in den Einstellungen ein- und ausgeschaltet werden. Der Soundcheck prüft dabei die folgenden Sachen:
+## Soundcheck
 
-- **Ungesichertes Projekt (Unsaved Project):** Warnt dich, wenn du etwas aufnehmen möchtest, aber das Projekt noch nicht gespeichert hast. Das beugt Datenchaos vor.
-- **Spuren für Bearbeitung vorbereiten (Prepare all tracks for editing):** Warnt dich, wenn du nach der Aufnahme mit dem Bearbeiten beginnen möchtest, aber die Spuren noch nicht dafür vorbereitet sind. <!-- genauer erklären -->
-- **Prüfe 48 KHz Abtastrate (Check for 48 KHz sample rate):** Wenn du StudioLink bzw. StudioLink-on-Air verwenden möchtest, musst du als Abtastrate 48 KHz verwenden. (mehr zu dem Thema in Kapitel XX)
-- **Internes Mikrofon verwendet (Check if internal mic is selected):** Prüft, ob du aus Versehen statt deines guten Mikrofons das interne Mikrofon deines Laptops zum Aufnehmen verwendest.
-- **Nur am Ende aufnehmen (Start recording only at the end):** Verhindert, dass du ungewollt in der Mitte deines Projektes aufnimmst.
-- **Unbekanntes Soundinterface (Unknown sound interface):** Prüft, ob du ein neues Soundinterface angeschlossen hast, für das du noch keine Einstellung zum Direkt-Monitoring getroffen hast.
-- **Echo- und Verzerrungsvorsorge (Echo and distortion prevention):** Wenn dein Interface kein Direkt-Monitoring hat, solltest du die richtige Blockgröße wählen. <!-- @TODO: richtiger name? --> Eine Blockgröße von 128 Samples führt zu Latenz und Echos, eine Blockgröße von 32 Samples zu Instabilität. Wir empfehlen eine Blockgröße von 512 Samples für Direkt-Monitoring und 64 Samples ohne Direkt-Monitoring.
-- **Eingangs-Zauberer (Input Wizard):** Prüft, ob du einen Eingang mehrmals benutzt hast, oder ob du einen austauschbaren Eingang an einem Zoom benutzt.
+Soundcheck helps you avoid the most common mistakes when podcasting with Ultraschall. The sound check issues a warning when Ultraschall has detected a potential error. You can switch the individual components of the sound check on or off as required in the settings. The sound check checks in detail:
 
-![soundcheck](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundcheck.png) **Soundcheck:** _Soundcheck-Beispiel für ein ungesichertes Projekt_
+- Unsaved Project:** Warns you when you want to record something but have not yet saved the project. This prevents data chaos.
+- Prepare all tracks for editing:** Warns you if you want to start editing after recording but the tracks are not yet prepared.
+- Check for 48 KHz sample rate:** If you want to use StudioLink or StudioLink-on-Air, you must use 48 KHz as the sample rate.
+- Internal mic used (Check if internal mic is selected):** Checks if you are accidentally using your laptop's internal mic to record instead of your good mic.
+- Start recording only at the end:** Prevents you from unintentionally recording in the middle of your project.
+- Unknown sound interface:** Checks if you have connected a new sound interface for which you have not yet made a direct monitoring setting.
+- Echo and distortion prevention:** If your interface does not have direct monitoring, you should select the correct block size. <!-- @TODO: correct name? --> A block size of 128 samples leads to latency and echoes, a block size of 32 samples leads to instability. We recommend a block size of 512 samples for direct monitoring and 64 samples without direct monitoring.
+- Input Wizard:** Checks if you are assigning an input multiple times or if you are using an interchangeable input on a Zoom. <!-- @TODO: more understandable name? -->
 
-Du kannst die Warnmeldungen links mit dem Button entweder auf `ignorieren` schalten, oder mit dem Button rechts das Problem beheben. In der Mitte wird dir in einem Textfeld das Problem immer noch einmal genauer erklärt. Wenn du das Soundcheck-Fenster schließt, ohne dass du die Probleme behoben hast, werden automatisch alle Warnungen auf `ignorieren` geschaltet. Zum Schließen kannst Du auch `esc` drücken.
+![soundcheck](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundcheck.png) **Soundcheck:** _This is what a sample soundcheck looks like in an unsecured project.
 
-Im Dashboard siehst du jederzeit den Status des Soundchecks. Ein Klick auf die Soundcheck-Leiste im Dashboard öffnet die Soundcheck-Übersicht.
+You can either ignore the warning messages on the left with the 'Ignore' button or correct the problem with the button on the right. In the middle, a text field explains the problem in more detail. If you close the sound check window without having fixed the problem, all warnings are automatically ignored. You can also press <kbd>Esc</kbd> to close it. In the dashboard (bottom, centre) you can see the status of your sound check at any time - a click on this sound check bar opens the sound check overview again.
 
-![](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Dashboard.png) **Dashboard:** _Dashboard mit einer Warnung in der Soundcheck-Leiste_
+![Soundcheck Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Dashboard.png) **Dashboard:** _The dashboard with any warnings can be found in the soundcheck bar at the bottom of the window.
 
-<!-- @todo: was passiert mit den Videos? https://www.youtube.com/watch?v=vdLpynu1ixE&t=4771s (US 5) https://www.youtube.com/watch?v=ND4AG43wSPQ&t=433s (US 4) -->
+<!-- @todo: what happens to the videos? https://www.youtube.com/watch?v=vdLpynu1ixE&t=4771s (US 5) https://www.youtube.com/watch?v=ND4AG43wSPQ&t=433s (US 4) -->
 
- # Aufnehmen mit Studiolink
+## Recording with Studiolink
 
-[StudioLink](https://studio-link.de) ist eine eigenständige Software, die dir die Möglichkeit bietet dich remote zu einer Ultraschall-Aufnahme zuzuschalten oder andere Personen zuzuschalten.
+[StudioLink](https://studio-link.de) is a stand-alone software that allows you to remotely join another ultrasound recording or integrate other people into your recording via the internet.
 
-StudioLink gibt es in zwei Fassungen. Einmal die _Standalone-Version_ (für deine Gäste) und einmal als _Plugin_ (für dich zum Aufnehmen in Ultraschall). Das StudioLink-Plugin wird direkt mit Ultraschall ausgeliefert. <!-- @TODO: ausgeliefert? Wie ist das mit Updates? --> Eine ausführliche Dokumentation findest du hier: [StudioLink-Doku](https://doku.studio-link.de/)
+StudioLink is available in two versions: One is the *Standalone version* (for your guests) and the other is a *Plugin* (for you to record in Ultraschall). The StudioLink plug-in is pre-installed in Ultraschall. Updates of StudioLink always come together with Ultraschall updates. <!-- @TODO: delivered? -->You can find detailed documentation on StudioLink itself here: [StudioLink doc](https://doku.studio-link.de/).
 
-Eine StudioLink-Spur lässt sich über das Menü `Podcast -> Insert StudioLink and Soundboard Tracks -> Insert StudioLink track` einfügen.
+You insert a StudioLink track into your project via the menu 'Podcast' -> 'Insert StudioLink and Soundboard Tracks' -> 'Insert StudioLink track'. Alternatively, you can right-click in the [Tracks section [23]](GUI-overview) and select the appropriate option.
 
-<!-- @TODO: Es gibt bestimmt noch eine Tastenkombi(?) -->
+<!-- @TODO: There must be another key combination(?) -->
 
-![isert-new-studiolink-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_insert_track.png) **Screenshot:** _Einfügen einer StudioLink-Spur über das Menü_
+ ![insert-new-studiolink-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_insert_track.png) **Screenshot:** *This is how you insert a StudioLink track via the menu.
 
---------------------------------------------------------------------------------
+:::danger Attention!
+The StudioLink tracks appear in Ultraschall as normal tracks in the [Track Area [23]](GUI-overview#area-workspaceew) or in the [Mixer Area [24]](GUI-overview#area-workspace). At the same time, however, a browser window opens in your standard browser, through which the actual connection is established and later also terminated. If you are using Windows, you must not close the console window that also appears, otherwise you will not be able to establish a connection. <!-- @TODO: Check with Sebastian how to keep the StudioLink manual up to date. ! -->
+:::
 
-![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/Aufnahme/assets/images/allgemein/Achtung.png?=20x20) **Achtung**: Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-overview) beziehungsweise im [Mixer-Bereich [24]](GUI-overview). Es öffnet sich aber ein Browserfenster im Standardbrowser, in dem die eigentliche Verbindung aufgebaut wird. Wenn du Windows verwendest, darfst du das Terminalfenster nicht schließen, sonst kannst du keine Verbindung aufbauen. <!-- @TODO: Mit Sebastian abklären wie die Anleitung von StudioLink aktuell gehalten werden soll. ! -->
+The browser window opens separately. (Please follow the instructions on [StudioLink](https://studio-link.de)!)
 
---------------------------------------------------------------------------------
+![Studio-Link](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_browser.jpg) **StudioLink:** *Studio-Link in the Browser*.
 
-## Studiolinkfenster
+![Windows Console Window](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_konsole.png) **Windows Console:** *Please do not close this window or StuidoLink will not work!*
 
-In folgenden Bild ist eine StudioLink-Track in Ultraschall dargestellt.
+## Using the soundboard
 
-![StudioLink Track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_track.jpg?=650x) **StudioLink Track einfügen:** _Über das Podcast-Menü kanns du eine StudioLink Spur einfügen_
+### Insert soundboard track
+Ultraschall comes with its own soundboard, which you can use to insert music and sound effects during the recording, for example your intro, dividers or other audio snippets. You insert a soundboard track via the menu 'Podcast' -> 'Insert StudioLink and Soundboard tracks' -> 'Insert Ultraschall soundboard track'. Alternatively, you can right-click in the [Tracks section [23]](GUI-overview) and select the appropriate option.
 
-Das Browserfenster öffnet sich seperat. (Bitte folge hierfür der Anleitung auf [StudioLink](https://studio-link.de)!)
+![soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-soundboard-track.png) **Insert soundboard - option 1:** _Use the podcast menu to insert a soundboard track.
 
-![Studio-Link](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_browser.jpg) **StudioLink:** _Studio-Link im Browser_
+![alternative-soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/add-soundboard-2.png) **Insert soundboard - option 2:** _You can also insert a soundboard track by right-clicking in the track area._
 
-Das Terminalfenster bei Winwows darf nicht geschlossen werden.
+:::danger Attention!
+We recommend creating only one soundboard track per project. Sounds for a project should therefore be combined from different directories into one soundboard before recording.
+:::
 
-<!-- @todo: Link stimmt nicht --> ![Windows Terminal Fenster](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/studiolink_konsole.png?=750x) **Windows Terminal Fenster:** _Das Terminalfenster nicht schließen, sonst funktioniert StuidoLink nicht_ ## Das Soundboard verwenden ### Soundboard-Spur einfügen Ultraschall kommt mit einem eigenen Soundboard, über das du während der Aufnahme Musik und Klangeffekte einspielen kannst, z. B. dein Intro, Trenner oder andere Audioschnipsel. Eine Soundboard-Spur fügst du über das Menü "Podcast -> Insert StudioLink and Soundboard tracks -> Insert Ultraschall-Soundboard track" ein. Alternativ kannst du auch mit der rechten Maustaste in den [Spuren-Bereich [23]](GUI-overview) klicken und dort die entsprechende Option auswählen. <!-- @TODO: einheitliche Begriffe für Programm-Bereiche und Funktionen? -->
+### Operation
 
- ### Möglichkeit 1: über das Podcast-Menü
+To teach the soundboard where your sound files are located, select the corresponding track and switch to the view for the plug-in list by clicking on the corresponding `FX` button of the track in the [mixer area [24]](GUI-overview). There you make sure that the 'Soundboard' plug-in is activated (tick is set). Use the folder symbol at the top left of the plug-in area to define the directory in which you have saved the sound files for the soundboard.
 
-![soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-soundboard-track.png) **Screenshot:** _Soundboard hinzufügen_ **Soundboard einfügen:** _Über das Podcast-Menü kannst du eine soundboard Spur einfügen_
+![soundboard-activation](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundboard-activation_new.png)
+**Soundboard activation**: _This is how you activate a soundboard._
 
-### Möglichkeit 2: per Rechtsklick in den Spurenbereich
+:::tip Tip
+The files are always displayed here in alphabetical order. If you prefer to sort the files in the same order as you might use them in your recording, it is best to put a number in front of the file name.
+:::
 
-![alternative-soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/add-soundboard-2.png) **Soundboard einfügen:** _Mit einem Rechtsklick kannst du ebenfalls eine soundboard Spur einfügen_
+![soundboard-filled](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundboard-filled.png)
 
---------------------------------------------------------------------------------
+**Soundboard**: _This is what a filled soundboard looks like._
 
-![Achtung](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png?=20x20) **Achtung**: Wir empfehlen, pro Projekt nur eine Soundboard-Spur anzulegen. Sounds für ein Projekt sollten also vor der Aufnahme aus unterschiedlichen Verzeichnissen in einem Soundboard zusammengestellt werden.
+### The Soundboard controls in detail
 
---------------------------------------------------------------------------------
+1. **File name of the audio clip** (without file extension).
+2. **Loop function**: if activated, the clip plays in an endless loop after pressing the play button [4].
+3. **Remaining time display**: shows how long the clip will continue to play - before playback, it therefore shows the total running time of the clip.
+4. **Play button**: starts the playback of the player
+5. **Stop button**: interrupts the playback of the player
+6. **Soft fade-in**: starts playback like [4] - starts mute, volume increases over about five seconds; the rest of the clip plays at the set volume
+7. **Volume**: individual volume setting for the respective clip.
 
-## Bedienung
-
-Um dem Soundboard beizubringen, wo die entsprechenden Sound-Dateien liegen, wählst du die entsprechende Spur und wechselst mittels Klick auf den zugehörigen FX-Button der Spur im [Mixer-Bereich [24]](GUI-overview) in die Ansicht für die Plugin-Liste. Dort stellst du sicher, dass das Soundboard-Plugin aktiviert ist (Haken ist gesetzt). Über das Ordner-Symbol oben links im Plugin-Bereich legst du das Verzeichnis fest, in dem du die Sound-Dateien fürs Soundboard abgespeichert hast.
-
-![soundboard-activation](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/soundboard-activation_new.png) **Soundboard Aktivierung**: _So aktivierst du ein Soundboard_
-
-So sieht ein mit diversen Clips belegtes Soundboard aus. :::info **Tipp**: Die Dateien werden hier immer alphabetisch sortiert angezeigt. Willst du lieber eine Sortierung in der Reihenfolge, wie du sie vielleicht auch in deiner Aufnahme verwendest, stellst du am besten dem Dateinamen eine Zahl voran. :::
-
-![soundboard-filled](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/aufnahme/soundboard-filled.png) **Soundboard**: _So sieht ein gefülltes Soundboard aus_
-
-### Die Soundboard-Bedienelemente im Einzelnen:
-
-1. **Dateiname des Audioclips** (ohne die Dateiendung)
-2. **Loop-Funktion**: Wenn aktiviert, spielt der Clip nach dem Drücken des Wiedergabe-Buttons [4] in einer Endlosschleife
-3. **Restzeitanzeige**: Zeigt an, wie lange der Clip noch spielt – vor der Wiedergabe zeigt sie also die Gesamtlaufzeit des Clips
-4. **Wiedergabe-Button**: Startet die Wiedergabe des Einspielers
-5. **Stopp-Button**: Bricht die Wiedergabe des Einspielers ab
-6. **Softer Fade-in**: Startet wie auch [4] die Wiedergabe – beginnt stumm, die Lautstärke nimmt über circa fünf Sekunden hinweg zu; der restliche Clip wird in der eingestellten Lautstärke wiedergegeben
-7. **Lautstärke**: Individuelle Lautstärkeeinstellung für den jeweiligen Clip
-
-### Und auch das Soundboard nochmal als Video:
-
+<!-- **And also the soundboard again as a video:**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vdLpynu1ixE?start=3008" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe> -->
+
+
+## Video
+<iframe width="560" height="315" src="../youtube/?url=P4d_EWsfHmk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe>

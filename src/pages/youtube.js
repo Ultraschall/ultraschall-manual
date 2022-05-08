@@ -28,11 +28,17 @@ export default function youtube() {
               }}
               >
               <div style={{padding: '10px'}}>
-                <p>Beim Starten des Videos wird eine Verbindung mit YouTube hergestellt.
-                  Die bei YouTube geltenden Datenschutzbestimmungen können
-                    Sie <a href="https://policies.google.com/privacy?hl=de" target="_blank">HIER</a> einsehen.</p>
+                <Translate id="youtube.info"
+                            description="privacy info">
+                    <p>Beim Starten des Videos wird eine Verbindung mit YouTube hergestellt.
+                    Die bei YouTube geltenden Datenschutzbestimmungen können
+                      Sie <a href="https://policies.google.com/privacy?hl=de" target="_blank">HIER</a> einsehen.</p>
+                  </Translate>
                 <form action={videoURL} target="_self">
-                <button style={{padding: '10px', border: "none", marginLeft: '37%'}} type="submit" name="start">Starte Video</button>
+                <button style={{padding: '10px', border: "none", marginLeft: '37%'}} type="submit" name="start">
+                  <Translate id="youtube.play" description="play button">
+                  Starte Video</Translate>
+                </button>
                 </form>
               </div>
            </div>  

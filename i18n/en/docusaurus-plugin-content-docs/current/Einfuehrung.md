@@ -1,25 +1,36 @@
 ---
 id: introduction
-title: Einführung
-sidebar_label: Einführung
+title: Introduction
+sidebar_label: Introduction
 tags:
-  - Einführung
-  - Getting started
+  - introduction
+  - getting started
+proofreading:
+    - Proofreading: 27.3.2022 @MirUnauffaellig
+    - Final proofreading:
+    - translated: 8.5.22
 ---
 
-in en
+<!-- @todo: Add captions -->
 
-Schön, dass du zu Ultraschall gefunden hast. Ab jetzt wird deine Podcast-Produktion einfacher und besser. Das Handbuch, welches du gerade liest, wurde zusammen mit der Community erstellt und wird fortlaufend verbessert und erweitert. Das Handbuch ist dafür gedacht, einzelne Funktionen nachzuschlagen oder neue Features zu lernen. Jedes Kapitel ist dabei weitgehend unabhängig von den vorherigen. Wir wünschen viel Erfolg bei deiner Podcast-Produktion und jederzeit tollen Klang!
+Glad you found Ultraschall! From now on, your podcast production will be easier and better. The manual you're reading right now was created by the community with support from the Ultraschall team - and we're constantly working to expand and improve it. It's meant for looking up individual functions or learning new features.
 
-# Was ist Ultraschall?
+Are you missing an explanation somewhere, is something unclear or have you discovered an error? Feel free to contact us, we are grateful for feedback and are always looking for ambitious ultraschall users who want to continue writing this manual together with us.
 
-Ultraschall ist das Schweizer Offiziersmesser unter den _Digital Audio Workstations_ ([DAW](https://pad.gwdg.de/XYgv66gbQwSYvFCMQm0WPA?both#DAW)), wenn es ums Podcasten geht. Eine DAW von Podcaster:innen - für Podcaster:innen. Ultraschall nimmt dabei die für Musikproduktionen gedachte DAW [REAPER](https://www.reaper.fm/) als Grundlage und optimiert sie soweit wie nur möglich fürs High-End-Podcasting. Dabei wurden von uns unter anderem die Funktionen erweitert und das Design modernisiert. Mit jedem neuen Release kommen weitere nützliche Funktionen dazu, um das Podcasten noch einfacher zu machen.
+We wish you every success with your podcast production and great sound at all times!
 
-# Warum Ultraschall?
+## What is ultraschall?
 
-Ultraschall ist eine Digital Audio Workstation (DAW). Wenn du vorher noch nie mit REAPER oder generell einer DAW gearbeitet hast, wird es - wie bei jeder Software - am Anfang einige Zeit dauern, bis du die DAW vollständig bedienen kannst. Das schreckt vielleicht im ersten Moment ab, aber der Aufwand lohnt sich. Ultraschall bietet viele Vorteile gegenüber Audioschnitt-Software wie [Audacity](https://www.audacityteam.org/):
+Ultraschall is *the* podcast tool among the digital audio workstations ([DAW](glossary)) - a DAW by podcasters for podcasters. As a plug-in, Ultraschall extends the DAW [REAPER](https://www.reaper.fm/), which is intended for music production, and optimises it as much as possible for high-end podcasting. This includes the design, the user interface, but also a lot of new functions and tools. With each release, more useful tools are added to make podcasting even easier and more professional for you.
 
-- Ultraschall ist genau aufs Podcasten ausgerichtet und macht dir den Einstieg so leicht wie möglich. So kommen etwa alle Begrifflichkeiten aus unserem Podcast-Universum.
-- Ultraschall arbeitet (wie die meisten DAWs) nicht-destruktiv. Das heißt, beim eigentlichen Schnitt können keine Informationen verloren gehen. Wenn irgendwo zu viel weggeschnitten wurde, kann das später leicht wieder angepasst werden.
-- Ultraschall kann problemlos mehrere Spuren gleichzeitig aufnehmen. Einer Aufnahme in einer großen Gruppe steht nichts im Wege.
-- Die direkte Integration von [StudioLink](https://studio-link.de) machen Remote-Aufnahmen (d. h. Aufnahmen mit Gesprächspartnern über das Internet) so einfach wie nie. Die Audioqualität ist dabei nicht von einer lokalen Aufnahme zu unterscheiden.
+![DAWs Ultraschall 5.001.png](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/DAWs-Ultraschall-5.001.png)
+**Market Overview**: *Every audio software or DAW has a different focus - and is therefore sometimes more, sometimes less suitable for the needs and budgets of us podcasters.
+
+## Why ultrasound?
+
+If you have never worked with REAPER or a DAW in general before, you will - as with any software - need some time at the beginning to find your way around and be able to use the software to its full extent. This may be a bit daunting at first, but the effort is worth it. Ultraschall offers many advantages over supposedly "simple" audio editing software such as [Audacity](https://www.audacityteam.org/):
+
+* Ultrasound is not a DAW and not an all-purpose audio weapon, but is geared precisely towards podcasting. That makes it as easy as possible for you to get started. For example, all the terminology comes from our podcast universe.
+* Ultrasound (like most DAWs) works non-destructively. This means that no information is lost during editing and your original recordings remain untouched. If you cut too much somewhere, it's easy to correct later.
+* Ultr Ultraschall records several tracks at the same time without any problems. Nothing stands in the way of recording large groups with many individual tracks.
+* The direct integration of [StudioLink](https://studio-link.de) makes remote recordings (i.e. recordings where the other party is connected via the Internet) easier than ever before. The audio quality is indistinguishable from a local recording, provided there is a stable internet connection on both sides.

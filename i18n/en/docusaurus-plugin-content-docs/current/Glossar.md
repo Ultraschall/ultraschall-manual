@@ -1,20 +1,54 @@
 ---
 id: glossary
-title: Glossar/Definitionen
+title: Glossary/Definitions
 ---
 
-:::info Dieses Kapitel wird erst mit der V2 bearbeitet :::
+:::info
+This chapter will only be edited with V2
+:::
 
-# Glossar/Definitionen
+# Glossary/Definitions
 
-## **Track:**
+## General audio terms
 
-Eine Spur für eine/n Sprecher/in
+### Clipping
 
-## **Envelope:**
+xxx
 
-Bei Audio beschreibt ein Envelope wie sich der Sound mit der Zeit verändert.
+### DAW: Digital Audio Workstation
 
-## DAW
+xxx
 
-Digital Audio Workstations
+### Mute
+
+xxx
+
+## Specific for REAPER/Ultrasound
+
+### Edit cursor
+
+xxxx; see also #play-cursor
+
+### Envelope
+
+In audio, an envelope describes how the sound changes over time.
+
+### FX
+
+xxx
+
+### Play cursor
+
+xxxx; see also #edit-cursor
+
+### Routing Matrix
+
+xxx
+
+### Track
+
+xxx
+
+### Track
+
+A track for a speaker see #track

@@ -64,10 +64,10 @@ def translateFile(filename):
         print(error)
 
 
-   shutil.copy2("../i18n/en/docusaurus-plugin-content-docs/current/"+translatedFilename+".txt", "../i18n/en/docusaurus-plugin-content-docs/current/"+translatedFilename+".md")
+   shutil.copy2("../i18n/en/docusaurus-plugin-content-docs/current/"+filename+".txt", "../i18n/en/docusaurus-plugin-content-docs/current/"+filename+".md")
    # delte txt file
    os.remove("../docs/"+ filename + ".txt")
-   os.remove("../i18n/en/docusaurus-plugin-content-docs/current/"+ translatedFilename + ".txt")
+   os.remove("../i18n/en/docusaurus-plugin-content-docs/current/"+ filename + ".txt")
 
 '''
 with_glossary = translator.translate_text_with_glossary(

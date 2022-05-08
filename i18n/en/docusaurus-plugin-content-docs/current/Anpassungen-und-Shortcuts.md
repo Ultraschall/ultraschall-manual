@@ -1,81 +1,82 @@
 ---
 id: adaption
-title: 'Anpassungen, Shortcuts und co.'
+title: 'Adaptations, shortcuts and co.'
 tags:
   - x
   - x
+proofreading:
+    - Proofreading: 24.4.2022 @MirUnauffaellig.
+    - Final Correction: 
 ---
 
-<!-- @todo: Blder auf Git main umziehen --> <!-- @todo: Links auf Git main umziehen --> <!-- @todo: Link auf Kapitel "Sonstiges" korrigieren --> <!-- @todo: Bildunterschrifen hinzufügen --> <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen --> <!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
+<!-- @todo: Start gif loops only when needed (change gif) -->
 
- # Einleitung
+## Introduction
 
-Um deine Arbeitsweise zu beschleunigen, gibt es in Ultraschall zahlreiche Tastenkombinationen die dir das das Arbeiten vereinfachen können. In diesem Kapitel lernst du, wie du die bereits mitgelieferten Shortcuts benutzt und wie du beliebige eigene Tastenkombinationen einrichten kannst.
+To speed up your recording and editing work, Ultraschall provides numerous shortcuts that make your work easier. In this chapter you will learn how to use the shortcuts already provided - and how to set up your own shortcuts.
 
-## Ultraschall Voreinstellungen
+## Ultrasound presets
 
-**Etliche Tastaturshortcuts sind nun auf global gesetzt** Je nach Tastaturfokus konnte es sein, dass Tastaturshortcuts nicht reagiert haben oder anders reagiert haben, als man es gewohnt war. Jetzt sind viele Shortcuts so eingestellt, dass sie auch dann funktionieren, wenn man z.B. etwas im Soundboard angeklickt hat. Dies sollte typische Probleme lösen, wie das nicht reagieren von Shortcuts fürs Marker setzen.
+:::info Info
+**Note for Ultraschall veterans:** Unlike in previous versions, quite a few keyboard shortcuts are now globally available. Where keyboard shortcuts used to depend on which programme area had the focus at the time, since version 5 many shortcuts are set to always work. This should solve typical problems - such as no marker being set after pressing <kbd>M</kbd> because you last clicked on something in the soundboard.
+:::
 
-**Übersicht sämtlicher Shortcuts** Im neuen Menüpunkt „Help and Documentation" im Podcast-Menü ist eine automatisch generierte, durchsortierte Liste sämtlicher (!) aktiver Shortcuts und Maus-Modifier zu finden
+**Overview of all shortcuts:** In the new menu item `Podcast`>`Help and Documentation` you will find an automatically generated, sorted list of all active shortcuts and mouse modifiers.
 
-**Aktualisierte Tastaturschablone** alle relevanten Shortcuts sind in einem praktischen PDF zu finden: <http://url.ultraschall-podcast.de/keymap5>
+**Updated keyboard template:** All relevant shortcuts can be found in [this handy PDF](http://url.ultraschall-podcast.de/keymap5):
+[![Keymap](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/keymap.jpg)](http://url.ultraschall-podcast.de/keymap5)
 
-![Keymap](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/keymap.jpg)
+**Close current project tab:** On the Mac, close the tab of the currently open project by default with <kbd>Cmd</kbd> + <kbd>W</kbd>.
 
-**Aktuellen Projekttab schließen** ist auf dem Mac nun mit `cmd` + `w`
+**Dynamic Split Items:** The function `Dynamic Split Items` is now again directly accessible via the keyboard shortcut <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>.
 
-**Dynamic Split Items** Die Funktion Dynamic Split Items ist nun wieder direkt über den Shortcut `cmd/strg` + `shift` + `d` zu erreichen
-
-**Normalisierung** Der Shortcut `opt` + `shift` + `n` normalisiert selektierte Items auf -23 LUFS. Mit `cmd` + `shift` + `n` wird jegliche Normalisierung aufgehoben.
+**Normalisation:** Use <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> to normalise all selected items to -23 LUFS. With <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> you cancel any normalisation.
 
 ## Navigation
 
-**Trackpad-/Mausradfunktionen** Trackpads und Mausrad kommen sich leider in den Belegungen in die Quere. Das Mausrad hat nun folgende Belegungen, die so auch in nahezu allen anderen Schnittprogrammen zu finden sind:
+**Trackpad/mouse wheel functions:** Unfortunately, trackpads and the mouse wheel sometimes get in each other's way. The mouse wheel now has the following assignments, which can also be found in almost all other editing programmes:
 
-`Scroll` – Verikales Scrollen des [Timeline-Arbeitsbereichs [25]](GUI-overview) `Scroll` + `Shift` – Horizontales Scrollen des [Timeline-Arbeitsbereichs [25]](GUI-overview) `Scroll` + `Alt` – Horizontaler Zoom `Scroll` + `cmd/strg` – Vertikaler Zoom `Klick` + `Drag` – Freies Verschieben des [Timeline-Arbeitsbereichs [25]](GUI-overview) `Klick` – Setzt den Edit-Cursor ohne Auswahl von Spuren/items
+- **Scroll**: vertical scrolling of the [timeline-workspace [25]](GUI-overview#area-workspace).
+- **Scroll** while holding <kbd>Shift</kbd> key: horizontal scrolling of the [timeline-workspace [25]](GUI-overview#space-workspace)
+- **Scroll** while holding <kbd>Opt</kbd>/<kbd>Alt</kbd> key: horizontal zoom.
+- **Scroll** while holding <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> key - vertical zoom.
+- **Click**: sets the edit cursor without selecting tracks or items.
+- **Click** and **Drag**: freely move the [timeline workspace [25]](GUI-overview#area-workspace) <!-- [ ] ToDo: check and correct if necessary -->
 
-**Schnitte Prüfen** Die Shortcuts `alt`+ `cmd`+ `left` und `alt` + `cmd` + `right` springen zur nächsten Itemkante (bei ausgewählten Tracks nur auf ebendiesen), springen dann noch um den in den Ultraschall-Settings angegebenen Wert des Previews zurück und spielen den Schnitt dann ab. Perfekt zum schnellen Kontrollieren aller Schnitte in einem Projekt.
+**Check cuts:** The shortcuts <kbd>Alt</kbd> + <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>←</kbd> and <kbd>Alt</kbd> + <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>→</kbd> set the playbackcursor to the next item edge (on selected tracks only); the cursor then jumps back by the value specified in the Ultraschall settings for previews and starts the playback process - perfect for quickly checking all cuts in a project.
 
-**Zoom auf Auswahl und zurück** Der Shortcut `shift` + `z` zoomt den Arrangeview auf eine Zeitauswahl oder auf selektierte Items. Die Auswahl wird dann aufgehoben. Bei nochmaligem Drücken wird auf die ursprüngliche Zoomstufe zurück gesprungen.
+**Zoom to selection and back:** The shortcut <kbd>Shift</kbd> + <kbd>Z</kbd> zooms the view to a time selection or to the selected items. The selection is then cancelled. Pressing it again returns the view to the original zoom level.
 
-**Zoom auf Edit-Cursor** Mit `cmd/strg` + `Pinch` auf dem Trackpad wird nicht an die Position des Mauszeigers gezoomt, sondern an die des Edit-Cursors.
+**Zoom to edit cursor: <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + **pin** on the trackpad does not zoom to the position of the mouse pointer, but to that of the edit cursor.
 
-## Eigene Shortcuts verwenden
+## Use your own shortcuts
 
-(Dank an Mespotine mespotine.de für den Text und die Bilder) <!-- @todo: Bei Mesopotine bob dieser Hweis entfallen kann -->
+To access the menu for the shortcuts, open the 'Actions' dialogue from the menu 'Actions' > 'Show action list'. Here you can customise the shortcuts if the default Ultraschall settings do not suit you for some reason.
 
-Um an das Menü für die Shortcuts zu gelangen, musst Du den Actions-Dialog öffnen, der im Menü `Actions` -> `Show Action list` zu finden ist.
+### Global shortcuts
 
-Damit kannst Du die Shortcuts noch etwas individualisieren, wenn die Ultraschall-Standardeinstellungen für Shortcuts für Dich nicht ganz passen.
+In this example, we create the new shortcut <kbd>Alt</kbd> + <kbd>Input</kbd>, which should open the Project Settings. To do this, find the corresponding action - in the example `Project Settings` - and click the `Add...` button to call up the `Keyboard/MIDI/OSC Input` dialogue for specifying a shortcut. First type in the shortcut you want to use in the future and then select 'Global' from the 'Scope' drop-down list. After confirming with `OK`, your new shortcut is available everywhere in Ultraschall. (You will know it is global when the keyword "(global)" appears after the shortcut at the bottom of the list).
 
-### Global Shortcuts:
 
-In diesem Beispiel wird ein neuer Shortcut( `Alt`+ `Eingabe`) erstellt, um die Project-Settings zu öffnen. Suche hierfür die Action die Du anpassen möchtes in diesem Beispiel die „Project Settings", klicke den `Add…-Button` an und ein Dialog erscheint.
-
-Im „Keyboard/MIDI/OSC Input"-Dialog tippe dann zuerst den Shortcut ein und wähle dann in der Scope-Dropdownliste „Global" aus. Dann Ok, und der Shortcut ist gesetzt.
-
-Du erkennst, dass dieser global ist, wenn unten in der Liste (global) neben dem Shortcut steht.
 
 ![Shortcuts Global](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/globale_shortcuts.gif)
 
-Wichtig ist hierbei darauf zu achten, dass Ihr in der Scope-Auswahlliste NICHT Global + text fields auswählt, sonst werden Eure Shortcuts auch dann ausgelöst, wenn Ihr irgendwo Texte eintippt. Und das wollt Ihr nicht.
+:::note Note
+It is important to make sure that you do NOT select 'Global + text fields' in the scope selection list, otherwise your shortcut will be triggered even if you type in text somewhere (for example, when naming chapter markers). And that is usually not what you want.
+:::
 
-### Eigene Shortcuts anlegen und benutzen
+### Create and use your own shortcuts
 
-In diesem Beispiel ist zu sehen wie der eben gesetzte Shortcut(`Alt`+ `Eingabe`) so geändet wird, dass er auf nicht-global gesetzt ist, also nur dann funktioniert, wenn der Tastaturfokus auf den [Spuren [23]](GUI-overview) oder dem [Mixer [24]](GUI-overview) liegt.
-
-Im Actions-Dialog gibts oben einen praktischen Button `Find shortcut`. Wenn Du diesen anklickst, kannst Du dort den Shortcut eingeben und Du wirst zu der Action weitergeleitet, die mit dem Shortcut verknüpft ist.
-
-Im Beispiel also die `Alt`+ `Eingabe`, welches mit dem Öffnen der Project Settings verknüpft ist.
-
-Danach machst Du im Prinzip das Gleiche wie eben: Du klickst auf `Add…` und gibst den Shortcut nochmal ein, also hier `Alt`+`Eingabe`.
-
-Und dann achte darauf, dass in der Scope-Dropdownliste „Normal" ausgewählt ist. Danach musst Du noch auf `OK` klicken.
+In this example, we change the shortcut <kbd>Alt</kbd> + <kbd>Enter</kbd> we just set so that it is not set globally, but only works when the keyboard focus is on the [Tracks [23]](GUI-overview) or the [Mixer [24]](GUI-overview). For this purpose you will find the handy button 'Find shortcut' in the 'Actions' dialogue. There you enter the shortcut and land in the action linked to it. There you basically do the same as before with the assignment: You click on `Add...` and enter the shortcut again, i.e. here <kbd>Alt</kbd> + <kbd>Enter</kbd>. Please make sure that `Normal` is selected in the `Scope` drop-down list. Then confirm with `OK`.
 
 ![Shortcuts Local](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/lokale_shortcuts.gif)
 
-Du erkennst ob der Shortcut richtig gesetzt ist, wenn in der Shortcut-Liste unten KEIN (global) mehr steht.
+You can tell that your shortcut is set correctly when there is NO "(global)" after the shortcut name in the shortcut list at the bottom.
 
-# Kontrollgeräte verwenden (Midi, OSC, etc.)
+<!-- [ ] ToDo for V2: the chapter does not yet exist.
+## Use control devices (Midi, OSC, etc.)
 
-:::info **Hinweis:** Alle Shortcuts können auch per Midi und OSC angesteuert werden. Hinweise dazu sind im Kapitel [Sonstiges](https://pad.gwdg.de/sLRAFF9eS0OwYFuobe_wZw#) zu finden: :::
+:::info Info
+You can also control all shortcuts via Midi and OSC. Information on this can be found in the chapter [Miscellaneous](https://pad.gwdg.de/sLRAFF9eS0OwYFuobe_wZw#).
+:::
+-->

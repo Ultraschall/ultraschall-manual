@@ -41,7 +41,7 @@
   },
   "link.item.label.Mitwirkende": {
     "message": "Contributors",
-    "description": "The label of footer link with label=Mitwirkende linking to /docs/mitwirkende"
+    "description": "The label of footer link with label=Mitwirkende linking to /docs/partcipants"
   },
   "link.item.label.Datenschutzerklärung": {
     "message": "Privacy policy",

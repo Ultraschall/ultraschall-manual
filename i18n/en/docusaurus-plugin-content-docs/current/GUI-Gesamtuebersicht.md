@@ -1,126 +1,90 @@
 ---
 id: GUI-overview
-title: Übersicht über die Bedienelemente und Bereiche
-tags:
-  - x
-  - x
+title: Overview of controls and areas
+proofreading:
+    - Proofreading: 27.3.2022 @MirUnauffaellig
+    - Final correction:
 ---
 
-<!-- @todo: Links auf Git main umziehen --> <!-- @todo: Bildunterschrifen hinzufügen --> <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiche" verwedet werden sollten sich duch alle Dokumente ziehen -->
+<!-- @todo: Move links to Git main -->
+<!-- @todo: Add links to the corresponding chapters Move Git main -->
 
-![Übersicht der Bedienelemente](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/GUI-Gesamtuebersicht/Uebersichta.png) Übersicht: Bedienelemente und Bereiche | [Copyright © Leonid Lezner CC-BY 2.0](https://raw.githubusercontent.com/leonidlezner/ultraschall-tutorial/main/docs/downloads/Quick-Info-Ultraschall.pdf)
+![Overview of controls](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/GUI-Gesamtuebersicht/Uebersichta.png) **Overview**: *Control elements and areas | [Copyright © Leonid Lezner CC-BY 2.0](https://raw.githubusercontent.com/leonidlezner/ultraschall-tutorial/main/docs/downloads/Quick-Info-Ultraschall.pdf)*
 
-# Funktionen der Bedienelemente:
 
-## Buttons: Schnitt
+## Functions of the controls
 
-(Eine ausführliche Beschreibung der Funktionen findest du im [Kapitel Schnitt](./Schnitt.md).)
+### Buttons: Cut
 
-1. Hält die Elemente in einer Spur zusammen, wenn ein Element verschoben wird.
-2. Hält die Elemente über alle Spuren zusammen, wenn ein Element verschoben wird.
-3. Setzt eine unbenannte Kapitelmarke an der Cursorposition. Alternativ die Taste
+(A detailed description of the functions can be found in the [Chapter Cut](#cut.).
 
-  <kbd>M</kbd>
+1. Keeps the elements in a track together when an element is moved.
+2. keeps the elements together across all tracks when an element is moved.
+3. sets an unnamed chapter marker at the cursor position - alternatively: key <kbd>M</kbd> or <kbd>Shift</kbd>+<kbd>M</kbd> to add a named chapter marker
+4. sets an edit marker at the current cursor position - alternatively: key <kbd>E</kbd>.
+5. Disconnects the selected track at the current cursor position - alternatively: key <kbd>S</kbd>.
+6. Toggles between selection (button active) and move tool (button deactivated).
+7. cuts the selection across all tracks and closes the gap - alternatively: keys <kbd>Ctrl</kbd>+<kbd>X</kbd> (Win) or <kbd>Cmd</kbd>+<kbd>X</kbd> (Mac)
+8. shows (button active) or hides (button deactivated) the mute envelopes.
 
-  oder
+### Buttons: Zoom
 
-  <kbd>shift</kbd>
+9. Zooms out completely to show the whole project.
+10. automatically tracks horizontal scroll position of timeline (if active) - orients to time position when playing or recording.
 
-  +
+### Buttons: Views
 
-  <kbd>M</kbd>
+11. Activates view "Recording" - focus on the controls that are important for a recording.
+12. Activates the "Editing" view - focus on the controls that are important for editing.
+13. activates view "Storyboard" - focus on the controls that are important for "built" contributions.
 
-  für sofortige Eingabe des Namens.
+### Buttons: Routing
 
-4. Setzt eine Editier-Marke an der Cursorposition. Alternativ die Taste
+14. Enables or disables automatic routing between inputs/outputs and tracks (if disabled, buttons 15-17 are ignored).
+15. sets routing to "Pre-Show" - useful for live streaming (local signals are not transmitted via the stream).
+16. set routing to "Record" - all tracks end up in the master track
+17. Set routing to "Cut
+18. starts live stream via studio link
 
-  <kbd>E</kbd>
+### Buttons: Export
 
-  .
+19. Shows the overview of chapter markers.
+20. Shows the dialogue for audio rendering.
+21. shows the podcast export assistant
+22. opens the project folder
 
-5. Trennt die ausgewählte Spur an der aktuellen Cursor-Position. Alternativ die Taste
+### Area: Work surface
 
-  <kbd>S</kbd>
+23. **Tracks section**: shows the different tracks of the project.
+24. **Mixer area**: represents a separate slider for each track (via the slider you can also quickly access the filters for the respective track) - in addition, the master slider, which controls the mix level, can also be found here.
+25. timeline section**: the core of the project; here you can see the waveforms of your tracks, but also cuts, markers, envelope processing and much more.
+26. **Filter area**: appears as soon as you press the FX button of a track.
+27. **Routing matrix**: connects the inputs and outputs to individual tracks and thus determines exactly what is heard by which participant or on which stream
+28. **Chapter marker area**: displays the chapter markers set with buttons 3) and 4) as a list and enables clear management and editing
 
-  .
+### Buttons: Playback
 
-6. Schaltet zwischen Auswahl (Button aktiv) und Verschiebewerkzeug (Button deaktiviert) um.
-7. Schneidet die Auswahl heraus und schließt die Lücke. Alternativ die Tasten
+29. **Back button**: jumps to the beginning of the project.
+30. **Stop button**: stops recording or playback and returns the playback cursor to the edit cursor.
+31. **Play button**: plays - as long as the button is active, you cannot change the output interface <!-- @todo. What is meant by 'output interface? -->
+32. **Pause button**: pauses recording or playback (temporarily), but leaves the playback cursor at the current playback position, so that you can continue directly from this point.
+33. **Forward button**: jumps to the end of the project
+34. **Loop button**: plays the selected section of the timeline in an endless loop
+35. **Record button**: starts recording
+36. **Timecode display**: reflects the current playback position - double-click on the display to set the exact time at which you want to place the playback cursor.
+37. **Play speed knob**: sets the speed for playback - the default is '1' times the speed, if you set '1.5' here, for example, your audio will run 50 percent faster
 
-  <kbd>Strg</kbd>
+:::danger Attention!
+After finishing the edit, you should set this back to 1x speed so that your audio is exported at the correct speed. <!-- @todo: verify if this is still the case in the current version. -->
+:::
 
-  +
+### Detailed view: Tracks
 
-  <kbd>X</kbd>
+A track can contain either audio data or meta information (for example, volume). Each track has a name. With the button `M` ("Mute") you mute the track - and with the button `S` ("Solo") you mute all other tracks so that only the selected track can be heard. Since version 5 of Ultraschall, each track is automatically assigned its own colour.
+Directly above the waveforms in the timeline view you will find the chapter markers at their respective playback positions. With the mouse you can easily move the chapter markers to the desired position, a right click and `Edit marker...` lets you edit the name and the colour, `Remove marker...` removes the respective marker. (Also applies to edit markers).
+Here you can see the waveforms of the individual tracks. 41.
+41. in order to actually store an audio signal in a track during a recording, the track must be activated for recording or "armed". You can see whether the track is activated for recording by the small red recording indicator (round, white circle on red background; lights up when active) next to the track name. Once you have finished recording, you should deactivate all tracks again so that you do not unintentionally overwrite your recording and no signals can be heard through the connected microphones during editing. The easiest way to do this is to select the item 'Prepare all tracks for editing' in the 'Podcast' menu, which deactivates all tracks for recording, but also makes other sensible settings (such as changing the routing or stopping live streams).
 
-  (Win) oder
-
-  <kbd>Cmd</kbd>
-
-  +
-
-  <kbd>X</kbd>
-
-  (Mac).
-
-8. Zeigt (Button aktiv) oder versteckt (Button deaktiviert) die Mute-Spuren.
-
-## Buttons: Zoom
-
-1. Vollständig herauszoomen und das Projekt zeigen.
-2. Horizontale Scrollposition der Timeline automatisch der Zeitposition beim Abspielen oder Aufnahme nachführen (wenn aktiv).
-
-## Buttons: Views
-
-1. Ansicht "Aufnahme". Es werden die Steuerelemente eingeblendet, die für eine Aufnahme wichtig sind.
-2. Ansicht "Schnitt". Es werden die Steuerelemente eingeblendet, die für den Schnitt wichtig sind.
-3. Ansicht "Storyboard" für gebaute Beiträge.
-
-## Buttons: Routing
-
-1. Automatisches Routing zwischen den Ein-/Ausgängen und Spuren (wenn aktiv). Wenn deaktiviert, werden die Buttons 15-17 ignoriert.
-2. Routing auf "Pre-Show" setzen. Sinnvoll für Live Streaming, lokale Signale werden nicht über den Stream übertragen.
-3. Routing auf "Aufnahme" setzen. Alle Spuren gehen auf den Master.
-4. Routing auf "Schnitt" setzen.
-5. Live Streaming über Studio-Link starten.
-
-## Buttons: Export
-
-1. Übersicht der Kapitelmarken einbelenden.
-2. Dialog für Audio Rendering einblenden.
-3. Podcastexport Assistenten einblenden.
-4. Projektordner öffnen.
-
-## Bereich: Arbeitsfläche
-
-1. In diesem Bereich werden die verschiedenen Spuren des Projektes dargestellt.
-2. Der Mixer-Bereich stellt für jede Spur einen eigenen Regler dar. Über den Regler kann man auch die Filter aktivieren. Zusätzlich befindet sich in dem Bereich auch der Master-Regler, der den Mixpegel steuert.
-3. Das Kernstück des Projekts: Die Timeline mit den einzelnen Spuren.
-4. Hier kann der Bereich mit Filter aktiviert werden.
-5. Über die Routing Matrix werden die Eingänge und Ausgänge mit einzelnen spuren verbunden.
-6. Die mit den Punkten 3) und 4) gesetzten Kapitelmarken erscheinen in diesem Bereich als Liste und können hier bearbeitet oder entfernt werden.
-
-## Buttons: Wiedergabe
-
-1. Zum Anfang des Projektes springen.
-2. Anhalten. Die aktuelle Position kehrt zum Cursor zurück.
-3. Abspielen. Solange der Button aktiv ist, kann man die Ausgabeschnittstelle nicht verändern.
-4. Pausieren. Position bleibt erhalten, beim erneuten Klick auf Abspielen läuft die Zeitposition weiter.
-5. Zum Ende des Projektes springen.
-6. Die Auswahl in einer Schleife abspielen.
-7. Aufnahme starten.
-8. Darstellung der aktuellen Abspielposition. Mit einem Doppelklick auf die Anzeige kann man die Zeit einstellen zu der man springen möchte.
-9. Die Abspielgeschwindigkeit einstellen. 1-fache Geschwindigkeit ist voreingestellt, kann auf 1.5 umgestellt werden, um 50 % schneller abzuspielen.
-
-## Bereich: Spuren
-
-1. Eine Spur (Track) kannentweder Audiodaten enthalten oder auch Metainformationen (z.B. Lautstärke). Jede Spur hat einen einen Namen. Mit dem Button `M` kann man die Spur lautlos stellen (Mute) oder mit dem Button `S` als einzige (single) Spur abspielen lassen. Seit Ultraschall 5 werden den Spuren automatisch verschiedene Farben zugeordnet.
-2. In diesem Bereich werden die Kapitelmarken dargestellt. Man kann sie mit den Buttons 3) oder 4) bzw. mit entsprechenden Tastenkürzeln setzen. Die Kapitelmarken lassen sich einfach mit der Maus an die gewünschte Position verschieben.
-3. Die Wellenform einer Aufnahme sieht man für jede einzelne Spur. Die Wellenform lässt sich z.B. mit der Taste 5) schneiden.
-4. Um während eine Aufnahme tatsächlich ein Audiosignal in einer Spur zuspeichern, muss diese für die Aufnahme aktiviert sein. Ob die Spur für die Aufnahme aktiviert ist, erkennt man am kleinen roten Indikator neben dem Spurnamen. Ist das Projekt fertig aufgenommen, sollten alle Spuren wieder für die Aufnahme deaktiviert sein, um keine Aufnahme unabsichtlich zu überschreiben. Dies lässt sich schnell mit dem Menüpunkt `Podcast`>`Prepare all tracks for editing erledigen.`
-
---------------------------------------------------------------------------------
-
-![](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/Achtung.png =20x20) **Achtung**: Die meisten der hier aufgelisteten Punkte werden im Rahmen dieser Dokumentation in den jeweiligen Kapiteln nochmals genauer erläuter.
-
---------------------------------------------------------------------------------
+:::info Info
+Many of the points listed here are explained in more detail in the respective chapters of this documentation.
+:::
