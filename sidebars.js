@@ -32,11 +32,11 @@ module.exports = {
       label: 'Grundfunktionen',
       items: ['recording', 'cut', 'postproduction', 'export'],
     },
-    {
+    /* {
       type: 'category',
       label: 'Fortgeschrittene',
       items: ['advancedrecording'],
-    },
+    }, */
     {
       type: 'doc',
       id: 'glossary', // document ID
