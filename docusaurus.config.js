@@ -42,7 +42,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     announcementBar: {
       id: 'info',
       content:
-        'Diese Handbuch befindet sich noch in einer Beta-Version.',
+        'Dieses Handbuch befindet sich noch in einer Beta-Version.',
       backgroundColor: '#FFD93E',
       textColor: '#091E42',
       isCloseable: false,
