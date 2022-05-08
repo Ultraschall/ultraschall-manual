@@ -4,9 +4,7 @@ title: Glossar/Definitionen
 ---
 
 :::info
-
 Dieses Kapitel wird erst mit der V2 bearbeitet
-
 :::
 
 # Glossar/Definitionen
