@@ -39,6 +39,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       respectPrefersColorScheme: false,
       defaultMode: 'dark',
     },
+    announcementBar: {
+      id: 'info',
+      content:
+        'Diese Handbuch befindet sich noch in einer Beta-Version.',
+      backgroundColor: '#FFD93E',
+      textColor: '#091E42',
+      isCloseable: false,
+    },
       navbar: {
         title: 'Ultraschall Handbuch',
         logo: {
@@ -118,5 +126,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       locales: ['de', 'en'],
     },
     plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+
+    
 
 });
