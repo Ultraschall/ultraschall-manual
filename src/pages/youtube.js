@@ -1,5 +1,6 @@
 import React from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import Translate, {translate} from '@docusaurus/Translate';
 
 export default function youtube() {
     
@@ -15,10 +16,11 @@ export default function youtube() {
       // check if video url is not null, else show an error message
       if(url != null) {
           return (
-            <div
+              <div
               style={{
                 display: 'flex',
                 justifyContent: 'center',
+                textAlign: 'center',
                 alignItems: 'center',
                 fontSize: '20px',
                 width: "560px",
@@ -28,16 +30,25 @@ export default function youtube() {
               }}
               >
               <div style={{padding: '10px'}}>
-                <Translate id="youtube.info"
-                            description="privacy info">
-                    <p>Beim Starten des Videos wird eine Verbindung mit YouTube hergestellt.
-                    Die bei YouTube geltenden Datenschutzbestimmungen können
-                      Sie <a href="https://policies.google.com/privacy?hl=de" target="_blank">HIER</a> einsehen.</p>
-                  </Translate>
+                      <p> 
+                      <Translate id="youtube.info_1"
+                              description="privacy info one"> 
+                              Externen Inhalt von YouTube laden?  
+                      </Translate>
+                      <br></br>                      
+                      <a href="https://policies.google.com/privacy?hl=de" target="_blank">
+                        <Translate id="youtube.info_2" description="privacy info two"> 
+                        Datenschutz bei YouTube
+                        </Translate>
+                      </a> 
+                      <br></br>          
+                    </p>
+                 
                 <form action={videoURL} target="_self">
-                <button style={{padding: '10px', border: "none", marginLeft: '37%'}} type="submit" name="start">
+                <button style={{padding: '10px', border: "none", backgroundColor: '#FFD93E', color: "black"}} type="submit" name="start">
                   <Translate id="youtube.play" description="play button">
-                  Starte Video</Translate>
+                  Starte Video
+                  </Translate>
                 </button>
                 </form>
               </div>
