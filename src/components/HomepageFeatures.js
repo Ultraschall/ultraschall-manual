@@ -9,7 +9,7 @@ const FeatureList = [
         id="Feature.simpleGuideHeadline"
           description="Guide headline">
             Einfach zum loslegen </Translate>,
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/rocket.svg').default,
     description: (
       <>
       <Translate
@@ -26,7 +26,7 @@ const FeatureList = [
           description="reducedToTheEssentials headline">
             Reduziert auf das Wichtigste
           </Translate>          ,
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/stopWatch.svg').default,
     description: (
       <>
       <Translate
@@ -44,7 +44,7 @@ const FeatureList = [
           description="further developed by yo">
           Weiterentwickelt von euch
           </Translate>,
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/code.svg').default,
     description: (
       <>
       <Translate
