@@ -261,5 +261,17 @@
   "theme.CodeBlock.wordWrapToggle": {
     "message": "Toggle word wrap",
     "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "youtube.info_1": {
+    "message": "Load external content from YouTube?",
+    "description": "privacy info one"
+  },
+  "youtube.info_2": {
+    "message": "Privacy at YouTube",
+    "description": "privacy info two"
+  },
+  "youtube.play": {
+    "message": "play video",
+    "description": "play button"
   }
 }
