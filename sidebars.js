@@ -47,6 +47,11 @@ module.exports = {
       id: 'about', // document ID
       label: 'Über', // sidebar label
     },
+    {
+      type: 'doc',
+      id: 'partcipants', // document ID
+      label: 'Mitwirkende', // sidebar label
+    },
   ],
 
 
