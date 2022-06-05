@@ -1,17 +1,11 @@
 ---
 id: export
 title: Export
-tags:
-  - x
-  - x
 lektorat:
     - Lektorat: 27.4.2022 @MirUnauffaellig
     - Schlusskorrektur: 
 ---
-<!-- Tags für Docusaurus -->
-
-<!-- @todo: Links auf  Git main umziehen -->
-<!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiche" verwendet werden sollten sich duch alle Dokumente ziehen 
+<!-- 
 
 @todo: Was passiert mit dem Video?
 https://www.youtube.com/watch?v=vdLpynu1ixE&t=4104s
@@ -31,6 +25,11 @@ https://sendegate.de/t/faq-kapitel-als-einzelne-dateien-rendern/4824
 ## Einleitung
 
 Wenn dein Projekt geschnitten und abgemischt ist, kannst du deine fertige Audiodatei exportieren. In diesem Kapitel lernst du, wie du eine Podcast-Episode exportierst und welche wichtigen Punkte du von Kapitelmarken bis Episoden-Cover dabei beachten solltest.
+
+
+:::info Video
+Zu diesem Thema gibt es ein sehr gutes [Tutorial-Video](#video).
+:::
 
 ## Der Workflow
 
