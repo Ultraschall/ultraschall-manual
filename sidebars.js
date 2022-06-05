@@ -37,11 +37,11 @@ module.exports = {
       label: 'Fortgeschrittene',
       items: ['advancedrecording'],
     }, */
-    {
+    /* {
       type: 'doc',
       id: 'glossary', // document ID
       label: 'Glossar', // sidebar label
-    },
+    },*/
     {
       type: 'doc',
       id: 'about', // document ID
