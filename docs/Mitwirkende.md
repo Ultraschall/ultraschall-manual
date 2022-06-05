@@ -8,7 +8,7 @@ title: Mitwirkende
 - Nucleus
 - rstockm
 - Gero
-- Jürgen
+- [Jürgen](https://es-ist-ein-krauss.de)
 - Heiko
 
 # Danksagung:
