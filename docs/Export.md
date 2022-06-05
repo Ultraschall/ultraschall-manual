@@ -161,5 +161,5 @@ An häufigsten wird für Ultraschall-Projekte das **MP3**-Format verwendet. Der 
 ![Exportformate](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-formats.png) **Exportformate:** *Mit Ultraschall kannst du deine Podcast-Episoden in verschiedene Formaten exportieren. Der Standard ist MP3.*
 
 ## Video
-<iframe width="560" height="315" src="../youtube/?url=KMpCO7w9kyI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="../youtube/?url=VSqAM5ur4M4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe> 
