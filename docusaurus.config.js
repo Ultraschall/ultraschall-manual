@@ -88,6 +88,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label: 'Twitter',
                 href: 'https://twitter.com/ultraschall_fm',
               },
+              {
+                label: 'Mastodon',
+                href: 'https://chaos.social/@ultraschall',
+              },
             ],
           },
           {
@@ -100,6 +104,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 label: 'Mitwirkende',
                 to: '/docs/partcipants',
+              }, 
+              {
+                label: 'Danke sagen',
+                href: 'https://ultraschall.fm/danke/',
               }
             ],
           },
