@@ -44,7 +44,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       content:
         'Dieses Handbuch befindet sich noch in einer Beta-Version. '+
         '<a target="_blank" rel="noopener noreferrer" href="https://pad.gwdg.de/hJcF_2wfSm2uO46neH504w#">Feeback</a>' +
-        ' Fürs Podstock: <a target="_blank" rel="noopener noreferrer" href="https://pad.gwdg.de/NVeTtJAtRL2hLRD6sAKvjQ#">Bildbeschreibungen (Podstock)</a>',
+        ' Fürs Podstock: <a target="_blank" rel="noopener noreferrer" href="https://pad.gwdg.de/NVeTtJAtRL2hLRD6sAKvjQ#">Bildbeschreibungen</a>',
       backgroundColor: '#FFD93E',
       textColor: '#091E42',
       isCloseable: false,
