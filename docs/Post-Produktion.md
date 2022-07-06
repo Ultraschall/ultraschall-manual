@@ -6,7 +6,7 @@ tags:
   - x
 lektorat:
     - Lektorat: 27.4.2022 bzw. 4.5.2022 @MirUnauffaellig
-    - Schlusskorrektur: 
+    - Schlusskorrektur: 6.7.2022 @MirUnauffaellig
 ---
 
 <!-- Tags für Docusaurus -->
@@ -29,11 +29,11 @@ Die Ziele der Post-Produktion sind (in absteigender Relevanz):
 1. **Mischen der einzelnen Spuren**: Verschiedene Stimmen und Einspieler klingen in der Aufnahme unterschiedlich laut. Im Mix werden diese Unterschiede zugunsten eines harmonischen Ganzen verringert.
 2. **Anheben der Lautheit des Podcasts auf -16 LUFS (oder eines anderen Wunschwertes)**: Podcasts werden in sehr unterschiedlichen Umgebungen gehört - nicht nur zu Hause, sondern etwa auch in der U-Bahn. Damit alles gut verstanden werden kann, muss der gesamte Mix eine gewisse Lautstärke aufweisen. -16 LUFS hat sich hier in Podcast-Kreisen etabliert.
 3. **Reduzieren von Störungen**: Je nach Aufnahmesituation enthalten die Spuren mehr oder weniger Störanteile – wie Rauschen, Raumklang, Echo, Übersprechen von anderen Mikrofonen oder Netzbrummen. Diese Misstöne lassen sich mit überschaubarem Aufwand zumindest teilweise reduzieren.
-4. **Optimieren des Klangbilds**: Je nach Geschmack sorgen weitere Klangformungen etwa mit Hilfe eines Equalizers (EQ) für das gewünschte klangliche Ergebnis.
+4. **Optimieren des Klangbilds**: Je nach Geschmack sorgen weitere Klangformungen, etwa mit Hilfe eines Equalizers (EQ), für das gewünschte klangliche Ergebnis.
 
 Ultraschall lässt dir freie Hand und gibt dir alle Möglichkeiten für eine manuelle Post-Produktion – nimmt dich bei Bedarf aber über die _Automated Mixing Pipeline (AMP)_ auch an die Hand und führt dich durch die wichtigsten Schritte (siehe auch Abschnitt [Automated Mixing Pipeline (AMP)](#Ultraschall-AMP-Automated-Mixing-Pipeline)).
 
-Außerdem bietet dir Ultraschall von Haus auf für jede Spur eine sinnvolle [Vorauswahl an Effekten](#Vorausgew%C3%A4hlte-Effekte-und-Plug-ins); du findest sie rechts unten im [Filter-Bereich [26]](GUI-overview), nachdem du im [Mixer-Bereich [24]](GUI-overview) auf der gewünschten Spur auf die `FX`-Schaltfläche drückst:
+Außerdem bietet dir Ultraschall von Haus aus für jede Spur eine sinnvolle [Vorauswahl an Effekten](#Vorausgew%C3%A4hlte-Effekte-und-Plug-ins); du findest sie rechts unten im [Filter-Bereich [26]](GUI-overview), nachdem du im [Mixer-Bereich [24]](GUI-overview) auf der gewünschten Spur auf die `FX`-Schaltfläche drückst:
 
 * **DeNoise** (ReaFir-Rauschfilter zur Reduzierung von Rauschen oder Brummen mittels Anlernen von Störungsprofilen)
   
@@ -63,7 +63,7 @@ Trotz der vielfältigen Möglichkeiten, Aufnahmen nachträglich aufzupeppen, gil
 
 Die Automated Mixing Pipeline ist eine unkomplizierte und kostenlose Alternative zu Online-Audioverbesserungsdiensten wie [Auphonic](https://auphonic.com/). Mit den sinnvollen _Voreinstellungen_ erreichst du in den meisten Fällen ein toll klingendes Ergebnis - ganz ohne Audioerfahrung oder "Goldohren". Ultraschall gibt dir allerdings auch ausreichend Möglichkeiten, passend zu deiner individuellen Situation feinzujustieren.
 
-Im `Podcast`-Menü unter `Workflows`>`Ultraschall AMP - Automated Mixing Pipeline` findest du die einzelnen Schritte. Die ausgegrauten Menüeinträge sind nur für dich als Gedankenstütze gedacht; die dort erwähnten Schritte musst du "manuell" abarbeiten. Ein Auslassen von Schritten oder ein Ändern der Reihenfolge führt zu schlechten Ergebnissen, geh daher den Workflow strikt der Reihe nach durch.
+Im `Podcast`-Menü unter `Workflows`>`Ultraschall AMP - Automated Mixing Pipeline` findest du die einzelnen Schritte. Die ausgegrauten Menüeinträge sind nur für dich als Gedankenstütze gedacht; die dort erwähnten Schritte musst du "manuell" abarbeiten. Ein Auslassen von Schritten oder ein Ändern der Reihenfolge führt zu schlechten Ergebnissen; geh daher den Workflow strikt der Reihe nach durch.
 
 ![Ultraschall AMP – Automated Mixing Pipeline](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/amp-menu-entry.png "Ultraschall AMP – Automated Mixing Pipeline") **Ultraschall AMP:** _Die Automated Mixing Pipeline vereinfacht dir viele komplexe Schritte der Post-Produktion._
 
@@ -83,7 +83,7 @@ Um schnell alle Items einer Spur auszuwählen, mach einen `Doppelklick` links au
 
 **Step 4: Set AMP (Automated Mixing Pipeline) FX on selected tracks (Ultraschall)**: Auch diesen Schritt wählst du direkt im Menü `Podcast`>`Workflows`>`Ultraschall AMP - Automated Mixing Pipeline` an. Danach solltest du auf jeder der vorab ausgewählten Spuren einen aktivierten "JS: Ultraschall Dynamics (Ultraschall)"-Effekt vorfinden. Der gleicht die Lautheit deiner Tracks auf -20 LUFS an.
 
-**Step 5: Choose LUFS Target on Master FX (16 LUFS for Podcasting)**: Der Master-Track wird im vorigen Schritt per Spur-Effekt auf die im Podcast-Bereich üblichen -16 LUFS angehoben. Du kannst diesen Zielwert auch ändern, die entsprechende Einstellung findest du im FX-Bereich des Master-Tracks.
+**Step 5: Choose LUFS Target on Master FX (16 LUFS for Podcasting)**: Der Master-Track wird im vorigen Schritt per Spur-Effekt auf die im Podcast-Bereich üblichen -16 LUFS angehoben. Du kannst diesen Zielwert auch ändern; die entsprechende Einstellung findest du im FX-Bereich des Master-Tracks.
 
 ## Korrekturmöglichkeiten
 
@@ -153,7 +153,7 @@ Sollte das Endergebnis nicht überzeugend klingen, ist vermutlich der Signal-Rau
 
 Als [Normalisierung](https://de.wikipedia.org/wiki/Normalisierung_(Audio)) wird in der Audiotechnik der Vorgang bezeichnet, die Amplitude analogen oder digitalen Audiomaterials mit konstantem Gain so zu vergrößern oder verkleinern, dass das Ergebnis innerhalb eines vorgegebenen Bereichs liegt.
 
-Die Lautstärke ist objektiv messbar. Die Maßeinheit dafür ist "Dezibel", das Einheitenzeichen "dB". Das Problem ist, dass selbst bei gleich gemessener Lautstärke verschiedene Sounds unterschiedlich laut empfunden werden; daher wird das Signal gewichtet und die Einheit "dbA" verwendet. Dazu wird der Schalldruckpegel entsprechend des Hörempfinden gewichtet – [siehe auch Wikipedia](https://de.wikipedia.org/wiki/Bel_(Einheit)#Verwendung_mit_anderen_Ma%C3%9Feinheiten,_Zus%C3%A4tze).
+Die Lautstärke ist objektiv messbar. Die Maßeinheit dafür ist "Dezibel", das Einheitenzeichen "dB". Das Problem ist, dass selbst bei gleich gemessener Lautstärke verschiedene Sounds unterschiedlich laut empfunden werden; daher wird das Signal gewichtet und die Einheit "dbA" verwendet. Dazu wird der Schalldruckpegel entsprechend des Hörempfindens gewichtet – [siehe auch Wikipedia](https://de.wikipedia.org/wiki/Bel_(Einheit)#Verwendung_mit_anderen_Ma%C3%9Feinheiten,_Zus%C3%A4tze).
 
 Diese (gewichtete) subjektive Größe liefert aber nicht immer genügend Informationen; daher hat sich [LUFS](https://de.wikipedia.org/wiki/EBU-Empfehlung_R_128). ("Loudness Units relative to Full Scale" beziehungsweise "Lautstärke-Einheiten in Relation zur Vollskala") als Maßeinheit durchgesetzt. Sie beziffert eine normierte Messung der Lautstärke.
 
@@ -176,7 +176,7 @@ Bei allen neu angelegten Spuren sollte der Effekt wie oben beschrieben bereits e
 
 Um alle Quellen in deiner Aufnahme auf -23 LUFS zu normalisieren, selektierst du einfach alle Items und wählst den Eintrag `Workflows`>`Ultraschall AMP - Automated Mixing Pipeline`>`Step 2: Normalize loudness of selected items to -23 LUFS` aus dem `Podcast`-Menü. 
 
-Alternativ, oder um einen anderen Zielwert als -23 LUFS zu verwenden, veränderst du die entsprechende Regler `Target (LUFS)` im Effekt-Plugin `JS: Ultraschall Dynamics (Ultraschall.fm)`. Für die meisten Fälle ist der voreingestellte Wert aber ideal.
+Alternativ, oder um einen anderen Zielwert als -23 LUFS zu verwenden, veränderst du den entsprechenden Regler `Target (LUFS)` im Effekt-Plugin `JS: Ultraschall Dynamics (Ultraschall.fm)`. Für die meisten Fälle ist der voreingestellte Wert aber ideal.
 
 ![Ultraschall Dynamics Target](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/ULDynamics.jpg) **Ultraschall Dynamics:** _Hier legst du gegebenenfalls einen individuellen Wert für die LUFS deiner ausgewählten Audiospur fest._
 
@@ -194,7 +194,7 @@ Der `Ultraschall Dynamics 2`-Effekt beinhaltet unter anderem ein einstellbares, 
 
 Der `Noisefloor`-Regler hat dabei den größten Einfluss auf die Lautstärke: Hierüber legst du fest, ab welcher Grenze ein Signal als zu verstärkender Inhalt oder aber als zu dämpfendes Rauschen oder Störsignal behandelt wird. Die Kunst besteht darin, für jede Spur exakt die Einstellung zu finden, bei der selbst leise Gesprochenes noch verstärkt, Rauschen und Atmen (Vadern) hingegen aber abgesenkt werden. Der vorgeschlagene Wert passt in der Regel für ein gutes Headset wie das DT297 oder das HMC660, die bei der Aufnahme konservativ ausgesteuert wurden (in einem Bereich von -6 bis -12 dB). Das ist aber nur ein Startpunkt; es lohnt sich fast immer, hier noch feinzujustieren.
 
-Dabei gehst du wie folgt vor: Du suchst dir in der betreffenden Spur eine Passage raus, die sowohl Stille (gegebenenfalls mit Rauschen und Atmen) als auch leise sowie normal laute Sprache vorkommen. Das mag vielleicht nicht immer so einfach zu finden sein, du brauchst für ein gutes Ergebnis aber auch nicht mehr als eine Passage von vielleicht 30 Sekunden. Über diesen Abschnitt setzt du per Auswahlwerkzeug eine Zeitauswahl, schaltest in den `Repeat`-Modus und die Spur auf `Solo`, sodass die Passage nur auf der gewünschten Spur und in einer Endlosschleife abgespielt wird. Nun hörst du ganz genau hin und beginnst dann, den Regler etwas hin- und herzuschieben - gerne auch erst einmal etwas stärker, damit du ein Gefühl für die Veränderung und die Wirkungsweise bekommst. Anschließend optimierst du solange, bis zu mit dem Ergebnis zufrieden bist.
+Dabei gehst du wie folgt vor: Du suchst dir in der betreffenden Spur eine Passage raus, in der sowohl Stille (gegebenenfalls mit Rauschen und Atmen) als auch leise sowie normal laute Sprache vorkommen. Das mag vielleicht nicht immer so einfach zu finden sein; du brauchst für ein gutes Ergebnis aber auch nicht mehr als eine Passage von vielleicht 30 Sekunden. Über diesen Abschnitt setzt du per Auswahlwerkzeug eine Zeitauswahl, schaltest in den `Repeat`-Modus und die Spur auf `Solo`, sodass die Passage nur auf der gewünschten Spur und in einer Endlosschleife abgespielt wird. Nun hörst du ganz genau hin und beginnst dann, den Regler etwas hin- und herzuschieben - gerne auch erst einmal etwas stärker, damit du ein Gefühl für die Veränderung und die Wirkungsweise bekommst. Anschließend optimierst du solange, bis du mit dem Ergebnis zufrieden bist.
 
 Das klappt aber nur, wenn du während der Aufnahme nicht am Gain-Regler gedreht hast. Hast du während der Aufnahme den Eingangspegel verändert – und hast beispielsweise zu Beginn sehr leise, später dann eher laut aufgenommen – , wird das Abmischen etwas komplizierter. Entweder teilst du die Spur an der entsprechenden Stelle auf zwei Spuren mit jeweils individuellen Effekteinstellungen auf oder du greifst zu einem automatischen Klangverbesserungsdienst wie [Auphonic](https://auphonic.com/).
 

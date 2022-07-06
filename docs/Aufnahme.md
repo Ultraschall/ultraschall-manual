@@ -5,7 +5,7 @@ tags:
   - recording
 lektorat:
     - Lektorat: 24.4.2022 @MirUnauffaellig
-    - Schlusskorrektur: 
+    - Schlusskorrektur: 6.7.2022 @MirUnauffaellig
 ---
 
 <!-- @todo: Links auf Git main umziehen -->
@@ -101,11 +101,11 @@ Das Routing dient dazu, dass die jeweiligen Teilnehmer und Teilnehmerinnen sich 
 
 ### Magic Routing
 
-Seit Version 5 gibt es in Ultraschall ein sogenannte Magic Routing, das dir das manuelle Routen komplett abnimmt. Ultraschall erkennt automatisch, ob du gerade schneidest oder aufnimmst, und schaltet dementsprechend das Routing um. Links am Rand des Bildschirms findest du die [Routing-Buttons [14-18]](GUI-overview) für folgenden Routing-Einstellungen:
+Seit Version 5 gibt es in Ultraschall das sogenannte Magic Routing, das dir das manuelle Routen komplett abnimmt. Ultraschall erkennt automatisch, ob du gerade schneidest oder aufnimmst, und schaltet dementsprechend das Routing um. Links am Rand des Bildschirms findest du die [Routing-Buttons [14-18]](GUI-overview) für folgenden Routing-Einstellungen:
 
 ![Magic Routing](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/magic-routing.png)
 
-- **Magic Routing (ein/aus)** [[14]](GUI-overview): Wenn das eingeschaltet ist, kümmert sich Ultraschall automatisch um das richtig Routing. Du musst nichts weiter tun.
+- **Magic Routing (ein/aus)** [[14]](GUI-overview): Wenn das eingeschaltet ist, kümmert sich Ultraschall automatisch um das richtige Routing. Du musst nichts weiter tun.
 - **Preshow Routing** [[15]](GUI-overview): Wenn du deine Podcast-Aufnahme über StudioLink-on-Air live streamst, kannst du hier einstellen, dass im Stream zwar schon dein Soundboard zu hören ist, aber noch keine Sprecherinnen oder Sprecher. <!-- [ ] @todo: richtig so? -->
 - **Aufnahme-Routing** [[16]](GUI-overview): Das ist die Einstellung für die eigentliche Aufnahme deines Podcasts.
 - **Schnitt-Routing** [[17]](GUI-overview): Diese Einstellung ist für den Schnitt deiner Aufnahme gedacht.
@@ -159,11 +159,11 @@ Eine StudioLink-Spur fügst du über das Menü `Podcast`>`Insert StudioLink and 
 Die StudioLink-Spuren erscheinen in Ultraschall als normale Spuren im [Spuren-Bereich [23]](GUI-overview#bereich-arbeitsflächew) beziehungsweise im [Mixer-Bereich [24]](GUI-overview#bereich-arbeitsfläche). Es öffnet sich gleichzeitig aber ein Browserfenster in deinem Standardbrowser, über das die eigentliche Verbindung aufgebaut und später auch wieder beendet wird. Falls du Windows verwendest, darfst du das ebenfalls erscheinende Konsolen-Fenster nicht schließen, sonst kannst du keine Verbindung aufbauen. <!-- @TODO: Mit Sebastian abklären wie die Anleitung von StudioLink aktuell gehalten werden soll. ! -->
 :::
 
-Das Browserfenster öffnet sich seperat. (Bitte folge hierfür der Anleitung auf [StudioLink](https://studio-link.de)!)
+Das Browserfenster öffnet sich separat. (Bitte folge hierfür der Anleitung auf [StudioLink](https://studio-link.de)!)
 
 ![Studio-Link](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_browser.jpg) **StudioLink:** *Studio-Link im Browser*
 
-![Windows Konsolen-Fenster](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_konsole.png) **Windows-Konsole:** *Dieser Fenster bitte nicht schließen, sonst funktioniert StuidoLink nicht!*
+![Windows Konsolen-Fenster](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_konsole.png) **Windows-Konsole:** *Dieser Fenster bitte nicht schließen, sonst funktioniert StudioLink nicht!*
 
 ## Das Soundboard verwenden
 

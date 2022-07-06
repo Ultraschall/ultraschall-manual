@@ -5,10 +5,10 @@ tags:
   - schnitt
 lektorat:
     - Lektorat: 4.5.2022 @MirUnauffaellig
-    - Schlusskorrektur: 
+    - Schlusskorrektur: 6.7.2022 @MirUnauffaellig
 ---
 
-<!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiched" verwedet werden sollten sich duch alle Dokumente ziehen -->
+<!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiche" verwedet werden sollten sich duch alle Dokumente ziehen -->
 <!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
 
 ## Einleitung
@@ -40,7 +40,7 @@ Bevor du mit dem Schneiden richtig loslegen kannst, musst du zunächst ein paar 
 - Alle Soundboards (falls vorhanden) werden entfernt.
 - Das StudioLink-on-Air-Streaming (falls vorhanden) wird beendet.
 - Alle Verbindungen werden auf den Master Track geroutet.
-- Das Routing wird in den Schnitt-Modus umgeschalten.
+- Das Routing wird in den Schnitt-Modus umgeschaltet.
 
 :::info Info
 Denk daran, dass durch `Prepare all tracks for editing` alle StudioLink-Verbindungen zu deinen Gesprächspartnerinnen und -partnern beendet werden! Falls du später doch noch etwas aufnehmen möchtest, kannst du die Spur wieder auf Aufnahme schalten und so etwas neu aufnehmen. Danach kannst du erneut `Prepare all tracks for editing` ausführen.
@@ -83,12 +83,12 @@ Wenn du gern am Anfang und oder Ende eines Items die Lautstärke sanft ein- oder
 ### Kapitelmarken
 
 <!-- @todo: Was passiert mit dem video? https://www.youtube.com/watch?v=vdLpynu1ixE&t=5080s -->
-In Ultraschall setzt du ganz einfach Kapitelmarken, die deinen Hörenden dann später (in den meisten Podcatchern) die Navigation innerhalb deiner Episoden vereinfachen. Für die Produktion unterscheidet Ultraschall zwischen zwei Markenarten unterschieden: Kapitelmarken und Editmarken. Die Kapitelmarken setzt du über die Taste <kbd>M</kbd> oder den entsprechenden Button [[3]](GUI-overview) – das sind die Marken die später auch im Podcatcher auftauchen. Dazu solltest du die Marken aber auch noch benennen. Entweder später im [Marker-Dashboard](#marker-dashboard) oder, indem du direkt per <kbd>Shift</kbd> + <kbd>M</kbd> eine benannte Marke setzt und einen Titel vergibst.
+In Ultraschall setzt du ganz einfach Kapitelmarken, die deinen Hörenden dann später (in den meisten Podcatchern) die Navigation innerhalb deiner Episoden vereinfachen. Für die Produktion unterscheidet Ultraschall zwischen zwei Markenarten: Kapitelmarken und Editmarken. Die Kapitelmarken setzt du über die Taste <kbd>M</kbd> oder den entsprechenden Button [[3]](GUI-overview) – das sind die Marken die später auch im Podcatcher auftauchen. Dazu solltest du die Marken aber auch noch benennen. Entweder später im [Marker-Dashboard](#marker-dashboard) oder indem du direkt per <kbd>Shift</kbd> + <kbd>M</kbd> eine benannte Marke setzt und einen Titel vergibst.
 
 Die Editmarken setzt du mit dem Button [[4]](GUI-overview) oder der Taste <kbd>E</kbd>. Sie sind nur für dich während des Schnitts relevant und sichtbar, damit du Stellen im Projekt markieren und später einfach wiederfinden kannst. Sie werden nicht mit exportiert. 
 
 :::info Info
-Regions (auch "Regionen") werden beim Podcast-Export ebenfalls ignoriert. Du kannst sie aber dazu verwenden, dein Audio-Material in verschiedene Abschnitte zu unterteilen (zum Beispiel, wenn du aus einer langen Aufnahme mehrere Episoden schneidest) und diese Abschnitt beziehungsweise Regionen dann über den Export-Assistenten als einzelne Dateien exportieren.
+Regions (auch "Regionen") werden beim Podcast-Export ebenfalls ignoriert. Du kannst sie aber dazu verwenden, dein Audio-Material in verschiedene Abschnitte zu unterteilen (zum Beispiel, wenn du aus einer langen Aufnahme mehrere Episoden schneidest) und diese Abschnitte beziehungsweise Regionen dann über den Export-Assistenten als einzelne Dateien exportieren.
 :::
 
 #### Marker-Dashboard
@@ -98,11 +98,11 @@ Das Marker-Dashboard öffnest du mit <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>M<
 
 #### Region/Marker Manager
 
-Den `Region/Marker Manager` findest du im [Kapitelmarken-Bereich [28]](GUI-overview) unten rechts. Diesen Bereich teilen sich die [Routing Matrix [27]](GUI-overview), die [Filter [26]](GUI-overview) und der [Kapitelmarken-Manager [28]](GUI-overview). In der Markenverwaltung siehst du alle Marken - also sowohl Kapitel- als auch Editmarken. Mit einem Doppelklick auf das Namensfeld, kannst du diese bearbeiten – über das Feld in der jeweils letzten Spalte legst du per Doppelklick die Farbe des Markers fest.
+Den `Region/Marker Manager` findest du im [Kapitelmarken-Bereich [28]](GUI-overview) unten rechts. Diesen Bereich teilen sich die [Routing Matrix [27]](GUI-overview), die [Filter [26]](GUI-overview) und der [Kapitelmarken-Manager [28]](GUI-overview). In der Markenverwaltung siehst du alle Marken - also sowohl Kapitel- als auch Editmarken. Mit einem Doppelklick auf das Namensfeld kannst du diese bearbeiten – über das Feld in der jeweils letzten Spalte legst du per Doppelklick die Farbe des Markers fest.
 
 #### Fotos
 
-Optional kannst du Kapitelmarken auch Fotos hinzufügen, die dann – sofern der Podcatcher das unterstützt – passend zum aktuell abgespielten Kapitel angezeigt werden. Unterstütze Formate sind `.png` und `.jpg`. Die Fotos ziehst du einfach per Drag-and-Drop in dein Projekt auf eine eigene Spur und legst sie dort an der gewünschten Stelle ab. Zu jedem Bild wird automatisch eine Kapitelmarke hinzugefügt, die du im Anschluss aber noch benennen musst.
+Optional kannst du Kapitelmarken auch Fotos hinzufügen, die dann – sofern der Podcatcher das unterstützt – passend zum aktuell abgespielten Kapitel angezeigt werden. Unterstützte Formate sind `.png` und `.jpg`. Die Fotos ziehst du einfach per Drag-and-Drop in dein Projekt auf eine eigene Spur und legst sie dort an der gewünschten Stelle ab. Zu jedem Bild wird automatisch eine Kapitelmarke hinzugefügt, die du im Anschluss aber noch benennen musst.
 
 #### URLs
 

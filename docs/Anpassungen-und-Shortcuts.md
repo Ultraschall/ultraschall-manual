@@ -6,7 +6,7 @@ tags:
   - x
 lektorat:
     - Lektorat: 24.4.2022 @MirUnauffaellig
-    - Schlusskorrektur: 
+    - Schlusskorrektur: 6.7.2022 @MirUnauffaellig
 ---
 
 <!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
@@ -51,13 +51,11 @@ Um deine Aufnahme- und Schnittarbeit zu beschleunigen, gibt es in Ultraschall za
 
 ## Eigene Shortcuts verwenden
 
-Um an das Menü für die Shortcuts zu gelangen, öffnest du den `Actions`-Dialog öffnen aus dem Menü `Actions`>`Show action list`. Hier kannst du die Shortcuts individualisieren, falls die Ultraschall-Standardeinstellungen für dich aus irgendeinem Grund nicht passen.
+Um an das Menü für die Shortcuts zu gelangen, öffnest du den `Actions`-Dialog aus dem Menü `Actions`>`Show action list`. Hier kannst du die Shortcuts individualisieren, falls die Ultraschall-Standardeinstellungen für dich aus irgendeinem Grund nicht passen.
 
 ### Globale Shortcuts
 
 In diesem Beispiel erstellen wir den neuen Shortcut <kbd>Alt</kbd> + <kbd>Eingabe</kbd>, der die Project-Einstellungen öffnen soll. Such hierfür die entsprechende Action – im Beispiel `Project Settings` – und klick die Schaltfläche `Add…` an, um den Dialog `Keyboard/MIDI/OSC Input` fürs Festlegen eines Tastenkürzels aufzurufen. Tipp hier zuerst das Kürzel ein, das du künftig verwenden möchtest, und wähl dann in der `Scope`-Dropdown-Liste die Einstellung `Global` aus. Nach einer Bestätigung mit `OK` ist dein neuer Shortcut überall in Ultraschall verfügbar. (Du erkennst, dass er global ist, wenn unten in der Liste das Schlagwort "(global)" hinter dem Shortcut steht.)
-
-
 
 ![Shortcuts Global](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/globale_shortcuts.gif)
 

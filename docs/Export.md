@@ -60,7 +60,7 @@ Das Marker-Dashboard gibt dir eine gute Übersicht über alle bereits gesetzten 
 Kapitelmarken verbessern die Hörerfahrung, sie sind aber komplett optional. Nicht jedes Podcast-Format braucht Kapitelmarken, nicht alle Abspielprogramme unterstützen sie und nur wenige Hörende nutzen sie regelmäßig – aber: Sie helfen auch dir, gerade bei längeren Aufnahmen den Überblick zu behalten.
 :::
 
-Wenn die Status-Anzeige bei allen gesetzten Markern grün ist, ist alles in Ordnung und du kannst mit dem nächsten Schritt fortfahren. Bei roter Anzeige hilft dir ein Klick auf das Fragezeichen rechts neben dem Status mit einer Erklärung zu den fehlenden oder falschen Informationen. Rote markierte Einträge werden in der Regel _nicht_ mit exportiert, sie führen aber dazu, dass der Check im [3. Export-Assistenten fehlschlägt](#3-Export-Assistent).
+Wenn die Status-Anzeige bei allen gesetzten Markern grün ist, ist alles in Ordnung und du kannst mit dem nächsten Schritt fortfahren. Bei roter Anzeige hilft dir ein Klick auf das Fragezeichen rechts neben dem Status mit einer Erklärung zu den fehlenden oder falschen Informationen. Rot markierte Einträge werden in der Regel _nicht_ mit exportiert, sie führen aber dazu, dass der Check im [3. Export-Assistenten fehlschlägt](#3-Export-Assistent).
 
 ![Marker missing](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-missing.png) **Fehlende Markerbezeichnung:** *Marker brauchen immer einen Namen.*
 
@@ -73,7 +73,7 @@ Nicht alle Podcatcher gehen gleich (gut) mit Kapitelmarken um. Für maximale Kom
 
 Einmal kurz durchatmen, bevor du den Render-Assistenten[[20]](GUI-overview) öffnest, denn der gibt dir *sehr* viele Einstellmöglichkeiten, von denen wir dir hier nur die wichtigsten erklären. Die meisten anderen sind entweder für die Musikproduktion mit REAPER gedacht und/oder haben einen sinnvollen Default-Wert, den du nur ändern solltest, wenn du ganz genau weißt, was du tust.
 
-Drückst du links unten in Ultraschall auf das Render-Icon[[20]](GUI-overview) (oder wählst den Punkt `Start Export Assistant` über das Menü `Podcast`>`Export`), prüft Ultraschall, ob alle vorhandenen Spuren auch hörbar sein werden. Hast du einzelne Spuren absichtlich oder unabsichtlich stummgeschalten, erhältst du auf dem Weg zum Render-Assistenten folgende Warnung:
+Drückst du links unten in Ultraschall auf das Render-Icon[[20]](GUI-overview) (oder wählst den Punkt `Start Export Assistant` über das Menü `Podcast`>`Export`), prüft Ultraschall, ob alle vorhandenen Spuren auch hörbar sein werden. Hast du einzelne Spuren absichtlich oder unabsichtlich stummgeschaltet, erhältst du auf dem Weg zum Render-Assistenten folgende Warnung:
 
 ![Warning-muted-tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-warning.png) **Warning muted tracks:** *Ultraschall warnt dich, wenn du ein Projekt exportieren willst, in dem eine oder mehrere Spuren stumm sind.*
 
@@ -109,7 +109,7 @@ Der Export-Assistent[[21]](GUI-overview) hilft dir dabei, dein Projekt nun ferti
 
 #### 1. Export MP3
 
-Falls du diesen Schritt nach der Anleitung weiter oben bereits durchlaufen hast, sollte die Ampel hier auf grün stehen. Falls nicht, öffnest du den Render-Assistenten über entsprechenden Button[[20]](GUI-overview).
+Falls du diesen Schritt nach der Anleitung weiter oben bereits durchlaufen hast, sollte die Ampel hier auf grün stehen. Falls nicht, öffnest du den Render-Assistenten über den entsprechenden Button[[20]](GUI-overview).
 
 #### 2. Chapter Markers
 
@@ -117,22 +117,22 @@ Auch diese Ampel steht wahrscheinlich bereits auf grün, falls du der Anleitung 
 
 #### 3. ID3 Metadata
 
-Metadaten sind zwar optional, aber trotzdem wichtig für die Weiterverarbeitung und Veröffentlichung deines Podcasts. Falls alle Metadaten richtig gesetzt sind, können die MP3 auch unabhängig von deinem RSS-Feed korrekt ausgelesen werden. Somit ist es etwa für die Langzeitarchivierung sinnvoll, diese Metadaten direkt mit in die Datei zu schreien. Die Metadaten werden dort im [ID3](https://de.wikipedia.org/wiki/ID3-Tag) Format gespeichert. Der Ultraschall-MP3-Metadaten-Dialog[[21]](GUI-overview) zeigt dir dabei nur die für Podcasts relevanten Tags. Für die Podcast-Kategorie kannst du dich beispielsweise an dieser [Liste](https://github.com/Ultraschall/ultraschall-manual/blob/Export/assets/Apple-Podcast-Kategorien-Ids.csv) orientieren – ansonsten hast du freie Hand. Einzig die Zeichen `(`,`)` , `'`  und `"` solltest du vermeiden.
+Metadaten sind zwar optional, aber trotzdem wichtig für die Weiterverarbeitung und Veröffentlichung deines Podcasts. Falls alle Metadaten richtig gesetzt sind, können die MP3 auch unabhängig von deinem RSS-Feed korrekt ausgelesen werden. Somit ist es etwa für die Langzeitarchivierung sinnvoll, diese Metadaten direkt mit in die Datei zu schreiben. Die Metadaten werden dort im [ID3](https://de.wikipedia.org/wiki/ID3-Tag) Format gespeichert. Der Ultraschall-MP3-Metadaten-Dialog[[21]](GUI-overview) zeigt dir dabei nur die für Podcasts relevanten Tags. Für die Podcast-Kategorie kannst du dich beispielsweise an dieser [Liste](https://github.com/Ultraschall/ultraschall-manual/blob/Export/assets/Apple-Podcast-Kategorien-Ids.csv) orientieren – ansonsten hast du freie Hand. Einzig die Zeichen `(`,`)` , `'`  und `"` solltest du vermeiden.
 
 <!-- @todo: Tippfehler im Screenshot noch verbessern?-->
 ![Edit MP3 Metadaten](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/3-edit-mp3-metadata.png) **Edit MP3 Metadata:** *Füll hier die Metadaten für deinen Podcast aus.*
 
 #### 4. Podcast Episode Image
 
-Das hier hinterlegte Bild wird später in den meisten Podcatchern als Bild zur Episode angezeigt. Zieh per Drag and Drop dein Episoden-Cover einfach in den Export-Dialog. Das Bild landet dann automatisch mit im Projektordner. Unterstützte Formate sind `.JPG`, `.JPEG` und `.PNG`. Ultraschall merkt sich die vier zuletzt benutzen Episoden-Bilder und bietet sie dir zur schnellen Auswahl hier an. Das jeweils ausgewählte Bild wird links davon groß angezeigt.
+Das hier hinterlegte Bild wird später in den meisten Podcatchern als Bild zur Episode angezeigt. Zieh per Drag-and-Drop dein Episoden-Cover einfach in den Export-Dialog. Das Bild landet dann automatisch mit im Projektordner. Unterstützte Formate sind `.JPG`, `.JPEG` und `.PNG`. Ultraschall merkt sich die vier zuletzt benutzten Episoden-Bilder und bietet sie dir zur schnellen Auswahl hier an. Das jeweils ausgewählte Bild wird links davon groß angezeigt.
 
 :::info Info
-Für Linux-Nutzende: Aktuell muss die Dateiendung tatsächlich groß geschrieben werden. `.png` funktioniert also nicht. Das wird in der Zukunft gefixt und dieser Hinweis dann verschwinden.
+Für Linux-Nutzende: Aktuell muss die Dateiendung tatsächlich groß geschrieben werden. `.png` funktioniert also nicht. Das wird in der Zukunft korrigiert und dieser Hinweis dann verschwinden.
 :::
 
 #### 5. Finalize MP3
 
-Für den letzten Schritt, klickst du einmal auf die Schaltfläche `Finalize MP3!`. Falls noch Probleme vorliegen, zeigt dir der Assistent einen Dialog mit einer entsprechenden Warnung an. Falls der Assistent deine MP3-Datei nicht automatisch gefunden hat, musst du diese jetzt nochmal einmal manuell angeben. Hat alles geklappt, erscheint eine Erfolgsmeldung – deine Podcast-Episode wurde erfolgreich exportiert!
+Für den letzten Schritt klickst du einmal auf die Schaltfläche `Finalize MP3!`. Falls noch Probleme vorliegen, zeigt dir der Assistent einen Dialog mit einer entsprechenden Warnung an. Falls der Assistent deine MP3-Datei nicht automatisch gefunden hat, musst du diese jetzt noch einmal manuell angeben. Hat alles geklappt, erscheint eine Erfolgsmeldung – deine Podcast-Episode wurde erfolgreich exportiert!
 
 <!--
 @todo: immer noch notwendig oder schon beantwortet
@@ -143,19 +143,19 @@ https://sendegate.de/t/faq-metadaten-was-traegt-man-wo-ein/13562 -->
 
 ### Export-Dateiformate
 
-Ultraschall (Reaper) ist zu sehr vielen Audioformate kompatibel. Für die Ausgabe werden dir jedoch nur eine geringe Anzahl von Formaten angeboten. Die wichtigsten für Ultraschall:
+Ultraschall (Reaper) ist mit sehr vielen Audioformaten kompatibel. Für die Ausgabe werden dir jedoch nur eine geringe Anzahl von Formaten angeboten. Die wichtigsten für Ultraschall:
 
-* **WAV** ist ein Format, um Audiodateien unkomprimiert mit einem Puls-Code-Modulations-Verfahren speichern.
+* **WAV** ist ein Format, um Audiodateien unkomprimiert mit einem Puls-Code-Modulations-Verfahren zu speichern.
 
 * **AIFF** (Audio Interchange File Format) dient zum Speichern von Linear-PCM-Audiodaten (hauptsächlich für Apple-Betriebssysteme).
 
-* **FLAC** (Free Lossless Audio Codec) ist ein verlustfreier Codec der Projekte in Containern inklusive Metadaten sichert.
+* **FLAC** (Free Lossless Audio Codec) ist ein verlustfreier Codec, der Projekte in Containern inklusive Metadaten sichert.
 
-* **MP3** ist ein verlustbehaftestes Audioformat. Der Ansatz: nur die für den Menschen hörbaren Informationen zu speichern, um möglichst gute Audioqualität bei möglichst geringer Dateigröße zu erreichen. Mittlerweile ist dieser Audio-Standard frei verfügbar.
+* **MP3** ist ein verlustbehaftetes Audioformat. Der Ansatz: nur die für den Menschen hörbaren Informationen zu speichern, um möglichst gute Audioqualität bei möglichst geringer Dateigröße zu erreichen. Mittlerweile ist dieser Audio-Standard frei verfügbar.
 
-* **OGG Vorbis** ist ein freies verlustbehaftetes Audioformat als lizensfreie Alternative zum (vormals proprietären) MP3-Format. Seit MP3 patentfrei geworden ist, hat dieses Format an Bedeutung verloren.
+* **OGG Vorbis** ist ein freies verlustbehaftetes Audioformat als lizenzfreie Alternative zum (vormals proprietären) MP3-Format. Seit MP3 patentfrei geworden ist, hat dieses Format an Bedeutung verloren.
 
-An häufigsten wird für Ultraschall-Projekte das **MP3**-Format verwendet. Der Ultraschall-Workflow sieht vor, under anderem auch Kapitelmarken und Kapitelbilder in **MP3**-Dateien zu speichern. Andere Formate unterstützen diese Funktionen nicht oder nicht ausreichend. Wie im Bild gezeigt ist die Verwendung von MP3 bei einer Bitrate von zum Beispiel 128 kBps sinnvoll.
+Am häufigsten wird für Ultraschall-Projekte das **MP3**-Format verwendet. Der Ultraschall-Workflow sieht vor, under anderem auch Kapitelmarken und Kapitelbilder in **MP3**-Dateien zu speichern. Andere Formate unterstützen diese Funktionen nicht oder nicht ausreichend. Wie im Bild gezeigt ist die Verwendung von MP3 bei einer Bitrate von zum Beispiel 128 kBps sinnvoll.
 
 ![Exportformate](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-formats.png) **Exportformate:** *Mit Ultraschall kannst du deine Podcast-Episoden in verschiedene Formaten exportieren. Der Standard ist MP3.*
 

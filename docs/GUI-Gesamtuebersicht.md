@@ -3,7 +3,7 @@ id: GUI-overview
 title: Übersicht über die Bedienelemente und Bereiche
 lektorat:
     - Lektorat: 27.3.2022 @MirUnauffaellig
-    - Schlusskorrektur: 
+    - Schlusskorrektur: 6.7.2022 @MirUnauffaellig
 ---
 
 <!-- @todo: Links auf  Git main umziehen -->
@@ -36,7 +36,7 @@ lektorat:
 
 11. aktiviert Ansicht "Aufnahme" – Fokus auf die Steuerelemente, die für eine Aufnahme wichtig sind
 12. aktiviert Ansicht "Schnitt" – Fokus auf die Steuerelemente, die für den Schnitt wichtig sind
-13. aktiviert Ansicht "Storyboard" – Fokus auf die Steuerelement, die für "gebaute" Beiträge wichtig sind
+13. aktiviert Ansicht "Storyboard" – Fokus auf die Steuerelemente, die für "gebaute" Beiträge wichtig sind
 
 ### Buttons: Routing
 
@@ -48,7 +48,7 @@ lektorat:
 
 ### Buttons: Export
 
-19.  blendet die Übersicht der Kapitelmarken ein
+19.  blendet die Übersicht über die Kapitelmarken ein
 20.  blendet den Dialog für Audio-Rendering ein
 21.  blendet den Podcast-Exportassistenten ein
 22.  öffnet den Projektordner
@@ -56,7 +56,7 @@ lektorat:
 ### Bereich: Arbeitsfläche
 
 23. **Spuren-Bereich**: zeigt die verschiedenen Spuren des Projektes an
-24. **Mixer-Bereich**: stellt für jede Spur einen eigenen Regler dar (über den Regler gelangst du schnell auch zu den Filtern für den jeweiligen Track) – zusätzlich findet sich hier auch der Master-Regler, der den Mixpegel steuert
+24. **Mixer-Bereich**: zeigt für jede Spur einen eigenen Regler (über den Regler gelangst du schnell auch zu den Filtern für den jeweiligen Track) – zusätzlich findet sich hier auch der Master-Regler, der den Mix-Pegel steuert
 25. **Timeline-Bereich**: das Kernstück des Projekts; hier siehst du die Wellenformen deiner Spuren, aber auch Schnitte, Marken, Envelope-Bearbeitungen und einiges mehr
 26. **Filter-Bereich**: taucht auf, sobald du den FX-Knopf einer Spur drückst
 27. **Routing-Matrix**: verbindet die Eingänge und Ausgänge mit einzelnen Spuren und legt damit exakt fest, was von welchem Teilnehmenden oder auf welchem Stream gehört wird 
@@ -80,10 +80,10 @@ Nach Beendigung des Schnitts solltest du hier zurück auf 1-fache Geschwindigkei
 
 ### Detailansicht: Spuren
 
-38.  Eine Spur kann entweder Audiodaten enthalten oder auch Metainformationen (zum Beispiel die Lautstärke). Jede Spur hat einen einen Namen. Mit der Schaltfläche `M` ("Mute") stellst du die Spur stumm – und mit der Schaltfläche `S` ("Solo") stellst du alle anderen Spuren stumm, sodass nur die ausgewählte Spur zu hören ist. Seit Version 5 von Ultraschall wird jeder Spur automatisch eine eigene Farbe zugeordnet.
-39.  Direkt über den Wellenformen in der Timeline-Ansicht findest du die Kapitelmarken an ihren jeweiligen Abspielpositionen. Mit der Maus verschiebst du die Kapitelmarken komfortabel an die gewünschte Position, ein Rechtsklick und `Edit marker...` lässt dich den Namen und die Farbe bearbeiten, `Remove marker...` entfernt die jeweilige Marke. (Trifft auch auf Editiermarken zu.)
-40.  Hier siehst du die Wellenformen der einzelnen Spuren.
-41.  Um während eine Aufnahme tatsächlich ein Audiosignal in einer Spur zu speichern, muss diese für die Aufnahme aktiviert oder "scharf" sein. Ob die Spur für die Aufnahme aktiviert ist, erkennst du am kleinen roten Aufnahme-Indikator (rund, weißer Kreis auf rotem Hintergrund; leuchtet, wenn aktiv) neben der Spurbezeichnung. Hast du die Aufnahme beendet, solltest du alle Spuren wieder deaktivieren, damit du deine Aufnahme nicht unabsichtlich überschreibst und beim Schneiden keine Signale über die angeschlossenen Mikrofone zu hören sind. Der einfachste Weg ist, dafür im `Podcast`-Menü den Punkt `Prepare all tracks for editing` auszuwählen, der alle Spuren für die Aufnahme deaktiviert, zudem aber noch weitere sinnvolle Einstellungen vornimmt (etwa das Routing umstellt oder Live-Streams beendet).
+1.   Eine Spur kann entweder Audiodaten enthalten oder auch Metainformationen (zum Beispiel die Lautstärke). Jede Spur hat einen Namen. Mit der Schaltfläche `M` ("Mute") stellst du die Spur stumm – und mit der Schaltfläche `S` ("Solo") stellst du alle anderen Spuren stumm, sodass nur die ausgewählte Spur zu hören ist. Seit Version 5 von Ultraschall wird jeder Spur automatisch eine eigene Farbe zugeordnet.
+2.   Direkt über den Wellenformen in der Timeline-Ansicht findest du die Kapitelmarken an ihren jeweiligen Abspielpositionen. Mit der Maus verschiebst du die Kapitelmarken komfortabel an die gewünschte Position, ein Rechtsklick und `Edit marker...` lässt dich den Namen und die Farbe bearbeiten, `Remove marker...` entfernt die jeweilige Marke. (Trifft auch auf Editiermarken zu.)
+3.   Hier siehst du die Wellenformen der einzelnen Spuren.
+4.   Um während eine Aufnahme tatsächlich ein Audiosignal in einer Spur zu speichern, muss diese für die Aufnahme aktiviert oder "scharf" sein. Ob die Spur für die Aufnahme aktiviert ist, erkennst du am kleinen roten Aufnahme-Indikator (rund, weißer Kreis auf rotem Hintergrund; leuchtet, wenn aktiv) neben der Spurbezeichnung. Hast du die Aufnahme beendet, solltest du alle Spuren wieder deaktivieren, damit du deine Aufnahme nicht unabsichtlich überschreibst und beim Schneiden keine Signale über die angeschlossenen Mikrofone zu hören sind. Der einfachste Weg ist, dafür im `Podcast`-Menü den Punkt `Prepare all tracks for editing` auszuwählen, der alle Spuren für die Aufnahme deaktiviert, zudem aber noch weitere sinnvolle Einstellungen vornimmt (etwa das Routing umstellt oder Live-Streams beendet).
 
 :::info Info
 Viele der hier aufgelisteten Punkte werden im Rahmen dieser Dokumentation in den jeweiligen Kapiteln nochmals genauer erläutert.
