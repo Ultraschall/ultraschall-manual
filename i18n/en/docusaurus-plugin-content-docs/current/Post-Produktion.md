@@ -89,7 +89,7 @@ To quickly select all items in a track, double-click on the grey area above or b
 
 If the final result does not sound convincing, the signal-to-noise ratio of individual tracks is probably problematic - i.e. noise or reverb is amplified instead of reduced. You can fix this for each track individually by moving the respective 'noise floor' slider - until the voice remains loud, but noise disappears:
 
-Ultrasound Dynamics Noisefloor](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/Ultrasschall_Dynamics.png) **Ultrasound Dynamics - Noisefloor**: The noise floor determines the signal-to-noise ratio of the associated track.
+![Ultrasound Dynamics Noisefloor](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/Ultrasschall_Dynamics.png) **Ultrasound Dynamics - Noisefloor**: The noise floor determines the signal-to-noise ratio of the associated track.
 
 **The exact procedure of the AMP is shown in this video.
 <iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=2877" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
@@ -151,9 +151,9 @@ Ultrasound Dynamics Noisefloor](https://raw.githubusercontent.com/Ultraschall/ul
 
 #### Technology excursion
 
-Normalisation](https://de.wikipedia.org/wiki/Normalisierung_(Audio)) is the term used in audio engineering to describe the process of increasing or decreasing the amplitude of analogue or digital audio material at a constant gain, so that the result is within a specified range.
+![Normalisation](https://de.wikipedia.org/wiki/Normalisierung_(Audio)) is the term used in audio engineering to describe the process of increasing or decreasing the amplitude of analogue or digital audio material at a constant gain, so that the result is within a specified range.
 
-Loudness can be measured objectively. The unit of measurement for this is "decibel", the unit symbol "dB". The problem is that even if the volume is measured the same, different sounds are perceived differently; therefore, the signal is weighted and the unit "dbA" is used. For this purpose, the sound pressure level is weighted according to the perception of hearing - [see also Wikipedia](https://de.wikipedia.org/wiki/Bel_(unit)#Use_with_other_Ma%C3%9Funits,_additions%C3%A4tze).
+Loudness can be measured objectively. The unit of measurement for this is "decibel", the unit symbol "dB". The problem is that even if the volume is measured the same, different sounds are perceived differently; therefore, the signal is weighted and the unit "dbA" is used. For this purpose, the sound pressure level is weighted according to the perception of hearing - [see also Wikipedia](https://en.wikipedia.org/wiki/Decibel).
 
 However, this (weighted) subjective quantity does not always provide sufficient information; therefore, [LUFS](https://de.wikipedia.org/wiki/EBU-Empfehlung_R_128). ("Loudness Units relative to Full Scale") has become the accepted unit of measurement. It quantifies a standardised measurement of loudness.
 
@@ -170,7 +170,7 @@ The `Ultrasound Dynamics 2` effect allows the average volume of all audio tracks
 For all newly created tracks, the effect should already be set up as described above, but not yet activated. In this case, you simply add it manually: Select the 'Add' button at the bottom of the effect window. The window that appears lists all the effects available in REAPER/Ultraschall. On the left, we have marked some effects that are useful for podcasts as 'favourites'. Click on this menu item, select the `JS: Ultraschall Dynamics` effect on the right and confirm with `OK` - the effect (already activated) lands on the selected track.
 
 **Here is a video explanation
-Activate Effect](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_002.gif) Ultrasound Dynamics:** This is how you activate an effect on an audio track.
+![Activate Effect](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_002.gif) Ultrasound Dynamics:** This is how you activate an effect on an audio track.
 
 #### Settings for normalisation
 
@@ -178,7 +178,7 @@ To normalise all sources in your recording to -23 LUFS, simply select all items 
 
 Alternatively, or to use a target value other than -23 LUFS, change the corresponding slider `Target (LUFS)` in the effect plug-in `JS: Ultraschall Dynamics (Ultraschall.fm)`. For most cases, however, the preset value is ideal.
 
-Ultraschall Dynamics Target](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/ULDynamics.jpg) **Ultrasound Dynamics:** Here you can set an individual value for the LUFS of your selected audio track.
+![Ultraschall Dynamics Target](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/ULDynamics.jpg) **Ultrasound Dynamics:** Here you can set an individual value for the LUFS of your selected audio track.
 
 You make the setting for the normalisation of the final audio mix via the effect plug-in 'JS: LUFS_Loudness_Meter' on the master track.
 
