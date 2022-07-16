@@ -76,7 +76,7 @@ Take a breath before you open the render assistant[[20]](GUI-overview), because 
 
 If you press the Render icon[[20]](GUI-overview) in the lower left corner of Ultraschall (or select the item 'Start Export Assistant' via the menu 'Podcast'>'Export'), Ultraschall checks whether all existing tracks will also be audible. If you have muted individual tracks intentionally or unintentionally, you will receive the following warning on the way to the Render Assistant:
 
-![Warning-muted-tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-warning.png) **Warning muted tracks:** *Ultrasound warns you if you want to export a project in which one or more tracks are muted.
+![Warning-muted-tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-warning.png) **Warning muted tracks:** *Ultraschall warns you if you want to export a project in which one or more tracks are muted.
 
 If you click 'No' here, you end up back in the workspace where you can check again which tracks should be included in the export.
 
@@ -86,7 +86,7 @@ If you click on 'Yes' instead, the wizard opens - in this case, the muted tracks
 ![export-render-to-file](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-render-assistant.png) **The Render Assistant:** *The Render Assistant gives you a lot of freedom to render your project with individual settings.
 <!--@TODO: Extend screenshot with numbers/legend -->
 
-**Source:** Here you define which tracks the export should contain. The default value `Master mix` combines all audible tracks into one file. Stems (selected tracks)` ensures that each track is exported as a separate file. **Caution: Only the tracks that are selected will be exported - you can recognise selected tracks in the track area by the slightly lighter grey. You can select and deselect tracks in the [track area [23]](GUI-overview) with the Render Wizard open by holding down the <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> key and clicking on them. With `Master mix + Stems` you get both the merged file and the individual (selected) tracks after the export.
+**Source:** Here you define which tracks the export should contain. The default value `Master mix` combines all audible tracks into one file. Stems (selected tracks) ensures that each track is exported as a separate file. **Caution: Only the tracks that are selected will be exported - you can recognise selected tracks in the track area by the slightly lighter grey. You can select and deselect tracks in the [track area [23]](GUI-overview) with the Render Wizard open by holding down the <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> key and clicking on them. With `Master mix + Stems` you get both the merged file and the individual (selected) tracks after the export.
 
 * This selection determines whether your project is rendered from beginning to end (`Entire project`). If you only need a section because you want to export a small teaser from a longer episode, for example, select `Time selection` here - then only the section selected in the [Timeline workspace [25]](GUI-overview) will be exported. Other options you can use here are: Custom time range', 'Project regions' or 'Selected regions'.
 
@@ -118,7 +118,7 @@ This traffic light is probably already green if you have followed the instructio
 
 #### 3. ID3 Metadata
 
-Metadata is optional, but nevertheless important for the further processing and publication of your podcast. If all metadata is set correctly, the MP3 can also be read out correctly independently of your RSS feed. Thus, for long-term archiving, it makes sense to shout this metadata directly into the file. The metadata is stored there in [ID3](https://de.wikipedia.org/wiki/ID3-Tag) format. The Ultraschall MP3 metadata dialogue [21](GUI-overview) shows you only the tags relevant for podcasts. For the podcast category, for example, you can use this [list](https://github.com/Ultraschall/ultraschall-manual/blob/Export/assets/Apple-Podcast-Kategorien-Ids.csv) as a guide - otherwise you have a free hand. Only the characters `(`,`)` , `'` and `"` should be avoided.
+Metadata is optional, but nevertheless important for the further processing and publication of your podcast. If all metadata is set correctly, the MP3 can also be read out correctly independently of your RSS feed. Thus, for long-term archiving, it makes sense to write this metadata directly into the file. The metadata is stored there in [ID3](https://de.wikipedia.org/wiki/ID3-Tag) format. The Ultraschall MP3 metadata dialogue [21](GUI-overview) shows you only the tags relevant for podcasts. For the podcast category, for example, you can use this [list](https://github.com/Ultraschall/ultraschall-manual/blob/Export/assets/Apple-Podcast-Kategorien-Ids.csv) as a guide - otherwise you have a free hand. Only the characters `(`,`)` , `'` and `"` should be avoided.
 
 <!-- @todo: Improve typo in screenshot?-->
 ![Edit MP3 Metadata](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/3-edit-mp3-metadata.png) **Edit MP3 Metadata:** *Fill in the metadata for your podcast here.
@@ -156,7 +156,7 @@ Ultraschall (Reaper) is compatible with many audio formats. However, only a smal
 
 * **OGG Vorbis** is a free lossy audio format as a licence-free alternative to the (formerly proprietary) MP3 format. Since MP3 has become patent-free, this format has lost importance.
 
-The **MP3** format is most commonly used for ultrasound projects. The Ultraschall workflow provides for saving chapter marks and chapter images, among other things, in **MP3** files. Other formats do not support these functions or do not support them sufficiently. As shown in the picture, the use of MP3 makes sense at a bit rate of 128 kBps, for example.
+The **MP3** format is most commonly used for Ultraschall projects. The Ultraschall workflow allows to save chapter marks and chapter images, among other things, in **MP3** files. Other formats do not support these functions or do not support them sufficiently. As shown in the picture, the use of MP3 makes sense at a bit rate of 128 kBps, for example.
 
 Export formats](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-formats.png) **Export formats:** *With Ultraschall you can export your podcast episodes in various formats. The default is MP3.
 
