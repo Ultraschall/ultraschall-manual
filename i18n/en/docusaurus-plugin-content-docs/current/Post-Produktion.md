@@ -31,7 +31,7 @@ The goals of post-production are (in descending relevance):
 3. **Reducing noise**: Depending on the recording situation, the tracks contain more or less interference - such as noise, room sound, echo, crosstalk from other microphones or mains hum. These noises can be reduced, at least in part, with a reasonable amount of effort.
 4. **Optimising the sound image**: Depending on taste, further sound shaping, for example with the help of an equaliser (EQ), ensures the desired sound result.
 
-Ultrasound gives you a free hand and all the options for manual post-production - but if necessary, it also takes you by the hand via the _Automated Mixing Pipeline (AMP)_ and guides you through the most important steps (see also section [Automated Mixing Pipeline (AMP)](#Ultrasound-AMP-Automated-Mixing-Pipeline)).
+Ultraschall gives you a free hand and all the options for manual post-production - but if necessary, it also takes you by the hand via the _Automated Mixing Pipeline (AMP)_ and guides you through the most important steps (see also section [Automated Mixing Pipeline (AMP)](#Ultrasound-AMP-Automated-Mixing-Pipeline)).
 
 In addition, Ultraschall offers you a useful [Pre-selection of effects](#Pre-selected%C3%A4effects-and-plug-ins) for each track; you will find them in the bottom right corner of the [Filter section [26]](GUI-overview) after you press the `FX` button in the [Mixer section [24]](GUI-overview) on the desired track:
 
@@ -43,7 +43,7 @@ In addition, Ultraschall offers you a useful [Pre-selection of effects](#Pre-sel
 
 * **Ambience** (room simulator with different presets - such as studio or church)
 
-**Ultrasound Dynamics 2** (adjustment of the loudness of a track, reduction of background noise and expander).
+**Ultraschall Dynamics 2** (adjustment of the loudness of a track, reduction of background noise and expander).
 
 In the plug-in directory "Best of Breed" you will also find some other free but very powerful effects:
 
@@ -59,13 +59,13 @@ In the plug-in directory "Best of Breed" you will also find some other free but 
 
 Despite the many possibilities to enhance recordings afterwards, the old audio wisdom holds true: _Garbage in, Garbage out._ If recordings have too much echo, noise, dropouts, hum, crosstalk or one of the other countless possible disturbing influences, then only limited improvement can be expected from post-production. With any effects plug-in, "too much" quickly leads to unnatural sound. The be-all and end-all for successful post-production is therefore careful and good recordings.
 
-## Ultrasound AMP (Automated Mixing Pipeline)
+## Ultraschall AMP (Automated Mixing Pipeline)
 
 The Automated Mixing Pipeline is an uncomplicated and free alternative to online audio enhancement services like [Auphonic](https://auphonic.com/). With the sensible _presets_ you will achieve a great sounding result in most cases - without any audio experience or "golden ears". However, ultraschall also gives you enough possibilities to fine-tune according to your individual situation.
 
 In the 'Podcast' menu under 'Workflows' -> 'Ultrasound AMP - Automated Mixing Pipeline' you will find the individual steps. The greyed out menu entries are only intended to help you think; you must work through the steps mentioned there "manually". Omitting steps or changing the order will lead to bad results, so go through the workflow strictly in order.
 
-Ultrasound AMP - Automated Mixing Pipeline](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/amp-menu-entry.png "Ultrasound AMP - Automated Mixing Pipeline") **Ultrasound AMP:** _The Automated Mixing Pipeline simplifies many complex post-production steps for you.
+Ultraschall AMP - Automated Mixing Pipeline](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/amp-menu-entry.png "Ultrasound AMP - Automated Mixing Pipeline") **Ultrasound AMP:** _The Automated Mixing Pipeline simplifies many complex post-production steps for you.
 
 The individual steps of the AMP are in order:
 
@@ -89,7 +89,7 @@ To quickly select all items in a track, double-click on the grey area above or b
 
 If the final result does not sound convincing, the signal-to-noise ratio of individual tracks is probably problematic - i.e. noise or reverb is amplified instead of reduced. You can fix this for each track individually by moving the respective 'noise floor' slider - until the voice remains loud, but noise disappears:
 
-![Ultrasound Dynamics Noisefloor](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/Ultrasschall_Dynamics.png) **Ultrasound Dynamics - Noisefloor**: The noise floor determines the signal-to-noise ratio of the associated track.
+![Ultrasound Dynamics Noisefloor](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/Ultrasschall_Dynamics.png) **Ultrasound Dynamics - Noisefloor**: _The noise floor determines the signal-to-noise ratio of the associated track._
 
 **The exact procedure of the AMP is shown in this video.
 <iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=2877" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
@@ -151,7 +151,7 @@ If the final result does not sound convincing, the signal-to-noise ratio of indi
 
 #### Technology excursion
 
-![Normalisation](https://de.wikipedia.org/wiki/Normalisierung_(Audio)) is the term used in audio engineering to describe the process of increasing or decreasing the amplitude of analogue or digital audio material at a constant gain, so that the result is within a specified range.
+[Normalisation](https://de.wikipedia.org/wiki/Normalisierung_(Audio)) is the term used in audio engineering to describe the process of increasing or decreasing the amplitude of analogue or digital audio material at a constant gain, so that the result is within a specified range.
 
 Loudness can be measured objectively. The unit of measurement for this is "decibel", the unit symbol "dB". The problem is that even if the volume is measured the same, different sounds are perceived differently; therefore, the signal is weighted and the unit "dbA" is used. For this purpose, the sound pressure level is weighted according to the perception of hearing - [see also Wikipedia](https://en.wikipedia.org/wiki/Decibel).
 
@@ -161,16 +161,16 @@ To determine the loudness in LUFS, the human perception and the electrical signa
 
 Depending on the intended use, different LUFS values are useful. In broadcasting, for example, -23 LUFS has become the standard. However, because this often seems too quiet for podcasts, many podcasters produce at a target value of -16 LUFS. Ultrasound is also set to [-16 LUFS](#ultraschall-amp-automated-mixing-pipeline) as the target value for the final rendered audio file. The LUFS values previously used in the recording chain should always be lower than this.
 
-#### Normalisation with the _Ultrasonic Dynamics 2_ effect
+#### Normalisation with the _Ultraschall Dynamics 2_ effect
 
-The `Ultrasound Dynamics 2` effect allows the average volume of all audio tracks to be raised to the -16 LUFS (or other value) recommended for podcasts.
+The `Ultraschall Dynamics 2` effect allows the average volume of all audio tracks to be raised to the -16 LUFS (or other value) recommended for podcasts.
 
 #### How do you activate the effect if it does not appear in the effect area of the desired track?
 
 For all newly created tracks, the effect should already be set up as described above, but not yet activated. In this case, you simply add it manually: Select the 'Add' button at the bottom of the effect window. The window that appears lists all the effects available in REAPER/Ultraschall. On the left, we have marked some effects that are useful for podcasts as 'favourites'. Click on this menu item, select the `JS: Ultraschall Dynamics` effect on the right and confirm with `OK` - the effect (already activated) lands on the selected track.
 
 **Here is a video explanation
-![Activate Effect](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_002.gif) Ultrasound Dynamics:** This is how you activate an effect on an audio track.
+![Activate Effect](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_002.gif) Ultrasound Dynamics:** _This is how you activate an effect on an audio track._
 
 #### Settings for normalisation
 
@@ -178,11 +178,11 @@ To normalise all sources in your recording to -23 LUFS, simply select all items 
 
 Alternatively, or to use a target value other than -23 LUFS, change the corresponding slider `Target (LUFS)` in the effect plug-in `JS: Ultraschall Dynamics (Ultraschall.fm)`. For most cases, however, the preset value is ideal.
 
-![Ultraschall Dynamics Target](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/ULDynamics.jpg) **Ultrasound Dynamics:** Here you can set an individual value for the LUFS of your selected audio track.
+![Ultraschall Dynamics Target](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/ULDynamics.jpg) **Ultraschall Dynamics:** _Here you can set an individual value for the LUFS of your selected audio track._
 
 You make the setting for the normalisation of the final audio mix via the effect plug-in 'JS: LUFS_Loudness_Meter' on the master track.
 
-![-16 LUFS](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/minus16LUFS-1.gif) **Ultraschall Dynamics:** Also in most cases it is not necessary to change the settings.
+![-16 LUFS](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/minus16LUFS-1.gif) **Ultraschall Dynamics:** _Also in most cases it is not necessary to change the settings._
 
 <!-- ### Hall reduction -->
 
