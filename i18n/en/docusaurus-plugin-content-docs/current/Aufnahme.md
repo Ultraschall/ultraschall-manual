@@ -1,6 +1,6 @@
 ---
 id: recording
-title: recording
+title: Recording
 tags:
   - recording
 editing:
@@ -46,7 +46,7 @@ Regular tracks, to which you assign individual speakers or tracks of your multi-
 
 With a click in the still empty, but already coloured area, it is best to directly assign a name to your track - this way you will not lose the overview even in larger projects.
 
-![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-renaming.png?=650x) **Name track:** _Set meaningful names for your tracks, this will make it easier for you to assign them later.
+![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-renaming.png?=650x) **Name track:** _Set meaningful names(SINNVOLLER NAME) for your tracks, this will make it easier for you to assign them later.
 
 Since version 5 of Ultraschall, tracks are not only automatically adjusted in height to the size of the window, but also automatically coloured for clarity. If you right-click on the track (or use the keyboard shortcut <kbd>Alt</kbd> + <kbd>C</kbd> with the track selected), you can change the colour in the colour picker afterwards.
 
@@ -70,12 +70,12 @@ Select audio device](https://raw.githubusercontent.com/Ultraschall/ultraschall-m
 An audio device can have several inputs (but it does not have to), which can be assigned to different tracks. If we stick to our example with a Zoom H6, we have four (plus two) inputs available here. You can record with four - or with a corresponding extension with six - microphones at the same time.
 
 :::note Note
-The way the inputs are counted is device-specific, so in ultrasound the channel designation may be different from the one given on your device (for example, channel 1 on the Zoom H6 is listed as channel 3 in ultrasound).
+The way the inputs are counted is device-specific, so in Ultraschall the channel designation may be different from the one given on your device (for example, channel 1 on the Zoom H6 is listed as channel 3 in Ultraschall).
 :::
 
 ### Select and assign tracks
 
-All speakers, all those connected via StudioLink and the sound effects (in the soundboard) now each have their own track. The next step is to assign these tracks to the recording channels - that is, to the various microphones attached to your recording device.
+All speakers, all those connected via StudioLink and the sound effects (in the soundboard) now each have their own track. The next step is to assign these tracks to the recording channels - that is to the various microphones attached to your recording device.
 
 All tracks that you have created in the main window of Ultraschall can also be found in the [Mixer area [24]](GUI-overview). The assignment is made via the track names, the displayed track numbers or the sorting (in the [track area [23]](GUI-overview) from top to bottom, which corresponds to a sorting from left to right in the [mixer area [24]](GUI-overview)):
 
@@ -85,7 +85,7 @@ Ultraschall tries to assign all tracks and recording channels automatically. How
 
 ![track-assignment](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-assignment.png?=450x) **Assign inputs:** _Use the drop-down menu to select the input.
 
-**The whole thing again as a video explanation.
+**The same explaination in a video.**
 
 <iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe>
@@ -105,7 +105,7 @@ Since version 5, Ultraschall has a so-called magic routing that completely relie
 ![Magic Routing](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/magic-routing.png)
 
 - Magic Routing (on/off)** [[14]](GUI-overview): If this is switched on, Ultraschall automatically takes care of the correct routing. You don't have to do anything else.
-- Preshow Routing** [[15]](GUI-overview): If you stream your podcast recording live via StudioLink-on-Air, you can set this so that your soundboard can already be heard in the stream, but no speakers can be heard yet. <!-- [ ] @todo: right? -->
+- Preshow Routing** [[15]](GUI-overview): If you stream your podcast recording live via StudioLink-on-Air, you can set this in such a way that your soundboard can already be heard in the stream, but no speakers can be heard yet. <!-- [ ] @todo: right? -->
 - **Recording-Routing** [[16]](GUI-overview): This is the setting for the actual recording of your podcast.
 - **Editing routing** [[17]](GUI-overview): This setting is for editing your recording.
 - StudioLink-on-Air (on/off)** [[18]](GUI-overview): This button adjusts the routing for your StudioLink-on-Air stream.
@@ -134,11 +134,11 @@ Soundcheck helps you avoid the most common mistakes when podcasting with Ultrasc
 - Echo and distortion prevention:** If your interface does not have direct monitoring, you should select the correct block size. <!-- @TODO: correct name? --> A block size of 128 samples leads to latency and echoes, a block size of 32 samples leads to instability. We recommend a block size of 512 samples for direct monitoring and 64 samples without direct monitoring.
 - Input Wizard:** Checks if you are assigning an input multiple times or if you are using an interchangeable input on a Zoom. <!-- @TODO: more understandable name? -->
 
-![soundcheck](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundcheck.png) **Soundcheck:** _This is what a sample soundcheck looks like in an unsecured project.
+![soundcheck](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundcheck.png) **Soundcheck:** This is what a sample soundcheck looks like in an unsecured project.
 
 You can either ignore the warning messages on the left with the 'Ignore' button or correct the problem with the button on the right. In the middle, a text field explains the problem in more detail. If you close the sound check window without having fixed the problem, all warnings are automatically ignored. You can also press <kbd>Esc</kbd> to close it. In the dashboard (bottom, centre) you can see the status of your sound check at any time - a click on this sound check bar opens the sound check overview again.
 
-![Soundcheck Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Dashboard.png) **Dashboard:** _The dashboard with any warnings can be found in the soundcheck bar at the bottom of the window.
+![Soundcheck Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Dashboard.png) **Dashboard:** The dashboard with any warnings can be found in the soundcheck bar at the bottom of the window.
 
 <!-- @todo: what happens to the videos? https://www.youtube.com/watch?v=vdLpynu1ixE&t=4771s (US 5) https://www.youtube.com/watch?v=ND4AG43wSPQ&t=433s (US 4) -->
 
@@ -169,7 +169,7 @@ The browser window opens separately. (Please follow the instructions on [StudioL
 ### Insert soundboard track
 Ultraschall comes with its own soundboard, which you can use to insert music and sound effects during the recording, for example your intro, dividers or other audio snippets. You insert a soundboard track via the menu 'Podcast' -> 'Insert StudioLink and Soundboard tracks' -> 'Insert Ultraschall soundboard track'. Alternatively, you can right-click in the [Tracks section [23]](GUI-overview) and select the appropriate option.
 
-![soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-soundboard-track.png) **Insert soundboard - option 1:** _Use the podcast menu to insert a soundboard track.
+![soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-soundboard-track.png) **Insert soundboard - option 1:** Use the podcast menu to insert a soundboard track.
 
 ![alternative-soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/add-soundboard-2.png) **Insert soundboard - option 2:** _You can also insert a soundboard track by right-clicking in the track area._
 
@@ -179,7 +179,7 @@ We recommend creating only one soundboard track per project. Sounds for a projec
 
 ### Operation
 
-To teach the soundboard where your sound files are located, select the corresponding track and switch to the view for the plug-in list by clicking on the corresponding `FX` button of the track in the [mixer area [24]](GUI-overview). There you make sure that the 'Soundboard' plug-in is activated (tick is set). Use the folder symbol at the top left of the plug-in area to define the directory in which you have saved the sound files for the soundboard.
+To teach the soundboard where your sound files are located, select the corresponding track and switch to the view for the plug-in list by clicking on the corresponding `FX` button of the track in the [mixer area [24]](GUI-overview). There you make sure that the 'Soundboard' plug-in is activated (tick is set). Use the folder symbol at the top left of the plug-in area to define the directory, in which you have saved the sound files for the soundboard.
 
 ![soundboard-activation](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundboard-activation_new.png)
 **Soundboard activation**: _This is how you activate a soundboard._
