@@ -50,7 +50,7 @@ As the last step in preparing the edit, you can now switch to the edit view. To 
 
 ## Single cut
 
-Ultrasound offers you two extremely efficient tools for cutting, with which you can do 90 percent of the work. Learn these two methods first before moving on to fine-tuning with the advanced tools:
+Ultraschall offers you two extremely efficient tools for cutting, with which you can do 90 percent of the work. Learn these two methods first before moving on to fine-tuning with the advanced tools:
 
 ### Cut across all tracks (ripple cut)
 

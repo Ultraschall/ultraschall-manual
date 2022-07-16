@@ -28,7 +28,7 @@ Ultraschall is *the* podcast tool among the digital audio workstations ([DAW](gl
 
 ## Why ultrasound?
 
-If you have never worked with REAPER or a DAW in general before, you will - as with any software - need some time at the beginning to find your way around and be able to use the software to its full extent. This may be a bit daunting at first, but the effort is worth it. Ultraschall offers many advantages over supposedly "simple" audio editing software such as [Audacity](https://www.audacityteam.org/):
+If you have never worked with REAPER or a DAW in general before, you will - as with any software - need some time at the beginning to find your way around and be able to use the software to its full extent. This may be a bit daunting at first, but the effort is worth it. Ultraschall offers many advantages compared with supposedly "simple" audio editing software such as [Audacity](https://www.audacityteam.org/):
 
 * Ultrasound is not a DAW and not an all-purpose audio weapon, but is geared precisely towards podcasting. That makes it as easy as possible for you to get started. For example, all the terminology comes from our podcast universe.
 * Ultrasound (like most DAWs) works non-destructively. This means that no information is lost during editing and your original recordings remain untouched. If you cut too much somewhere, it's easy to correct later.

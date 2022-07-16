@@ -39,10 +39,10 @@ Select your recording device in the preferences (in the menu under `Preferences`
 
 ## 2. recording
 
-Provided you have set everything up correctly, the recording itself is not too big a deal. Nevertheless, there are a few things you can and should consider after pressing `Record`[[35]](GUI-overview#buttons-playback), so that there are no unpleasant surprises or avoidable extra work for you later. The first and most important tip: Take a look at your recording software from time to time (it's best to deactivate the screen saver during recording). Then you will immediately see any error or warning messages - for example, Ultraschall warns you if you have not activated the tracks or saved the project yet. And you will also be informed if something is wrong with the track settings or if a person is overdriving.
+Provided you have set everything up correctly, the recording itself is not too big a deal. Nevertheless, there are a few things you can and should consider after pressing `Record`[[35]](GUI-overview#buttons-playback), so that there are no unpleasant surprises or avoidable extra work for you later. The first and most important tip: Take a look at your recording software from time to time (it's best to deactivate the screen saver during recording). Then you will immediately see any error or warning messages - for example, Ultraschall warns you if you have not activated the tracks or saved the project yet. And you will also be informed if something is wrong with the track settings or if a person is clipping.
 
 
-The integration of other speakers via the internet is explained in more detail in the chapter [recording](recording#recording-with-studiolink). How to use a soundboard to integrate sound effects, music and other interludes during the programme is explained [here](recording#using-the-soundboard). It is also useful to keep an eye on the levels during recording and to set chapter and edit marks directly if necessary.
+The integration of other speakers via the internet is explained in more detail in the chapter [recording](recording#recording-with-studiolink). How to use a soundboard to integrate sound effects, music and other interludes during the programme is explained [here](recording#using-the-soundboard). It is also useful to keep an eye on the levels during recording and to set chapter and edit markers directly if necessary.
 
 [Read more...](recording)
 

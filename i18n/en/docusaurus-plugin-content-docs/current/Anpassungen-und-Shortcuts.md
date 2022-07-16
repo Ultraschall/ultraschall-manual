@@ -67,7 +67,7 @@ It is important to make sure that you do NOT select 'Global + text fields' in th
 
 ### Create and use your own shortcuts
 
-In this example, we change the shortcut <kbd>Alt</kbd> + <kbd>Enter</kbd> we just set so that it is not set globally, but only works when the keyboard focus is on the [Tracks [23]](GUI-overview) or the [Mixer [24]](GUI-overview). For this purpose you will find the handy button 'Find shortcut' in the 'Actions' dialogue. There you enter the shortcut and land in the action linked to it. There you basically do the same as before with the assignment: You click on `Add...` and enter the shortcut again, i.e. here <kbd>Alt</kbd> + <kbd>Enter</kbd>. Please make sure that `Normal` is selected in the `Scope` drop-down list. Then confirm with `OK`.
+In this example, we change the shortcut <kbd>Alt</kbd> + <kbd>Enter</kbd> we have just set so that it is not set globally, but only works when the keyboard focus is on the [Tracks [23]](GUI-overview) or the [Mixer [24]](GUI-overview). For this purpose you will find the handy button 'Find shortcut' in the 'Actions' dialogue. There you enter the shortcut and land in the action linked to it. There you basically do the same as before with the assignment: You click on `Add...` and enter the shortcut again, i.e. here <kbd>Alt</kbd> + <kbd>Enter</kbd>. Please make sure that `Normal` is selected in the `Scope` drop-down list. Then confirm with `OK`.
 
 ![Shortcuts Local](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/lokale_shortcuts.gif)
 
