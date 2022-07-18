@@ -22,6 +22,8 @@ warum?
 https://sendegate.de/t/faq-kapitel-als-einzelne-dateien-rendern/4824
 -->
 
+![export-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/0-banner-export.png)
+
 ## Einleitung
 
 Wenn dein Projekt geschnitten und abgemischt ist, kannst du deine fertige Audiodatei exportieren. In diesem Kapitel lernst du, wie du eine Podcast-Episode exportierst und welche wichtigen Punkte du von Kapitelmarken bis Episoden-Cover dabei beachten solltest.
