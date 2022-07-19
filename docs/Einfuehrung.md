@@ -12,6 +12,8 @@ lektorat:
 
 <!-- @todo: Bildunterschriften hinzufügen -->
 
+![welcome-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/0-banner-frontpage.png)
+
 Schön, dass du zu Ultraschall gefunden hast! Ab jetzt wird deine Podcast-Produktion einfacher und besser. Das Handbuch, in dem du gerade liest, wurde mit Unterstützung des Ultraschall-Team von der Community erstellt – und wir arbeiten fortlaufend daran, es zu erweitern und zu verbessern. Es ist dafür gedacht, einzelne Funktionen nachzuschlagen oder neue Features zu lernen.
 
 Fehlt dir irgendwo eine Erklärung, ist etwas unklar oder hast du einen Fehler entdeckt? Meld dich gerne bei uns, wir sind für Feedback dankbar und stets auf der Suche nach ambitionierten Ultraschall-Nutzenden, die mit uns gemeinsam an diesem Handbuch weiterschreiben wollen.
