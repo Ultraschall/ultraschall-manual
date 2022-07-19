@@ -8,7 +8,7 @@ lektorat:
 
 <!-- @todo: Bildunterschriften hinzufügen -->
 
-![schritte-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Erste-Schritte-mit-Ultraschall/0-banner-firststeps.png
+![schritte-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Erste-Schritte-mit-Ultraschall/0-banner-firststeps.png)
 
 ## Übersicht
 
