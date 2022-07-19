@@ -33,3 +33,7 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.sidebar_RiAD {
+  background-color: #f0f0f0;
+}
