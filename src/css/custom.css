@@ -38,6 +38,17 @@
   background-color: #f0f0f0;
 }
 
+[data-theme='dark'] {
+
+  .sidebar_RiAD {
+  background-color: #333333;
+}
+
+  
+}
+
+
+
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
@@ -45,7 +56,7 @@
   and (-webkit-min-device-pixel-ratio: 1) { 
 
     .container {
-      margin-left: 40px !important;
+      margin-left: 30px !important;
      }
 
 }
@@ -57,7 +68,7 @@
   and (min-resolution: 192dpi) { 
 
     .container {
-      margin-left: 40px !important;
+      margin-left: 30px !important;
     }
 
 
