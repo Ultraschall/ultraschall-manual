@@ -38,13 +38,8 @@
   background-color: #f0f0f0;
 }
 
-[data-theme='dark'] {
-
-  .sidebar_RiAD {
+ .sidebar_RiAD[data-theme='dark'] {
   background-color: #333333;
-}
-
-  
 }
 
 
