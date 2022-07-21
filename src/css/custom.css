@@ -31,15 +31,14 @@ a:link {
   text-decoration: underline;
   color: #000000;
   box-shadow: inset 0 0 0 0 #f4d347;
-	padding: 0 .25rem;
-	margin: 0 -.25rem;
+
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 a:hover {
   text-decoration: underline;
   color: #555555;
-  box-shadow: inset 200px 0 0 0 #f4d347;
+  box-shadow: inset 400px 0 0 0 #f4d347;
 }
 
 
