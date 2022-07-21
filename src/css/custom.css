@@ -27,6 +27,16 @@
   --ifm-color-primary-lightest: #4fddbf;
 }
 
+a:link {
+  text-decoration: underline;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #555555;
+}
+
 .docusaurus-highlight-code-line {
   /**background-color: rgba(0, 0, 0, 0.1);*/
   display: block;
@@ -92,12 +102,4 @@ h1, h2, h3, h4, .navbar__title {
   text-decoration: none !important;
 }
 
-a:link {
-  text-decoration: underline;
-  color: #000000;
-}
 
-a:hover {
-  text-decoration: underline;
-  color: #555555;
-}
