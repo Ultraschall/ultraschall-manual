@@ -38,7 +38,7 @@ In order to conveniently edit all speakers, music and, for example, sound effect
 
 - Track** - for example for a local speaker
 - **StudioLink Track** - for example, for an interview guest that you connect via the Internet using StudioLink (see also below "[Recording with StudioLink](#record-with-studiolink)")
-- Ultrasound Soundboard Track** - for recordings that you play back via the soundboard during the recording (see also below "[Use the soundboard](#use-the-soundboard)").
+- Ultraschall Soundboard Track** - for recordings that you play back via the soundboard during the recording (see also below "[Use the soundboard](#use-the-soundboard)").
 
 Regular tracks, to which you assign individual speakers or tracks of your multi-track recorder (such as Zoom H6) in the next step, are created either by double-clicking in the [track area [23]](GUI-overview) area, with the keyboard command <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>T</kbd> or with a right-click in the [track area [23]](GUI-overview) and then a click on `Insert new track'.
 
@@ -144,7 +144,7 @@ You can either ignore the warning messages on the left with the 'Ignore' button 
 
 ## Recording with Studiolink
 
-[StudioLink](https://studio-link.de) is a stand-alone software that allows you to remotely join another ultrasound recording or integrate other people into your recording via the internet.
+[StudioLink](https://studio-link.de) is a stand-alone software that allows you to remotely join another Ultraschall recording or integrate other people into your recording via the internet.
 
 StudioLink is available in two versions: One is the *Standalone version* (for your guests) and the other is a *Plugin* (for you to record in Ultraschall). The StudioLink plug-in is pre-installed in Ultraschall. Updates of StudioLink always come together with Ultraschall updates. <!-- @TODO: delivered? -->You can find detailed documentation on StudioLink itself here: [StudioLink doc](https://doku.studio-link.de/).
 

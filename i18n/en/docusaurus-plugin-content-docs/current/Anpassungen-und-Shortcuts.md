@@ -15,7 +15,7 @@ proofreading:
 
 To speed up your recording and editing work, Ultraschall provides numerous shortcuts that make your work easier. In this chapter you will learn how to use the shortcuts already provided - and how to set up your own shortcuts.
 
-## Ultrasound presets
+## Ultraschall presets
 
 :::info Info
 **Note for Ultraschall veterans:** Unlike in previous versions, quite a few keyboard shortcuts are now globally available. Where keyboard shortcuts used to depend on which programme area had the focus at the time, since version 5 many shortcuts are set to always work. This should solve typical problems - such as no marker being set after pressing <kbd>M</kbd> because you last clicked on something in the soundboard.

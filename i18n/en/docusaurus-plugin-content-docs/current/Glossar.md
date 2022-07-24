@@ -23,7 +23,7 @@ xxx
 
 xxx
 
-## Specific for REAPER/Ultrasound
+## Specific for REAPER/Ultraschall
 
 ### Edit cursor
 

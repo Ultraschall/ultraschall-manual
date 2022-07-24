@@ -26,11 +26,11 @@ Ultraschall is *the* podcast tool among the digital audio workstations ([DAW](gl
 ![DAWs Ultraschall 5.001.png](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/DAWs-Ultraschall-5.001.png)
 **Market Overview**: *Every audio software or DAW has a different focus - and is therefore sometimes more, sometimes less suitable for the needs and budgets of us podcasters.
 
-## Why ultrasound?
+## Why Ultraschall?
 
 If you have never worked with REAPER or a DAW in general before, you will - as with any software - need some time at the beginning to find your way around and be able to use the software to its full extent. This may be a bit daunting at first, but the effort is worth it. Ultraschall offers many advantages compared with supposedly "simple" audio editing software such as [Audacity](https://www.audacityteam.org/):
 
-* Ultrasound is not a DAW and not an all-purpose audio weapon, but is geared precisely towards podcasting. That makes it as easy as possible for you to get started. For example, all the terminology comes from our podcast universe.
-* Ultrasound (like most DAWs) works non-destructively. This means that no information is lost during editing and your original recordings remain untouched. If you cut too much somewhere, it's easy to correct later.
+* Ultraschall is not a DAW and not an all-purpose audio weapon, but is geared precisely towards podcasting. That makes it as easy as possible for you to get started. For example, all the terminology comes from our podcast universe.
+* Ultraschall (like most DAWs) works non-destructively. This means that no information is lost during editing and your original recordings remain untouched. If you cut too much somewhere, it's easy to correct later.
 * Ultr Ultraschall records several tracks at the same time without any problems. Nothing stands in the way of recording large groups with many individual tracks.
 * The direct integration of [StudioLink](https://studio-link.de) makes remote recordings (i.e. recordings where the other party is connected via the Internet) easier than ever before. The audio quality is indistinguishable from a local recording, provided there is a stable internet connection on both sides.
