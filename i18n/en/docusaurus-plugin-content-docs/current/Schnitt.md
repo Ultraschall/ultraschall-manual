@@ -206,5 +206,7 @@ If your fellow cast members are connected to you via StudioLink via a poor or un
 <!-- ## Tips for successful pruning -->
 
 ## Video
-<iframe width="560" height="315" src="../youtube/?url=RnkHsQp2Mbw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
-</iframe>
+<div class="youTubeContainer">
+<iframe src="../youtube/?url=h3uv4P9td7g" title="YouTube video player"
+frameborder="0" allowfullscreen class="video"></iframe>
+</div> 

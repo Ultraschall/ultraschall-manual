@@ -39,16 +39,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       respectPrefersColorScheme: false,
       defaultMode: 'light',
     },
-    announcementBar: {
-      id: 'info',
-      content:
-        'Dieses Handbuch befindet sich noch in einer Beta-Version. '+
-        '<a target="_blank" rel="noopener noreferrer" href="https://pad.gwdg.de/hJcF_2wfSm2uO46neH504w#">Feeback</a>' +
-        ' Fürs Podstock: <a target="_blank" rel="noopener noreferrer" href="https://pad.gwdg.de/NVeTtJAtRL2hLRD6sAKvjQ#">Bildbeschreibungen</a>',
-      backgroundColor: '#FFD93E',
-      textColor: '#091E42',
-      isCloseable: false,
-    },
       navbar: {
         title: 'Ultraschall Handbuch',
         logo: {
@@ -110,7 +100,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               {
                 label: 'Danke sagen',
                 href: 'https://ultraschall.fm/danke/',
-              }
+              }, 
+              {
+                label: 'Feedback geben',
+                href: 'https://pad.gwdg.de/hJcF_2wfSm2uO46neH504w#',
+              },
             ],
           },
           {
