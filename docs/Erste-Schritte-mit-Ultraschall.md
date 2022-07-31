@@ -1,6 +1,13 @@
 ---
 id: firststeps
 title: Erste Schritte mit Ultraschall
+tags:
+  - erste schritte
+  - aufnahme
+  - schnitt
+  - produktion
+  - einsteiger
+  - export
 lektorat:
     - Lektorat: 13.3.2022 @MirUnauffaellig, kleinere Korrekturen und Formatierungen am 27.3.2022
     - Schlusskorrektur: 6.7.2022 @MirUnauffaellig

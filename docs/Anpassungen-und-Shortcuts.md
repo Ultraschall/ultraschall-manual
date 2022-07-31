@@ -2,8 +2,9 @@
 id: adaption
 title: 'Anpassungen, Shortcuts und co.'
 tags:
-  - x
-  - x
+  - keyboard
+  - shortcuts
+  - grundwissen
 lektorat:
     - Lektorat: 24.4.2022 @MirUnauffaellig
     - Schlusskorrektur: 6.7.2022 @MirUnauffaellig

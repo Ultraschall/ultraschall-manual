@@ -2,7 +2,15 @@
 id: recording
 title: Aufnahme
 tags:
-  - recording
+  - aufnahme
+  - einsteiger
+  - setup
+  - vorbereitung
+  - interface
+  - projekt
+  - spuren
+  - studio-link
+  - soundboard
 lektorat:
     - Lektorat: 24.4.2022 @MirUnauffaellig
     - Schlusskorrektur: 6.7.2022 @MirUnauffaellig
@@ -209,8 +217,6 @@ Die Dateien werden hier immer alphabetisch sortiert angezeigt. Willst du lieber 
 
 
 ## Video
-<!-- <iframe width="100%" src="../youtube/?url=P4d_EWsfHmk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
-</iframe> -->
 <div class="youTubeContainer">
 <iframe src="../youtube/?url=TkI0ThRj_GE" title="YouTube video player"
 frameborder="0" allowfullscreen class="video"></iframe>

@@ -3,6 +3,8 @@ id: cut
 title: Schnitt
 tags:
   - schnitt
+  - nicht-destruktiv
+  - kapitelmarken
 lektorat:
     - Lektorat: 4.5.2022 @MirUnauffaellig
     - Schlusskorrektur: 6.7.2022 @MirUnauffaellig
@@ -170,12 +172,12 @@ Das Verhalten der einzelnen Items beim Verschieben wird durch die [Ripple-Einste
 
 - **<kbd>Alt</kbd> (Mac/Windows/Linux) gedrückt halten und Item verschieben**: Du verschiebst nur das oder die selektierten Items.
 
-![Ripple: Alt](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-alt.mp4)
+![Ripple: Alt](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-alt.gif)
 <!-- todo: videos fehlen -->
 
 - **<kbd>Cmd</kbd> (Mac) beziehungsweise <kbd>Ctrl</kbd> (Windows/Linux) gedrückt halten und Item verschieben**: Du verschiebst das oder die selektierten Items und ALLE Items dahinter.
 
-![Ripple: Cmd](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-cmd.mp4)
+![Ripple: Cmd](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-cmd.gif)
 <!-- todo: videos fehlen -->
 
 ## Audio-Inhalte nachträglich in das Projekt einfügen

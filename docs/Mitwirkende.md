@@ -13,8 +13,8 @@ title: Mitwirkende
 - **Gero**
     - [Sendegate](https://sendegate.de/u/gero)
 - **Jürgen**
-    - [Sendegate](https://sendegate.de/u/DerJuergen),
-    - Folgt [@MirUnauffaellig](https://twitter.com/MirUnauffaellig),
+    - [Sendegate](https://sendegate.de/u/DerJuergen)
+    - Folgt [@MirUnauffaellig](https://twitter.com/MirUnauffaellig)
     - [Webseite](https://es-ist-ein-krauss.de)
 - **Heiko**
     - [Sendegate](https://sendegate.de/u/heikopanjas)
