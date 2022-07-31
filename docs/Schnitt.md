@@ -3,6 +3,8 @@ id: cut
 title: Schnitt
 tags:
   - schnitt
+  - nicht-destruktiv
+  - kapitelmarken
 lektorat:
     - Lektorat: 4.5.2022 @MirUnauffaellig
     - Schlusskorrektur: 6.7.2022 @MirUnauffaellig
