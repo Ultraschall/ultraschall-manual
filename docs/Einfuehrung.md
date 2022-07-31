@@ -3,8 +3,12 @@ id: introduction
 title: Einführung
 sidebar_label: Einführung
 tags:
-  - Einführung
-  - Getting started
+  - einführung
+  - erste schritte
+  - übersicht
+  - nicht-destruktiv
+  - mehrspuraufnahme
+  - daw
 lektorat:
     - Lektorat: 27.3.2022 @MirUnauffaellig
     - Schlusskorrektur: 6.7.2022 @MirUnauffaellig
