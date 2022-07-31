@@ -4,6 +4,10 @@ title: Übersicht über die Bedienelemente und Bereiche
 lektorat:
     - Lektorat: 27.3.2022 @MirUnauffaellig
     - Schlusskorrektur: 6.7.2022 @MirUnauffaellig
+tags:
+    - übersicht
+    - erste schritte
+    - gui
 ---
 
 <!-- @todo: Links auf  Git main umziehen -->
