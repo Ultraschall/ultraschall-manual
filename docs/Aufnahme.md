@@ -2,7 +2,15 @@
 id: recording
 title: Aufnahme
 tags:
-  - recording
+  - aufnahme
+  - einsteiger
+  - setup
+  - vorbereitung
+  - interface
+  - projekt
+  - spuren
+  - studio-link
+  - soundboard
 lektorat:
     - Lektorat: 24.4.2022 @MirUnauffaellig
     - Schlusskorrektur: 6.7.2022 @MirUnauffaellig
