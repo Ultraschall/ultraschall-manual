@@ -208,5 +208,7 @@ The files are always displayed here in alphabetical order. If you prefer to sort
 
 
 ## Video
-<iframe width="560" height="315" src="../youtube/?url=P4d_EWsfHmk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
-</iframe>
+<div class="youTubeContainer">
+<iframe src="../youtube/?url=JzrngeaXQdE" title="YouTube video player"
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>

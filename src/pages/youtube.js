@@ -23,8 +23,8 @@ export default function youtube() {
                 textAlign: 'center',
                 alignItems: 'center',
                 fontSize: '20px',
-                width: "560px",
-                height: "315px",
+                width: "50%",
+                height: "150%",
                 color: "black",
                 backgroundImage: "url(../img/video-placeholder.png)"
               }}
