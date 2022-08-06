@@ -92,9 +92,15 @@ a:hover {
     }
 }
 
-/* fix space between menu and doc - could be improved*/
+/* FOR DEBUG - fix space between menu and doc - could be improved*/
 @media (min-width: 1000px)  and (max-width: 1670px){
 .docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module {
+  margin-left: 30px;
+  }
+}
+/* FOR RELEASE - fix space between menu and doc - could be improved*/
+@media (min-width: 1000px)  and (max-width: 1670px){
+.docMainContainer_gTbr {
   margin-left: 30px;
   }
 }
