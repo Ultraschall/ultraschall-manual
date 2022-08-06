@@ -13,7 +13,7 @@
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;  
+  --ifm-code-font-size: 95%;
 }
 
 [data-theme='dark'] {
@@ -31,7 +31,6 @@ a:link {
   text-decoration: underline;
   color: #000000;
   box-shadow: inset 0 0 0 0 #fed000;
-
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
@@ -41,8 +40,18 @@ a:hover {
   box-shadow: inset 400px 0 0 0 #fed000;
 }
 
+[data-theme='dark']  a:link {
+  text-decoration: underline;
+  color: white;
+  box-shadow: inset 0 0 0 0 #fed000;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
 
-
+[data-theme='dark'] a:hover {
+  text-decoration: underline;
+  color: #555555;
+  box-shadow: inset 400px 0 0 0 #fed000;
+}
 
 .docusaurus-highlight-code-line {
   /**background-color: rgba(0, 0, 0, 0.1);*/
@@ -61,35 +70,44 @@ a:hover {
 
 
 
-
 /* ----------- Non-Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 800px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+@media screen
+  and (min-device-width: 800px)
+  and (-webkit-min-device-pixel-ratio: 1) {
 
     .container {
-      margin-left: 30px !important;
+      /*margin-left: 30px !important*/;
      }
 
 }
 
 /* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 800px) 
+@media screen
+  and (min-device-width: 800px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+  and (min-resolution: 192dpi) {
 
     .container {
-      margin-left: 30px !important;
+      /*margin-left: 30px !important*/;
     }
-
-
 }
 
+/* fix space between menu and doc - could be improved*/
+@media (min-width: 1855px) {
+.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module {
+  margin-left: -6%;
+  }
+}
 
 
 .menu__link {
   color: #222222;
+  font-family: 'Maven Pro', sans-serif !important;
+  text-decoration: none !important;
+}
+
+[data-theme='dark'] .menu__link {
+  color: grey;
   font-family: 'Maven Pro', sans-serif !important;
   text-decoration: none !important;
 }
@@ -116,6 +134,7 @@ h1, h2, h3, h4, .navbar__title {
   height: 0;
   padding-bottom: 56.25%;
 }
+
 .video {
   position: absolute;
   top: 0;
