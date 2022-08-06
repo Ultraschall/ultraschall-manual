@@ -113,7 +113,7 @@ a:hover {
 }
 
 [data-theme='dark'] .menu__link {
-  color: grey;
+  color: #dddddd;
   font-family: 'Maven Pro', sans-serif !important;
   text-decoration: none !important;
 }
