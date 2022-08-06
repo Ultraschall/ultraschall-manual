@@ -60,11 +60,11 @@ a:hover {
   padding: 0 var(--ifm-pre-padding);
 }
 
-.sidebar_RiAD {
+.sidebar_njMd {
   background-color: #f0f0f0;
 }
 
-[data-theme='dark'] .sidebar_RiAD {
+[data-theme='dark'] .sidebar_njMd {
   background-color: #111111;
 }
 
