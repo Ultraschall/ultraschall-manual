@@ -37,7 +37,7 @@ Ultraschall lässt dir freie Hand und gibt dir alle Möglichkeiten für eine man
 Außerdem bietet dir Ultraschall von Haus aus für jede Spur eine sinnvolle [Vorauswahl an Effekten](#Vorausgew%C3%A4hlte-Effekte-und-Plug-ins); du findest sie rechts unten im [Filter-Bereich [26]](GUI-overview), nachdem du im [Mixer-Bereich [24]](GUI-overview) auf der gewünschten Spur auf die `FX`-Schaltfläche drückst:
 
 * **DeNoise** (ReaFir-Rauschfilter zur Reduzierung von Rauschen oder Brummen mittels Anlernen von Störungsprofilen)
-  
+
 * **DeEsser** (Multiband-Kompressor zum Reduzieren von Zischlauten in der Stimme)
 
 * **ReaEQ** (Multiband-Equalizer mit verschiedenen Presets – etwa auch "Telefon-Sound")
@@ -94,11 +94,11 @@ Sollte das Endergebnis nicht überzeugend klingen, ist vermutlich der Signal-Rau
 
 **Den genauen Ablauf des AMP zeigt dieses Video:**
 <iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=2877" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
-</iframe> 
+</iframe>
 
 ## Post-Produktion für Fortgeschrittene
 
-<!-- todo: hier fehlt es noch an Inhalten – in der aktuellen Form ist das 1 zu 1, was oben schon steht. 
+<!-- todo: hier fehlt es noch an Inhalten – in der aktuellen Form ist das 1 zu 1, was oben schon steht.
 
 ### Vorausgewählte Effekte und Plug-ins
 
@@ -175,7 +175,7 @@ Bei allen neu angelegten Spuren sollte der Effekt wie oben beschrieben bereits e
 
 #### Einstellungen für die Normalisierung
 
-Um alle Quellen in deiner Aufnahme auf -23 LUFS zu normalisieren, selektierst du einfach alle Items und wählst den Eintrag `Workflows`>`Ultraschall AMP - Automated Mixing Pipeline`>`Step 2: Normalize loudness of selected items to -23 LUFS` aus dem `Podcast`-Menü. 
+Um alle Quellen in deiner Aufnahme auf -23 LUFS zu normalisieren, selektierst du einfach alle Items und wählst den Eintrag `Workflows`>`Ultraschall AMP - Automated Mixing Pipeline`>`Step 2: Normalize loudness of selected items to -23 LUFS` aus dem `Podcast`-Menü.
 
 Alternativ, oder um einen anderen Zielwert als -23 LUFS zu verwenden, veränderst du den entsprechenden Regler `Target (LUFS)` im Effekt-Plugin `JS: Ultraschall Dynamics (Ultraschall.fm)`. Für die meisten Fälle ist der voreingestellte Wert aber ideal.
 
@@ -191,7 +191,7 @@ Die Einstellung für die Normalisierung des finalen Audiomix'  nimmst du über d
 
 ### Rauschen entfernen mit dem _Ultraschall Dynamics 2_-Effekt
 
-Der `Ultraschall Dynamics 2`-Effekt beinhaltet unter anderem ein einstellbares, weiches Noisegate - das dir dabei hilft, auf deinen Spuren Störgeräusche und Sprache voneinander abzugrenzen. 
+Der `Ultraschall Dynamics 2`-Effekt beinhaltet unter anderem ein einstellbares, weiches Noisegate - das dir dabei hilft, auf deinen Spuren Störgeräusche und Sprache voneinander abzugrenzen.
 
 Der `Noisefloor`-Regler hat dabei den größten Einfluss auf die Lautstärke: Hierüber legst du fest, ab welcher Grenze ein Signal als zu verstärkender Inhalt oder aber als zu dämpfendes Rauschen oder Störsignal behandelt wird. Die Kunst besteht darin, für jede Spur exakt die Einstellung zu finden, bei der selbst leise Gesprochenes noch verstärkt, Rauschen und Atmen (Vadern) hingegen aber abgesenkt werden. Der vorgeschlagene Wert passt in der Regel für ein gutes Headset wie das DT297 oder das HMC660, die bei der Aufnahme konservativ ausgesteuert wurden (in einem Bereich von -6 bis -12 dB). Das ist aber nur ein Startpunkt; es lohnt sich fast immer, hier noch feinzujustieren.
 
@@ -204,6 +204,6 @@ Das klappt aber nur, wenn du während der Aufnahme nicht am Gain-Regler gedreht 
 
 ## Video
 <div class="youTubeContainer">
-<iframe src="../youtube/?url=xqTbFouO6F8" title="YouTube video player"
+<iframe src="@site/../../youtube/?url=xqTbFouO6F8" title="YouTube video player"
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>

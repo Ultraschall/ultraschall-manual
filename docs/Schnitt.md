@@ -23,7 +23,7 @@ Zu diesem Thema gibt es ein sehr gutes [Tutorial-Video](#video).
 
 ## Wichtig zu wissen
 
-Reaper schneidet [nicht-destruktiv](https://de.wikipedia.org/wiki/Nicht-destruktive_Bearbeitung). Das heißt, deine Audiodateien werden nicht direkt bearbeitet, sondern bleiben unverändert erhalten. Du kannst beim Schnitt also gar nichts falsch oder kaputt machen. Im Notfall spielst du einfach ein Backup ein – oder wenn es mal ganz schlimm kommt, fängst du noch einmal von vorne an. Ultraschall macht seit der Version 5 alle 10 Minuten ein Backup deiner Projektdatei (nicht der Audiodateien) und speichert diese im Projektordner. 
+Reaper schneidet [nicht-destruktiv](https://de.wikipedia.org/wiki/Nicht-destruktive_Bearbeitung). Das heißt, deine Audiodateien werden nicht direkt bearbeitet, sondern bleiben unverändert erhalten. Du kannst beim Schnitt also gar nichts falsch oder kaputt machen. Im Notfall spielst du einfach ein Backup ein – oder wenn es mal ganz schlimm kommt, fängst du noch einmal von vorne an. Ultraschall macht seit der Version 5 alle 10 Minuten ein Backup deiner Projektdatei (nicht der Audiodateien) und speichert diese im Projektordner.
 
 :::tip  Tipp
 **Backup wiederherstellen:** Falls du diese Funktion jetzt gerade brauchst, dann keine Panik. Ultraschall macht regelmäßig und vollautomatisch Backups deines Projekts. Diese liegen in deinem Projekt-Ordner unter `Backup` und sind nach dem folgenden Schema benannt: `$Projektname-$Datum_$Stunden$Minuten`. Um ein solches Backup wiederherzustellen, schließe erst mal Ultraschall. Öffne dann dein Projekt im Finder oder Explorer und kopier dir die Backup-Datei mit dem passenden Zeitstempel aus dem Ordner `Backup` in das Projektverzeichnis (also eine Ebene nach oben). Am besten benennst du diese Datei direkt um und öffnest sie mit Ultraschall. Fertig!
@@ -63,7 +63,7 @@ Mit dem sogenannten Ripple Cut schneidest du alle Spuren gleichzeitig. Das verhi
 <!-- @TODO Screenshots einfügen -->
 Falls du Sequenzen aus deinen Spuren nicht herausschneiden willst, sie aber trotzdem nicht hörbar sein sollen, benutzt du dafür am besten die Mute-Funktion: Dafür selektierst du die Spur(en) die du bearbeiten willst und drückst <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>Y</kbd>. Falls noch nicht vorhanden erscheint daraufhin ein Mute-Envelope unter der gewählten Spur. Die orangenfarbene Linie des Mute-Envelopes zeigt ein Tal in der Verlaufsform an der Stelle, die du vorher selektiert hast. Dieser Envelope funktioniert nach dem Binärprinzip: Ist die Linie oben, ist die zugehörige Spur zu hören; ist die Mute-Linie unten, ist auf der zugeordneten Spur nichts zu hören.
 
-Du kannst der Linie im Envelope auch weitere Punkte hinzufügen und mit der Maus an den gewünschten Stellen stummschalten – beziehungsweise die Stummschaltung aufheben. Ein Doppelklick erzeugt weitere Editierpunkte, die du dann nur noch hoch- oder runterziehen musst. 
+Du kannst der Linie im Envelope auch weitere Punkte hinzufügen und mit der Maus an den gewünschten Stellen stummschalten – beziehungsweise die Stummschaltung aufheben. Ein Doppelklick erzeugt weitere Editierpunkte, die du dann nur noch hoch- oder runterziehen musst.
 
 :::tip Tipp
 Am schnellsten geht das Bearbeiten des Mute-Envelopes mit der Maus: Möchtest du an einer Stelle von "hörbar" zu "nicht hörbar" wechseln, brauchst du lediglich in den Mute-Envelope in die untere Hälfte des Envelopes zu klicken. Das geht nur, wenn an dieser Stelle die Linie oben ist (und sinnvollerweise ist dort auch noch kein Editierpunkt vorhanden). Für den Wechsel von "nicht hörbar" zu "hörbar" ist das Vorgehen analog, wobei du natürlich in den oberen Bereich des Envelopes klicken musst.
@@ -87,7 +87,7 @@ Wenn du gern am Anfang und oder Ende eines Items die Lautstärke sanft ein- oder
 <!-- @todo: Was passiert mit dem video? https://www.youtube.com/watch?v=vdLpynu1ixE&t=5080s -->
 In Ultraschall setzt du ganz einfach Kapitelmarken, die deinen Hörenden dann später (in den meisten Podcatchern) die Navigation innerhalb deiner Episoden vereinfachen. Für die Produktion unterscheidet Ultraschall zwischen zwei Markenarten: Kapitelmarken und Editmarken. Die Kapitelmarken setzt du über die Taste <kbd>M</kbd> oder den entsprechenden Button [[3]](GUI-overview) – das sind die Marken die später auch im Podcatcher auftauchen. Dazu solltest du die Marken aber auch noch benennen. Entweder später im [Marker-Dashboard](#marker-dashboard) oder indem du direkt per <kbd>Shift</kbd> + <kbd>M</kbd> eine benannte Marke setzt und einen Titel vergibst.
 
-Die Editmarken setzt du mit dem Button [[4]](GUI-overview) oder der Taste <kbd>E</kbd>. Sie sind nur für dich während des Schnitts relevant und sichtbar, damit du Stellen im Projekt markieren und später einfach wiederfinden kannst. Sie werden nicht mit exportiert. 
+Die Editmarken setzt du mit dem Button [[4]](GUI-overview) oder der Taste <kbd>E</kbd>. Sie sind nur für dich während des Schnitts relevant und sichtbar, damit du Stellen im Projekt markieren und später einfach wiederfinden kannst. Sie werden nicht mit exportiert.
 
 :::info Info
 Regions (auch "Regionen") werden beim Podcast-Export ebenfalls ignoriert. Du kannst sie aber dazu verwenden, dein Audio-Material in verschiedene Abschnitte zu unterteilen (zum Beispiel, wenn du aus einer langen Aufnahme mehrere Episoden schneidest) und diese Abschnitte beziehungsweise Regionen dann über den Export-Assistenten als einzelne Dateien exportieren.
@@ -143,7 +143,7 @@ Button [[5]](GUI-overview) teilt ein Item an der aktuellen Cursor-Position. Mehr
 
 ![Buttons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/edit-buttons-selection.png)
 
-Die Schaltfläche [[6]](GUI-overview) aktiviert beziehungsweise deaktiviert den Maus-Selektionsmodus und beeinflusst so das Mausverhalten: 
+Die Schaltfläche [[6]](GUI-overview) aktiviert beziehungsweise deaktiviert den Maus-Selektionsmodus und beeinflusst so das Mausverhalten:
 
 - **aktiviert**: Klickst du auf ein Item, hältst die Maustaste gedrückt und ziehst dann die Maus, selektierst du den betroffenen Bereich.
 - **deaktiviert**: Klickst du auf ein Item, hältst die Maustaste gedrückt und ziehst dann die Maus, verschiebst du das ausgewählte Item.
@@ -209,6 +209,6 @@ Falls deine Mitpodcastenden über eine schlechte oder instabile Internetverbindu
 
 ## Video
 <div class="youTubeContainer">
-<iframe src="../youtube/?url=3ML-Nw5TEfE" title="YouTube video player"
+<iframe src="@site/../../youtube/?url=3ML-Nw5TEfE" title="YouTube video player"
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>

@@ -55,7 +55,7 @@ Reguläre Tracks, denen du im nächsten Schritt einzelne Sprechende beziehungswe
 
 Mit einem Klick in den noch leeren, aber bereits eingefärbten Bereich vergibst du am besten direkt einen Namen für deine Spur – so verlierst du auch in größeren Projekten nicht den Überblick.
 
-![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-renaming.png?=650x) **Track benennen:** _Leg für deine Tracks sinnvolle Namen fest, das erleichtert dir später die Zuordnung._ 
+![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-renaming.png?=650x) **Track benennen:** _Leg für deine Tracks sinnvolle Namen fest, das erleichtert dir später die Zuordnung._
 
 Seit Version 5 von Ultraschall werden Spuren nicht nur automatisch in ihrer Höhe an die Fenstergröße angepasst, sondern zur Übersicht auch automatisch eingefärbt. Klickst du mit der rechten Maustaste auf den Track (oder per Tastenkürzel <kbd>Alt</kbd> + <kbd>C</kbd> bei ausgewählter Spur) kannst du im Color Picker die Farbe auch nachträglich ändern.
 
@@ -64,7 +64,7 @@ Seit Version 5 von Ultraschall werden Spuren nicht nur automatisch in ihrer Höh
 **Das Ganze nochmal als Video-Erklärung:**
 
 <iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=846" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
-</iframe> 
+</iframe>
 
 
 
@@ -78,7 +78,7 @@ Das Audio Device (typischerweise ein Mikrofon oder ein Audio-Interface), mit dem
 
 Ein Audio Device kann mehrere Eingänge haben (muss es aber nicht), die unterschiedlichen Spuren zugeordnet werden können. Wenn wir bei unserem Beispiel mit einem Zoom H6 bleiben, stehen uns hier vier (plus zwei) Eingänge zur Verfügung. Du kannst mit vier – oder mit einer entsprechenden Erweiterung mit sechs – Mikrofonen gleichzeitig aufnehmen.
 
-:::note Hinweis 
+:::note Hinweis
 Die Zählweise der Eingänge ist gerätespezifisch, in Ultraschall lautet die Kanalbezeichnung unter Umständen also anders als auf deinem Gerät angegeben (Kanal 1 auf dem Zoom H6 wird in Ultraschall zum Beispiel als Kanal 3 aufgeführt).
 :::
 
@@ -97,10 +97,10 @@ Ultraschall versucht, alle Tracks und Aufnahme-Kanäle automatisch zuzuordnen. S
 **Das Ganze nochmal als Video-Erklärung:**
 
 <iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
-</iframe> 
+</iframe>
 
 <iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=4970" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
-</iframe> 
+</iframe>
 
 
 ## Routing
@@ -135,13 +135,13 @@ Falls du das Routing lieber manuell festlegst, kannst du das über die Einstellu
 Der Soundcheck hilft dir dabei, die häufigsten Fehler beim Podcasten mit Ultraschall zu vermeiden. Der Soundcheck gibt eine Warnung aus, wenn Ultraschall einen potenziellen Fehler erkannt hat. Die einzelnen Bestandteile des Soundchecks kannst du in den Einstellungen nach Bedarf ein- oder ausschalten. Im Einzelnen prüft der Soundcheck:
 
 - **Ungesichertes Projekt (Unsaved Project):** Warnt dich, wenn du etwas aufnehmen möchtest, aber das Projekt noch nicht gespeichert hast. Das beugt Datenchaos vor.
-- **Spuren für die Bearbeitung vorbereiten (Prepare all tracks for editing):** Warnt dich, wenn du nach der Aufnahme mit dem Bearbeiten beginnen möchtest, aber die Spuren noch nicht dafür vorbereitet sind. 
-- **Prüfe 48-KHz-Abtastrate (Check for 48 KHz sample rate):** Wenn du StudioLink oder StudioLink-on-Air verwenden möchtest, musst du als Abtastrate 48 KHz verwenden. 
+- **Spuren für die Bearbeitung vorbereiten (Prepare all tracks for editing):** Warnt dich, wenn du nach der Aufnahme mit dem Bearbeiten beginnen möchtest, aber die Spuren noch nicht dafür vorbereitet sind.
+- **Prüfe 48-KHz-Abtastrate (Check for 48 KHz sample rate):** Wenn du StudioLink oder StudioLink-on-Air verwenden möchtest, musst du als Abtastrate 48 KHz verwenden.
 - **Internes Mikrofon verwendet (Check if internal mic is selected):** Prüft, ob du aus Versehen statt deines guten Mikrofons das interne Mikrofon deines Laptops zum Aufnehmen verwendest.
 - **Nur am Ende aufnehmen (Start recording only at the end):** Verhindert, dass du ungewollt in der Mitte deines Projektes aufnimmst.
 - **Unbekanntes Soundinterface (Unknown sound interface):** Prüft, ob du ein neues Soundinterface angeschlossen hast, für das du noch keine Einstellung zum Direkt-Monitoring getroffen hast.
 - **Echo- und Verzerrungsvorsorge (Echo and distortion prevention):** Wenn dein Interface kein Direkt-Monitoring hat, solltest du die richtige Blockgröße wählen. <!-- @TODO: richtiger name? --> Eine Blockgröße von 128 Samples führt zu Latenz und Echos, eine Blockgröße von 32 Samples zu Instabilität. Wir empfehlen eine Blockgröße von 512 Samples für Direkt-Monitoring und 64 Samples ohne Direkt-Monitoring.
-- **Eingangs-Assistent (Input Wizard):** Prüft, ob du einen Eingang mehrfach zugeordnet oder ob du einen austauschbaren Eingang an einem Zoom benutzt. <!-- @TODO: verständlichere Bezeichnung? --> 
+- **Eingangs-Assistent (Input Wizard):** Prüft, ob du einen Eingang mehrfach zugeordnet oder ob du einen austauschbaren Eingang an einem Zoom benutzt. <!-- @TODO: verständlichere Bezeichnung? -->
 
 ![soundcheck](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundcheck.png) **Soundcheck:** _So sieht ein Beispiel-Soundcheck in einem ungesicherten Projekt aus._
 
@@ -218,6 +218,6 @@ Die Dateien werden hier immer alphabetisch sortiert angezeigt. Willst du lieber 
 
 ## Video
 <div class="youTubeContainer">
-<iframe src="../youtube/?url=TkI0ThRj_GE" title="YouTube video player"
+<iframe src="@site/../../youtube/?url=TkI0ThRj_GE" title="YouTube video player"
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
