@@ -170,6 +170,6 @@ Am häufigsten wird für Ultraschall-Projekte das **MP3**-Format verwendet. Der 
 
 ## Video
 <div class="youTubeContainer">
-  <iframe src="@site/../../youtube/?url=VSqAM5ur4M4" title="YouTube video player" frameBorder="0" allow="accelerometer" allowFullScreen="" class="video">
+  <iframe src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=VSqAM5ur4M4" title="YouTube video player" frameBorder="0" allow="accelerometer" allowFullScreen="" class="video">
   </iframe>
 </div>

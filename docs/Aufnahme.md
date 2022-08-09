@@ -218,6 +218,6 @@ Die Dateien werden hier immer alphabetisch sortiert angezeigt. Willst du lieber 
 
 ## Video
 <div class="youTubeContainer">
-<iframe src="@site/../../youtube/?url=TkI0ThRj_GE" title="YouTube video player"
+<iframe src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=TkI0ThRj_GE" title="YouTube video player"
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>

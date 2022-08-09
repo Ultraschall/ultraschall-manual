@@ -204,6 +204,6 @@ Das klappt aber nur, wenn du während der Aufnahme nicht am Gain-Regler gedreht 
 
 ## Video
 <div class="youTubeContainer">
-<iframe src="@site/../../youtube/?url=xqTbFouO6F8" title="YouTube video player"
+<iframe src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=xqTbFouO6F8" title="YouTube video player"
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>

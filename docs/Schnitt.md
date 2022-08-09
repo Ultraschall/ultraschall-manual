@@ -209,6 +209,6 @@ Falls deine Mitpodcastenden über eine schlechte oder instabile Internetverbindu
 
 ## Video
 <div class="youTubeContainer">
-<iframe src="@site/../../youtube/?url=3ML-Nw5TEfE" title="YouTube video player"
+<iframe src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=3ML-Nw5TEfE" title="YouTube video player"
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
