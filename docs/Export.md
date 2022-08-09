@@ -56,7 +56,7 @@ Du kannst auch direkt zum dritten Schritt springen, weil dort nochmal eine Über
 :::
 
 Auch hierzu gibt es eine Video-Erklärung von Ralf Stockmann:
-<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=3911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=3911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
 </iframe>
 
 ### 1. Marker Dashboard

@@ -18,13 +18,13 @@ Um deine Aufnahme- und Schnittarbeit zu beschleunigen, gibt es in Ultraschall za
 
 ## Ultraschall Voreinstellungen
 
-:::info Info 
+:::info Info
 **Anmerkung für Ultraschall-Veteranen:** Anders als in den vergangenen Versionen sind etliche Tastatur-Shortcuts nun global verfügbar. Wo Tastenkürzel früher davon abhingen, welcher Programmbereich gerade den Fokus hatte, sind seit Version 5 viele Shortcuts so eingestellt, dass sie immer funktionieren. Das sollte typische Probleme lösen – wie etwa, dass nach einem Druck auf <kbd>M</kbd> kein Marker gesetzt wird, weil du zuletzt etwas im Soundboard angeklickt hattest.
 :::
 
 **Übersicht über sämtliche Shortcuts:** Im neuen Menüpunkt `Podcast`>`Help and Documentation` ist eine automatisch generierte, sortierte Liste sämtlicher aktiver Shortcuts und Maus-Modifier zu finden.
 
-**Aktualisierte Tastaturschablone:** Alle relevanten Shortcuts sind in [diesem praktischen PDF](http://url.ultraschall-podcast.de/keymap5) zu finden: 
+**Aktualisierte Tastaturschablone:** Alle relevanten Shortcuts sind in [diesem praktischen PDF](http://url.ultraschall-podcast.de/keymap5) zu finden:
 [![Keymap](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/keymap.jpg)](http://url.ultraschall-podcast.de/keymap5)
 
 **Aktuellen Projekttab schließen:** Auf dem Mac schließt du den Reiter des aktuell geöffneten Projekts nun standardmäßig mit <kbd>Cmd</kbd> + <kbd>W</kbd>.
@@ -76,6 +76,6 @@ Du erkennst, dass dein Shortcut richtig gesetzt ist, wenn in der Shortcut-Liste 
 ## Kontrollgeräte verwenden (Midi, OSC, etc.)
 
 :::info Info
-Du kannst alle Shortcuts auch per Midi und OSC ansteuern. Hinweise dazu sind im Kapitel [Sonstiges](https://pad.gwdg.de/sLRAFF9eS0OwYFuobe_wZw#) zu finden. 
+Du kannst alle Shortcuts auch per Midi und OSC ansteuern. Hinweise dazu sind im Kapitel [Sonstiges](https://pad.gwdg.de/sLRAFF9eS0OwYFuobe_wZw#) zu finden.
 :::
 -->
