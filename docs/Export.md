@@ -56,7 +56,7 @@ Du kannst auch direkt zum dritten Schritt springen, weil dort nochmal eine Über
 :::
 
 Auch hierzu gibt es eine Video-Erklärung von Ralf Stockmann:
-<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=3911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=3911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 ### 1. Marker Dashboard
@@ -170,6 +170,6 @@ Am häufigsten wird für Ultraschall-Projekte das **MP3**-Format verwendet. Der 
 
 ## Video
 <div class="youTubeContainer">
-  <iframe src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=VSqAM5ur4M4" title="YouTube video player" frameBorder="0" allow="accelerometer" allowFullScreen="" class="video">
+  <iframe src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=VSqAM5ur4M4" title="YouTube video player" frameBorder="0" allow="accelerometer" allowFullScreen="allowfullscreen" class="video">
   </iframe>
 </div>

@@ -63,7 +63,7 @@ Seit Version 5 von Ultraschall werden Spuren nicht nur automatisch in ihrer Höh
 
 **Das Ganze nochmal als Video-Erklärung:**
 
-<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=846" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=846" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 
@@ -96,10 +96,10 @@ Ultraschall versucht, alle Tracks und Aufnahme-Kanäle automatisch zuzuordnen. S
 
 **Das Ganze nochmal als Video-Erklärung:**
 
-<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
-<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=4970" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=4970" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 
@@ -125,7 +125,7 @@ Seit Version 5 gibt es in Ultraschall das sogenannte Magic Routing, das dir das 
 
 Falls du das Routing lieber manuell festlegst, kannst du das über die Einstellungen `View`>`Routing Matrix` oder mit <kbd>Alt</kbd> + <kbd>R</kbd> machen. Die [Routing-Matrix [27]](GUI-overview) zeigt dir eine Übersicht an, welche Personen sich gegenseitig hören. Die Zuordnung kannst du zwar hier manuell verändern, seit der Einführung des Magic Routing raten wir davon allerdings ab.
 
-<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=2917" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=2917" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 **Video:** _Ab Minute 49 wird in dem Video unten erklärt, wie das Routing in älteren Versionen angepasst wurde._

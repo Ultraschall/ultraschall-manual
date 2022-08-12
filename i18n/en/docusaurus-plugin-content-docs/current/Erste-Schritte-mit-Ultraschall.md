@@ -1,6 +1,10 @@
 ---
 id: firststeps
 title: First steps with ultraschall
+tags:
+  - keyboard
+  - shortcuts
+  - basic knowlegde
 proofreading:
     - Proofreading: 3/13/2022 @MirUnauffaellig, minor corrections and formatting on 3/27/2022.
     - Final correction:

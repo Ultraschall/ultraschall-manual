@@ -3,6 +3,8 @@ id: cut
 title: Cut
 tags:
   - cut
+  - non-destructive
+  - chaptermarks
 EDIT:
     - Proofreading: 5/4/2022 @MirUnauffaellig
     - Final edit:
@@ -208,5 +210,5 @@ If your fellow cast members are connected to you via StudioLink via a poor or un
 ## Video
 <div class="youTubeContainer">
 <iframe src="../youtube/?url=h3uv4P9td7g" title="YouTube video player"
-frameborder="0" allowfullscreen class="video"></iframe>
+frameborder="0" allowfullscreen="allowfullscreen"  class="video"></iframe>
 </div> 

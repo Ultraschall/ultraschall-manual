@@ -2,8 +2,9 @@
 id: postproduction
 title: Post-Production
 tags:
-  - x
-  - x
+  - produktion
+  - fx
+  - workflow
 proofreading:
     - Proofreading: 27.4.2022 or 4.5.2022 @MirUnauffaellig.
     - Final proofreading:
@@ -92,7 +93,7 @@ If the final result does not sound convincing, the signal-to-noise ratio of indi
 ![Ultraschall Dynamics Noisefloor](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/Ultrasschall_Dynamics.png) **Ultraschall Dynamics - Noisefloor**: _The noise floor determines the signal-to-noise ratio of the associated track._
 
 **The exact procedure of the AMP is shown in this video.
-<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=2877" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=2877" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 ## Post-Production for Advanced
@@ -204,5 +205,5 @@ However, this only works if you did not turn the gain control during the recordi
 ## Video
 <div class="youTubeContainer">
 <iframe src="../youtube/?url=pegvJr9As8U" title="YouTube video player"
-frameborder="0" allowfullscreen class="video"></iframe>
+frameborder="0" allowfullscreen="allowfullscreen"  class="video"></iframe>
 </div>
