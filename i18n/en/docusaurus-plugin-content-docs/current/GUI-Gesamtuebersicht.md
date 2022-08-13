@@ -1,6 +1,10 @@
 ---
 id: GUI-overview
 title: Overview of controls and areas
+tags:
+    - overview
+    - first steps
+    - gui
 proofreading:
     - Proofreading: 27.3.2022 @MirUnauffaellig
     - Final correction:

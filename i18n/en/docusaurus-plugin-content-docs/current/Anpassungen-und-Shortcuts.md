@@ -2,8 +2,9 @@
 id: adaption
 title: 'Adaptations, shortcuts and co.'
 tags:
-  - x
-  - x
+  - keyboard
+  - shortcuts
+  - basic knowlegde 
 proofreading:
     - Proofreading: 24.4.2022 @MirUnauffaellig.
     - Final Correction: 

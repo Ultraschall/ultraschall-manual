@@ -3,6 +3,14 @@ id: recording
 title: Recording
 tags:
   - recording
+  - beginner
+  - setup
+  - preparation 
+  - interface
+  - projekt
+  - tracks
+  - studio-link
+  - soundboard
 editing:
     - Proofreading: 24.4.2022 @MirUnauffaellig
     - Final correction:
@@ -52,9 +60,9 @@ Since version 5 of Ultraschall, tracks are not only automatically adjusted in he
 
 ![example-project](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/project-with-4-tracks.png?=650x) **Example project:** _This is what a project with two speakers, a StudioLink track and a soundboard looks like._
 
-**The whole thing again as a video explanation.
+**The whole thing again as a video explanation:**
 
-<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=846" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=846" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 
@@ -87,10 +95,10 @@ Ultraschall tries to assign all tracks and recording channels automatically. How
 
 **The same explaination in a video.**
 
-<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
-<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=4970" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=4970" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 
@@ -116,7 +124,7 @@ Since version 5, Ultraschall has a so-called magic routing that completely relie
 
 If you prefer to set the routing manually, you can do this via the settings `View`>`Routing Matrix` or with <kbd>Alt</kbd> + <kbd>R</kbd>. The [Routing Matrix [27]](GUI-overview) shows you an overview of which people can hear each other. You can change the assignment manually here, but since the introduction of Magic Routing we do not recommend it.
 
-<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=2917" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="">
+<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=2917" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 **Video:** _From minute 49 onwards, the video below explains how routing was adjusted in older versions._
@@ -210,5 +218,5 @@ The files are always displayed here in alphabetical order. If you prefer to sort
 ## Video
 <div class="youTubeContainer">
 <iframe src="../youtube/?url=JzrngeaXQdE" title="YouTube video player"
-frameborder="0" allowfullscreen class="video"></iframe>
+frameborder="0" allowfullscreen="allowfullscreen" class="video"></iframe>
 </div>
