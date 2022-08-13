@@ -65,8 +65,6 @@ Since version 5 of Ultraschall, tracks are not only automatically adjusted in he
 <iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=846" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
-
-
 ## Select inputs
 
 ### Select Audio Device
@@ -91,7 +89,7 @@ All tracks that you have created in the main window of Ultraschall can also be f
 
 Ultraschall tries to assign all tracks and recording channels automatically. However, if you notice that the voices do not land correctly on the tracks named in step "[Create tracks](#track-create), you can make the assignments manually in the [Mixer [24]](GUI-overview) via the corresponding 'Input' drop-down menus. It is best to get into the habit of briefly checking all local microphone tracks before recording - **the StudioLink and Soundboard tracks are always automatically assigned correctly**, they do not need a physical input and remain set to `Input: None`.
 
-![track-assignment](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-assignment.png?=450x) **Assign inputs:** _Use the drop-down menu to select the input.
+![track-assignment](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-assignment.png?=450x) **Assign inputs:** _Use the drop-down menu to select the input._
 
 **The same explaination in a video.**
 
@@ -142,11 +140,11 @@ Soundcheck helps you avoid the most common mistakes when podcasting with Ultrasc
 - Echo and distortion prevention:** If your interface does not have direct monitoring, you should select the correct block size. <!-- @TODO: correct name? --> A block size of 128 samples leads to latency and echoes, a block size of 32 samples leads to instability. We recommend a block size of 512 samples for direct monitoring and 64 samples without direct monitoring.
 - Input Wizard:** Checks if you are assigning an input multiple times or if you are using an interchangeable input on a Zoom. <!-- @TODO: more understandable name? -->
 
-![soundcheck](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundcheck.png) **Soundcheck:** This is what a sample soundcheck looks like in an unsecured project.
+![soundcheck](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundcheck.png) **Soundcheck:** _This is what a sample soundcheck looks like in an unsecured project._
 
 You can either ignore the warning messages on the left with the 'Ignore' button or correct the problem with the button on the right. In the middle, a text field explains the problem in more detail. If you close the sound check window without having fixed the problem, all warnings are automatically ignored. You can also press <kbd>Esc</kbd> to close it. In the dashboard (bottom, centre) you can see the status of your sound check at any time - a click on this sound check bar opens the sound check overview again.
 
-![Soundcheck Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Dashboard.png) **Dashboard:** The dashboard with any warnings can be found in the soundcheck bar at the bottom of the window.
+![Soundcheck Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Dashboard.png) **Dashboard:** _The dashboard with any warnings can be found in the soundcheck bar at the bottom of the window._
 
 <!-- @todo: what happens to the videos? https://www.youtube.com/watch?v=vdLpynu1ixE&t=4771s (US 5) https://www.youtube.com/watch?v=ND4AG43wSPQ&t=433s (US 4) -->
 
@@ -160,7 +158,7 @@ You insert a StudioLink track into your project via the menu 'Podcast' -> 'Inser
 
 <!-- @TODO: There must be another key combination(?) -->
 
- ![insert-new-studiolink-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_insert_track.png) **Screenshot:** *This is how you insert a StudioLink track via the menu.
+ ![insert-new-studiolink-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/studiolink_insert_track.png) **Screenshot:** *This is how you insert a StudioLink track via the menu.*
 
 :::danger Attention!
 The StudioLink tracks appear in Ultraschall as normal tracks in the [Track Area [23]](GUI-overview#area-workspaceew) or in the [Mixer Area [24]](GUI-overview#area-workspace). At the same time, however, a browser window opens in your standard browser, through which the actual connection is established and later also terminated. If you are using Windows, you must not close the console window that also appears, otherwise you will not be able to establish a connection. <!-- @TODO: Check with Sebastian how to keep the StudioLink manual up to date. ! -->
@@ -177,7 +175,7 @@ The browser window opens separately. (Please follow the instructions on [StudioL
 ### Insert soundboard track
 Ultraschall comes with its own soundboard, which you can use to insert music and sound effects during the recording, for example your intro, dividers or other audio snippets. You insert a soundboard track via the menu 'Podcast' -> 'Insert StudioLink and Soundboard tracks' -> 'Insert Ultraschall soundboard track'. Alternatively, you can right-click in the [Tracks section [23]](GUI-overview) and select the appropriate option.
 
-![soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-soundboard-track.png) **Insert soundboard - option 1:** Use the podcast menu to insert a soundboard track.
+![soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-soundboard-track.png) **Insert soundboard - option 1:** _Use the podcast menu to insert a soundboard track._
 
 ![alternative-soundboard-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/add-soundboard-2.png) **Insert soundboard - option 2:** _You can also insert a soundboard track by right-clicking in the track area._
 
