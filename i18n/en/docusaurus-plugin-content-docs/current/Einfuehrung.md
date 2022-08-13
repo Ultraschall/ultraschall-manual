@@ -24,16 +24,17 @@ We wish you every success with your podcast production and great sound at all ti
 Ultraschall is *the* podcast tool among the digital audio workstations ([DAW](glossary)) - a DAW by podcasters for podcasters. As a plug-in, Ultraschall extends the DAW [REAPER](https://www.reaper.fm/), which is intended for music production, and optimises it as much as possible for high-end podcasting. This includes the design, the user interface, but also a lot of new functions and tools. With each release, more useful tools are added to make podcasting even easier and more professional for you.
 
 ![DAWs Ultraschall 5.001.png](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/DAWs-Ultraschall-5.001.png)
-**Market Overview**: *Every audio software or DAW has a different focus - and is therefore sometimes more, sometimes less suitable for the needs and budgets of us podcasters.* 
+**Market Overview**: *Every audio software or DAW has a different focus - and is therefore sometimes more, sometimes less suitable for the needs and budgets of us podcasters.*
 
-**Translation:** 
-| German | English |
-| ----------- | ----------- |
-|Podcast-Aufnahmesoftware | Podcast Recording Software |
-Viele Podcastfuntionen |  Many Podcast features, 
-wenig Podcastfunktionen |  Few Podcast features, 
-kompliziert zu benutzen |  dificult to use, 
-einfach zu benutzen |  easy to use
+**Translation:**
+
+| German                    | English                     |
+| ------------------------- | --------------------------- |
+| Podcast-Aufnahmesoftware  | Podcast Recording Software  |
+| Viele Podcastfuntionen    |  Many Podcast features      |
+| wenig Podcastfunktionen   |  Few Podcast features       |
+| kompliziert zu benutzen   |  dificult to use            |
+| einfach zu benutzen       |  easy to use                |
 
 ## Why Ultraschall?
 
