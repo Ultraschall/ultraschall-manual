@@ -56,7 +56,7 @@ You can also jump directly to the third step, because there you will find an ove
 :::
 
 There is also a video explanation by Ralf Stockmann:
-<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=3911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=3911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 ### 1. marker dashboard
@@ -170,6 +170,6 @@ Export formats](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual
 
 ## Video
 <div class="youTubeContainer">
-<iframe src="../youtube/?url=qd2su0OB7YY" title="YouTube video player"
+<iframe src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=qd2su0OB7YY" title="YouTube video player"
 frameborder="0" allowfullscreen="allowfullscreen" class="video"></iframe>
-</div> 
+</div>

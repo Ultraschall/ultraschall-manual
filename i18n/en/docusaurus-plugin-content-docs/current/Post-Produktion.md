@@ -37,7 +37,7 @@ Ultraschall gives you a free hand and all the options for manual post-production
 In addition, Ultraschall offers you a useful [Pre-selection of effects](#Pre-selected%C3%A4effects-and-plug-ins) for each track; you will find them in the bottom right corner of the [Filter section [26]](GUI-overview) after you press the `FX` button in the [Mixer section [24]](GUI-overview) on the desired track:
 
 * **DeNoise** (ReaFir noise filter for reducing noise or hum by teaching interference profiles).
-  
+
 **DeEsser** (multiband compressor to reduce sibilants in the voice).
 
 * **ReaEQ** (multi-band equaliser with various presets - for example, also "telephone sound")
@@ -93,7 +93,7 @@ If the final result does not sound convincing, the signal-to-noise ratio of indi
 ![Ultraschall Dynamics Noisefloor](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/Ultrasschall_Dynamics.png) **Ultraschall Dynamics - Noisefloor**: _The noise floor determines the signal-to-noise ratio of the associated track._
 
 **The exact procedure of the AMP is shown in this video.
-<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=2877" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=2877" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 ## Post-Production for Advanced
@@ -204,6 +204,6 @@ However, this only works if you did not turn the gain control during the recordi
 
 ## Video
 <div class="youTubeContainer">
-<iframe src="../youtube/?url=pegvJr9As8U" title="YouTube video player"
+<iframe src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=pegvJr9As8U" title="YouTube video player"
 frameborder="0" allowfullscreen="allowfullscreen"  class="video"></iframe>
 </div>

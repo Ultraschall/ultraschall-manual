@@ -5,7 +5,7 @@ tags:
   - recording
   - beginner
   - setup
-  - preparation 
+  - preparation
   - interface
   - projekt
   - tracks
@@ -48,13 +48,13 @@ In order to conveniently edit all speakers, music and, for example, sound effect
 - **StudioLink Track** - for example, for an interview guest that you connect via the Internet using StudioLink (see also below "[Recording with StudioLink](#record-with-studiolink)")
 - Ultraschall Soundboard Track** - for recordings that you play back via the soundboard during the recording (see also below "[Use the soundboard](#use-the-soundboard)").
 
-Regular tracks, to which you assign individual speakers or tracks of your multi-track recorder (such as Zoom H6) in the next step, are created either by double-clicking in the [track area [23]](GUI-overview) area, with the keyboard command <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>T</kbd> or with a right-click in the [track area [23]](GUI-overview) and then a click on `Insert new track'.
+Regular tracks, to which you assign individual speakers or tracks of your multi-track recorder (such as Zoom H6) in the next step, are created either by double-clicking in the [track area [23]](GUI-overview) area, with the keyboard command <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> + <kbd>T</kbd> or with a right-click in the [track area [23]](GUI-overview) and then a click on `Insert new track`
 
 ![insert-new-track](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/insert-new-track.jpg) **Insert new track:** _Inserting new tracks enables the recording of the individual audio tracks._
 
 With a click in the still empty, but already coloured area, it is best to directly assign a name to your track - this way you will not lose the overview even in larger projects.
 
-![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-renaming.png?=650x) **Name track:** _Set meaningful names(SINNVOLLER NAME) for your tracks, this will make it easier for you to assign them later.
+![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-renaming.png?=650x) **Name track:** _Set meaningful names(SINNVOLLER NAME) for your tracks, this will make it easier for you to assign them later._
 
 Since version 5 of Ultraschall, tracks are not only automatically adjusted in height to the size of the window, but also automatically coloured for clarity. If you right-click on the track (or use the keyboard shortcut <kbd>Alt</kbd> + <kbd>C</kbd> with the track selected), you can change the colour in the colour picker afterwards.
 
@@ -62,7 +62,7 @@ Since version 5 of Ultraschall, tracks are not only automatically adjusted in he
 
 **The whole thing again as a video explanation:**
 
-<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=846" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=846" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 
@@ -95,10 +95,10 @@ Ultraschall tries to assign all tracks and recording channels automatically. How
 
 **The same explaination in a video.**
 
-<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
-<iframe width="560" height="315" src="../youtube/?url=vdLpynu1ixE?start=4970" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=4970" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 
@@ -124,7 +124,7 @@ Since version 5, Ultraschall has a so-called magic routing that completely relie
 
 If you prefer to set the routing manually, you can do this via the settings `View`>`Routing Matrix` or with <kbd>Alt</kbd> + <kbd>R</kbd>. The [Routing Matrix [27]](GUI-overview) shows you an overview of which people can hear each other. You can change the assignment manually here, but since the introduction of Magic Routing we do not recommend it.
 
-<iframe width="560" height="315" src="../youtube/?url=p5kYH-YheN0?start=2917" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
+<iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=2917" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
 **Video:** _From minute 49 onwards, the video below explains how routing was adjusted in older versions._
@@ -217,6 +217,6 @@ The files are always displayed here in alphabetical order. If you prefer to sort
 
 ## Video
 <div class="youTubeContainer">
-<iframe src="../youtube/?url=JzrngeaXQdE" title="YouTube video player"
+<iframe src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=JzrngeaXQdE" title="YouTube video player"
 frameborder="0" allowfullscreen="allowfullscreen" class="video"></iframe>
 </div>

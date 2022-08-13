@@ -209,6 +209,6 @@ If your fellow cast members are connected to you via StudioLink via a poor or un
 
 ## Video
 <div class="youTubeContainer">
-<iframe src="../youtube/?url=h3uv4P9td7g" title="YouTube video player"
+<iframe src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=h3uv4P9td7g" title="YouTube video player"
 frameborder="0" allowfullscreen="allowfullscreen"  class="video"></iframe>
-</div> 
+</div>
