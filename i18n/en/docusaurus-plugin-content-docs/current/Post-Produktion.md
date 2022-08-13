@@ -92,7 +92,7 @@ If the final result does not sound convincing, the signal-to-noise ratio of indi
 
 ![Ultraschall Dynamics Noisefloor](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/Ultrasschall_Dynamics.png) **Ultraschall Dynamics - Noisefloor**: _The noise floor determines the signal-to-noise ratio of the associated track._
 
-**The exact procedure of the AMP is shown in this video.
+**The exact procedure of the AMP is shown in this video.**
 <iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=2877" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
@@ -170,7 +170,7 @@ The `Ultraschall Dynamics 2` effect allows the average volume of all audio track
 
 For all newly created tracks, the effect should already be set up as described above, but not yet activated. In this case, you simply add it manually: Select the 'Add' button at the bottom of the effect window. The window that appears lists all the effects available in REAPER/Ultraschall. On the left, we have marked some effects that are useful for podcasts as 'favourites'. Click on this menu item, select the `JS: Ultraschall Dynamics` effect on the right and confirm with `OK` - the effect (already activated) lands on the selected track.
 
-**Here is a video explanation
+**Here is a video explanation**
 ![Activate Effect](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_002.gif) Ultraschall Dynamics:** _This is how you activate an effect on an audio track._
 
 #### Settings for normalisation

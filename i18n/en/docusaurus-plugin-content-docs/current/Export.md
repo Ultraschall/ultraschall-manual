@@ -61,7 +61,7 @@ There is also a video explanation by Ralf Stockmann:
 
 ### 1. marker dashboard
 
-![Marker Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-dashboard.png) **Marker Dashboard:** *This is how the marker dashboard can look in a finished project.
+![Marker Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-dashboard.png) **Marker Dashboard:** *This is how the marker dashboard can look in a finished project.*
 
 The marker dashboard gives you a good overview of all chapter markers already set[[28]](GUI-overview) - and it helps you to enrich them with further information such as a URL or a chapter marker image (which is not shown by all, but by most podcatchers when listeners reach the spot during playback).
 
@@ -71,7 +71,7 @@ Chapter markers improve the listening experience, but they are completely option
 
 If the status indicator is green for all set markers, everything is OK and you can continue with the next step. If the display is red, a click on the question mark to the right of the status will help you with an explanation of the missing or incorrect information. Red marked entries are usually _not_ exported, but they cause the check in the [3rd Export Wizard to fail](#3-Export Wizard).
 
-![Marker missing](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-missing.png) **Missing marker name:** *Markers always need a name.
+![Marker missing](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-missing.png) **Missing marker name:** *Markers always need a name.*
 
 :::danger Attention!
 Not all podcatchers handle chapter markers equally (well). For maximum compatibility, we recommend always setting a marker at the beginning of the recording - i.e. at the position 00:00:00.
@@ -84,14 +84,14 @@ Take a breath before you open the render assistant[[20]](GUI-overview), because 
 
 If you press the Render icon[[20]](GUI-overview) in the lower left corner of Ultraschall (or select the item 'Start Export Assistant' via the menu 'Podcast'>'Export'), Ultraschall checks whether all existing tracks will also be audible. If you have muted individual tracks intentionally or unintentionally, you will receive the following warning on the way to the Render Assistant:
 
-![Warning-muted-tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-warning.png) **Warning muted tracks:** *Ultraschall warns you if you want to export a project in which one or more tracks are muted.
+![Warning-muted-tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-warning.png) **Warning muted tracks:** *Ultraschall warns you if you want to export a project in which one or more tracks are muted.*
 
 If you click 'No' here, you end up back in the workspace where you can check again which tracks should be included in the export.
 
 If you click on 'Yes' instead, the wizard opens - in this case, the muted tracks will *not* be included in the export and will therefore *not* be heard later.
 
 **The most important elements of the Render Assistant:**
-![export-render-to-file](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-render-assistant.png) **The Render Assistant:** *The Render Assistant gives you a lot of freedom to render your project with individual settings.
+![export-render-to-file](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-render-assistant.png) **The Render Assistant:** *The Render Assistant gives you a lot of freedom to render your project with individual settings.*
 <!--@TODO: Extend screenshot with numbers/legend -->
 
 **Source:** Here you define which tracks the export should contain. The default value `Master mix` combines all audible tracks into one file. Stems (selected tracks) ensures that each track is exported as a separate file. **Caution: Only the tracks that are selected will be exported - you can recognise selected tracks in the track area by the slightly lighter grey. You can select and deselect tracks in the [track area [23]](GUI-overview) with the Render Wizard open by holding down the <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> key and clicking on them. With `Master mix + Stems` you get both the merged file and the individual (selected) tracks after the export.
@@ -114,7 +114,7 @@ If you click on 'Yes' instead, the wizard opens - in this case, the muted tracks
 
 The export assistant[[21]](GUI-overview) helps you to complete your project now. A traffic light system shows you what is still missing from your project. If metadata is completely missing, the traffic light shows red and to the right it says 'Missing'; if metadata is available but incomplete, the traffic light shows yellow and 'Incomplete' or 'Unknown'. If all traffic lights are green, you have done everything right.
 
-![export-icons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/3-export-assistant.png) **Export Wizard**: The wizard helps you to complete your project.
+![export-icons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/3-export-assistant.png) **Export Wizard**: _The wizard helps you to complete your project._
 
 #### 1. Export MP3
 
@@ -129,7 +129,7 @@ This traffic light is probably already green if you have followed the instructio
 Metadata is optional, but nevertheless important for the further processing and publication of your podcast. If all metadata is set correctly, the MP3 can also be read out correctly independently of your RSS feed. Thus, for long-term archiving, it makes sense to write this metadata directly into the file. The metadata is stored there in [ID3](https://de.wikipedia.org/wiki/ID3-Tag) format. The Ultraschall MP3 metadata dialogue [21](GUI-overview) shows you only the tags relevant for podcasts. For the podcast category, for example, you can use this [list](https://github.com/Ultraschall/ultraschall-manual/blob/Export/assets/Apple-Podcast-Kategorien-Ids.csv) as a guide - otherwise you have a free hand. Only the characters `(`,`)` , `'` and `"` should be avoided.
 
 <!-- @todo: Improve typo in screenshot?-->
-![Edit MP3 Metadata](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/3-edit-mp3-metadata.png) **Edit MP3 Metadata:** *Fill in the metadata for your podcast here.
+![Edit MP3 Metadata](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/3-edit-mp3-metadata.png) **Edit MP3 Metadata:** *Fill in the metadata for your podcast here.*
 
 #### 4th Podcast Episode Image
 
@@ -166,7 +166,7 @@ Ultraschall (Reaper) is compatible with many audio formats. However, only a smal
 
 The **MP3** format is most commonly used for Ultraschall projects. The Ultraschall workflow allows to save chapter marks and chapter images, among other things, in **MP3** files. Other formats do not support these functions or do not support them sufficiently. As shown in the picture, the use of MP3 makes sense at a bit rate of 128 kBps, for example.
 
-Export formats](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-formats.png) **Export formats:** *With Ultraschall you can export your podcast episodes in various formats. The default is MP3.
+Export formats](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-formats.png) **Export formats:** *With Ultraschall you can export your podcast episodes in various formats. The default is MP3.*
 
 ## Video
 <div class="youTubeContainer">

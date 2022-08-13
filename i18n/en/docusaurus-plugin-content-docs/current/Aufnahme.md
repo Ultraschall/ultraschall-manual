@@ -73,7 +73,7 @@ Since version 5 of Ultraschall, tracks are not only automatically adjusted in he
 
 The audio device (typically a microphone or an audio interface) with which the recording is to be made is selected via the menu `REAPER`>`Preferences` (or <kbd>Cmd</kbd> + <kbd>,</kbd>). There you will find `Audio`>`Device` the field `Audio Device`. In this example it is a Zoom H6.
 
-Select audio device](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Audiodevice_auswaehlen.jpg?=650x) **Select audio device:** _In the settings you can select your audio device._
+![Select audio device](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/Audiodevice_auswaehlen.jpg?=650x) **Select audio device:** _In the settings you can select your audio device._
 
 An audio device can have several inputs (but it does not have to), which can be assigned to different tracks. If we stick to our example with a Zoom H6, we have four (plus two) inputs available here. You can record with four - or with a corresponding extension with six - microphones at the same time.
 
@@ -152,7 +152,7 @@ You can either ignore the warning messages on the left with the 'Ignore' button 
 
 ## Recording with Studiolink
 
-[StudioLink](https://studio-link.de) is a stand-alone software that allows you to remotely join another Ultraschall recording or integrate other people into your recording via the internet.
+![StudioLink](https://studio-link.de) is a stand-alone software that allows you to remotely join another Ultraschall recording or integrate other people into your recording via the internet.
 
 StudioLink is available in two versions: One is the *Standalone version* (for your guests) and the other is a *Plugin* (for you to record in Ultraschall). The StudioLink plug-in is pre-installed in Ultraschall. Updates of StudioLink always come together with Ultraschall updates. <!-- @TODO: delivered? -->You can find detailed documentation on StudioLink itself here: [StudioLink doc](https://doku.studio-link.de/).
 
