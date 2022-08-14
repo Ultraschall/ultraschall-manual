@@ -54,7 +54,9 @@ Regular tracks, to which you assign individual speakers or tracks of your multi-
 
 With a click in the still empty, but already coloured area, it is best to directly assign a name to your track - this way you will not lose the overview even in larger projects.
 
-![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-renaming.png?=650x) **Name track:** _Set meaningful names(SINNVOLLER NAME) for your tracks, this will make it easier for you to assign them later._
+![track-renaming](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-renaming.png?=650x) 
+
+**Name track:** _Set meaningful names(SINNVOLLER NAME) for your tracks, this will make it easier for you to assign them later._
 
 Since version 5 of Ultraschall, tracks are not only automatically adjusted in height to the size of the window, but also automatically coloured for clarity. If you right-click on the track (or use the keyboard shortcut <kbd>Alt</kbd> + <kbd>C</kbd> with the track selected), you can change the colour in the colour picker afterwards.
 
@@ -64,6 +66,9 @@ Since version 5 of Ultraschall, tracks are not only automatically adjusted in he
 
 <iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=846" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
+
+**Remark:**
+This video is in German. Please do not forget to turn on auto-generated subtitles.
 
 ## Select inputs
 
@@ -89,17 +94,23 @@ All tracks that you have created in the main window of Ultraschall can also be f
 
 Ultraschall tries to assign all tracks and recording channels automatically. However, if you notice that the voices do not land correctly on the tracks named in step "[Create tracks](#track-create), you can make the assignments manually in the [Mixer [24]](GUI-overview) via the corresponding 'Input' drop-down menus. It is best to get into the habit of briefly checking all local microphone tracks before recording - **the StudioLink and Soundboard tracks are always automatically assigned correctly**, they do not need a physical input and remain set to `Input: None`.
 
-![track-assignment](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-assignment.png?=450x) **Assign inputs:** _Use the drop-down menu to select the input._
+![track-assignment](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/track-assignment.png?=450x) 
+
+**Assign inputs:** _Use the drop-down menu to select the input._
 
 **The same explaination in a video.**
 
 <iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
+**Remark:**
+This video is in German. Please do not forget to turn on auto-generated subtitles.
+
 <iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=4970" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
-
+**Remark:**
+This video is in German. Please do not forget to turn on auto-generated subtitles.
 ## Routing
 
 The routing serves to ensure that the respective participants can hear each other - and also that any soundboard that may be present can be heard by all (also via an internet connection using StudioLink).
@@ -126,6 +137,10 @@ If you prefer to set the routing manually, you can do this via the settings `Vie
 </iframe>
 
 **Video:** _From minute 49 onwards, the video below explains how routing was adjusted in older versions._
+
+**Remark:**
+This video is in German. Please do not forget to turn on auto-generated subtitles.
+
 
 ## Soundcheck
 
