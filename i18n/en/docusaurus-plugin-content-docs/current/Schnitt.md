@@ -172,12 +172,12 @@ The behaviour of the individual items when they are moved is determined by the [
 
 - **<kbd>Alt</kbd> (Mac/Windows/Linux) Hold down and move the item**: You move only the selected item(s).
 
-![Ripple: Alt](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-alt.mp4)
+![Ripple: Alt](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-alt.gif)
 <!-- todo: videos missing -->
 
 - Press and hold **<kbd>Cmd</kbd> (Mac) or <kbd>Ctrl</kbd> (Windows/Linux) and move the item**: You move the selected item(s) and ALL items behind it.
 
-![Ripple: Cmd](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-cmd.mp4)
+![Ripple: Cmd](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/ripple-key-cmd.gif)
 <!-- todo: videos missing -->
 
 ## Insert audio content into the project afterwards

@@ -59,6 +59,8 @@ There is also a video explanation by Ralf Stockmann:
 <iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=3911" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
+**Remark:**
+This video is in German. Please do not forget to turn on auto-generated subtitles.
 ### 1. marker dashboard
 
 ![Marker Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-dashboard.png) **Marker Dashboard:** *This is how the marker dashboard can look in a finished project.*

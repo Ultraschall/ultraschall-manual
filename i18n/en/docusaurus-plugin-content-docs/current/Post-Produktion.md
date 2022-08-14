@@ -96,6 +96,9 @@ If the final result does not sound convincing, the signal-to-noise ratio of indi
 <iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=vdLpynu1ixE?start=2877" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
+**Remark:**
+This video is in German. Please do not forget to turn on auto-generated subtitles.
+
 ## Post-Production for Advanced
 
 <!-- todo: there is still a lack of content here - in its current form it is 1 to 1 what is already written above.
