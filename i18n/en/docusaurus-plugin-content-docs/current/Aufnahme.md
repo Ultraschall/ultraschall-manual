@@ -136,11 +136,11 @@ If you prefer to set the routing manually, you can do this via the settings `Vie
 <iframe width="560" height="315" src="https://ultraschall.github.io/ultraschall-manual/youtube/?url=p5kYH-YheN0?start=2917" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
 </iframe>
 
-**Video:** _From minute 49 onwards, the video below explains how routing was adjusted in older versions.
+**Video:** _From minute 49 onwards, the video below explains how routing was adjusted in older versions._
 
 **Remark:**
 This video is in German. Please do not forget to turn on auto-generated subtitles.
-_
+
 
 ## Soundcheck
 
