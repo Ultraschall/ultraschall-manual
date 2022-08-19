@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'Das Ultraschall-Handbuch',
-  tagline: 'High-End Podcasting für alle',
+  title: 'Ultraschall Documentation',
+  tagline: 'High-End Podcasting',
   url: 'https://Ultraschall.github.io',
   baseUrl: '/ultraschall-manual/',
   onBrokenLinks: 'throw',
