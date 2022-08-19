@@ -22,5 +22,13 @@
   "sidebar.tutorialSidebar.category.Grundfunktionen": {
     "message": "Basic functions",
     "description": "The label for category Grundfunktionen in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.Über": {
+    "message": "About",
+    "description": "The label for the doc item Über in sidebar tutorialSidebar, linking to the doc about"
+  },
+  "sidebar.tutorialSidebar.doc.Mitwirkende": {
+    "message": "Contributors",
+    "description": "The label for the doc item Mitwirkende in sidebar tutorialSidebar, linking to the doc partcipants"
   }
 }

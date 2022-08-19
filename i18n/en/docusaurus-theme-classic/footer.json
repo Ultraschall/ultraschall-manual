@@ -46,5 +46,17 @@
   "link.item.label.Datenschutzerklärung": {
     "message": "Privacy policy",
     "description": "The label of footer link with label=Datenschutzerklärung linking to https://ultraschall.fm/datenschutzerklaerung/"
+  },
+  "link.item.label.Mastodon": {
+    "message": "Mastodon",
+    "description": "The label of footer link with label=Mastodon linking to https://chaos.social/@ultraschall"
+  },
+  "link.item.label.Danke sagen": {
+    "message": "Say thank you",
+    "description": "The label of footer link with label=Danke sagen linking to https://ultraschall.fm/danke/"
+  },
+  "link.item.label.Feedback geben": {
+    "message": "Give Feedback",
+    "description": "The label of footer link with label=Feedback geben linking to https://pad.gwdg.de/hJcF_2wfSm2uO46neH504w#"
   }
 }
