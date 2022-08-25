@@ -12,6 +12,8 @@ lektorat:
 
 <!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
 
+![customizing-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/0-banner-custom.png)
+
 ## Einleitung
 
 Um deine Aufnahme- und Schnittarbeit zu beschleunigen, gibt es in Ultraschall zahlreiche Tastenkombinationen, die dir die Arbeit vereinfachen. In diesem Kapitel lernst du, wie du die bereits mitgelieferten Shortcuts benutzt – und wie du beliebige eigene Tastenkombinationen einrichtest.
