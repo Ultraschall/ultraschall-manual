@@ -13,6 +13,8 @@ lektorat:
 <!-- Tags für Docusaurus -->
 <!-- @todo: eventuell in zwei Kapitel aufteilen -->
 
+![mastering-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/o-banner-mastering.png)
+
 ## Einleitung
 
 Dein Podcast ist aufgenommen und geschnitten? Dann ist jetzt Zeit für die Post-Produktion. Das Ziel in diesem Kapitel ist es, den Klang deines Podcasts zu verbessern – selbst wenn er vielleicht ohnehin schon gut klingt. Hier lernst du, welche Effekte Ultraschall mitbringt und wie du diese einsetzt.
