@@ -12,6 +12,8 @@ proofreading:
 
 <!-- @todo: Start gif loops only when needed (change gif) -->
 
+![customizing-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/0-banner-custom.png)
+
 ## Introduction
 
 To speed up your recording and editing work, Ultraschall provides numerous shortcuts that make your work easier. In this chapter you will learn how to use the shortcuts already provided - and how to set up your own shortcuts.
