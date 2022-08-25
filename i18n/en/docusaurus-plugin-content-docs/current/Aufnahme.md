@@ -20,6 +20,8 @@ editing:
 <!-- @todo: Adjust screenshot size -->
 <!-- @todo: decide what to do with it. https://www.youtube.com/watch?v=p5kYH-YheN0 -->
 
+![recording-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/0-banner-recording.png)
+
 ## Introduction
 
 Now the actual recording can begin. In this chapter you will learn how to create tracks, select your audio sources and then start recording.
