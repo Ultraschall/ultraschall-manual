@@ -13,6 +13,8 @@ EDIT:
 <!-- @todo: The numbers used in the chapter "Overview of controls and areas" should be used in all documents -->
 <!-- @todo: Start gif loops only when needed (change gif) -->
 
+![edit-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/0-banner-edit.png)
+
 ## Introduction
 
 Once you have finished recording, the next step is usually to edit your podcast episode. In this chapter you will learn how to remove unwanted parts from your recording and how to add chapter marks to your podcast.
