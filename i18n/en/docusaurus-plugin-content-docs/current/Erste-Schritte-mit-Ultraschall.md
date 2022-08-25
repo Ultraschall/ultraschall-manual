@@ -12,6 +12,8 @@ proofreading:
 
 <!-- @todo: Add captions -->
 
+![schritte-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Erste-Schritte-mit-Ultraschall/0-banner-firststeps.png)
+
 ## Overview
 
 Now you can really start podcasting!
