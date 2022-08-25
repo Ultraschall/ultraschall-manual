@@ -13,6 +13,8 @@ proofreading:
 
 <!-- @todo: Add captions -->
 
+![welcome-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Allgemein/0-banner-frontpage.png)
+
 Glad you found Ultraschall! From now on, your podcast production will be easier and better. The manual you're reading right now was created by the community with support from the Ultraschall team - and we're constantly working to expand and improve it. It's meant for looking up individual functions or learning new features.
 
 Are you missing an explanation somewhere, is something unclear or have you discovered an error? Feel free to contact us, we are grateful for feedback and are always looking for ambitious ultraschall users who want to continue writing this manual together with us.
