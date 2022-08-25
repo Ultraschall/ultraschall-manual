@@ -13,6 +13,8 @@ proofreading:
 <!-- Tags for Docusaurus -->
 <!-- @todo: maybe split into two chapters -->
 
+![mastering-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/o-banner-mastering.png)
+
 ## Introduction
 
 Your podcast is recorded and edited? Then it's time for post-production. The aim of this chapter is to improve the sound of your podcast - even if it already sounds good. Here you will learn about the effects of ultraschall and how to use them.
