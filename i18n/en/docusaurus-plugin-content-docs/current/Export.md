@@ -22,8 +22,6 @@ https://www.youtube.com/watch?v=vdLpynu1ixE&t=4104s
 
 @todo: decide whether we still write this or not?
 
-![export-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/0-banner-export.png)
-
 ## Export chapter marks, further processing
 
 ## Meta data (id3tags)
@@ -33,6 +31,7 @@ why?
 ## Render chapters as individual files
 https://sendegate.de/t/faq-kapitel-als-einzelne-dateien-rendern/4824
 -->
+![export-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/0-banner-export.png)
 
 ## Introduction
 
