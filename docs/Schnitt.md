@@ -13,6 +13,8 @@ lektorat:
 <!-- @todo: Die Nummern die im Kapitel "Übersicht über die Bedienelemente und Bereiche" verwedet werden sollten sich duch alle Dokumente ziehen -->
 <!-- @todo: Gif loops nur bei Bedarf starten (Gif verändern) -->
 
+![edit-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Schnitt/0-banner-edit.png)
+
 ## Einleitung
 
 Wenn die Aufnahme beendet ist, steht als Nächstes in der Regel der Schnitt deiner Podcast-Episode an. In diesem Kapitel lernst du, wie aus deiner Aufnahme ungewollte Stellen entfernst und deinen Podcast mit Kapitelmarken versiehst.
