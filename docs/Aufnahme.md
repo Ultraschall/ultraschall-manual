@@ -21,6 +21,8 @@ lektorat:
 <!-- @todo: Screenshotgröße anpassen -->
 <!-- @todo: entscheiden was damit passiert. https://www.youtube.com/watch?v=p5kYH-YheN0 -->
 
+![recording-banner](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/0-banner-recording.png)
+
 ## Einleitung
 
 Jetzt kann die eigentliche Aufnahme beginnen. In diesem Kapitel lernst du, wie du Spuren anlegst, deine Audioquellen wählst und dann mit der eigentlichen Aufnahme beginnst.
