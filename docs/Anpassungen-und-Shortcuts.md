@@ -1,6 +1,6 @@
 ---
 id: adaption
-title: 'Anpassungen, Shortcuts und co.'
+title: 'Anpassungen, Shortcuts, Settings und co.'
 tags:
   - keyboard
   - shortcuts
@@ -16,9 +16,9 @@ lektorat:
 
 ## Einleitung
 
-Um deine Aufnahme- und Schnittarbeit zu beschleunigen, gibt es in Ultraschall zahlreiche Tastenkombinationen, die dir die Arbeit vereinfachen. In diesem Kapitel lernst du, wie du die bereits mitgelieferten Shortcuts benutzt – und wie du beliebige eigene Tastenkombinationen einrichtest.
+Um deine Aufnahme- und Schnittarbeit zu beschleunigen, gibt es in Ultraschall zahlreiche Tastenkombinationen, die dir die Arbeit vereinfachen. In diesem Kapitel lernst du, wie du die bereits mitgelieferten Shortcuts benutzt – und wie du beliebige eigene Tastenkombinationen einrichtest. Ferner wird gezeigt, wie man einige Eigenschaften von Ultraschall an die eigenen Bedürfnisse anpassen kann.
 
-## Ultraschall Voreinstellungen
+## Ultraschall Shortcuts
 
 :::info Info
 **Anmerkung für Ultraschall-Veteranen:** Anders als in den vergangenen Versionen sind etliche Tastatur-Shortcuts nun global verfügbar. Wo Tastenkürzel früher davon abhingen, welcher Programmbereich gerade den Fokus hatte, sind seit Version 5 viele Shortcuts so eingestellt, dass sie immer funktionieren. Das sollte typische Probleme lösen – wie etwa, dass nach einem Druck auf <kbd>M</kbd> kein Marker gesetzt wird, weil du zuletzt etwas im Soundboard angeklickt hattest.
@@ -73,6 +73,29 @@ In diesem Beispiel ändern wir den eben gesetzten Shortcut <kbd>Alt</kbd> + <kbd
 ![Shortcuts Local](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/lokale_shortcuts.gif)
 
 Du erkennst, dass dein Shortcut richtig gesetzt ist, wenn in der Shortcut-Liste unten KEIN "(global)" mehr hinter der Shortcut-Bezeichnung steht.
+
+## Ultraschall Settings
+
+Über das Podcast-Menü oder den Tastatur-Shortcut <kbd>;</kbd> werden die Ultraschall-Settings angezeigt. Diese sind über Tabs in drei Bereiche gegliedert: <kbd>GENERAL</kbd>, <kbd>SOUNDCHECK</kbd> sowie <kbd>INTERFACES</kbd>.
+
+### General Settings
+
+![general-settings](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/settings_general.png))
+
+Folgende Einstellungen können vorgenommen werden:
+
+* Show the start screen
+  * Show Ultraschall start screen on launch
+* Check for updates
+  * Check for Ultraschall updates on launch. Only a message is displayed. No further data is transferred.   
+
+### Soundcheck Settings
+
+![soundcheck-settings](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/settings_soundcheck.png)
+
+### Interfaces Settings für direct monitoring
+
+![interfaces-settings](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/settings_interfaces.png)
 
 <!-- [ ] ToDo für V2: das Kapitel existiert noch nicht
 ## Kontrollgeräte verwenden (Midi, OSC, etc.)
