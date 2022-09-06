@@ -64,7 +64,7 @@ There is also a video explanation by Ralf Stockmann:
 This video is in German. Please do not forget to turn on auto-generated subtitles.
 ### 1. marker dashboard
 
-![Marker Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-dashboard.png) **Marker Dashboard:** *This is how the marker dashboard can look in a finished project.*
+![Marker Dashboard](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/1-marker-dashboard.png) **Marker Dashboard:** *This is how the marker dashboard can look like in a finished project.*
 
 The marker dashboard gives you a good overview of all chapter markers already set[[28]](GUI-overview) - and it helps you to enrich them with further information such as a URL or a chapter marker image (which is not shown by all, but by most podcatchers when listeners reach the spot during playback).
 
