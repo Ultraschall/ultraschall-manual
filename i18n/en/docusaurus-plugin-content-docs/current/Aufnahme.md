@@ -148,14 +148,14 @@ This video is in German. Please do not forget to turn on auto-generated subtitle
 
 Soundcheck helps you avoid the most common mistakes when podcasting with Ultraschall. The sound check issues a warning when Ultraschall has detected a potential error. You can switch the individual components of the sound check on or off as required in the settings. The sound check checks in detail:
 
-- Unsaved Project:** Warns you when you want to record something but have not yet saved the project. This prevents data chaos.
-- Prepare all tracks for editing:** Warns you if you want to start editing after recording but the tracks are not yet prepared.
-- Check for 48 KHz sample rate:** If you want to use StudioLink or StudioLink-on-Air, you must use 48 KHz as the sample rate.
-- Internal mic used (Check if internal mic is selected):** Checks if you are accidentally using your laptop's internal mic to record instead of your good mic.
-- Start recording only at the end:** Prevents you from unintentionally recording in the middle of your project.
-- Unknown sound interface:** Checks if you have connected a new sound interface for which you have not yet made a direct monitoring setting.
-- Echo and distortion prevention:** If your interface does not have direct monitoring, you should select the correct block size. <!-- @TODO: correct name? --> A block size of 128 samples leads to latency and echoes, a block size of 32 samples leads to instability. We recommend a block size of 512 samples for direct monitoring and 64 samples without direct monitoring.
-- Input Wizard:** Checks if you are assigning an input multiple times or if you are using an interchangeable input on a Zoom. <!-- @TODO: more understandable name? -->
+- **Unsaved Project:** Warns you when you want to record something but have not yet saved the project. This prevents data chaos.
+- **Prepare all tracks for editing:** Warns you if you want to start editing after recording but the tracks are not yet prepared.
+- **Check for 48 KHz sample rate:** If you want to use StudioLink or StudioLink-on-Air, you must use 48 KHz as the sample rate.
+- **Internal mic used (Check if internal mic is selected):** Checks if you are accidentally using your laptop's internal mic to record instead of your good mic.
+- **Start recording only at the end:** Prevents you from unintentionally recording in the middle of your project.
+- **Unknown sound interface:** Checks if you have connected a new sound interface for which you have not yet made a direct monitoring setting.
+- **Echo and distortion prevention:** If your interface does not have direct monitoring, you should select the correct block size. <!-- @TODO: correct name? --> A block size of 128 samples leads to latency and echoes, a block size of 32 samples leads to instability. We recommend a block size of 512 samples for direct monitoring and 64 samples without direct monitoring.
+- **Input Wizard:** Checks if you are assigning an input multiple times or if you are using an interchangeable input on a Zoom. <!-- @TODO: more understandable name? -->
 
 ![soundcheck](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Aufnahme/soundcheck.png) **Soundcheck:** _This is what a sample soundcheck looks like in an unsecured project._
 
