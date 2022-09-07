@@ -76,6 +76,55 @@ In this example, we change the shortcut <kbd>Alt</kbd> + <kbd>Enter</kbd> we hav
 
 You can tell that your shortcut is set correctly when there is NO "(global)" after the shortcut name in the shortcut list at the bottom.
 
+## Ultraschall Settings
+
+The Ultraschall  Settings are displayed via the podcast menu or the keyboard shortcut <kbd>;</kbd>. These are divided into three areas via tabs: <kbd>GENERAL</kbd>, <kbd>SOUNDCHECK</kbd> sowie <kbd>INTERFACES</kbd>.
+
+### General Settings
+
+![general-settings](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/settings_general.png))
+
+Following settings can be made:
+
+* Show the start screen
+  * Show Ultraschall start screen on launch
+* Check for updates
+  * Check for Ultraschall updates on launch. Only a message is displayed. No further data is transferred.
+* Preroll time preview
+  * Set the time in seconds by which the program jumps back when the <kbd>p</kbd> key is used to preview cuts.
+* Preroll time recording
+  * Set the time in seconds by which the program jumps back for a preroll recording.
+* Preshow music mix
+  * Play some music from the Ultraschall-Soundboard in your preshow to entertain the livestream. If you choose the preshow routing preset, you can mix none (0) some or all (1) of the music to your headphones mix.
+* Soundboard ducking during recording
+  * Activate ducking of the soundboard during recording. If anyone starts to talk to a microphone, the Soundboard track will be gently reduced in volume.
+* Soundboard ducking during editing
+  * Activate ducking of the soundboard during editing. If anyone starts to talk to a microphone, the Soundboard track will be gently reduced in volume.
+* Marker ping sound during playback
+  * Play a sound if a chapter- oder edit-marker is passed during playback
+* Volume of Ping-Sound
+  * Set volume of the ping sound
+*  Followmode auto detection
+  * Turns off Follow Mode when clicking into Arrange View. Disable this if you encounter problems with the Followmode.
+* Graceful Soundcheck
+  * Set all open soundcheck warnings to the _ignore_ state by closing the soundcheck window.
+* Recording safemode
+  * Warn about an unwanted stop of the recording after hitting <kbd>SPACE</kbd> or <kbd>RETURN</kbd>.
+* Autocolor tracks - Sonic Rainboom
+  * New tracks get a unique color. Local tracks start with blue, remote tracks (StudioLink) will be orange and the Soundboard grey.
+* Autoarrange track height
+  * Zoom or shrink tracks to fit the arrangeview|if new tracks or envelopes are added.    
+* Large marker manager
+  * Give way more space to the marker manager on the right.  
+
+### Soundcheck Settings
+
+![soundcheck-settings](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/settings_soundcheck.png)
+
+### Interfaces Settings for Direct Monitoring
+
+![interfaces-settings](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/settings_interfaces.png)
+
 <!-- [ ] ToDo for V2: the chapter does not yet exist.
 ## Use control devices (Midi, OSC, etc.)
 
