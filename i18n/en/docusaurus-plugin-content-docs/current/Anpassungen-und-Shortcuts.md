@@ -104,7 +104,7 @@ Following settings can be made:
   * Play a sound if a chapter- oder edit-marker is passed during playback
 * Volume of Ping-Sound
   * Set volume of the ping sound
-*  Followmode auto detection
+* Followmode auto detection
   * Turns off Follow Mode when clicking into Arrange View. Disable this if you encounter problems with the Followmode.
 * Graceful Soundcheck
   * Set all open soundcheck warnings to the _ignore_ state by closing the soundcheck window.
