@@ -82,7 +82,7 @@ The Ultraschall  Settings are displayed via the podcast menu or the keyboard sho
 
 ### General Settings
 
-![general-settings](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/settings_general.png))
+![general-settings](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-and-Shortcuts/settings_general.png))
 
 Following settings can be made:
 
