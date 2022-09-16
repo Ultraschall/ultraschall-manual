@@ -67,7 +67,7 @@ Wir wechseln in der [Bitfocus-GUI](http://127.0.0.1:8888/buttons) auf den Reiter
 
 Über den Button `Test actions` kannst du die Belegung direkt ausprobieren (oder du drückst auf einem angeschlossenen Streamdeck auf den entspprechenden Knopf) – woraufhin im `Listen`-Fenster drüben in Ultraschall die entsprechende Aktion auftauchen sollte. Hier nochmal die Ultraschall-Konfiguration und der Test als Video:
 
-<!-- ![](../../assets/images/Tutorials/Bitfocus/ultraschall-bitfocus.mov) -->
+![](../../assets/images/Tutorials/Bitfocus/ultraschall-bitfocus.gif)
 
 Der Rest ist im Grunde selbsterklärend und hängt von deiner Aufnahmesituation und deinen Streamdecks ab – jetzt solltest du aber keine Schwierigkeiten haben, für mehrere Tracks mehrere Mute-Tasten anzulegen. Bei mehreren Streamdecks gilt es aber noch ein Problem zu lösen ... 
 
