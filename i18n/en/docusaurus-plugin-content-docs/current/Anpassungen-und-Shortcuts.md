@@ -1,6 +1,6 @@
 ---
 id: adaption
-title: 'Adaptations, shortcuts and co.'
+title: 'Navigations, shortcuts, settings and co.'
 tags:
   - keyboard
   - shortcuts
