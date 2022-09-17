@@ -84,9 +84,9 @@ To quickly select all items in a track, double-click on the grey area above or b
 
 **Step 3: Select tracks for the AMP**: Now select all tracks in the [track area [23]](GUI-overview) that are to be considered in the mixing pipeline. To select individual tracks, simply click in the grey area above or below the track name field. To select multiple tracks, hold down the <kbd>Cmd</kbd>/<kbd>Ctrl</kbd> key while clicking.
 
-**Step 4: Set AMP (Automated Mixing Pipeline) FX on selected tracks (Ultraschall): You also select this step directly in the menu 'Podcast' -> 'Workflows' -> 'Ultraschall AMP - Automated Mixing Pipeline'. Then you should find an activated "JS: Ultraschall Dynamics (Ultraschall)" effect on each of the pre-selected tracks. This will equalise the loudness of your tracks to -20 LUFS.
+**Step 4: Set AMP (Automated Mixing Pipeline) FX on selected tracks**: You also select this step directly in the menu 'Podcast' -> 'Workflows' -> 'Ultraschall AMP - Automated Mixing Pipeline'. Then you should find an activated "JS: Ultraschall Dynamics (Ultraschall)" effect on each of the pre-selected tracks. This will equalise the loudness of your tracks to -20 LUFS.
 
-**Step 5: Choose LUFS Target on Master FX (16 LUFS for Podcasting): In the previous step, the master track is raised to the usual -16 LUFS for podcasting by means of a track effect. You can also change this target value; you will find the corresponding setting in the FX area of the master track.
+**Step 5: Choose LUFS Target on Master FX (16 LUFS for Podcasting)**: In the previous step, the master track is raised to the usual -16 LUFS for podcasting by means of a track effect. You can also change this target value; you will find the corresponding setting in the FX area of the master track.
 
 ## Correction possibilities
 
