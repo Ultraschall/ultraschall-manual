@@ -1,6 +1,6 @@
 ---
 id: bitfocus
-title:  Räuspertasten-Tasten mit dem Streamdeck und der Bitfocus-Companion-Software 
+title:  Räuspertasten mit dem Streamdeck und der Bitfocus-Companion-Software 
 erstellt: 14.9.22
 ---
 
