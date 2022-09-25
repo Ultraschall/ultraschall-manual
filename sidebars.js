@@ -43,6 +43,11 @@ module.exports = {
       label: 'Glossar', // sidebar label
     },*/
     {
+      type: 'category',
+      label: 'Tutorials',
+      items: ['tutorials/bitfocus'],
+    },
+    {
       type: 'doc',
       id: 'about', // document ID
       label: 'Über', // sidebar label
