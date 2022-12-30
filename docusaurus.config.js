@@ -133,9 +133,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       require.resolve("@cmfcmf/docusaurus-search-local"),
     ],
     scripts: [
-      // Object format.
       {
-        src: 'js/matomo.js',
+        src: 'https://ultraschall.github.io/ultraschall-manual/js/matomo.js',
         async: true,
       },
     ],
