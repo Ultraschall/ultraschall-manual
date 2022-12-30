@@ -122,7 +122,7 @@ img[alt=podcast-menu] { width: 400px; }
 
 /*@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;700;800&display=swap'); */
 @font-face {
-  font-family: 'Maven Pro';
+  font-family: 'Maven Pro', sans-serif;
   src: url('/fonts/Marven Pro/MavenPro-VariableFont_wght.ttf') format('embedded-opentype'), /* Internet Explorer */
        url('/fonts/Marven Pro/MavenPro-VariableFont_wght.ttf') format('woff2'),             /* Super Modern Browsers */ 
        url('/fonts/Marven Pro/MavenPro-VariableFont_wght.ttf') format('woff'),              /* Pretty Modern Browsers */
