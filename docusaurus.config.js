@@ -132,5 +132,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     plugins: [
       require.resolve("@cmfcmf/docusaurus-search-local"),
     ],
-  
+    scripts: [
+      // Object format.
+      {
+        src: 'js/matomo.js',
+        async: true,
+      },
+    ],
 });
