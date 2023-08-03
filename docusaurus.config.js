@@ -53,13 +53,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             label: 'Handbuch',
           },
           {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            // dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+            dropdownActiveClassDisabled: true,
+          },
+          {
             href: 'https://github.com/Ultraschall/ultraschall-manual',
             label: 'GitHub',
             position: 'right',
           },
           {
             type: 'localeDropdown',
-          }
+          }, 
+          
         ],
       },
       footer: {

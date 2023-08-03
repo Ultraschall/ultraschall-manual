@@ -1,0 +1,47 @@
+{
+  "tutorialSidebar": [
+    {
+      "type": "category",
+      "label": "Einführung",
+      "items": [
+        "introduction",
+        "firststeps"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Übersicht",
+      "items": [
+        "GUI-overview",
+        "adaption"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Grundfunktionen",
+      "items": [
+        "recording",
+        "cut",
+        "postproduction",
+        "export"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Tutorials",
+      "items": [
+        "tutorials/bitfocus"
+      ]
+    },
+    {
+      "type": "doc",
+      "id": "about",
+      "label": "Über"
+    },
+    {
+      "type": "doc",
+      "id": "partcipants",
+      "label": "Mitwirkende"
+    }
+  ]
+}
