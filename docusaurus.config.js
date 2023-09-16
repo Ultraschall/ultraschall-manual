@@ -31,13 +31,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       }),
     ],
   ],
-  customFields: {
-    description: "Learn how to make podcasts with Ultraschall" // will go into <head> as meta tag
-  },
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     {
+      metadata: [
+        {name: 'title', content: 'Ultraschall Documentation'},
+        {name: 'description', content: 'Learn how to make podcasts with Ultraschall'},
+      ],
       colorMode: {
       disableSwitch: false,
       respectPrefersColorScheme: false,
