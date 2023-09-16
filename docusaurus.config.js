@@ -5,7 +5,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'Ultraschall Documentation',
-  //description: 'Learn how to make podcasts with Ultraschall', // will go into <head>
   tagline: 'High-End Podcasting',
   url: 'https://Ultraschall.github.io',
   baseUrl: '/ultraschall-manual/',
