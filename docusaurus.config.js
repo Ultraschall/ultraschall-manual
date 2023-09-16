@@ -33,7 +33,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       metadata: [
         {name: 'title', content: 'Ultraschall Documentation'},
         {name: 'description', content: 'Learn how to make podcasts with Ultraschall'},
@@ -42,7 +42,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       disableSwitch: false,
       respectPrefersColorScheme: false,
       defaultMode: 'light',
-    },
+      },
       navbar: {
         title: 'Ultraschall Handbuch',
         logo: {
@@ -128,7 +128,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    },
     i18n: {
       defaultLocale: 'de',
       locales: ['de', 'en'],
