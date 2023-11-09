@@ -37,6 +37,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       metadata: [
         {name: 'title', content: 'Ultraschall Documentation'},
         {name: 'description', content: 'Learn how to make podcasts with Ultraschall'},
+        {name: 'og:image', content: 'img/Ultraschall-5-Header.png'}
       ],
       colorMode: {
       disableSwitch: false,
