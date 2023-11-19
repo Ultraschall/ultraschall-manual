@@ -45,7 +45,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Tutorials',
-      items: ['tutorials/bitfocus'],
+      items: ['tutorials/bitfocus', 'tutorials/ultraschallStreamDeckPlugin'],
     },
     {
       type: 'doc',
