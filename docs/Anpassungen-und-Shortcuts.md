@@ -80,7 +80,7 @@ Du erkennst, dass dein Shortcut richtig gesetzt ist, wenn in der Shortcut-Liste 
 
 ### General Settings
 
-![general-settings](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/settings_general.png))
+![general-settings](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/settings_general.png)
 
 Folgende Einstellungen können vorgenommen werden:
 
