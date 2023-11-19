@@ -80,9 +80,13 @@ Nicht alle Podcatcher gehen gleich (gut) mit Kapitelmarken um. Für maximale Kom
 
 ### 2. Render-Assistent
 
-Einmal kurz durchatmen, bevor du den Render-Assistenten[[20]](GUI-overview) öffnest, denn der gibt dir *sehr* viele Einstellmöglichkeiten, von denen wir dir hier nur die wichtigsten erklären. Die meisten anderen sind entweder für die Musikproduktion mit REAPER gedacht und/oder haben einen sinnvollen Default-Wert, den du nur ändern solltest, wenn du ganz genau weißt, was du tust.
+Einmal kurz durchatmen, bevor du den Render-Assistenten[[20]](GUI-overview) öffnest, denn der gibt dir *sehr* viele Einstellmöglichkeiten, daher sind die häufigsten Formate (MP3, M4A, Auphonic Multichannel) als Voreinstellungen verfügbar. Wenn du eigene Voreinstellungen bereits erstellt und gespeichert hast, sind diese ebenfalls unter `Render using preset` erreichbar.
 
-Drückst du links unten in Ultraschall auf das Render-Icon[[20]](GUI-overview) (oder wählst den Punkt `Start Export Assistant` über das Menü `Podcast`>`Export`), prüft Ultraschall, ob alle vorhandenen Spuren auch hörbar sein werden. Hast du einzelne Spuren absichtlich oder unabsichtlich stummgeschaltet, erhältst du auf dem Weg zum Render-Assistenten folgende Warnung:
+![Reder preset Auswahl](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/render-preset.png) **Warning muted tracks:** *Ultraschall hat einige nütziche Voreinstellungen für den Export zur Auswahl: MP3, M4A, Auphonic Multichannel .*
+
+ von denen wir dir hier nur die wichtigsten erklären. Die meisten anderen sind entweder für die Musikproduktion mit REAPER gedacht und/oder haben einen sinnvollen Default-Wert, den du nur ändern solltest, wenn du ganz genau weißt, was du tust.
+
+Drückst du links unten in Ultraschall auf das Render-Icon[[20]](GUI-overview) (oder wählst den Punkt `Start Export Assistant` über das Menü `Podcast`>`Export`), prüft Ultraschall, ob alle vorhandenen Spuren auch hörbar sein werden. Hast du den Mastertrack oder einzelne Spuren absichtlich oder unabsichtlich stummgeschaltet, erhältst du auf dem Weg zum Render-Assistenten folgende Warnung:
 
 ![Warning-muted-tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-warning.png) **Warning muted tracks:** *Ultraschall warnt dich, wenn du ein Projekt exportieren willst, in dem eine oder mehrere Spuren stumm sind.*
 
