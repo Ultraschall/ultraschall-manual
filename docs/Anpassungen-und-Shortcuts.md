@@ -85,35 +85,38 @@ Du erkennst, dass dein Shortcut richtig gesetzt ist, wenn in der Shortcut-Liste 
 Folgende Einstellungen können vorgenommen werden:
 
 * Show the start screen
-  * Show Ultraschall start screen on launch
+  * Ultraschall-Startbildschirm beim Start anzeigen
 * Check for updates
-  * Check for Ultraschall updates on launch. Only a message is displayed. No further data is transferred.
+  *  Beim Start auf Ultraschall-Updates prüfen. Only a message is displayed. No further data is transferred.
 * Preroll time preview
-  * Set the time in seconds by which the program jumps back when the <kbd>p</kbd> key is used to preview cuts.
+  * Legen Sie die Zeit in Sekunden fest, um die das Programm zurückspringt, wenn die <kbd>p</kbd>-Taste zur Schnittvorschau verwendet wird.
 * Preroll time recording
-  * Set the time in seconds by which the program jumps back for a preroll recording.
+  * Legen Sie die Zeit in Sekunden fest, um die das Programm bei einer Preroll-Aufnahme zurückspringt.
 * Preshow music mix
-  * Play some music from the Ultraschall-Soundboard in your preshow to entertain the livestream. If you choose the preshow routing preset, you can mix none (0) some or all (1) of the music to your headphones mix.
+  * Spielen Sie zur Unterhaltung des Livestreams Musik aus dem Ultraschall-Soundboard in Ihrer Preshow ab. Wenn Sie die Preshow-Routing-Voreinstellung wählen, können Sie keine (0), einige oder alle (1) Musikstücke in Ihren Kopfhörermix mischen.
 * Soundboard ducking during recording
-  * Activate ducking of the soundboard during recording. If anyone starts to talk to a microphone, the Soundboard track will be gently reduced in volume.
+  * Aktivieren Sie das Ducking des Soundboards während der Aufnahme. Wenn jemand beginnt, in ein Mikrofon zu sprechen, wird die Lautstärke der Soundboard-Spur sanft reduziert.
 * Soundboard ducking during editing
-  * Activate ducking of the soundboard during editing. If anyone starts to talk to a microphone, the Soundboard track will be gently reduced in volume.
+  * Aktivieren Sie das Ducking des Soundboards während der Bearbeitung. Wenn jemand beginnt, in ein Mikrofon zu sprechen, wird die Lautstärke der Soundboard-Spur sanft reduziert.
 * Marker ping sound during playback
-  * Play a sound if a chapter- oder edit-marker is passed during playback
+  * Einen Ton abspielen, wenn während der Wiedergabe eine Kapitel- oder Bearbeitungsmarkierung passiert wird
 * Volume of Ping-Sound
-  * Set volume of the ping sound
+  * Lautstärke des Pingtons einstellen
 *  Followmode auto detection
-  * Turns off Follow Mode when clicking into Arrange View. Disable this if you encounter problems with the Followmode.
+    * Schaltet den Verfolgungsmodus aus, wenn Sie in die Anordnungsansicht klicken. Deaktivieren Sie dies, wenn Sie Probleme mit dem Folgemodus haben.
 * Graceful Soundcheck
-  * Set all open soundcheck warnings to the _ignore_ state by closing the soundcheck window.
+  * Setzen Sie alle offenen Soundcheck-Warnungen in den Status _ignore_, indem Sie das Soundcheck-Fenster schließen.
 * Recording safemode
-  * Warn about an unwanted stop of the recording after hitting <kbd>SPACE</kbd> or <kbd>RETURN</kbd>.
+  * Warnung vor einem ungewollten Stopp der Aufnahme nach dem Drücken. <kbd>SPACE</kbd> oder <kbd>RETURN</kbd>.
 * Autocolor tracks - Sonic Rainboom
-  * New tracks get a unique color. Local tracks start with blue, remote tracks (StudioLink) will be orange and the Soundboard grey.
+  * Neue Spuren erhalten eine eigene Farbe. Lokale Spuren beginnen mit blau, entfernte Spuren (StudioLink) sind orange und das Soundboard grau.
 * Autoarrange track height
-  * Zoom or shrink tracks to fit the arrangeview|if new tracks or envelopes are added.    
+  * Vergrößern oder Verkleinern von Spuren zur Anpassung an die Anordnung, wenn neue Spuren oder Hüllkurven hinzugefügt werden.
 * Large marker manager
-  * Give way more space to the marker manager on the right.  
+  * Geben Sie dem Marker-Manager auf der rechten Seite mehr Platz.
+* Ping sound when render is finished/aborted
+  * Spielt einen Sound ab, wenn das Rendering fertig ist oder abgebrochen wurde. Die Lautstärke stellst du mit dem Regler für Ping Sounds ein. 
+
 
 ### Soundcheck Settings
 
