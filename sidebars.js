@@ -45,7 +45,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Tutorials',
-      items: ['tutorials/bitfocus'],
+      items: ['tutorials/bitfocus', 'tutorials/ultraschallStreamDeckPlugin'],
     },
     {
       type: 'doc',
@@ -56,6 +56,11 @@ module.exports = {
       type: 'doc',
       id: 'partcipants', // document ID
       label: 'Mitwirkende', // sidebar label
+    },
+    {
+      type: 'doc',
+      id: 'mithelfen-und-community', // document ID
+      label: 'Mithelfen und Community', // sidebar label
     },
   ],
 

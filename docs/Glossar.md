@@ -13,20 +13,21 @@ Dieses Kapitel wird erst mit der V2 bearbeitet
 
 ### Clipping
 
-xxx
+Unter Audio-Clipping oder übersetzt "Übersteuern" versteht den Prozess wenn man die Lautstärke des Audios die erlaubte Lautstärke übersteigt. Die Folge ist, dass Teile des Signal angeschnitten werden. Deutlich hörbar durch eine Audio Affekte. 
 
 ### DAW: Digital Audio Workstation
 
-xxx
+Eine Digital Audio Workstation ist eine Software in der man Audio Aufnehmen und bearbeiten kann.
 
 ### Mute
 
-xxx
+`Mute`= Stummschalten
 
 ## Spezifisches für REAPER/Ultraschall
 
 ### Edit-Cursor
 
+Der Edit-Curser ist 
 xxxx; siehe auch #play-cursor
 
 ### Envelope
@@ -35,7 +36,7 @@ Bei Audio beschreibt ein Envelope wie sich der Sound mit der Zeit verändert.
 
 ### FX
 
-xxx
+FX beschreibt hier einen Sound Effect. Effekte können dazu dienen, den Klang zu verändern, zu verbessern oder zu verfremden. Es gibt verschiedene Arten von Audioeffekten, darunter Hall, Echo, Verzerrung, Equalizer und viele andere.
 
 ### Play-Cursor
 
@@ -43,11 +44,11 @@ xxxx; siehe auch #edit-cursor
 
 ### Routing Matrix
 
-xxx
+Die Routing Matrix ist in Reaper die genaue Einstellung, welches Audiogerät auf welche Spur abgebildet wird. 
 
 ### Spur
 
-xxx
+Eine Spur ist ein Teil eines Audio-Projekts, die bei Bedarf wiedergegeben wird. Audiospuren können getrennt voneinander bearbeitet werden und dienen dazu, akustische Signale wiederzugeben.
 
 ### Track
 

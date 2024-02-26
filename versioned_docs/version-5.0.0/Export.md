@@ -80,13 +80,9 @@ Nicht alle Podcatcher gehen gleich (gut) mit Kapitelmarken um. Für maximale Kom
 
 ### 2. Render-Assistent
 
-Einmal kurz durchatmen, bevor du den Render-Assistenten[[20]](GUI-overview) öffnest, denn der gibt dir *sehr* viele Einstellmöglichkeiten, daher sind die häufigsten Formate (MP3, M4A, Auphonic Multichannel) als Voreinstellungen verfügbar. Wenn du eigene Voreinstellungen bereits erstellt und gespeichert hast, sind diese ebenfalls unter `Render using preset` erreichbar.
+Einmal kurz durchatmen, bevor du den Render-Assistenten[[20]](GUI-overview) öffnest, denn der gibt dir *sehr* viele Einstellmöglichkeiten, von denen wir dir hier nur die wichtigsten erklären. Die meisten anderen sind entweder für die Musikproduktion mit REAPER gedacht und/oder haben einen sinnvollen Default-Wert, den du nur ändern solltest, wenn du ganz genau weißt, was du tust.
 
-![Reder preset Auswahl](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/render-preset.png) **Warning muted tracks:** *Ultraschall hat einige nütziche Voreinstellungen für den Export zur Auswahl: MP3, M4A, Auphonic Multichannel .*
-
- von denen wir dir hier nur die wichtigsten erklären. Die meisten anderen sind entweder für die Musikproduktion mit REAPER gedacht und/oder haben einen sinnvollen Default-Wert, den du nur ändern solltest, wenn du ganz genau weißt, was du tust.
-
-Drückst du links unten in Ultraschall auf das Render-Icon[[20]](GUI-overview) (oder wählst den Punkt `Start Export Assistant` über das Menü `Podcast`>`Export`), prüft Ultraschall, ob alle vorhandenen Spuren auch hörbar sein werden. Hast du den Mastertrack oder einzelne Spuren absichtlich oder unabsichtlich stummgeschaltet, erhältst du auf dem Weg zum Render-Assistenten folgende Warnung:
+Drückst du links unten in Ultraschall auf das Render-Icon[[20]](GUI-overview) (oder wählst den Punkt `Start Export Assistant` über das Menü `Podcast`>`Export`), prüft Ultraschall, ob alle vorhandenen Spuren auch hörbar sein werden. Hast du einzelne Spuren absichtlich oder unabsichtlich stummgeschaltet, erhältst du auf dem Weg zum Render-Assistenten folgende Warnung:
 
 ![Warning-muted-tracks](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-warning.png) **Warning muted tracks:** *Ultraschall warnt dich, wenn du ein Projekt exportieren willst, in dem eine oder mehrere Spuren stumm sind.*
 
@@ -118,7 +114,7 @@ Klickst du stattdessen auf `Yes`, öffnet sich der Assistent – in diesem Fall 
 
 Der Export-Assistent[[21]](GUI-overview) hilft dir dabei, dein Projekt nun fertigzustellen. Ein Ampelsystem zeigt dir an, was deinem Projekt noch fehlt. Sollten Metadaten gänzlich fehlen, zeigt die Ampel rot und rechts daneben steht `Missing`; falls Metadaten vorliegen, diese aber unvollständig sind, zeigt die Ampel gelb und `Incomplete` oder `Unknown` an. Wenn alle Ampeln auf grün stehen, hast du alles richtig gemacht.
 
-![export-icons](../assets/images/Export/3-export-assistent.png) **Export-Assistent**: _Der Assistent hilft dir dabei, dein Projekt fertigzustellen._
+![export-icons](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/3-export-assistant.png) **Export-Assistent**: _Der Assistent hilft dir dabei, dein Projekt fertigzustellen._
 
 #### 1. Export MP3
 
@@ -137,19 +133,15 @@ Metadaten sind zwar optional, aber trotzdem wichtig für die Weiterverarbeitung 
 
 #### 4. Podcast Episode Image
 
-Das hier hinterlegte Bild wird später in den meisten Podcatchern als Bild zur Episode angezeigt. Zieh per Drag-and-Drop dein Episoden-Cover einfach in den Export-Dialog. Das Bild landet dann automatisch mit im Projektordner. Unterstützte Formate sind `.jpg`, `.jpeg` und `.png`. Ultraschall merkt sich die vier zuletzt benutzten Episoden-Bilder und bietet sie dir zur schnellen Auswahl hier an. Das jeweils ausgewählte Bild wird links davon groß angezeigt.
+Das hier hinterlegte Bild wird später in den meisten Podcatchern als Bild zur Episode angezeigt. Zieh per Drag-and-Drop dein Episoden-Cover einfach in den Export-Dialog. Das Bild landet dann automatisch mit im Projektordner. Unterstützte Formate sind `.JPG`, `.JPEG` und `.PNG`. Ultraschall merkt sich die vier zuletzt benutzten Episoden-Bilder und bietet sie dir zur schnellen Auswahl hier an. Das jeweils ausgewählte Bild wird links davon groß angezeigt.
 
 :::info Info
-Für Linux-Nutzende: Aktuell muss die Dateiendung tatsächlich klein geschrieben werden. `.PNG` funktioniert also nicht. Das wird in der Zukunft korrigiert und dieser Hinweis dann verschwinden. In einer früheren Version war das genau anders herum. Jetzt gehen nur noch kleingeschriebene Dateiendungen. 
+Für Linux-Nutzende: Aktuell muss die Dateiendung tatsächlich groß geschrieben werden. `.png` funktioniert also nicht. Das wird in der Zukunft korrigiert und dieser Hinweis dann verschwinden.
 :::
 
 #### 5. Finalize MP3
 
 Für den letzten Schritt klickst du einmal auf die Schaltfläche `Finalize MP3!`. Falls noch Probleme vorliegen, zeigt dir der Assistent einen Dialog mit einer entsprechenden Warnung an. Falls der Assistent deine MP3-Datei nicht automatisch gefunden hat, musst du diese jetzt noch einmal manuell angeben. Hat alles geklappt, erscheint eine Erfolgsmeldung – deine Podcast-Episode wurde erfolgreich exportiert!
-
-#### 6. Export Video Audiogram
-
-Diese Option ist rein optional. Ultraschall bietet dir hier die Möglichkeit, ein kurzes Video zu rendern, mit dem du deinen Podcast z.B. auf Social Media bewerben kannst. Wähle dafür zunächst in deiner Audiospur ein Segment aus, das du gerne in dem Video haben möchtest. Vervollständige jetzt noch deine Metadaten und füge ein Episoden Bild ein. Sind alle Voraussetzungen erfüllt, erscheint rechts der Button: `Export MP4 Audiogram` mit dem du das Video exportieren kannst. Das fertige Video findest du dann im Projektordner als `Audiogram.mp4`.
 
 <!--
 @todo: immer noch notwendig oder schon beantwortet
