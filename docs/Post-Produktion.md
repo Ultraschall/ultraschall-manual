@@ -201,6 +201,9 @@ Dabei gehst du wie folgt vor: Du suchst dir in der betreffenden Spur eine Passag
 
 Das klappt aber nur, wenn du während der Aufnahme nicht am Gain-Regler gedreht hast. Hast du während der Aufnahme den Eingangspegel verändert – und hast beispielsweise zu Beginn sehr leise, später dann eher laut aufgenommen – , wird das Abmischen etwas komplizierter. Entweder teilst du die Spur an der entsprechenden Stelle auf zwei Spuren mit jeweils individuellen Effekteinstellungen auf oder du greifst zu einem automatischen Klangverbesserungsdienst wie [Auphonic](https://auphonic.com/).
 
+### Manuelles Ducking
+Es gibt eine Action, die manuelles Ducking von Tracks in der Post-Produktion erlaubt. Die Action hat in der Standardeinstellung keinen Shortcut, aber wie du einen eigenen shortcut hinzufügst, haben wir [hier](#adaption) erklärt. Um die Action zu verwenden, wählt man die Tracks aus, die geduckt werden sollen, wählt eine Time-Selection und dann führt man die Action `Manual ducking of selected tracks within time-selection(Volume pre fx-envelope` aus. In die Volume-Automationsspuren der gewählten Tracks werden nun Lautstärkepunkte eingezeichnet und der ausgewählte Zeitbereich herabgesenkt um 8dB. 
+
 **Hier auch ein Video dazu:** <!-- @todo gif mit US 3.1 das müssen wir neu machen -->
 ![Noisegate anpassen](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Post-Produktion/LUFS_004.gif) **Ultraschall Dynamics:** _So veränderst du die Schwelle für die Rauschunterdrückung)._
 
