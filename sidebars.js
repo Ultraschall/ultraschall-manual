@@ -57,6 +57,11 @@ module.exports = {
       id: 'partcipants', // document ID
       label: 'Mitwirkende', // sidebar label
     },
+    {
+      type: 'doc',
+      id: 'mithelfen-und-community', // document ID
+      label: 'Mithelfen und Community', // sidebar label
+    },
   ],
 
 
