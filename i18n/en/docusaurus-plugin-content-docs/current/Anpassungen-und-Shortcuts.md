@@ -1,6 +1,6 @@
 ---
 id: adaption
-title: 'Navigations, shortcuts, settings and co.'
+title: 'Navigation, shortcuts, settings and co.'
 tags:
   - keyboard
   - shortcuts
@@ -70,7 +70,7 @@ It is important to make sure that you do NOT select 'Global + text fields' in th
 
 ### Create and use your own shortcuts
 
-In this example, we change the shortcut <kbd>Alt</kbd> + <kbd>Enter</kbd> we have just set so that it is not set globally, but only works when the keyboard focus is on the [Tracks [23]](GUI-overview) or the [Mixer [24]](GUI-overview). For this purpose you will find the handy button 'Find shortcut' in the 'Actions' dialogue. There you enter the shortcut and land in the action linked to it. There you basically do the same as before with the assignment: You click on `Add...` and enter the shortcut again, i.e. here <kbd>Alt</kbd> + <kbd>Enter</kbd>. Please make sure that `Normal` is selected in the `Scope` drop-down list. Then confirm with `OK`.
+In this example, we change the shortcut <kbd>Alt</kbd> + <kbd>Enter</kbd> we created in the previous section to no longer act globally, but only when the keyboard focus is on [Tracks [23]](GUI-overview) or [Mixer [24]](GUI-overview). For this purpose we use the handy button 'Find shortcut' in the 'Actions' dialogue: Enter the shortcut and get directed to the action linked to it. There you basically do the same as before with the assignment: Click on `Add...` and enter the shortcut again, i.e. here <kbd>Alt</kbd> + <kbd>Enter</kbd>. Please make sure that `Normal` is selected in the `Scope` drop-down list. Then confirm with `OK`.
 
 ![Shortcuts Local](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Anpassungen-und-Shortcuts/lokale_shortcuts.gif)
 
@@ -78,7 +78,7 @@ You can tell that your shortcut is set correctly when there is NO "(global)" aft
 
 ## Ultraschall Settings
 
-The Ultraschall  Settings are displayed via the podcast menu or the keyboard shortcut <kbd>;</kbd>. These are divided into three areas via tabs: <kbd>GENERAL</kbd>, <kbd>SOUNDCHECK</kbd> sowie <kbd>INTERFACES</kbd>.
+The Ultraschall Settings can be opened via the podcast menu or keyboard shortcut <kbd>;</kbd>. They are divided into three sections via tabs: <kbd>GENERAL</kbd>, <kbd>SOUNDCHECK</kbd> sowie <kbd>INTERFACES</kbd>.
 
 ### General Settings
 

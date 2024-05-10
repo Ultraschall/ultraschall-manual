@@ -14,6 +14,7 @@ The manual is currently in a beta status.
 
 #### Dependencies
 - Read the official installation manual of docusaurus [here](https://docusaurus.io/docs/installation)
+
 #### Build
 - Clone the repository
 - Change to the directory and run `npm install`.
