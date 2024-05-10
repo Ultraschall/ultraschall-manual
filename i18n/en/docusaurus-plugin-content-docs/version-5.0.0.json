@@ -4,27 +4,32 @@
     "description": "The label for version 5.0.0"
   },
   "sidebar.tutorialSidebar.category.Einführung": {
-    "message": "Einführung",
+    "message": "Intro",
     "description": "The label for category Einführung in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Übersicht": {
-    "message": "Übersicht",
+    "message": "Overview",
     "description": "The label for category Übersicht in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Einsteiger": {
+    "message": "Beginner",
+    "description": "The label for category Einsteiger in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Fortgeschrittene": {
+    "message": "Advanced",
+    "description": "The label for category Fortgeschrittene in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Grundfunktionen": {
-    "message": "Grundfunktionen",
+    "message": "Basic functions",
     "description": "The label for category Grundfunktionen in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Tutorials": {
-    "message": "Tutorials",
-    "description": "The label for category Tutorials in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.doc.Über": {
-    "message": "Über",
+    "message": "About",
     "description": "The label for the doc item Über in sidebar tutorialSidebar, linking to the doc about"
   },
   "sidebar.tutorialSidebar.doc.Mitwirkende": {
-    "message": "Mitwirkende",
+    "message": "Contributors",
     "description": "The label for the doc item Mitwirkende in sidebar tutorialSidebar, linking to the doc partcipants"
   }
 }
+

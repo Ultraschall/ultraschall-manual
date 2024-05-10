@@ -36,7 +36,7 @@
     "description": "The label for category Tutorials in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.Mithelfen und Community": {
-    "message": "Mithelfen und Community",
+    "message": "Help & Community",
     "description": "The label for the doc item Mithelfen und Community in sidebar tutorialSidebar, linking to the doc mithelfen-und-community"
   }
 }
