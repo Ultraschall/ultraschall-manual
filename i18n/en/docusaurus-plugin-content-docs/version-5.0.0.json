@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "5.0.0",
+    "description": "The label for version 5.0.0"
+  },
+  "sidebar.tutorialSidebar.category.Einführung": {
+    "message": "Einführung",
+    "description": "The label for category Einführung in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Übersicht": {
+    "message": "Übersicht",
+    "description": "The label for category Übersicht in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Grundfunktionen": {
+    "message": "Grundfunktionen",
+    "description": "The label for category Grundfunktionen in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials": {
+    "message": "Tutorials",
+    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.Über": {
+    "message": "Über",
+    "description": "The label for the doc item Über in sidebar tutorialSidebar, linking to the doc about"
+  },
+  "sidebar.tutorialSidebar.doc.Mitwirkende": {
+    "message": "Mitwirkende",
+    "description": "The label for the doc item Mitwirkende in sidebar tutorialSidebar, linking to the doc partcipants"
+  }
+}

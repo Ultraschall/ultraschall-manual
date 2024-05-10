@@ -30,5 +30,13 @@
   "sidebar.tutorialSidebar.doc.Mitwirkende": {
     "message": "Contributors",
     "description": "The label for the doc item Mitwirkende in sidebar tutorialSidebar, linking to the doc partcipants"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials": {
+    "message": "Tutorials",
+    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.Mithelfen und Community": {
+    "message": "Mithelfen und Community",
+    "description": "The label for the doc item Mithelfen und Community in sidebar tutorialSidebar, linking to the doc mithelfen-und-community"
   }
 }
