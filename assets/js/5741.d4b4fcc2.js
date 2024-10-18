@@ -1,0 +1,1 @@
+(self.webpackChunkultraschall_manuel=self.webpackChunkultraschall_manuel||[]).push([[5741],{5741:()=>{}}]);
