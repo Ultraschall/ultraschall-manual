@@ -169,7 +169,7 @@ Ultraschall (Reaper) is compatible with many audio formats. However, only a smal
 
 The **MP3** format is most commonly used for Ultraschall projects. The Ultraschall workflow allows to save chapter marks and chapter images, among other things, in **MP3** files. Other formats do not support these functions or do not support them sufficiently. As shown in the picture, the use of MP3 makes sense at a bit rate of 128 kBps, for example.
 
-![<<<<Export formats](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-formats.png) **Export formats:** *With Ultraschall you can export your podcast episodes in various formats. The default is MP3.*
+![Export formats](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/2-formats.png) **Export formats:** *With Ultraschall you can export your podcast episodes in various formats. The default is MP3.*
 
 ## Video
 <div class="youTubeContainer">
