@@ -18,6 +18,11 @@ module.exports = {
   tutorialSidebar: [
     {
       type: 'category',
+      label: 'Installation',
+      items: ['installation/linuxInstallationGuide', 'installation/windowsInstallationGuide', 'installation/macInstallationGuide'],
+    },
+    {
+      type: 'category',
       label: 'Einführung',
       items: ['introduction', 'firststeps'],
     },
@@ -45,7 +50,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Tutorials',
-      items: ['tutorials/bitfocus', 'tutorials/ultraschallStreamDeckPlugin', 'tutorials/linuxInstallationGuide'],
+      items: ['tutorials/bitfocus', 'tutorials/ultraschallStreamDeckPlugin'],
     },
     {
       type: 'doc',
