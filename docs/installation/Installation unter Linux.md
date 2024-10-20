@@ -110,7 +110,11 @@ Wenn wir hier ein Fenster sehen mit dem Fehler "Error opening devices" können w
 
 ### 2) Ultraschall installieren
 
-Wir holen uns jetzt das aktuelle Release 5.1 für Linux unter: https://github.com/Ultraschall/ultraschall-installer/releases/tag/V5.1_6_202410180942
+:::info
+Reaper muss für die folgende Installation geschlossen sein.
+:::
+
+Wir holen uns jetzt das aktuelle Release 5.1 für Linux unter: https://github.com/Ultraschall/ultraschall-installer/releases/latest
 
 Zum jetzigen Zeitpunkt ist das "V5.1", dazu bei "Assets" das Paket ` Ultraschall-5.1.tar.gz` herunterladen.
 
