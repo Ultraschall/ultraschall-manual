@@ -156,4 +156,4 @@ Wenn alles geklappt hat, sehen wir das Ultraschall-Fenster mit dem Titel. Somit 
 
 ![](../../assets/images/Tutorials/Linux/ubuntu-ultraschall.png)
 
-Wie man am besten die Audio-Einstellung tätigt, beschreibt die Anleitung [Audio einrichten unter Linux mit Reaper/Ultraschall (Pulseaudio und Pipewire)](https://sendegate.de/t/anleitung-audio-einrichten-unter-linux-mit-reaper-ultraschall-pulseaudio-und-pipewire/15052)
+Ubuntu 24.04 LTS und viele andere Distributionen setzen mittlerweile auf Pipewire (die empfohlene Lösung). Wie man am besten die Audio-Einstellung tätigt, beschreibt die Anleitung [Audio einrichten unter Linux mit Reaper/Ultraschall (Pulseaudio und Pipewire)](https://sendegate.de/t/anleitung-audio-einrichten-unter-linux-mit-reaper-ultraschall-pulseaudio-und-pipewire/15052)
