@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Ultraschall 手册",
+    "description": "The title in the navbar"
+  },
+  "item.label.Handbuch": {
+    "message": "手册",
+    "description": "Navbar item with label Handbuch"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

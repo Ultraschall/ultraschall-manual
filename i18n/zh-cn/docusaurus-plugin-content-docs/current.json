@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Einführung": {
+    "message": "介绍",
+    "description": "The label for category Einführung in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Übersicht": {
+    "message": "总览",
+    "description": "The label for category Übersicht in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Einsteiger": {
+    "message": "入门",
+    "description": "The label for category Einsteiger in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Fortgeschrittene": {
+    "message": "进阶",
+    "description": "The label for category Fortgeschrittene in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Grundfunktionen": {
+    "message": "基础功能",
+    "description": "The label for category Grundfunktionen in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.Über": {
+    "message": "关于",
+    "description": "The label for the doc item Über in sidebar tutorialSidebar, linking to the doc about"
+  },
+  "sidebar.tutorialSidebar.doc.Mitwirkende": {
+    "message": "贡献者",
+    "description": "The label for the doc item Mitwirkende in sidebar tutorialSidebar, linking to the doc partcipants"
+  }
+}
