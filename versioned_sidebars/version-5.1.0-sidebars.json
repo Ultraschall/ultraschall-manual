@@ -1,10 +1,6 @@
 {
   "tutorialSidebar": [
-    {
-      "type": "category",
-      "label": "Installation",
-      "items": ["installation/linuxInstallationGuide", "installation/windowsInstallationGuide", "installation/macInstallationGuide"]
-    },
+    
     {
       "type": "category",
       "label": "Einführung",
@@ -12,6 +8,11 @@
         "introduction",
         "firststeps"
       ]
+    },
+    {
+      "type": "category",
+      "label": "Installation",
+      "items": ["installation/linuxInstallationGuide", "installation/windowsInstallationGuide", "installation/macInstallationGuide"]
     },
     {
       "type": "category",

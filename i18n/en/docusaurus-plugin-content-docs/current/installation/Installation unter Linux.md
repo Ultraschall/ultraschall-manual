@@ -157,6 +157,6 @@ $ ~/opt/REAPER/reaper
 
 If everything worked, you will see the Ultraschall window with the title. The installation is now complete, and you can start using it!
 
-![Ultraschall Ubuntu Screenshot](../../assets/images/Tutorials/Linux/ubuntu-ultraschall.png)
+![Ultraschall Ubuntu Screenshot](../../../../../assets/images/Tutorials/Linux/ubuntu-ultraschall.png)
 
 Ubuntu 24.04 LTS and many other distributions now use Pipewire (the recommended solution). How to best configure the audio settings is described in the guide [Setting up audio on Linux with Reaper/Ultraschall (Pulseaudio and Pipewire)](https://sendegate.de/t/anleitung-audio-einrichten-unter-linux-mit-reaper-ultraschall-pulseaudio-und-pipewire/15052).
