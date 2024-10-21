@@ -18,6 +18,11 @@ module.exports = {
   tutorialSidebar: [
     {
       type: 'category',
+      label: 'Installation',
+      items: ['installation/linuxInstallationGuide', 'installation/windowsInstallationGuide', 'installation/macInstallationGuide'],
+    },
+    {
+      type: 'category',
       label: 'Einführung',
       items: ['introduction', 'firststeps'],
     },
