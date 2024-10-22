@@ -23,6 +23,11 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Installation',
+      items: ['installation/linuxInstallationGuide', 'installation/windowsInstallationGuide', 'installation/macInstallationGuide'],
+    },
+    {
+      type: 'category',
       label: 'Übersicht',
       items: ['GUI-overview', 'adaption'],
     },

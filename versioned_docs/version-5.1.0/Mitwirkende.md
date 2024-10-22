@@ -29,4 +29,7 @@ title: Mitwirkende
     - [webseite](https://mespotine.de) 
 - **Leonid Lezner**
     - [Sendegate](https://sendegate.de/u/leonidlezner/)
+- **Thomas Ritter**
+    - [Sendegate](https://sendegate.de/u/nethad/summary)
+    - [Github](https://github.com/nethad)
 - Alle anderen, die sich hier angesprochen fühlen, aber nicht genannt werden möchten.
