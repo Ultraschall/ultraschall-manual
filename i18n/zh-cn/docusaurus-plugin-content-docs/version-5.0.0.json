@@ -4,39 +4,39 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Einführung": {
-    "message": "Intro",
+    "message": "介绍",
     "description": "The label for category Einführung in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Installation": {
-    "message": "Installation ",
+    "message": "安裝 ",
     "description": "The label for the doc item helfen und community in sidebar tutorialSidebar, linking to the doc partcipants"
   },
   "sidebar.tutorialSidebar.category.Übersicht": {
-    "message": "Overview",
+    "message": "总览",
     "description": "The label for category Übersicht in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Einsteiger": {
-    "message": "Beginner",
+    "message": "入门",
     "description": "The label for category Einsteiger in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Fortgeschrittene": {
-    "message": "Advanced",
+    "message": "进阶",
     "description": "The label for category Fortgeschrittene in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Grundfunktionen": {
-    "message": "Basic functions",
+    "message": "基础功能",
     "description": "The label for category Grundfunktionen in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.Über": {
-    "message": "About",
+    "message": "关于",
     "description": "The label for the doc item Über in sidebar tutorialSidebar, linking to the doc about"
   },
   "sidebar.tutorialSidebar.doc.Mitwirkende": {
-    "message": "Contributors",
+    "message": "贡献者",
     "description": "The label for the doc item Mitwirkende in sidebar tutorialSidebar, linking to the doc partcipants"
   },
   "sidebar.tutorialSidebar.doc.Mithelfen und Community": {
-    "message": "Contribution and community",
+    "message": "貢獻與社區",
     "description": "The label for the doc item helfen und community in sidebar tutorialSidebar, linking to the doc partcipants"
   }
 }

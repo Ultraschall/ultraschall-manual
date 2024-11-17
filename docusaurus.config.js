@@ -139,7 +139,7 @@ const darkTheme = themes.dracula;
     },
     i18n: {
       defaultLocale: 'de',
-      locales: ['de', 'en'],
+      locales: ['de', 'en', 'zh-cn'],
     },
     scripts: [
       {
