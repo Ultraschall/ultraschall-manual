@@ -31,13 +31,13 @@ Ultraschall 是专门为播客设计的数字音频工作站（[DAW](glossary)�
 
 **图例翻译:**
 
-| German                    | English                     | Chinese                  ｜
-| ------------------------- | --------------------------- |--------------------------｜
-| Podcast-Aufnahmesoftware  | Podcast Recording Software  | 播客录音软件               ｜
-| Viele Podcastfuntionen    |  Many Podcast features      | 很多播客特性               ｜
-| wenig Podcastfunktionen   |  Few Podcast features       | 很少播客特性               ｜
-| kompliziert zu benutzen   |  dificult to use            | 很难使用                  ｜
-| einfach zu benutzen       |  easy to use                | 易于使用                  ｜
+| German                    | English                     | Chinese                   |
+| ------------------------- | --------------------------- | --------------------------|
+| Podcast-Aufnahmesoftware  | Podcast Recording Software  | 播客录音软件                |
+| Viele Podcastfuntionen    |  Many Podcast features      | 很多播客特性                |
+| wenig Podcastfunktionen   |  Few Podcast features       | 很少播客特性                |
+| kompliziert zu benutzen   |  dificult to use            | 很难使用                   | 
+| einfach zu benutzen       |  easy to use                | 易于使用                   |
 
 ## 为什么选择 Ultraschall?
 

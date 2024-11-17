@@ -1,11 +1,15 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "5.0.0",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Einführung": {
     "message": "介绍",
     "description": "The label for category Einführung in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Installation": {
+    "message": "安裝 ",
+    "description": "The label for the doc item helfen und community in sidebar tutorialSidebar, linking to the doc partcipants"
   },
   "sidebar.tutorialSidebar.category.Übersicht": {
     "message": "总览",
@@ -30,5 +34,9 @@
   "sidebar.tutorialSidebar.doc.Mitwirkende": {
     "message": "贡献者",
     "description": "The label for the doc item Mitwirkende in sidebar tutorialSidebar, linking to the doc partcipants"
+  },
+  "sidebar.tutorialSidebar.doc.Mithelfen und Community": {
+    "message": "貢獻與社區",
+    "description": "The label for the doc item helfen und community in sidebar tutorialSidebar, linking to the doc partcipants"
   }
 }

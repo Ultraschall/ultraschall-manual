@@ -7,6 +7,10 @@
     "message": "Intro",
     "description": "The label for category Einführung in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Installation": {
+    "message": "Installation ",
+    "description": "The label for the doc item helfen und community in sidebar tutorialSidebar, linking to the doc partcipants"
+  },
   "sidebar.tutorialSidebar.category.Übersicht": {
     "message": "Overview",
     "description": "The label for category Übersicht in sidebar tutorialSidebar"
