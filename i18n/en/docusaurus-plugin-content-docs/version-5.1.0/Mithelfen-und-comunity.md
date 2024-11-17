@@ -1,11 +1,11 @@
 ---
 id: mithelfen-und-community
-title: Mithelfen und Community
+title: Contribut and community
 lektorat:
     - Lektorat: todo
     - Schlusskorrektur: todo
 tags:
-    - mithelfen
+    - Contribut
     - community
 ---
 
@@ -15,7 +15,7 @@ Ultraschall consists of several components that require different techniques and
 - Ultraschall Plugin
     - includes the entire development of the plugin for Reaper. Almost everything is written in the Lua scripting language. Lua is a programming language that is quite easy to learn.  
     - Currently mainly [Ralf](https://github.com/rstockm) and [Mesopotine](https://github.com/mespotine) are working on it
-    - Link to the Github repository](https://github.com/Ultraschall/ultraschall-portable)
+    - [Link to the Github repository](https://github.com/Ultraschall/ultraschall-portable)
 - Ultraschall Installer
     - The plugin has to be installed on the computer somehow. There has been a separate installer for this for some time. The installer is different for each operating system and therefore requires different techniques, mostly shell scripts, but also others. 
     - Currently [Heiko](https://github.com/heikopanjas) is mainly working on this
