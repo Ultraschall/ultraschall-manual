@@ -24,7 +24,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/Ultraschall"
   },
   "copyright": {
-    "message": "Copyright © 2022 Ultraschall, Inc. Built with Docusaurus.",
+    "message": "Copyright © 2025 Ultraschall, Inc. Built with Docusaurus.",
     "description": "The footer copyright"
   },
   "link.title.Community>": {
@@ -58,5 +58,9 @@
   "link.item.label.Feedback geben": {
     "message": "给予反馈",
     "description": "The label of footer link with label=Feedback geben linking to https://pad.gwdg.de/hJcF_2wfSm2uO46neH504w#"
+  },
+  "link.item.label.Kontakt": {
+    "message": "联系我们",
+    "description": "The label of footer link with label=Kontakt geben linking to our email"
   }
 }

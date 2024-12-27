@@ -114,8 +114,8 @@ const darkTheme = themes.dracula;
                 href: 'https://ultraschall.fm/danke/',
               }, 
               {
-                label: 'Feedback geben',
-                href: 'https://pad.gwdg.de/hJcF_2wfSm2uO46neH504w#',
+                label: 'Kontakt',
+                href: 'mailto:ultraschallmanual@disroot.org',
               },
             ],
           },
