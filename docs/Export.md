@@ -151,6 +151,10 @@ Für den letzten Schritt klickst du einmal auf die Schaltfläche `Finalize MP3!`
 
 Diese Option ist rein optional. Ultraschall bietet dir hier die Möglichkeit, ein kurzes Video zu rendern, mit dem du deinen Podcast z.B. auf Social Media bewerben kannst. Wähle dafür zunächst in deiner Audiospur ein Segment aus, das du gerne in dem Video haben möchtest. Vervollständige jetzt noch deine Metadaten und füge ein Episoden Bild ein. Sind alle Voraussetzungen erfüllt, erscheint rechts der Button: `Export MP4 Audiogram` mit dem du das Video exportieren kannst. Das fertige Video findest du dann im Projektordner als `Audiogram.mp4`.
 
+:::tip
+Es gibt auch die Action `Export: Render regions as audiogram(Ultraschall)`. Damit lassen sich alle Regionen auf einen Schlag als Audiogramm exportieren. Zum einrichten der Action siehe Kapitel [Anpassung und Shortcuts](adaption)
+:::
+
 <!--
 @todo: immer noch notwendig oder schon beantwortet
 ### Metadaten bearbeiten und exportieren
