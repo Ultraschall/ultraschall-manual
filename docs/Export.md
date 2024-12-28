@@ -80,7 +80,7 @@ Nicht alle Podcatcher gehen gleich (gut) mit Kapitelmarken um. Für maximale Kom
 
 ### 2. Render-Assistent
 
-Einmal kurz durchatmen, bevor du den Render-Assistenten[[20]](GUI-overview) öffnest, denn der gibt dir *sehr* viele Einstellmöglichkeiten, daher sind die häufigsten Formate (MP3, M4A, Auphonic Multichannel) als Voreinstellungen verfügbar. Wenn du eigene Voreinstellungen bereits erstellt und gespeichert hast, sind diese ebenfalls unter `Render using preset` erreichbar.
+Einmal kurz durchatmen, bevor du den Render-Assistenten[[20]](GUI-overview) öffnest, denn der gibt dir *sehr* viele Einstellmöglichkeiten, daher sind die häufigsten Renderingformate (Last used Settings, MP3, M4A, Auphonic Multichannel) als Voreinstellungen verfügbar. Darunter befinden sich deine persönlichen Pesets (Auphonic Multichannel ...) und, wenn du eigene Voreinstellungen bereits erstellt und gespeichert hast, sind diese ebenfalls unter `Open Render to file using render preset:` erreichbar.
 
 ![Reder preset Auswahl](https://raw.githubusercontent.com/Ultraschall/ultraschall-manual/main/assets/images/Export/render-preset.png) **Warning muted tracks:** *Ultraschall hat einige nütziche Voreinstellungen für den Export zur Auswahl: MP3, M4A, Auphonic Multichannel .*
 
